@@ -1,0 +1,3116 @@
+# addNoise = 0
+# assert = 0
+# attnFunc = 1
+# attnOpt = 2
+# batchSize = 128
+# dataType = double
+# debug = 0
+# decode = 1
+# dropout = 1
+# epochFraction = 1
+# epochIter = 0
+# feedInput = 1
+# finetuneEpoch = 5
+# finetuneRate = 0.9
+# gpuDevice = 0
+# initRange = 0.1
+# isBi = 1
+# isClip = 1
+# isGradCheck = 0
+# isProfile = 0
+# isResume = 0
+# isReverse = 0
+# learningRate = 1
+# loadModel = 
+# logFreq = 10
+# lstmOpt = 0
+# lstmSize = 300
+# maxGradNorm = 5
+# maxLenRatio = 3
+# maxSentLen = 51
+# minLenRatio = 0.2
+# normLocalAttn = 0
+# numEpoches = 50
+# numLayers = 1
+# onlyCPU = 0
+# outDir = ../output/commands.cluster/
+# posWin = 10
+# saveHDF = 0
+# seed = 0
+# shuffle = 1
+# sortBatch = 1
+# srcLang = sail
+# srcVocabFile = ../output/commands.cluster/train.cluster.sail.vocab
+# testPrefix = ../output/commands.cluster/test.cluster
+# tgtLang = nl
+# tgtVocabFile = ../output/commands.cluster/train.cluster.nl.vocab
+# trainPrefix = ../output/commands.cluster/train.cluster
+# validPrefix = ../output/commands.cluster/valid.cluster
+# chunkSize = 12800
+# baseIndex = 0
+# clipForward = 50
+# clipBackward = 1000
+# nonlinear_gate_f = sigmoid
+# nonlinear_gate_f_prime = sigmoidPrime
+# nonlinear_f = tanh
+# nonlinear_f_prime = tanhPrime
+# beamSize = 12
+# stackSize = 100
+# unkPenalty = 0
+# forceDecoder = 0
+# prefixDecoder = 0
+# reuseEncoder = 0
+# isGPU = 0
+# logId = 16
+# srcSos = 53
+# tgtSos = 526
+# tgtEos = 527
+# srcVocabSize = 53
+# tgtVocabSize = 527
+# modelFile = ../output/commands.cluster//model.mat
+# modelRecentFile = ../output/commands.cluster//modelRecent.mat
+# softmaxSize = 300
+# lr = 1
+# epoch = 1
+# bestCostValid = 100000
+# testPerplexity = 100000
+# curTestPerpWord = 100000
+# startIter = 0
+# iter = 0
+# epochBatchCount = 0
+# finetuneCount = 0
+# modelSize = 2402100
+# Epoch 1, lr=1, 31-Mar-2017 02:13:57
+1, 10, 0.35K, 1, 14.27, gN=47.36, 31-Mar-2017 02:14:36
+# Num batches per epoch = 11, finetune count=11
+# eval 520710.10, 1, 11, 0.48K, 1.00, train=13.31, valid=13.26, test=13.16, W_src{1}=0.050 W_tgt{1}=0.050 W_emb_src=0.051 W_emb_tgt=0.050 W_a=0.051 W_h=0.051 W_soft=0.051, time=11.63s
+  save model test perplexity 520710.10 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 520710.10 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:14:53
+  Done, minLen=0, maxLen=12, speed 3.893050 sents/s, time 0s, 31-Mar-2017 02:14:54
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: the the the the the the the the the the the the <t_eos>
+pairs 1: )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the 
+align 1: 2-0 2-1 2-2 2-3 2-4 2-5 2-6 2-7 2-8 2-9 2-10 2-11 
+  score -0.227433
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 02:14:54
+  Done, minLen=1, maxLen=21, speed 3.033134 sents/s, time 0s, 31-Mar-2017 02:14:54
+  src 1: verify ( front: gravel hallway )
+  ref 1: you should be facing a black hallway <t_eos>
+  tgt 1: the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the )-the 
+align 1: 5-0 5-1 5-2 5-3 5-4 5-5 5-6 5-7 5-8 5-9 5-10 5-11 5-12 5-13 5-14 5-15 5-16 5-17 5-18 5-19 5-20 
+  score -0.0340111
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:14:54
+  Done, minLen=2, maxLen=42, speed 1.307106 sents/s, time 1s, 31-Mar-2017 02:14:55
+  src 1: travel ( ) , verify ( front: fish wall , right: wall )
+  ref 1: go until there are fish on the wall and you can either only go left or towards a dead end <t_eos>
+  tgt 1: the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the (-the 
+align 1: 5-0 5-1 5-2 5-3 5-4 5-5 5-6 5-7 5-8 5-9 5-10 5-11 5-12 5-13 5-14 5-15 5-16 5-17 5-18 5-19 5-20 5-21 5-22 5-23 5-24 5-25 5-26 5-27 5-28 5-29 5-30 5-31 
+  score -9.36495
+# Epoch 2, lr=1, 31-Mar-2017 02:14:55
+2, 20, 0.23K, 1, 10.78, gN=56.98, 31-Mar-2017 02:15:30
+# eval 4025.19, 2, 22, 0.23K, 1.00, train=10.22, valid=8.27, test=8.30, W_src{1}=0.050 W_tgt{1}=0.051 W_emb_src=0.051 W_emb_tgt=0.050 W_a=0.051 W_h=0.052 W_soft=0.051, time=16.40s
+  save model test perplexity 4025.19 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 4025.19 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:16:02
+  Done, minLen=0, maxLen=12, speed 2.836099 sents/s, time 0s, 31-Mar-2017 02:16:02
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go and hall and and you you conatins to, <t_eos>
+pairs 1: travel-go travel-and travel-hall (-and )-and )-you )-you )-conatins )-to, 
+align 1: 0-0 0-1 0-2 1-3 2-4 2-5 2-6 2-7 2-8 
+  score -38.5009
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 02:16:02
+  Done, minLen=1, maxLen=21, speed 1.548908 sents/s, time 1s, 31-Mar-2017 02:16:03
+  src 1: verify ( back: blue hallway )
+  ref 1: the blue-tiled hall is behind you <t_eos>
+  tgt 1: go and hall and and you you conatins to, <t_eos>
+pairs 1: verify-go verify-and verify-hall verify-and back:-and (-you (-you (-conatins (-to, 
+align 1: 0-0 0-1 0-2 0-3 2-4 1-5 1-6 1-7 1-8 
+  score -37.4404
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:16:03
+  Done, minLen=1, maxLen=18, speed 3.333500 sents/s, time 0s, 31-Mar-2017 02:16:03
+  src 1: verify ( left: sofa )
+  ref 1: the bench at the intersection of the pink-flowered carpet hall and the yellow-tiled hall at your left; the intersection of the blue-tiled hall the the pink-flowered carpet hall to your right <t_eos>
+  tgt 1: go and and and and and you you conatins to, <t_eos>
+pairs 1: verify-go verify-and verify-and verify-and (-and (-and (-you (-you (-conatins (-to, 
+align 1: 0-0 0-1 0-2 0-3 1-4 1-5 1-6 1-7 1-8 1-9 
+  score -39.8212
+# Epoch 3, lr=1, 31-Mar-2017 02:16:04
+3, 30, 0.54K, 1, 9.37, gN=136.19, 31-Mar-2017 02:16:31
+# eval 1149.98, 3, 33, 0.54K, 1.00, train=9.10, valid=7.10, test=7.05, W_src{1}=0.050 W_tgt{1}=0.051 W_emb_src=0.052 W_emb_tgt=0.050 W_a=0.051 W_h=0.053 W_soft=0.051, time=8.94s
+  save model test perplexity 1149.98 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 1149.98 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:16:49
+  Done, minLen=0, maxLen=12, speed 4.854581 sents/s, time 0s, 31-Mar-2017 02:16:50
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to to to the the the the the the the the <t_eos>
+pairs 1: travel-move travel-to travel-to travel-to travel-the travel-the travel-the travel-the travel-the travel-the travel-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 2-11 
+  score -17.2302
+# Decoding batch of 1 sents, minLen=1, maxLen=27, 31-Mar-2017 02:16:50
+  Done, minLen=1, maxLen=27, speed 2.374919 sents/s, time 0s, 31-Mar-2017 02:16:50
+  src 1: turn ( ) , verify (back: sofa )
+  ref 1: head away form the bench <t_eos>
+  tgt 1: move the to the the the the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: turn-move turn-the turn-to turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 7-26 
+  score -29.397
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:16:50
+  Done, minLen=2, maxLen=33, speed 2.893569 sents/s, time 0s, 31-Mar-2017 02:16:50
+  src 1: turn ( ) , verify ( front: concrete hallway )
+  ref 1: go straight on the plain cement path <t_eos>
+  tgt 1: move the to the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: turn-move turn-the turn-to turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the turn-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 9-32 
+  score -33.6556
+# Epoch 4, lr=1, 31-Mar-2017 02:16:51
+4, 40, 0.80K, 1, 9.02, gN=52.82, 31-Mar-2017 02:17:10
+# eval 158.64, 4, 44, 0.80K, 1.00, train=8.80, valid=5.02, test=5.07, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.051 W_emb_tgt=0.050 W_a=0.051 W_h=0.053 W_soft=0.051, time=9.25s
+  save model test perplexity 158.64 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 158.64 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:17:29
+  Done, minLen=0, maxLen=12, speed 4.838023 sents/s, time 0s, 31-Mar-2017 02:17:30
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: you the the the the the the the the the hall the <t_eos>
+pairs 1: travel-you travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-hall )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 2-11 
+  score -30.613
+# Decoding batch of 1 sents, minLen=3, maxLen=57, 31-Mar-2017 02:17:30
+  Done, minLen=3, maxLen=57, speed 1.695714 sents/s, time 1s, 31-Mar-2017 02:17:30
+  src 1: turn ( ) , verify ( front: butterfly wall , front: blue hallway ) , travel ( )
+  ref 1: go down the butterfly <unk> floored hallway <t_eos>
+  tgt 1: you the the the the the the hall the hall hall hall hall hall hall hall hall hall hall hall hall hall hall hall hall hall hall hall <t_eos>
+pairs 1: turn-you turn-the turn-the turn-the turn-the turn-the turn-the turn-hall turn-the turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall turn-hall 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 
+  score -83.7377
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 02:17:30
+  Done, minLen=0, maxLen=6, speed 7.146226 sents/s, time 0s, 31-Mar-2017 02:17:30
+  src 1: null
+  ref 1: pos 3 is in between the two pieces of <unk> in this hallway <t_eos>
+  tgt 1: move the the the hall hall <t_eos>
+pairs 1: null-move null-the null-the null-the null-hall null-hall 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 
+  score -15.5822
+# Epoch 5, lr=1, 31-Mar-2017 02:17:31
+5, 50, 0.44K, 1, 8.57, gN=26.45, 31-Mar-2017 02:18:03
+# eval 244.88, 5, 55, 0.44K, 1.00, train=8.45, valid=5.47, test=5.50, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.051 W_emb_tgt=0.050 W_a=0.051 W_h=0.053 W_soft=0.052, time=14.52s
+  save model cur test perplexity 244.88 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:18:34
+  Done, minLen=0, maxLen=12, speed 4.628730 sents/s, time 0s, 31-Mar-2017 02:18:34
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: a <t_eos>
+pairs 1: travel-a 
+align 1: 0-0 
+  score -6.43154
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:18:34
+  Done, minLen=2, maxLen=33, speed 2.026347 sents/s, time 0s, 31-Mar-2017 02:18:35
+  src 1: travel ( ) , verify ( left: yellow hallway )
+  ref 1: stop at the alley where there is green octagon floor to your left <t_eos>
+  tgt 1: a a and and and a and and and a and and a and and a and and a and and a and and a and and a and and and a and <t_eos>
+pairs 1: travel-a travel-a travel-and travel-and travel-and travel-a travel-and travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-a travel-and travel-and travel-and travel-a )-and 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 9-32 
+  score -116.072
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:18:35
+  Done, minLen=1, maxLen=18, speed 3.528395 sents/s, time 0s, 31-Mar-2017 02:18:35
+  src 1: travel ( steps: 2 )
+  ref 1: the second intersection down will be position 2 <t_eos>
+  tgt 1: a <t_eos>
+pairs 1: travel-a 
+align 1: 0-0 
+  score -6.5083
+# Epoch 6, lr=1, 31-Mar-2017 02:18:36
+6, 60, 0.80K, 1, 8.29, gN=66.64, 31-Mar-2017 02:18:53
+# eval 177.71, 6, 66, 0.80K, 1.00, train=8.03, valid=5.22, test=5.18, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.052 W_emb_tgt=0.051 W_a=0.051 W_h=0.053 W_soft=0.053, time=9.67s
+  save model cur test perplexity 177.71 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:19:25
+  Done, minLen=0, maxLen=12, speed 6.320753 sents/s, time 0s, 31-Mar-2017 02:19:25
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -4.74879
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:19:25
+  Done, minLen=1, maxLen=18, speed 5.963420 sents/s, time 0s, 31-Mar-2017 02:19:25
+  src 1: travel ( steps: 1 )
+  ref 1: one space forward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -4.64614
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:19:26
+  Done, minLen=2, maxLen=33, speed 5.084530 sents/s, time 0s, 31-Mar-2017 02:19:26
+  src 1: verify ( back: gravel hallway , front: gravel hallway )
+  ref 1: position 7 is in the middle of the grey floored hall <t_eos>
+  tgt 1: go to <t_eos>
+pairs 1: front:-go front:-to 
+align 1: 6-0 6-1 
+  score -5.08722
+# Finetuning at epoch 6, iter 66, 1 -> 0.9
+# Epoch 7, lr=0.9, 31-Mar-2017 02:19:26
+7, 70, 1.18K, 0.9, 7.87, gN=18.55, 31-Mar-2017 02:19:37
+# eval 98.60, 7, 77, 1.18K, 0.90, train=7.61, valid=4.68, test=4.59, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.052 W_emb_tgt=0.051 W_a=0.051 W_h=0.053 W_soft=0.054, time=15.20s
+  save model test perplexity 98.60 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 98.60 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:20:24
+  Done, minLen=0, maxLen=12, speed 4.049239 sents/s, time 0s, 31-Mar-2017 02:20:25
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: you <t_eos>
+pairs 1: travel-you 
+align 1: 0-0 
+  score -5.02707
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:20:25
+  Done, minLen=1, maxLen=18, speed 2.499544 sents/s, time 0s, 31-Mar-2017 02:20:25
+  src 1: verify ( front: hatrack )
+  ref 1: position 3 is <unk> to the hatrack, but after <unk> other objects in the hall <t_eos>
+  tgt 1: you <t_eos>
+pairs 1: hatrack-you 
+align 1: 3-0 
+  score -5.17325
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:20:25
+  Done, minLen=2, maxLen=42, speed 1.465897 sents/s, time 1s, 31-Mar-2017 02:20:26
+  src 1: turn ( ) , verify ( front: blue hallway , front: sofa )
+  ref 1: take the blue path towards the black bench <t_eos>
+  tgt 1: you to <t_eos>
+pairs 1: ,-you front:-to 
+align 1: 9-0 10-1 
+  score -7.78449
+# Finetuning at epoch 7, iter 77, 0.9 -> 0.81
+# Epoch 8, lr=0.81, 31-Mar-2017 02:20:26
+8, 80, 1.05K, 0.81, 7.47, gN=3.71, 31-Mar-2017 02:20:40
+# eval 53.75, 8, 88, 1.05K, 0.81, train=7.21, valid=4.13, test=3.98, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.053 W_emb_tgt=0.052 W_a=0.051 W_h=0.053 W_soft=0.056, time=15.27s
+  save model test perplexity 53.75 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 53.75 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:21:31
+  Done, minLen=0, maxLen=12, speed 4.164411 sents/s, time 0s, 31-Mar-2017 02:21:31
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -3.75943
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:21:31
+  Done, minLen=2, maxLen=30, speed 2.597328 sents/s, time 0s, 31-Mar-2017 02:21:32
+  src 1: turn ( ) , verify ( front: lamp )
+  ref 1: at two face the lamp <t_eos>
+  tgt 1: go the <t_eos>
+pairs 1: verify-go turn-the 
+align 1: 4-0 0-1 
+  score -5.9041
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:21:32
+  Done, minLen=2, maxLen=39, speed 2.428393 sents/s, time 0s, 31-Mar-2017 02:21:32
+  src 1: travel ( steps: 1 ) , verify ( side: brick hallway )
+  ref 1: go forward one segment to the brick hall <t_eos>
+  tgt 1: go the hall <t_eos>
+pairs 1: travel-go travel-the travel-hall 
+align 1: 0-0 0-1 0-2 
+  score -6.54794
+# Finetuning at epoch 8, iter 88, 0.81 -> 0.729
+# Epoch 9, lr=0.729, 31-Mar-2017 02:21:32
+9, 90, 1.56K, 0.729, 7.14, gN=2.86, 31-Mar-2017 02:21:40
+# eval 62.21, 9, 99, 1.56K, 0.73, train=6.85, valid=4.34, test=4.13, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.055 W_emb_tgt=0.052 W_a=0.051 W_h=0.053 W_soft=0.057, time=14.85s
+  save model cur test perplexity 62.21 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:22:37
+  Done, minLen=0, maxLen=12, speed 3.001020 sents/s, time 0s, 31-Mar-2017 02:22:37
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -3.25335
+# Decoding batch of 1 sents, minLen=9, maxLen=141, 31-Mar-2017 02:22:37
+  Done, minLen=9, maxLen=141, speed 1.231541 sents/s, time 1s, 31-Mar-2017 02:22:38
+  src 1: travel ( ) , verify ( right: hallway ) , turn ( right ) , travel ( ) , turn ( ) , travel ( ) , turn ( ) , travel ( ) , verify ( front: wall , right: wall , left: wall )
+  ref 1: follow the long corridor till it <unk> a right then follow the <unk> of <unk> to the end <t_eos>
+  tgt 1: go to the hall to the the blue hall <t_eos>
+pairs 1: travel-go travel-to travel-the travel-hall travel-to travel-the travel-the travel-blue travel-hall 
+align 1: 15-0 0-1 15-2 15-3 15-4 15-5 15-6 15-7 15-8 
+  score -17.4908
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 02:22:38
+  Done, minLen=4, maxLen=66, speed 1.879788 sents/s, time 1s, 31-Mar-2017 02:22:39
+  src 1: verify ( front: lamp ) , travel ( steps: 4 ) , verify ( back: lamp , side: flower hallway )
+  ref 1: go forward four segments to the intersection with the <unk> hall, passing a lamp <t_eos>
+  tgt 1: go to the intersection <t_eos>
+pairs 1: travel-go travel-to travel-the travel-intersection 
+align 1: 6-0 6-1 6-2 6-3 
+  score -7.96752
+# Finetuning at epoch 9, iter 99, 0.729 -> 0.6561
+# Epoch 10, lr=0.6561, 31-Mar-2017 02:22:39
+10, 100, 2.57K, 0.6561, 6.82, gN=10.01, 31-Mar-2017 02:22:45
+10, 110, 0.33K, 0.6561, 6.54, gN=3.69, 31-Mar-2017 02:23:26
+# eval 35.25, 10, 110, 0.33K, 0.66, train=6.54, valid=3.71, test=3.56, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.057 W_emb_tgt=0.053 W_a=0.051 W_h=0.054 W_soft=0.058, time=14.75s
+  save model test perplexity 35.25 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 35.25 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:23:43
+  Done, minLen=0, maxLen=12, speed 3.953350 sents/s, time 0s, 31-Mar-2017 02:23:43
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: travel-move 
+align 1: 0-0 
+  score -2.76246
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:23:43
+  Done, minLen=0, maxLen=12, speed 2.613949 sents/s, time 0s, 31-Mar-2017 02:23:44
+  src 1: travel ( )
+  ref 1: go straight until you get to the grey floor <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: travel-move 
+align 1: 0-0 
+  score -2.76246
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 02:23:44
+  Done, minLen=4, maxLen=60, speed 2.468721 sents/s, time 0s, 31-Mar-2017 02:23:44
+  src 1: turn ( ) , verify ( back: wall ) , travel ( ) , verify ( at: hatrack )
+  ref 1: with your back to the wall move forward to the hatrack <t_eos>
+  tgt 1: move to the end <t_eos>
+pairs 1: travel-move travel-to travel-the travel-end 
+align 1: 10-0 10-1 10-2 10-3 
+  score -6.8247
+# Finetuning at epoch 10, iter 110, 0.6561 -> 0.59049
+# Epoch 11, lr=0.59049, 31-Mar-2017 02:23:45
+11, 120, 0.35K, 0.59049, 6.27, gN=4.53, 31-Mar-2017 02:24:27
+# eval 30.80, 11, 121, 0.35K, 0.59, train=6.26, valid=3.61, test=3.43, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.058 W_emb_tgt=0.053 W_a=0.051 W_h=0.054 W_soft=0.059, time=14.77s
+  save model test perplexity 30.80 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 30.80 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:24:47
+  Done, minLen=0, maxLen=12, speed 3.860050 sents/s, time 0s, 31-Mar-2017 02:24:48
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward <t_eos>
+pairs 1: travel-go travel-forward 
+align 1: 0-0 0-1 
+  score -2.98211
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:24:48
+  Done, minLen=2, maxLen=33, speed 2.103235 sents/s, time 0s, 31-Mar-2017 02:24:48
+  src 1: turn ( ) , verify ( front: grass hallway )
+  ref 1: at 4 face the grass carpet <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: turn-turn turn-right 
+align 1: 0-0 0-1 
+  score -3.17066
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 02:24:48
+  Done, minLen=1, maxLen=15, speed 2.968293 sents/s, time 0s, 31-Mar-2017 02:24:49
+  src 1: turn ( left )
+  ref 1: then go left <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: turn-turn turn-right 
+align 1: 0-0 0-1 
+  score -2.73793
+# Finetuning at epoch 11, iter 121, 0.59049 -> 0.531441
+# Epoch 12, lr=0.531441, 31-Mar-2017 02:24:49
+12, 130, 0.35K, 0.531441, 6.06, gN=2.90, 31-Mar-2017 02:25:26
+# eval 21.61, 12, 132, 0.35K, 0.53, train=6.01, valid=3.27, test=3.07, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.060 W_emb_tgt=0.054 W_a=0.051 W_h=0.055 W_soft=0.060, time=13.14s
+  save model test perplexity 21.61 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 21.61 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:25:50
+  Done, minLen=0, maxLen=12, speed 4.534469 sents/s, time 0s, 31-Mar-2017 02:25:50
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the chair <t_eos>
+pairs 1: travel-move (-to travel-the travel-chair 
+align 1: 0-0 1-1 0-2 0-3 
+  score -6.74341
+# Decoding batch of 1 sents, minLen=7, maxLen=114, 31-Mar-2017 02:25:50
+  Done, minLen=7, maxLen=114, speed 1.179355 sents/s, time 1s, 31-Mar-2017 02:25:51
+  src 1: verify ( side: blue hallway , front: flower hallway ) , travel ( steps: 1 ) , turn ( ) , verify ( front: concrete hallway ) , travel ( ) , verify ( front: wall )
+  ref 1: position 6 is at the end of a bare concrete hall one segment along the pink-flowered carpet hall away from the blue-tiled hall <t_eos>
+  tgt 1: move to the end of the hall <t_eos>
+pairs 1: steps:-move steps:-to travel-the hallway-end travel-of hallway-the steps:-hall 
+align 1: 13-0 13-1 28-2 8-3 28-4 25-5 13-6 
+  score -7.34773
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:25:51
+  Done, minLen=2, maxLen=39, speed 1.519609 sents/s, time 1s, 31-Mar-2017 02:25:52
+  src 1: travel ( steps: 1 ) , verify ( side: concrete hallway )
+  ref 1: go forward one segment to the intersection with the bare concrete hall <t_eos>
+  tgt 1: go forward one segment to the chair <t_eos>
+pairs 1: steps:-go 1-forward 1-one 1-segment travel-to travel-the travel-chair 
+align 1: 2-0 3-1 3-2 3-3 0-4 0-5 0-6 
+  score -7.89098
+# Finetuning at epoch 12, iter 132, 0.531441 -> 0.478297
+# Epoch 13, lr=0.478297, 31-Mar-2017 02:25:52
+13, 140, 0.45K, 0.478297, 5.86, gN=5.46, 31-Mar-2017 02:26:21
+# eval 24.40, 13, 143, 0.45K, 0.48, train=5.78, valid=3.45, test=3.19, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.061 W_emb_tgt=0.054 W_a=0.051 W_h=0.055 W_soft=0.061, time=14.44s
+  save model cur test perplexity 24.40 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:26:55
+  Done, minLen=0, maxLen=12, speed 4.019600 sents/s, time 0s, 31-Mar-2017 02:26:56
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward two segments to the intersection <t_eos>
+pairs 1: travel-go )-forward travel-two travel-segments travel-to travel-the travel-intersection 
+align 1: 0-0 2-1 0-2 0-3 0-4 0-5 0-6 
+  score -6.38789
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 02:26:56
+  Done, minLen=3, maxLen=48, speed 1.340041 sents/s, time 1s, 31-Mar-2017 02:26:56
+  src 1: turn ( right ) , travel ( steps: 1 ) , turn ( right )
+  ref 1: turn right down this alley and then right again at the first alley <t_eos>
+  tgt 1: go forward one segments to the intersection with the end of the hall <t_eos>
+pairs 1: steps:-go 1-forward 1-one 1-segments )-to steps:-the steps:-intersection turn-with travel-the turn-end travel-of travel-the travel-hall 
+align 1: 7-0 8-1 8-2 8-3 9-4 7-5 7-6 0-7 5-8 0-9 5-10 5-11 5-12 
+  score -13.6076
+# Decoding batch of 1 sents, minLen=5, maxLen=75, 31-Mar-2017 02:26:57
+  Done, minLen=5, maxLen=75, speed 0.907695 sents/s, time 1s, 31-Mar-2017 02:26:58
+  src 1: turn ( right ) , verify ( front: easel ) , travel ( ) , verify ( side: blue hallway , back: easel )
+  ref 1: turn right again and walk past the easel to the blue carpeted side alley <t_eos>
+  tgt 1: go all the way to the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the intersection of the <t_eos>
+pairs 1: travel-go (-all travel-the travel-way travel-to back:-the back:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of hallway-the front:-intersection back:-of )-the 
+align 1: 11-0 12-1 11-2 11-3 11-4 21-5 21-6 21-7 19-8 7-9 21-10 19-11 7-12 21-13 19-14 7-15 21-16 19-17 7-18 21-19 19-20 7-21 21-22 19-23 7-24 21-25 19-26 7-27 21-28 19-29 7-30 21-31 19-32 7-33 21-34 19-35 7-36 21-37 19-38 7-39 21-40 19-41 7-42 21-43 19-44 7-45 21-46 19-47 7-48 21-49 19-50 7-51 21-52 19-53 7-54 21-55 19-56 7-57 21-58 19-59 7-60 21-61 19-62 7-63 21-64 19-65 7-66 21-67 19-68 7-69 21-70 19-71 7-72 21-73 23-74 
+  score -68.2275
+# Finetuning at epoch 13, iter 143, 0.478297 -> 0.430467
+# Epoch 14, lr=0.430467, 31-Mar-2017 02:26:58
+14, 150, 0.50K, 0.430467, 5.63, gN=6.52, 31-Mar-2017 02:27:32
+# eval 19.94, 14, 154, 0.50K, 0.43, train=5.58, valid=3.27, test=2.99, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.062 W_emb_tgt=0.055 W_a=0.051 W_h=0.055 W_soft=0.061, time=14.41s
+  save model test perplexity 19.94 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 19.94 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:28:02
+  Done, minLen=0, maxLen=12, speed 3.801053 sents/s, time 0s, 31-Mar-2017 02:28:02
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: travel-move 
+align 1: 0-0 
+  score -2.87783
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:28:02
+  Done, minLen=3, maxLen=45, speed 1.943212 sents/s, time 1s, 31-Mar-2017 02:28:02
+  src 1: travel ( ) , verify ( right: hallway ) , turn ( right )
+  ref 1: make the first rt <t_eos>
+  tgt 1: move to the intersection <t_eos>
+pairs 1: travel-move travel-to travel-the travel-intersection 
+align 1: 0-0 0-1 0-2 0-3 
+  score -4.25546
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:28:03
+  Done, minLen=2, maxLen=42, speed 1.910676 sents/s, time 1s, 31-Mar-2017 02:28:03
+  src 1: turn ( ) , verify ( front: wood hallway , back: hatrack )
+  ref 1: orient yourself along the wooden hall with your back to the hatrack <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: turn-turn back:-right 
+align 1: 0-0 10-1 
+  score -4.20261
+# Finetuning at epoch 14, iter 154, 0.430467 -> 0.38742
+# Epoch 15, lr=0.38742, 31-Mar-2017 02:28:03
+15, 160, 0.52K, 0.38742, 5.48, gN=4.57, 31-Mar-2017 02:28:27
+# eval 14.50, 15, 165, 0.52K, 0.39, train=5.39, valid=2.95, test=2.67, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.063 W_emb_tgt=0.055 W_a=0.051 W_h=0.056 W_soft=0.062, time=14.91s
+  save model test perplexity 14.50 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 14.50 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:29:07
+  Done, minLen=0, maxLen=12, speed 4.062217 sents/s, time 0s, 31-Mar-2017 02:29:07
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to this hall <t_eos>
+pairs 1: (-move travel-to travel-this travel-hall 
+align 1: 1-0 0-1 0-2 0-3 
+  score -6.2033
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 02:29:07
+  Done, minLen=4, maxLen=60, speed 1.412910 sents/s, time 1s, 31-Mar-2017 02:29:08
+  src 1: verify ( front: flower hallway ) , travel ( steps: 2 ) , verify ( side: brick hallway )
+  ref 1: walk down the pink corridor to the intersection of the red <unk> 2 steps <t_eos>
+  tgt 1: go forward one segment to the intersection <t_eos>
+pairs 1: steps:-go steps:-forward travel-one ,-segment travel-to hallway-the hallway-intersection 
+align 1: 9-0 9-1 7-2 6-3 7-4 4-5 4-6 
+  score -7.34531
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:29:08
+  Done, minLen=2, maxLen=39, speed 1.574419 sents/s, time 1s, 31-Mar-2017 02:29:08
+  src 1: travel ( steps: 1 ) , verify ( side: blue hallway )
+  ref 1: go forward one segment to the intersection with the blue-tiled floor <t_eos>
+  tgt 1: go forward one segment to the intersection <t_eos>
+pairs 1: 1-go 1-forward 1-one hallway-segment hallway-to hallway-the hallway-intersection 
+align 1: 3-0 3-1 3-2 10-3 10-4 10-5 10-6 
+  score -5.57352
+# Finetuning at epoch 15, iter 165, 0.38742 -> 0.348678
+# Epoch 16, lr=0.348678, 31-Mar-2017 02:29:09
+16, 170, 0.65K, 0.348678, 5.30, gN=3.98, 31-Mar-2017 02:29:31
+# eval 15.52, 16, 176, 0.65K, 0.35, train=5.22, valid=3.00, test=2.74, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.064 W_emb_tgt=0.055 W_a=0.051 W_h=0.056 W_soft=0.063, time=15.08s
+  save model cur test perplexity 15.52 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:30:13
+  Done, minLen=0, maxLen=12, speed 3.839862 sents/s, time 0s, 31-Mar-2017 02:30:13
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward two segments to the end of this hall <t_eos>
+pairs 1: travel-go )-forward travel-two travel-segments travel-to travel-the travel-end travel-of travel-this travel-hall 
+align 1: 0-0 2-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 
+  score -9.18567
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:30:13
+  Done, minLen=1, maxLen=18, speed 2.133593 sents/s, time 0s, 31-Mar-2017 02:30:13
+  src 1: travel ( steps: 1 )
+  ref 1: move down this and stop at the first alley <t_eos>
+  tgt 1: go forward one segment to it <t_eos>
+pairs 1: 1-go 1-forward 1-one steps:-segment travel-to travel-it 
+align 1: 3-0 3-1 3-2 2-3 0-4 0-5 
+  score -6.73232
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:30:14
+  Done, minLen=3, maxLen=45, speed 1.165088 sents/s, time 1s, 31-Mar-2017 02:30:14
+  src 1: turn ( right ) , verify ( front: blue hallway , front: chair )
+  ref 1: go right onto the blue path and follow it towards the chair <t_eos>
+  tgt 1: take a right onto the blue path <t_eos>
+pairs 1: turn-take ,-a ,-right front:-onto hallway-the hallway-blue front:-path 
+align 1: 0-0 4-1 4-2 11-3 9-4 9-5 11-6 
+  score -6.18888
+# Finetuning at epoch 16, iter 176, 0.348678 -> 0.313811
+# Epoch 17, lr=0.313811, 31-Mar-2017 02:30:15
+17, 180, 0.68K, 0.313811, 5.15, gN=4.26, 31-Mar-2017 02:30:36
+# eval 12.73, 17, 187, 0.68K, 0.31, train=5.06, valid=2.84, test=2.54, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.065 W_emb_tgt=0.055 W_a=0.051 W_h=0.056 W_soft=0.063, time=14.87s
+  save model test perplexity 12.73 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 12.73 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:31:20
+  Done, minLen=0, maxLen=12, speed 4.471632 sents/s, time 0s, 31-Mar-2017 02:31:20
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward two segments to the end of the hall <t_eos>
+pairs 1: travel-go )-forward travel-two travel-segments travel-to travel-the travel-end travel-of travel-the travel-hall 
+align 1: 0-0 2-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 
+  score -8.86874
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:31:20
+  Done, minLen=1, maxLen=18, speed 2.192295 sents/s, time 0s, 31-Mar-2017 02:31:20
+  src 1: travel ( steps: 1 )
+  ref 1: move down this and stop at the first alley <t_eos>
+  tgt 1: go forward one segment to the intersection with the stool <t_eos>
+pairs 1: 1-go 1-forward 1-one travel-segment travel-to travel-the travel-intersection travel-with travel-the travel-stool 
+align 1: 3-0 3-1 3-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 
+  score -8.39585
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 02:31:20
+  Done, minLen=0, maxLen=6, speed 4.299041 sents/s, time 0s, 31-Mar-2017 02:31:21
+  src 1: null
+  ref 1: go towards the pink path intersection <t_eos>
+  tgt 1: you should be at the intersection <t_eos>
+pairs 1: null-you null-should null-be null-at null-the null-intersection 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 
+  score -6.62239
+# Finetuning at epoch 17, iter 187, 0.313811 -> 0.28243
+# Epoch 18, lr=0.28243, 31-Mar-2017 02:31:21
+18, 190, 1.00K, 0.28243, 5.02, gN=6.16, 31-Mar-2017 02:31:34
+# eval 11.29, 18, 198, 1.00K, 0.28, train=4.92, valid=2.76, test=2.42, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.066 W_emb_tgt=0.056 W_a=0.051 W_h=0.057 W_soft=0.063, time=14.71s
+  save model test perplexity 11.29 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 11.29 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:32:25
+  Done, minLen=0, maxLen=12, speed 3.677485 sents/s, time 0s, 31-Mar-2017 02:32:25
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the end of the hall <t_eos>
+pairs 1: (-move travel-to travel-the travel-end travel-of travel-the travel-hall 
+align 1: 1-0 0-1 0-2 0-3 0-4 0-5 0-6 
+  score -6.96439
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:32:25
+  Done, minLen=3, maxLen=45, speed 1.145730 sents/s, time 1s, 31-Mar-2017 02:32:26
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: at the intersection of the hall <t_eos>
+pairs 1: travel-at hallway-the left:-intersection hallway-of hallway-the left:-hall 
+align 1: 0-0 8-1 10-2 12-3 12-4 10-5 
+  score -5.37626
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 02:32:26
+  Done, minLen=2, maxLen=36, speed 1.891511 sents/s, time 1s, 31-Mar-2017 02:32:26
+  src 1: travel ( steps: 1 ) , verify ( at: barstool )
+  ref 1: go forward one segment to the interesection containing the stool <t_eos>
+  tgt 1: go forward one segment to the intersection <t_eos>
+pairs 1: 1-go ,-forward ,-one verify-segment barstool-to travel-the barstool-intersection 
+align 1: 3-0 5-1 5-2 6-3 9-4 0-5 9-6 
+  score -4.65173
+# Finetuning at epoch 18, iter 198, 0.28243 -> 0.254187
+# Epoch 19, lr=0.254187, 31-Mar-2017 02:32:27
+19, 200, 1.44K, 0.254187, 4.89, gN=3.96, 31-Mar-2017 02:32:36
+# eval 10.45, 19, 209, 1.44K, 0.25, train=4.78, valid=2.67, test=2.35, W_src{1}=0.051 W_tgt{1}=0.053 W_emb_src=0.067 W_emb_tgt=0.056 W_a=0.051 W_h=0.057 W_soft=0.064, time=15.57s
+  save model test perplexity 10.45 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 10.45 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:33:33
+  Done, minLen=0, maxLen=12, speed 4.101538 sents/s, time 0s, 31-Mar-2017 02:33:33
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the next alley <t_eos>
+pairs 1: (-move travel-to travel-the travel-next travel-alley 
+align 1: 1-0 0-1 0-2 0-3 0-4 
+  score -6.88772
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:33:33
+  Done, minLen=2, maxLen=30, speed 1.675578 sents/s, time 1s, 31-Mar-2017 02:33:34
+  src 1: travel ( ) , verify ( front: wall )
+  ref 1: from four walk as far as you can <t_eos>
+  tgt 1: move to the end of the hall <t_eos>
+pairs 1: ,-move wall-to wall-the wall-end travel-of wall-the wall-hall 
+align 1: 3-0 7-1 7-2 7-3 0-4 7-5 7-6 
+  score -5.15824
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 02:33:34
+  Done, minLen=3, maxLen=54, speed 1.268321 sents/s, time 1s, 31-Mar-2017 02:33:35
+  src 1: travel ( ) , verify ( at: easel , front: gravel hallway , back: gravel hallway )
+  ref 1: position two is at the aesal in the area between two black floors and one green floor <t_eos>
+  tgt 1: at the intersection of the yellow hall <t_eos>
+pairs 1: travel-at back:-the back:-intersection back:-of hallway-the hallway-yellow back:-hall 
+align 1: 0-0 13-1 13-2 13-3 15-4 15-5 13-6 
+  score -8.18204
+# Finetuning at epoch 19, iter 209, 0.254187 -> 0.228768
+# Epoch 20, lr=0.228768, 31-Mar-2017 02:33:35
+20, 210, 3.64K, 0.228768, 4.77, gN=3.31, 31-Mar-2017 02:33:39
+20, 220, 0.32K, 0.228768, 4.65, gN=3.76, 31-Mar-2017 02:34:23
+# eval 10.34, 20, 220, 0.32K, 0.23, train=4.65, valid=2.66, test=2.34, W_src{1}=0.051 W_tgt{1}=0.053 W_emb_src=0.068 W_emb_tgt=0.056 W_a=0.051 W_h=0.057 W_soft=0.064, time=14.60s
+  save model test perplexity 10.34 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 10.34 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:34:40
+  Done, minLen=0, maxLen=12, speed 3.653916 sents/s, time 0s, 31-Mar-2017 02:34:40
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: (-move )-one travel-alley 
+align 1: 1-0 2-1 0-2 
+  score -4.87389
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:34:41
+  Done, minLen=2, maxLen=33, speed 1.304080 sents/s, time 1s, 31-Mar-2017 02:34:41
+  src 1: travel ( ) , verify ( side: flower hallway )
+  ref 1: keep going till the pink floored area <t_eos>
+  tgt 1: go to the blue carpet <t_eos>
+pairs 1: ,-go hallway-to hallway-the hallway-blue hallway-carpet 
+align 1: 3-0 8-1 8-2 8-3 8-4 
+  score -5.10347
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 02:34:41
+  Done, minLen=2, maxLen=36, speed 1.697001 sents/s, time 1s, 31-Mar-2017 02:34:42
+  src 1: turn ( right ) , verify ( front: grass hallway )
+  ref 1: turn right onto the green hallway <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn hallway-right 
+align 1: 2-0 9-1 
+  score -4.27641
+# Finetuning at epoch 20, iter 220, 0.228768 -> 0.205891
+# Epoch 21, lr=0.205891, 31-Mar-2017 02:34:42
+21, 230, 0.33K, 0.205891, 4.54, gN=7.26, 31-Mar-2017 02:35:25
+# eval 9.57, 21, 231, 0.33K, 0.21, train=4.53, valid=2.61, test=2.26, W_src{1}=0.051 W_tgt{1}=0.053 W_emb_src=0.068 W_emb_tgt=0.056 W_a=0.052 W_h=0.058 W_soft=0.065, time=14.77s
+  save model test perplexity 9.57 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.57 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:35:46
+  Done, minLen=0, maxLen=12, speed 3.733795 sents/s, time 0s, 31-Mar-2017 02:35:46
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the next alley <t_eos>
+pairs 1: (-move travel-to travel-the travel-next travel-alley 
+align 1: 1-0 0-1 0-2 0-3 0-4 
+  score -6.08642
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 02:35:47
+  Done, minLen=1, maxLen=15, speed 2.647296 sents/s, time 0s, 31-Mar-2017 02:35:47
+  src 1: turn ( left )
+  ref 1: take left <t_eos>
+  tgt 1: turn left <t_eos>
+pairs 1: left-turn left-left 
+align 1: 2-0 2-1 
+  score -3.13493
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:35:47
+  Done, minLen=2, maxLen=42, speed 1.380802 sents/s, time 1s, 31-Mar-2017 02:35:48
+  src 1: verify ( front: easel , left: yellow hallway , right: yellow hallway )
+  ref 1: to your left and right is green octagon flooring and an easel is in front of you <t_eos>
+  tgt 1: you should be facing a right <t_eos>
+pairs 1: ,-you ,-should hallway-be hallway-facing hallway-a hallway-right 
+align 1: 8-0 8-1 7-2 11-3 11-4 11-5 
+  score -7.64503
+# Finetuning at epoch 21, iter 231, 0.205891 -> 0.185302
+# Epoch 22, lr=0.185302, 31-Mar-2017 02:35:48
+22, 240, 0.37K, 0.185302, 4.44, gN=6.50, 31-Mar-2017 02:36:27
+# eval 9.29, 22, 242, 0.37K, 0.19, train=4.42, valid=2.58, test=2.23, W_src{1}=0.051 W_tgt{1}=0.053 W_emb_src=0.069 W_emb_tgt=0.056 W_a=0.052 W_h=0.058 W_soft=0.065, time=14.76s
+  save model test perplexity 9.29 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.29 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:36:52
+  Done, minLen=0, maxLen=12, speed 3.362825 sents/s, time 0s, 31-Mar-2017 02:36:52
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: travel-go travel-down 
+align 1: 0-0 0-1 
+  score -4.33105
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 02:36:52
+  Done, minLen=5, maxLen=78, speed 1.273389 sents/s, time 1s, 31-Mar-2017 02:36:53
+  src 1: verify ( front: brick hallway , front: lamp ) , travel ( steps: 3 ) , verify ( back: lamp , side: flower hallway )
+  ref 1: go forward along the brick hall three segments to the intersection with the pink-flowered carpet hall, passing a lamp <t_eos>
+  tgt 1: go forward two segments to the intersection with the yellow-tiled hall <t_eos>
+pairs 1: steps:-go steps:-forward ,-two ,-segments hallway-to hallway-the hallway-intersection hallway-with hallway-the hallway-yellow-tiled hallway-hall 
+align 1: 12-0 12-1 5-2 5-3 23-4 23-5 23-6 23-7 23-8 23-9 23-10 
+  score -9.17432
+# Decoding batch of 1 sents, minLen=8, maxLen=120, 31-Mar-2017 02:36:53
+  Done, minLen=8, maxLen=120, speed 1.235865 sents/s, time 1s, 31-Mar-2017 02:36:54
+  src 1: travel ( ) , verify ( at: lamp ) , turn ( left ) , travel ( ) , verify ( front: wall , left: wall ) , turn ( right ) , verify ( front: wood hallway )
+  ref 1: at the lamp, take a left and at the next corner, go right onto the wood path <t_eos>
+  tgt 1: at the easel, take a right onto the wood path <t_eos>
+pairs 1: turn-at turn-the turn-easel, right-take right-a verify-right wood-onto hallway-the hallway-wood travel-path 
+align 1: 10-0 10-1 10-2 30-3 30-4 33-5 36-6 37-7 37-8 0-9 
+  score -6.81403
+# Finetuning at epoch 22, iter 242, 0.185302 -> 0.166772
+# Epoch 23, lr=0.166772, 31-Mar-2017 02:36:54
+23, 250, 0.39K, 0.166772, 4.34, gN=4.00, 31-Mar-2017 02:37:30
+# eval 8.93, 23, 253, 0.39K, 0.17, train=4.31, valid=2.55, test=2.19, W_src{1}=0.051 W_tgt{1}=0.053 W_emb_src=0.070 W_emb_tgt=0.056 W_a=0.052 W_h=0.058 W_soft=0.065, time=16.47s
+  save model test perplexity 8.93 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.93 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:38:01
+  Done, minLen=0, maxLen=12, speed 3.048251 sents/s, time 0s, 31-Mar-2017 02:38:01
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: travel-go travel-down 
+align 1: 0-0 0-1 
+  score -4.26346
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:38:01
+  Done, minLen=2, maxLen=30, speed 1.347026 sents/s, time 1s, 31-Mar-2017 02:38:02
+  src 1: turn ( ) , verify ( right: wall )
+  ref 1: turn so that the wall is on your right <t_eos>
+  tgt 1: turn so that the wall is on your right <t_eos>
+pairs 1: wall-turn wall-so wall-that wall-the wall-wall wall-is wall-on wall-your wall-right 
+align 1: 7-0 7-1 7-2 7-3 7-4 7-5 7-6 7-7 7-8 
+  score -4.41801
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 02:38:02
+  Done, minLen=3, maxLen=48, speed 1.453960 sents/s, time 1s, 31-Mar-2017 02:38:03
+  src 1: verify ( left: wall , right: wall , front: wall , back: fish wall )
+  ref 1: dead end of the fish area <t_eos>
+  tgt 1: with your back to the dead end <t_eos>
+pairs 1: wall-with wall-your ,-back wall-to wall-the wall-dead wall-end 
+align 1: 6-0 6-1 7-2 9-3 13-4 13-5 13-6 
+  score -5.86615
+# Finetuning at epoch 23, iter 253, 0.166772 -> 0.150095
+# Epoch 24, lr=0.150095, 31-Mar-2017 02:38:03
+24, 260, 0.42K, 0.150095, 4.25, gN=9.52, 31-Mar-2017 02:38:36
+# eval 8.72, 24, 264, 0.42K, 0.15, train=4.21, valid=2.52, test=2.17, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.070 W_emb_tgt=0.056 W_a=0.052 W_h=0.058 W_soft=0.065, time=14.88s
+  save model test perplexity 8.72 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.72 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:39:09
+  Done, minLen=0, maxLen=12, speed 4.744688 sents/s, time 0s, 31-Mar-2017 02:39:09
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the stool <t_eos>
+pairs 1: (-move (-to travel-the travel-stool 
+align 1: 1-0 1-1 0-2 0-3 
+  score -4.83138
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 02:39:09
+  Done, minLen=5, maxLen=78, speed 1.582309 sents/s, time 1s, 31-Mar-2017 02:39:10
+  src 1: turn ( ) , verify ( front: yellow hallway , front: sofa ) , travel ( steps: 3 ) , verify ( back: sofa )
+  ref 1: follow the yellow-tiled hall forward three segments, passing the bench <t_eos>
+  tgt 1: face and move to the easel <t_eos>
+pairs 1: steps:-face steps:-and steps:-move ,-to sofa-the steps:-easel 
+align 1: 16-0 16-1 16-2 9-3 23-4 16-5 
+  score -5.39373
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:39:10
+  Done, minLen=0, maxLen=12, speed 3.375448 sents/s, time 0s, 31-Mar-2017 02:39:11
+  src 1: travel ( )
+  ref 1: go forward <t_eos>
+  tgt 1: move to the stool <t_eos>
+pairs 1: (-move (-to travel-the travel-stool 
+align 1: 1-0 1-1 0-2 0-3 
+  score -4.83138
+# Finetuning at epoch 24, iter 264, 0.150095 -> 0.135085
+# Epoch 25, lr=0.135085, 31-Mar-2017 02:39:11
+25, 270, 0.52K, 0.135085, 4.16, gN=5.06, 31-Mar-2017 02:39:39
+# eval 8.40, 25, 275, 0.52K, 0.14, train=4.11, valid=2.50, test=2.13, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.071 W_emb_tgt=0.057 W_a=0.052 W_h=0.059 W_soft=0.065, time=14.34s
+  save model test perplexity 8.40 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.40 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:40:15
+  Done, minLen=0, maxLen=12, speed 3.480694 sents/s, time 0s, 31-Mar-2017 02:40:15
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the next alley <t_eos>
+pairs 1: (-move travel-to travel-the travel-next travel-alley 
+align 1: 1-0 0-1 0-2 0-3 0-4 
+  score -5.47705
+# Decoding batch of 1 sents, minLen=7, maxLen=114, 31-Mar-2017 02:40:16
+  Done, minLen=7, maxLen=114, speed 0.851225 sents/s, time 1s, 31-Mar-2017 02:40:17
+  src 1: verify ( side: blue hallway , front: flower hallway ) , travel ( steps: 1 ) , turn ( ) , verify ( front: concrete hallway ) , travel ( ) , verify ( front: wall )
+  ref 1: position 6 is at the end of a bare concrete hall one segment along the pink-flowered carpet hall away from the blue-tiled hall <t_eos>
+  tgt 1: go forward two segments to the end of the hall <t_eos>
+pairs 1: 1-go 1-forward ,-two ,-segments turn-to wall-the hallway-end hallway-of hallway-the hallway-hall 
+align 1: 14-0 14-1 5-2 5-3 17-4 35-5 8-6 8-7 8-8 8-9 
+  score -8.15157
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 02:40:17
+  Done, minLen=2, maxLen=36, speed 1.607007 sents/s, time 1s, 31-Mar-2017 02:40:18
+  src 1: travel ( steps: 1 ) , verify ( at: barstool )
+  ref 1: and the very next intersection where there is also a stool is 7 <t_eos>
+  tgt 1: go forward one segment to the intersection containing the chair <t_eos>
+pairs 1: 1-go 1-forward 1-one verify-segment barstool-to barstool-the barstool-intersection barstool-containing barstool-the barstool-chair 
+align 1: 3-0 3-1 3-2 6-3 9-4 9-5 9-6 9-7 9-8 9-9 
+  score -4.73834
+# Finetuning at epoch 25, iter 275, 0.135085 -> 0.121577
+# Epoch 26, lr=0.121577, 31-Mar-2017 02:40:18
+26, 280, 0.68K, 0.121577, 4.07, gN=6.95, 31-Mar-2017 02:40:37
+# eval 8.23, 26, 286, 0.68K, 0.12, train=4.02, valid=2.49, test=2.11, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.071 W_emb_tgt=0.057 W_a=0.052 W_h=0.059 W_soft=0.066, time=14.40s
+  save model test perplexity 8.23 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.23 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:41:24
+  Done, minLen=0, maxLen=12, speed 3.621745 sents/s, time 0s, 31-Mar-2017 02:41:24
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move travel-forward 
+align 1: 1-0 0-1 
+  score -3.81086
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:41:24
+  Done, minLen=3, maxLen=45, speed 1.766335 sents/s, time 1s, 31-Mar-2017 02:41:25
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: move to the blue carpet <t_eos>
+pairs 1: ,-move ,-to hallway-the hallway-blue left:-carpet 
+align 1: 3-0 9-1 8-2 8-3 10-4 
+  score -4.25986
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:41:25
+  Done, minLen=2, maxLen=30, speed 1.462996 sents/s, time 1s, 31-Mar-2017 02:41:26
+  src 1: turn ( ) , verify ( back: wall )
+  ref 1: turn so the wall is on your back <t_eos>
+  tgt 1: with your back to the wall <t_eos>
+pairs 1: wall-with wall-your wall-back wall-to wall-the )-wall 
+align 1: 7-0 7-1 7-2 7-3 7-4 8-5 
+  score -3.72548
+# Finetuning at epoch 26, iter 286, 0.121577 -> 0.109419
+# Epoch 27, lr=0.109419, 31-Mar-2017 02:41:26
+27, 290, 0.78K, 0.109419, 4.00, gN=3.98, 31-Mar-2017 02:41:42
+# eval 8.13, 27, 297, 0.78K, 0.11, train=3.94, valid=2.48, test=2.10, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.071 W_emb_tgt=0.057 W_a=0.052 W_h=0.059 W_soft=0.066, time=15.43s
+  save model test perplexity 8.13 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.13 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:42:36
+  Done, minLen=0, maxLen=12, speed 4.292435 sents/s, time 0s, 31-Mar-2017 02:42:36
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go travel-down 
+align 1: 1-0 0-1 
+  score -4.49478
+# Decoding batch of 1 sents, minLen=6, maxLen=90, 31-Mar-2017 02:42:37
+  Done, minLen=6, maxLen=90, speed 0.627568 sents/s, time 2s, 31-Mar-2017 02:42:38
+  src 1: verify ( at: chair , front: chair ) , travel ( ) , verify ( at: chair ) , turn ( ) , verify ( front: brick hallway )
+  ref 1: standing next to a chair and looking at a chair move to the next chair and turn to face the red brick <t_eos>
+  tgt 1: at the intersection take a red brick path <t_eos>
+pairs 1: turn-at turn-the turn-intersection turn-take hallway-a hallway-red hallway-brick hallway-path 
+align 1: 19-0 19-1 19-2 19-3 27-4 27-5 27-6 27-7 
+  score -6.92478
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:42:38
+  Done, minLen=2, maxLen=33, speed 1.661718 sents/s, time 1s, 31-Mar-2017 02:42:39
+  src 1: turn ( ) , verify ( front: brick hallway )
+  ref 1: turn into the brick hall <t_eos>
+  tgt 1: go towards the red brick <t_eos>
+pairs 1: turn-go hallway-towards hallway-the hallway-red hallway-brick 
+align 1: 0-0 8-1 8-2 8-3 8-4 
+  score -4.83063
+# Finetuning at epoch 27, iter 297, 0.109419 -> 0.0984771
+# Epoch 28, lr=0.0984771, 31-Mar-2017 02:42:39
+28, 300, 1.21K, 0.0984771, 3.91, gN=4.92, 31-Mar-2017 02:42:51
+# eval 8.02, 28, 308, 1.21K, 0.10, train=3.86, valid=2.45, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.072 W_emb_tgt=0.057 W_a=0.052 W_h=0.059 W_soft=0.066, time=15.42s
+  save model test perplexity 8.02 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.02 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:43:46
+  Done, minLen=0, maxLen=12, speed 3.085610 sents/s, time 0s, 31-Mar-2017 02:43:46
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: travel-go travel-down 
+align 1: 0-0 0-1 
+  score -4.07795
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:43:46
+  Done, minLen=2, maxLen=33, speed 2.160513 sents/s, time 0s, 31-Mar-2017 02:43:46
+  src 1: turn ( ) , verify ( front: yellow hallway )
+  ref 1: face the yellow-tiled hall <t_eos>
+  tgt 1: turn to face the black hallway <t_eos>
+pairs 1: turn-turn turn-to turn-face hallway-the hallway-black hallway-hallway 
+align 1: 0-0 0-1 0-2 8-3 8-4 8-5 
+  score -5.36903
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 02:43:47
+  Done, minLen=1, maxLen=21, speed 2.436350 sents/s, time 0s, 31-Mar-2017 02:43:47
+  src 1: verify ( front: concrete hallway )
+  ref 1: the floor should be bare concrete <t_eos>
+  tgt 1: you should see blue flooring <t_eos>
+pairs 1: concrete-you hallway-should hallway-see hallway-blue hallway-flooring 
+align 1: 3-0 4-1 4-2 4-3 4-4 
+  score -5.61093
+# Finetuning at epoch 28, iter 308, 0.0984771 -> 0.0886294
+# Epoch 29, lr=0.0886294, 31-Mar-2017 02:43:47
+29, 310, 1.08K, 0.0886294, 3.83, gN=16.36, 31-Mar-2017 02:44:02
+# eval 7.94, 29, 319, 1.08K, 0.09, train=3.78, valid=2.47, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.072 W_emb_tgt=0.057 W_a=0.052 W_h=0.059 W_soft=0.066, time=15.60s
+  save model cur test perplexity 7.94 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:44:51
+  Done, minLen=0, maxLen=12, speed 3.545534 sents/s, time 0s, 31-Mar-2017 02:44:52
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: (-move 
+align 1: 1-0 
+  score -3.66572
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:44:52
+  Done, minLen=2, maxLen=33, speed 1.577103 sents/s, time 1s, 31-Mar-2017 02:44:52
+  src 1: verify ( front: blue hallway ) , travel ( )
+  ref 1: walk along the blue carpet and you pass two objects <t_eos>
+  tgt 1: move along the blue carpet to the stool <t_eos>
+pairs 1: travel-move hallway-along hallway-the hallway-blue (-carpet (-to (-the travel-stool 
+align 1: 7-0 4-1 4-2 4-3 8-4 8-5 8-6 7-7 
+  score -4.80724
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 02:44:53
+  Done, minLen=3, maxLen=48, speed 1.456128 sents/s, time 1s, 31-Mar-2017 02:44:53
+  src 1: travel ( ) , verify ( side: blue hallway ) , turn ( left )
+  ref 1: at the blue path intersection, <unk> a left <t_eos>
+  tgt 1: move to the blue carpet and turn left <t_eos>
+pairs 1: turn-move hallway-to hallway-the hallway-blue turn-carpet left-and left-turn left-left 
+align 1: 11-0 8-1 8-2 8-3 11-4 13-5 13-6 13-7 
+  score -2.81619
+# Finetuning at epoch 29, iter 319, 0.0886294 -> 0.0797664
+# Epoch 30, lr=0.0797664, 31-Mar-2017 02:44:54
+30, 320, 3.87K, 0.0797664, 3.77, gN=3.20, 31-Mar-2017 02:44:56
+30, 330, 0.31K, 0.0797664, 3.70, gN=5.29, 31-Mar-2017 02:45:43
+# eval 7.97, 30, 330, 0.31K, 0.08, train=3.70, valid=2.47, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.072 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.066, time=15.91s
+  save model cur test perplexity 7.97 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:46:00
+  Done, minLen=0, maxLen=12, speed 3.798959 sents/s, time 0s, 31-Mar-2017 02:46:01
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move travel-forward 
+align 1: 1-0 0-1 
+  score -3.52485
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 02:46:01
+  Done, minLen=4, maxLen=60, speed 1.270230 sents/s, time 1s, 31-Mar-2017 02:46:01
+  src 1: verify ( front: chair ) , travel ( ) , verify ( back: chair , side: flower hallway )
+  ref 1: go forward, passing the chair, to the intersection with the pink-flowered carpet <t_eos>
+  tgt 1: go all the way to the intersection with the pink-flowered carpet hall <t_eos>
+pairs 1: travel-go ,-all travel-the hallway-way hallway-to hallway-the hallway-intersection hallway-with hallway-the hallway-pink-flowered hallway-carpet hallway-hall 
+align 1: 6-0 5-1 6-2 17-3 17-4 17-5 17-6 17-7 17-8 17-9 17-10 17-11 
+  score -8.46216
+# Decoding batch of 1 sents, minLen=5, maxLen=87, 31-Mar-2017 02:46:02
+  Done, minLen=5, maxLen=87, speed 1.062556 sents/s, time 1s, 31-Mar-2017 02:46:03
+  src 1: turn ( ) , verify ( front: wood hallway , front: easel ) , travel ( ) , verify ( at: easel ) , turn ( left )
+  ref 1: take the wood path towards the easel and at the easel, go left <t_eos>
+  tgt 1: with your back to the easel at the easel <t_eos>
+pairs 1: hallway-with wood-your easel-back travel-to hallway-the travel-easel travel-at easel-the hallway-easel 
+align 1: 8-0 7-1 11-2 14-3 8-4 14-5 14-6 21-7 8-8 
+  score -6.8045
+# Finetuning at epoch 30, iter 330, 0.0797664 -> 0.0717898
+# Epoch 31, lr=0.0717898, 31-Mar-2017 02:46:03
+31, 340, 0.41K, 0.0717898, 3.64, gN=3.78, 31-Mar-2017 02:46:40
+# eval 8.09, 31, 341, 0.41K, 0.07, train=3.63, valid=2.49, test=2.09, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.072 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.066, time=6.29s
+  save model cur test perplexity 8.09 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:46:48
+  Done, minLen=0, maxLen=12, speed 10.726621 sents/s, time 0s, 31-Mar-2017 02:46:48
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -2.97459
+# Decoding batch of 1 sents, minLen=3, maxLen=51, 31-Mar-2017 02:46:48
+  Done, minLen=3, maxLen=51, speed 3.965217 sents/s, time 0s, 31-Mar-2017 02:46:48
+  src 1: turn ( ) , verify ( front: yellow hallway ) , travel ( steps: 1 )
+  ref 1: from four face the octagon carpet and move forward one alley <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: 1-move 1-one steps:-alley 
+align 1: 14-0 14-1 13-2 
+  score -4.96333
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:46:48
+  Done, minLen=3, maxLen=45, speed 4.927783 sents/s, time 0s, 31-Mar-2017 02:46:48
+  src 1: travel ( ) , verify ( at: easel ) , turn ( left )
+  ref 1: walk forward and turn left at the easel <t_eos>
+  tgt 1: move to the easel and turn left <t_eos>
+pairs 1: left-move easel-to easel-the turn-easel left-and left-turn left-left 
+align 1: 12-0 7-1 7-2 10-3 12-4 12-5 12-6 
+  score -2.80488
+# Finetuning at epoch 31, iter 341, 0.0717898 -> 0.0646108
+# Epoch 32, lr=0.0646108, 31-Mar-2017 02:46:49
+32, 350, 0.84K, 0.0646108, 3.58, gN=3.71, 31-Mar-2017 02:47:05
+# eval 7.97, 32, 352, 0.84K, 0.06, train=3.57, valid=2.47, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.86s
+  save model cur test perplexity 7.97 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:47:14
+  Done, minLen=0, maxLen=12, speed 10.708931 sents/s, time 0s, 31-Mar-2017 02:47:14
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.39973
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 02:47:14
+  Done, minLen=2, maxLen=36, speed 5.664535 sents/s, time 0s, 31-Mar-2017 02:47:14
+  src 1: verify ( at: lamp ) , travel ( steps: 1 )
+  ref 1: on intersection past the lamp will be 7 <t_eos>
+  tgt 1: move one alley past the chair <t_eos>
+pairs 1: 1-move lamp-one ,-alley ,-past lamp-the steps:-chair 
+align 1: 9-0 3-1 5-2 5-3 3-4 8-5 
+  score -3.06589
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:47:14
+  Done, minLen=2, maxLen=33, speed 6.057742 sents/s, time 0s, 31-Mar-2017 02:47:14
+  src 1: turn ( ) , verify ( front: yellow hallway )
+  ref 1: go down the yellow hall <t_eos>
+  tgt 1: turn to face the black hallway <t_eos>
+pairs 1: turn-turn turn-to turn-face hallway-the hallway-black hallway-hallway 
+align 1: 0-0 0-1 0-2 8-3 8-4 8-5 
+  score -4.76101
+# Finetuning at epoch 32, iter 352, 0.0646108 -> 0.0581497
+# Epoch 33, lr=0.0581497, 31-Mar-2017 02:47:14
+33, 360, 0.68K, 0.0581497, 3.52, gN=7.48, 31-Mar-2017 02:47:34
+# eval 7.90, 33, 363, 0.68K, 0.06, train=3.50, valid=2.47, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.85s
+  save model cur test perplexity 7.90 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:47:46
+  Done, minLen=0, maxLen=12, speed 11.545611 sents/s, time 0s, 31-Mar-2017 02:47:46
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.56467
+# Decoding batch of 1 sents, minLen=6, maxLen=93, 31-Mar-2017 02:47:46
+  Done, minLen=6, maxLen=93, speed 3.471993 sents/s, time 0s, 31-Mar-2017 02:47:47
+  src 1: verify ( front: blue hallway , front: chair ) , travel ( ) , verify ( at: chair ) , turn ( right ) , verify ( front: barstool )
+  ref 1: follow the blue path towards the chair and at the chair, take a right towards the stool <t_eos>
+  tgt 1: at the blue path all the way towards the chair <t_eos>
+pairs 1: ,-at hallway-the hallway-blue ,-path )-all travel-the right-way travel-towards travel-the at:-chair 
+align 1: 5-0 4-1 4-2 5-3 23-4 10-5 22-6 10-7 10-8 16-9 
+  score -7.04551
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:47:47
+  Done, minLen=3, maxLen=45, speed 4.863411 sents/s, time 0s, 31-Mar-2017 02:47:47
+  src 1: travel ( ) , verify ( left: hallway ) , turn ( left )
+  ref 1: go down make the first left <t_eos>
+  tgt 1: move to the blue carpet and turn left <t_eos>
+pairs 1: left-move hallway-to hallway-the hallway-blue turn-carpet left-and left-turn hallway-left 
+align 1: 12-0 7-1 7-2 7-3 10-4 12-5 12-6 7-7 
+  score -4.70353
+# Finetuning at epoch 33, iter 363, 0.0581497 -> 0.0523348
+# Epoch 34, lr=0.0523348, 31-Mar-2017 02:47:47
+34, 370, 1.16K, 0.0523348, 3.46, gN=4.54, 31-Mar-2017 02:47:59
+# eval 7.83, 34, 374, 1.16K, 0.05, train=3.44, valid=2.48, test=2.06, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=6.54s
+  save model cur test perplexity 7.83 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:48:13
+  Done, minLen=0, maxLen=12, speed 8.826826 sents/s, time 0s, 31-Mar-2017 02:48:13
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.88636
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:48:13
+  Done, minLen=2, maxLen=42, speed 4.309212 sents/s, time 0s, 31-Mar-2017 02:48:13
+  src 1: travel ( ) , verify ( front: wall , side: blue hallway )
+  ref 1: this hall will end in the blue-tiled hall <t_eos>
+  tgt 1: go to the corner <t_eos>
+pairs 1: ,-go ,-to wall-the wall-corner 
+align 1: 3-0 8-1 7-2 7-3 
+  score -5.70594
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:48:13
+  Done, minLen=1, maxLen=18, speed 7.339773 sents/s, time 0s, 31-Mar-2017 02:48:13
+  src 1: travel ( steps: 2 )
+  ref 1: walk forward twice <t_eos>
+  tgt 1: go forward two segments <t_eos>
+pairs 1: steps:-go steps:-forward 2-two 2-segments 
+align 1: 2-0 2-1 3-2 3-3 
+  score -3.16832
+# Finetuning at epoch 34, iter 374, 0.0523348 -> 0.0471013
+# Epoch 35, lr=0.0471013, 31-Mar-2017 02:48:14
+35, 380, 1.43K, 0.0471013, 3.41, gN=3.78, 31-Mar-2017 02:48:23
+# eval 7.92, 35, 385, 1.43K, 0.05, train=3.38, valid=2.48, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.85s
+  save model cur test perplexity 7.92 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:48:39
+  Done, minLen=0, maxLen=12, speed 11.954144 sents/s, time 0s, 31-Mar-2017 02:48:39
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.332
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:48:39
+  Done, minLen=3, maxLen=45, speed 3.900339 sents/s, time 0s, 31-Mar-2017 02:48:39
+  src 1: travel ( ) , verify ( front: brick hallway , back: brick hallway )
+  ref 1: position 1 is in the middle of a red brick floored room <t_eos>
+  tgt 1: position 5 is in the middle <t_eos>
+pairs 1: travel-position (-5 back:-is back:-in back:-the travel-middle 
+align 1: 0-0 1-1 10-2 10-3 10-4 0-5 
+  score -3.93342
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:48:39
+  Done, minLen=1, maxLen=18, speed 7.406859 sents/s, time 0s, 31-Mar-2017 02:48:40
+  src 1: verify ( at: hatrack )
+  ref 1: this interesection contains a hatrack <t_eos>
+  tgt 1: there is a bench in this intersection <t_eos>
+pairs 1: hatrack-there hatrack-is hatrack-a hatrack-bench hatrack-in hatrack-this hatrack-intersection 
+align 1: 3-0 3-1 3-2 3-3 3-4 3-5 3-6 
+  score -4.75286
+# Finetuning at epoch 35, iter 385, 0.0471013 -> 0.0423912
+# Epoch 36, lr=0.0423912, 31-Mar-2017 02:48:40
+36, 390, 1.87K, 0.0423912, 3.36, gN=5.23, 31-Mar-2017 02:48:47
+# eval 7.85, 36, 396, 1.87K, 0.04, train=3.33, valid=2.49, test=2.06, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.98s
+  save model cur test perplexity 7.85 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:49:06
+  Done, minLen=0, maxLen=12, speed 11.949430 sents/s, time 0s, 31-Mar-2017 02:49:06
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -2.97064
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 02:49:06
+  Done, minLen=1, maxLen=15, speed 9.525715 sents/s, time 0s, 31-Mar-2017 02:49:06
+  src 1: turn ( left )
+  ref 1: turn left into this hall <t_eos>
+  tgt 1: turn left <t_eos>
+pairs 1: left-turn left-left 
+align 1: 2-0 2-1 
+  score -1.43524
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 02:49:06
+  Done, minLen=3, maxLen=54, speed 3.560480 sents/s, time 0s, 31-Mar-2017 02:49:06
+  src 1: travel ( steps: 1 ) , turn ( right ) , verify ( front: blue hallway )
+  ref 1: take a right onto the blue path at the next intersection <t_eos>
+  tgt 1: at the next intersection, take a right onto the blue path <t_eos>
+pairs 1: steps:-at steps:-the turn-next right-intersection, right-take right-a ,-right front:-onto hallway-the hallway-blue hallway-path 
+align 1: 2-0 2-1 6-2 8-3 8-4 8-5 10-6 13-7 15-8 15-9 15-10 
+  score -3.15798
+# Finetuning at epoch 36, iter 396, 0.0423912 -> 0.038152
+# Epoch 37, lr=0.038152, 31-Mar-2017 02:49:06
+37, 400, 1.93K, 0.038152, 3.31, gN=3.96, 31-Mar-2017 02:49:13
+# eval 7.85, 37, 407, 1.93K, 0.04, train=3.27, valid=2.49, test=2.06, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.073 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.84s
+  save model cur test perplexity 7.85 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:49:32
+  Done, minLen=0, maxLen=12, speed 12.510165 sents/s, time 0s, 31-Mar-2017 02:49:32
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.38153
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:49:32
+  Done, minLen=2, maxLen=39, speed 4.257674 sents/s, time 0s, 31-Mar-2017 02:49:32
+  src 1: travel ( steps: 2 ) , verify ( side: concrete hallway )
+  ref 1: go forward two segments to a bare concrete hall <t_eos>
+  tgt 1: go forward two segments to the intersection with the bare concrete hall <t_eos>
+pairs 1: steps:-go steps:-forward hallway-two hallway-segments hallway-to hallway-the hallway-intersection hallway-with hallway-the hallway-bare hallway-concrete hallway-hall 
+align 1: 2-0 2-1 10-2 10-3 10-4 10-5 10-6 10-7 10-8 10-9 10-10 10-11 
+  score -3.67524
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:49:32
+  Done, minLen=1, maxLen=18, speed 8.250757 sents/s, time 0s, 31-Mar-2017 02:49:32
+  src 1: verify ( at: easel )
+  ref 1: this intersection contains an easel <t_eos>
+  tgt 1: there is an easel in this intersection <t_eos>
+pairs 1: easel-there easel-is easel-an easel-easel )-in )-this )-intersection 
+align 1: 3-0 3-1 3-2 3-3 4-4 4-5 4-6 
+  score -3.67058
+# Finetuning at epoch 37, iter 407, 0.038152 -> 0.0343368
+# Epoch 38, lr=0.0343368, 31-Mar-2017 02:49:32
+38, 410, 3.53K, 0.0343368, 3.26, gN=3.28, 31-Mar-2017 02:49:36
+# eval 7.87, 38, 418, 3.53K, 0.03, train=3.22, valid=2.50, test=2.06, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.89s
+  save model cur test perplexity 7.87 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:49:58
+  Done, minLen=0, maxLen=12, speed 11.171187 sents/s, time 0s, 31-Mar-2017 02:49:58
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.45647
+# Decoding batch of 1 sents, minLen=4, maxLen=69, 31-Mar-2017 02:49:58
+  Done, minLen=4, maxLen=69, speed 3.640123 sents/s, time 0s, 31-Mar-2017 02:49:58
+  src 1: verify ( front: brick hallway ) , travel ( ) , verify ( at: hatrack ) , travel ( steps: 1 )
+  ref 1: move along the brick floor one alley past the hatrack <t_eos>
+  tgt 1: move along the brick one alley past the lamp <t_eos>
+pairs 1: 1-move hallway-along hallway-the steps:-brick 1-one ,-alley (-past hatrack-the steps:-lamp 
+align 1: 20-0 4-1 4-2 19-3 20-4 16-5 18-6 14-7 19-8 
+  score -4.4369
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:49:58
+  Done, minLen=2, maxLen=33, speed 4.687310 sents/s, time 0s, 31-Mar-2017 02:49:59
+  src 1: travel ( ) , verify ( side: concrete hallway )
+  ref 1: till you get to a grey hall <t_eos>
+  tgt 1: walk to the pink floored area <t_eos>
+pairs 1: ,-walk concrete-to hallway-the hallway-pink hallway-floored hallway-area 
+align 1: 3-0 7-1 8-2 8-3 8-4 8-5 
+  score -4.99603
+# Finetuning at epoch 38, iter 418, 0.0343368 -> 0.0309032
+# Epoch 39, lr=0.0309032, 31-Mar-2017 02:49:59
+39, 420, 5.79K, 0.0309032, 3.22, gN=3.13, 31-Mar-2017 02:50:01
+# eval 7.92, 39, 429, 5.79K, 0.03, train=3.17, valid=2.50, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.82s
+  save model cur test perplexity 7.92 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:50:24
+  Done, minLen=0, maxLen=12, speed 11.705353 sents/s, time 0s, 31-Mar-2017 02:50:24
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -2.97337
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 02:50:24
+  Done, minLen=5, maxLen=78, speed 3.906021 sents/s, time 0s, 31-Mar-2017 02:50:24
+  src 1: travel ( ) , verify ( at: lamp ) , travel ( steps: 1 ) , verify ( side: concrete hallway , at: 3-intersection )
+  ref 1: one section past the lamp, you will reach a 't' intersection with a bare concrete hall <t_eos>
+  tgt 1: go forward one segment to the intersection with the blue-tiled hall <t_eos>
+pairs 1: 1-go )-forward hallway-one at:-segment 3-intersection-to 3-intersection-the hallway-intersection hallway-with hallway-the 3-intersection-blue-tiled 3-intersection-hall 
+align 1: 13-0 14-1 20-2 22-3 23-4 23-5 20-6 20-7 20-8 23-9 23-10 
+  score -4.37278
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:50:24
+  Done, minLen=2, maxLen=33, speed 4.683073 sents/s, time 0s, 31-Mar-2017 02:50:25
+  src 1: verify ( left: flower hallway , right: flower hallway )
+  ref 1: to the left and right you should see flowered carpet <t_eos>
+  tgt 1: to your left is left <t_eos>
+pairs 1: flower-to flower-your flower-left hallway-is hallway-left 
+align 1: 7-0 7-1 3-2 4-3 4-4 
+  score -5.33141
+# Finetuning at epoch 39, iter 429, 0.0309032 -> 0.0278128
+# Epoch 40, lr=0.0278128, 31-Mar-2017 02:50:25
+40, 430, 7.94K, 0.0278128, 3.17, gN=5.11, 31-Mar-2017 02:50:27
+40, 440, 0.77K, 0.0278128, 3.13, gN=3.67, 31-Mar-2017 02:50:45
+# eval 7.96, 40, 440, 0.77K, 0.03, train=3.13, valid=2.50, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.88s
+  save model cur test perplexity 7.96 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:50:51
+  Done, minLen=0, maxLen=12, speed 11.436675 sents/s, time 0s, 31-Mar-2017 02:50:51
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.13432
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 02:50:51
+  Done, minLen=3, maxLen=48, speed 4.567900 sents/s, time 0s, 31-Mar-2017 02:50:51
+  src 1: travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 1: keep going down it until you reach a dead end square area <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: ,-move wall-to wall-the wall-corner 
+align 1: 11-0 10-1 10-2 10-3 
+  score -2.43679
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 02:50:52
+  Done, minLen=4, maxLen=60, speed 3.986414 sents/s, time 0s, 31-Mar-2017 02:50:52
+  src 1: verify ( front: blue hallway ) , travel ( ) , verify ( front: chair , back: sofa )
+  ref 1: then straight down the <unk> hall until you get to a place in between a bench and a chair <t_eos>
+  tgt 1: move along the blue past the chair <t_eos>
+pairs 1: travel-move sofa-along hallway-the back:-blue back:-past back:-the travel-chair 
+align 1: 7-0 17-1 4-2 16-3 16-4 16-5 7-6 
+  score -4.60868
+# Finetuning at epoch 40, iter 440, 0.0278128 -> 0.0250316
+# Epoch 41, lr=0.0250316, 31-Mar-2017 02:50:52
+41, 450, 0.80K, 0.0250316, 3.09, gN=3.66, 31-Mar-2017 02:51:09
+# eval 7.94, 41, 451, 0.80K, 0.03, train=3.08, valid=2.51, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.89s
+  save model cur test perplexity 7.94 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:51:17
+  Done, minLen=0, maxLen=12, speed 11.642392 sents/s, time 0s, 31-Mar-2017 02:51:17
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.34869
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:51:17
+  Done, minLen=2, maxLen=30, speed 5.875648 sents/s, time 0s, 31-Mar-2017 02:51:17
+  src 1: verify ( left: concrete hallway , front: lamp )
+  ref 1: the alley to your left has grey floor and you see a lamp in front of you <t_eos>
+  tgt 1: you should see a bench to your right <t_eos>
+pairs 1: concrete-you hallway-should hallway-see hallway-a hallway-bench hallway-to hallway-your )-right 
+align 1: 3-0 4-1 4-2 4-3 4-4 4-5 4-6 8-7 
+  score -6.61127
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 02:51:18
+  Done, minLen=4, maxLen=66, speed 3.335145 sents/s, time 0s, 31-Mar-2017 02:51:18
+  src 1: verify ( side: yellow hallway ) , turn ( left ) , travel ( ) , verify ( front: wall )
+  ref 1: turn left at the yellow floors and walk to the end of the hall <t_eos>
+  tgt 1: turn left and move to the end of the stone floor <t_eos>
+pairs 1: left-turn travel-left travel-and wall-move wall-to wall-the hallway-end hallway-of hallway-the hallway-stone hallway-floor 
+align 1: 9-0 12-1 12-2 19-3 19-4 19-5 4-6 4-7 4-8 4-9 4-10 
+  score -5.31446
+# Finetuning at epoch 41, iter 451, 0.0250316 -> 0.0225284
+# Epoch 42, lr=0.0225284, 31-Mar-2017 02:51:18
+42, 460, 0.84K, 0.0225284, 3.05, gN=8.13, 31-Mar-2017 02:51:35
+# eval 7.93, 42, 462, 0.84K, 0.02, train=3.04, valid=2.51, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.067, time=5.86s
+  save model cur test perplexity 7.93 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:51:44
+  Done, minLen=0, maxLen=12, speed 11.196954 sents/s, time 0s, 31-Mar-2017 02:51:44
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.3548
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 02:51:44
+  Done, minLen=1, maxLen=15, speed 8.797164 sents/s, time 0s, 31-Mar-2017 02:51:44
+  src 1: turn ( left )
+  ref 1: here, go left <t_eos>
+  tgt 1: turn left <t_eos>
+pairs 1: left-turn left-left 
+align 1: 2-0 2-1 
+  score -1.6067
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 02:51:44
+  Done, minLen=2, maxLen=33, speed 4.898407 sents/s, time 0s, 31-Mar-2017 02:51:45
+  src 1: travel ( ) , verify ( side: gravel hallway )
+  ref 1: go straight until you get to the intersection with the grey floor <t_eos>
+  tgt 1: go to the black floored area <t_eos>
+pairs 1: ,-go hallway-to hallway-the hallway-black hallway-floored hallway-area 
+align 1: 3-0 8-1 8-2 8-3 8-4 8-5 
+  score -5.69097
+# Finetuning at epoch 42, iter 462, 0.0225284 -> 0.0202756
+# Epoch 43, lr=0.0202756, 31-Mar-2017 02:51:45
+43, 470, 0.97K, 0.0202756, 3.01, gN=10.72, 31-Mar-2017 02:52:00
+# eval 7.95, 43, 473, 0.97K, 0.02, train=3.00, valid=2.51, test=2.07, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=6.02s
+  save model cur test perplexity 7.95 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:52:10
+  Done, minLen=0, maxLen=12, speed 8.238929 sents/s, time 0s, 31-Mar-2017 02:52:10
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.07932
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 02:52:10
+  Done, minLen=1, maxLen=15, speed 8.273899 sents/s, time 0s, 31-Mar-2017 02:52:10
+  src 1: turn ( left )
+  ref 1: take a left onto it <t_eos>
+  tgt 1: turn left <t_eos>
+pairs 1: left-turn left-left 
+align 1: 2-0 2-1 
+  score -1.46596
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:52:11
+  Done, minLen=3, maxLen=45, speed 4.194385 sents/s, time 0s, 31-Mar-2017 02:52:11
+  src 1: travel ( ) , verify ( at: hatrack ) , turn ( left )
+  ref 1: and then another left at the coat rack <t_eos>
+  tgt 1: move to the stool and turn left <t_eos>
+pairs 1: left-move hatrack-to hatrack-the turn-stool left-and left-turn left-left 
+align 1: 12-0 7-1 7-2 10-3 12-4 12-5 12-6 
+  score -3.16552
+# Finetuning at epoch 43, iter 473, 0.0202756 -> 0.018248
+# Epoch 44, lr=0.018248, 31-Mar-2017 02:52:11
+44, 480, 1.07K, 0.018248, 2.97, gN=3.67, 31-Mar-2017 02:52:22
+# eval 7.96, 44, 484, 1.07K, 0.02, train=2.96, valid=2.52, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=5.85s
+  save model cur test perplexity 7.96 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:52:36
+  Done, minLen=0, maxLen=12, speed 11.201093 sents/s, time 0s, 31-Mar-2017 02:52:37
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.39586
+# Decoding batch of 1 sents, minLen=4, maxLen=72, 31-Mar-2017 02:52:37
+  Done, minLen=4, maxLen=72, speed 2.954288 sents/s, time 0s, 31-Mar-2017 02:52:37
+  src 1: travel ( ) , verify ( front: wall , left: wall , right: wall , back: yellow hallway , back: fish wall )
+  ref 1: position 4 is a dead end of the yellow floored hall with fish on the walls <t_eos>
+  tgt 1: go to the corner of the yellow floored area <t_eos>
+pairs 1: ,-go wall-to wall-the wall-corner hallway-of hallway-the hallway-yellow hallway-floored wall-area 
+align 1: 3-0 10-1 10-2 10-3 17-4 17-5 17-6 17-7 21-8 
+  score -7.38351
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:52:37
+  Done, minLen=2, maxLen=39, speed 4.475655 sents/s, time 0s, 31-Mar-2017 02:52:37
+  src 1: travel ( ) , verify ( front: wall , left: wall )
+  ref 1: go to the corner <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: ,-move wall-to wall-the wall-corner 
+align 1: 3-0 10-1 10-2 10-3 
+  score -2.70497
+# Finetuning at epoch 44, iter 484, 0.018248 -> 0.0164232
+# Epoch 45, lr=0.0164232, 31-Mar-2017 02:52:37
+45, 490, 1.34K, 0.0164232, 2.93, gN=4.08, 31-Mar-2017 02:52:49
+# eval 7.98, 45, 495, 1.34K, 0.02, train=2.92, valid=2.52, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=6.26s
+  save model cur test perplexity 7.98 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:53:03
+  Done, minLen=0, maxLen=12, speed 11.105805 sents/s, time 0s, 31-Mar-2017 02:53:03
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.23304
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 02:53:03
+  Done, minLen=3, maxLen=45, speed 3.840039 sents/s, time 0s, 31-Mar-2017 02:53:04
+  src 1: travel ( ) , verify ( front: wall ) , turn ( left )
+  ref 1: move to the wall and turn left <t_eos>
+  tgt 1: move to the end of this alley <t_eos>
+pairs 1: left-move wall-to wall-the turn-end (-of )-this turn-alley 
+align 1: 12-0 7-1 7-2 10-3 1-4 8-5 10-6 
+  score -4.43644
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 02:53:04
+  Done, minLen=3, maxLen=54, speed 3.577216 sents/s, time 0s, 31-Mar-2017 02:53:04
+  src 1: turn ( left ) , verify ( front: brick hallway ) , travel ( steps: 1 )
+  ref 1: turn left again and move along the brick one alley <t_eos>
+  tgt 1: turn left and move forward twice <t_eos>
+pairs 1: left-turn steps:-left steps:-and steps:-move steps:-forward hallway-twice 
+align 1: 2-0 14-1 14-2 14-3 14-4 9-5 
+  score -4.59749
+# Finetuning at epoch 45, iter 495, 0.0164232 -> 0.0147809
+# Epoch 46, lr=0.0147809, 31-Mar-2017 02:53:04
+46, 500, 1.46K, 0.0147809, 2.91, gN=4.43, 31-Mar-2017 02:53:12
+# eval 7.99, 46, 506, 1.46K, 0.01, train=2.88, valid=2.52, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=5.88s
+  save model cur test perplexity 7.99 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:53:29
+  Done, minLen=0, maxLen=12, speed 11.578228 sents/s, time 0s, 31-Mar-2017 02:53:29
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.29549
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:53:29
+  Done, minLen=1, maxLen=18, speed 8.793296 sents/s, time 0s, 31-Mar-2017 02:53:29
+  src 1: verify ( right: easel )
+  ref 1: there is an easel to your right <t_eos>
+  tgt 1: there is an easel there <t_eos>
+pairs 1: easel-there easel-is easel-an easel-easel easel-there 
+align 1: 3-0 3-1 3-2 3-3 3-4 
+  score -3.6414
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 02:53:29
+  Done, minLen=5, maxLen=78, speed 2.431008 sents/s, time 0s, 31-Mar-2017 02:53:30
+  src 1: verify ( front: hatrack , front: lamp ) , travel ( ) , verify ( side: wood hallway , back: lamp , back: hatrack )
+  ref 1: walk past the hatrack and the lamp to the wooden flooring <t_eos>
+  tgt 1: move past the lamp to the wooden carpet <t_eos>
+pairs 1: travel-move ,-past lamp-the back:-lamp back:-to hallway-the hallway-wooden (-carpet 
+align 1: 9-0 8-1 6-2 19-3 19-4 17-5 17-6 10-7 
+  score -6.97377
+# Finetuning at epoch 46, iter 506, 0.0147809 -> 0.0133028
+# Epoch 47, lr=0.0133028, 31-Mar-2017 02:53:30
+47, 510, 2.50K, 0.0133028, 2.88, gN=3.54, 31-Mar-2017 02:53:35
+# eval 7.97, 47, 517, 2.50K, 0.01, train=2.85, valid=2.52, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=5.96s
+  save model cur test perplexity 7.97 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:53:56
+  Done, minLen=0, maxLen=12, speed 11.040696 sents/s, time 0s, 31-Mar-2017 02:53:56
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.28559
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:53:56
+  Done, minLen=2, maxLen=30, speed 5.768510 sents/s, time 0s, 31-Mar-2017 02:53:56
+  src 1: travel ( ) , verify ( front: wall )
+  ref 1: from four walk as far as you can <t_eos>
+  tgt 1: move to the end <t_eos>
+pairs 1: ,-move wall-to wall-the )-end 
+align 1: 3-0 7-1 7-2 8-3 
+  score -3.75615
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 02:53:56
+  Done, minLen=2, maxLen=39, speed 5.003502 sents/s, time 0s, 31-Mar-2017 02:53:57
+  src 1: travel ( steps: 1 ) , verify ( side: brick hallway )
+  ref 1: go forward one segment to the brick hall <t_eos>
+  tgt 1: go forward one segment to the intersection with the brick hall <t_eos>
+pairs 1: 1-go 1-forward hallway-one hallway-segment hallway-to hallway-the hallway-intersection hallway-with hallway-the hallway-brick hallway-hall 
+align 1: 3-0 3-1 10-2 10-3 10-4 10-5 10-6 10-7 10-8 10-9 10-10 
+  score -2.45868
+# Finetuning at epoch 47, iter 517, 0.0133028 -> 0.0119725
+# Epoch 48, lr=0.0119725, 31-Mar-2017 02:53:57
+48, 520, 3.30K, 0.0119725, 2.84, gN=6.92, 31-Mar-2017 02:54:01
+# eval 8.00, 48, 528, 3.30K, 0.01, train=2.81, valid=2.52, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=5.94s
+  save model cur test perplexity 8.00 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:54:22
+  Done, minLen=0, maxLen=12, speed 11.667795 sents/s, time 0s, 31-Mar-2017 02:54:22
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.32287
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:54:22
+  Done, minLen=2, maxLen=30, speed 5.865309 sents/s, time 0s, 31-Mar-2017 02:54:22
+  src 1: turn ( ) , verify ( front: easel )
+  ref 1: turn left or right to <unk> the easel <t_eos>
+  tgt 1: face the easel <t_eos>
+pairs 1: easel-face easel-the easel-easel 
+align 1: 7-0 7-1 7-2 
+  score -4.06122
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 02:54:22
+  Done, minLen=2, maxLen=30, speed 5.271231 sents/s, time 0s, 31-Mar-2017 02:54:23
+  src 1: travel ( ) , verify ( at: sofa )
+  ref 1: go till the bench <t_eos>
+  tgt 1: move to the stool <t_eos>
+pairs 1: ,-move sofa-to sofa-the sofa-stool 
+align 1: 3-0 7-1 7-2 7-3 
+  score -4.1725
+# Finetuning at epoch 48, iter 528, 0.0119725 -> 0.0107753
+# Epoch 49, lr=0.0107753, 31-Mar-2017 02:54:23
+49, 530, 5.00K, 0.0107753, 2.81, gN=3.36, 31-Mar-2017 02:54:25
+# eval 7.99, 49, 539, 5.00K, 0.01, train=2.78, valid=2.53, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=5.86s
+  save model cur test perplexity 7.99 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:54:48
+  Done, minLen=0, maxLen=12, speed 11.970314 sents/s, time 0s, 31-Mar-2017 02:54:48
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: (-move (-forward 
+align 1: 1-0 1-1 
+  score -3.35176
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 02:54:48
+  Done, minLen=4, maxLen=60, speed 4.984126 sents/s, time 0s, 31-Mar-2017 02:54:48
+  src 1: turn ( left ) , travel ( ) , verify ( at: lamp ) , turn ( right )
+  ref 1: take a left, follow the path, and then take a right at the lamp <t_eos>
+  tgt 1: turn left and move to the hat rack and turn right <t_eos>
+pairs 1: left-turn travel-left travel-and lamp-move turn-to lamp-the turn-hat turn-rack right-and right-turn travel-right 
+align 1: 2-0 5-1 5-2 12-3 15-4 12-5 15-6 15-7 17-8 17-9 5-10 
+  score -4.89011
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 02:54:48
+  Done, minLen=1, maxLen=18, speed 8.392782 sents/s, time 0s, 31-Mar-2017 02:54:48
+  src 1: verify ( left: hallway )
+  ref 1: you should see an alley to your left <t_eos>
+  tgt 1: to your left should be grass <t_eos>
+pairs 1: hallway-to hallway-your )-left hallway-should hallway-be verify-grass 
+align 1: 3-0 3-1 4-2 3-3 3-4 0-5 
+  score -3.63322
+# Finetuning at epoch 49, iter 539, 0.0107753 -> 0.00969774
+# Epoch 50, lr=0.00969774, 31-Mar-2017 02:54:48
+50, 540, 0.06K, 0.00969774, 2.78, gN=6.43, 31-Mar-2017 02:58:59
+50, 550, 0.75K, 0.00969774, 2.75, gN=3.95, 31-Mar-2017 02:59:17
+# eval 8.02, 50, 550, 0.75K, 0.01, train=2.75, valid=2.53, test=2.08, W_src{1}=0.051 W_tgt{1}=0.054 W_emb_src=0.074 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=8.77s
+  save model cur test perplexity 8.02 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 02:59:27
+  Done, minLen=0, maxLen=12, speed 8.292768 sents/s, time 0s, 31-Mar-2017 02:59:27
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go down <t_eos>
+pairs 1: (-go (-down 
+align 1: 1-0 1-1 
+  score -3.30568
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 02:59:27
+  Done, minLen=4, maxLen=66, speed 3.405519 sents/s, time 0s, 31-Mar-2017 02:59:28
+  src 1: verify ( front: chair ) , travel ( ) , verify ( at: chair ) , travel ( steps: 1 )
+  ref 1: go towards the chair and one intersection past the chair is position 3 <t_eos>
+  tgt 1: move one alley past the chair <t_eos>
+pairs 1: ,-move chair-one ,-alley travel-past chair-the ,-chair 
+align 1: 5-0 3-1 5-2 16-3 3-4 15-5 
+  score -3.14848
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 02:59:28
+  Done, minLen=2, maxLen=42, speed 3.221681 sents/s, time 0s, 31-Mar-2017 02:59:28
+  src 1: travel ( ) , verify ( front: fish wall , right: wall )
+  ref 1: go until there are fish on the wall and you can either only go left or towards a dead end <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: ,-move wall-to wall-the wall-corner 
+align 1: 3-0 11-1 8-2 8-3 
+  score -3.13791
+# Finetuning at epoch 50, iter 550, 0.00969774 -> 0.00872796
+# addNoise = 0
+# assert = 0
+# attnFunc = 1
+# attnOpt = 2
+# batchSize = 128
+# dataType = double
+# debug = 0
+# decode = 1
+# dropout = 1
+# epochFraction = 1
+# epochIter = 0
+# feedInput = 1
+# finetuneEpoch = 5
+# finetuneRate = 0.9
+# gpuDevice = 0
+# initRange = 0.1
+# isBi = 1
+# isClip = 1
+# isGradCheck = 0
+# isProfile = 0
+# isResume = 0
+# isReverse = 0
+# learningRate = 1
+# loadModel = 
+# logFreq = 10
+# lstmOpt = 0
+# lstmSize = 200
+# maxGradNorm = 5
+# maxLenRatio = 3
+# maxSentLen = 51
+# minLenRatio = 0.2
+# normLocalAttn = 0
+# numEpoches = 50
+# numLayers = 1
+# onlyCPU = 0
+# outDir = ../output/commands.cluster/
+# posWin = 10
+# saveHDF = 0
+# seed = 0
+# shuffle = 1
+# sortBatch = 1
+# srcLang = sail
+# srcVocabFile = ../output/commands.cluster/train.cluster.sail.vocab
+# testPrefix = ../output/commands.cluster/test.cluster
+# tgtLang = nl
+# tgtVocabFile = ../output/commands.cluster/train.cluster.nl.vocab
+# trainPrefix = ../output/commands.cluster/train.cluster
+# validPrefix = ../output/commands.cluster/valid.cluster
+# chunkSize = 12800
+# baseIndex = 0
+# clipForward = 50
+# clipBackward = 1000
+# nonlinear_gate_f = sigmoid
+# nonlinear_gate_f_prime = sigmoidPrime
+# nonlinear_f = tanh
+# nonlinear_f_prime = tanhPrime
+# beamSize = 12
+# stackSize = 100
+# unkPenalty = 0
+# forceDecoder = 0
+# prefixDecoder = 0
+# reuseEncoder = 0
+# isGPU = 0
+# logId = 16
+# srcSos = 53
+# tgtSos = 526
+# tgtEos = 527
+# srcVocabSize = 53
+# tgtVocabSize = 527
+# modelFile = ../output/commands.cluster//model.mat
+# modelRecentFile = ../output/commands.cluster//modelRecent.mat
+# softmaxSize = 200
+# lr = 1
+# epoch = 1
+# bestCostValid = 100000
+# testPerplexity = 100000
+# curTestPerpWord = 100000
+# startIter = 0
+# iter = 0
+# epochBatchCount = 0
+# finetuneCount = 0
+# modelSize = 1141400
+# Epoch 1, lr=1, 31-Mar-2017 10:03:06
+1, 10, 1.22K, 1, 8.15, gN=8.63, 31-Mar-2017 10:03:17
+# Num batches per epoch = 11, finetune count=11
+# eval 666.55, 1, 11, 1.57K, 1.00, train=8.00, valid=6.51, test=6.50, W_src{1}=0.050 W_tgt{1}=0.051 W_emb_src=0.052 W_emb_tgt=0.050 W_a=0.051 W_h=0.052 W_soft=0.051, time=3.95s
+  save model test perplexity 666.55 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 666.55 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:03:23
+  Done, minLen=0, maxLen=12, speed 8.736829 sents/s, time 0s, 31-Mar-2017 10:03:23
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go and 3 <t_eos>
+pairs 1: )-go travel-and travel-3 
+align 1: 2-0 0-1 0-2 
+  score -20.7809
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 10:03:23
+  Done, minLen=1, maxLen=15, speed 8.135373 sents/s, time 0s, 31-Mar-2017 10:03:23
+  src 1: turn ( left )
+  ref 1: i <unk> <unk> that you will turn left, <unk> i <unk> <unk> that you will turn in the direction in which more hallways are visible <t_eos>
+  tgt 1: the and your containg <t_eos>
+pairs 1: )-the (-and turn-your turn-containg 
+align 1: 3-0 1-1 0-2 0-3 
+  score -22.4397
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:03:23
+  Done, minLen=3, maxLen=54, speed 4.090917 sents/s, time 0s, 31-Mar-2017 10:03:24
+  src 1: travel ( steps: 1 ) , verify ( front: wall , right: wall , left: wall )
+  ref 1: go foward one segment to the dead end <t_eos>
+  tgt 1: the and and containg amek <t_eos>
+pairs 1: (-the (-and travel-and travel-containg travel-amek 
+align 1: 7-0 7-1 0-2 0-3 0-4 
+  score -25.4787
+# Epoch 2, lr=1, 31-Mar-2017 10:03:24
+2, 20, 0.83K, 1, 8.04, gN=38.00, 31-Mar-2017 10:03:33
+# eval 994.54, 2, 22, 0.83K, 1.00, train=8.08, valid=6.92, test=6.90, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.051 W_emb_tgt=0.050 W_a=0.051 W_h=0.054 W_soft=0.051, time=3.69s
+  save model cur test perplexity 994.54 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:03:39
+  Done, minLen=0, maxLen=12, speed 13.123876 sents/s, time 0s, 31-Mar-2017 10:03:39
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: to to the the the the the the the the the the <t_eos>
+pairs 1: travel-to travel-to travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 2-11 
+  score -41.5306
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 10:03:39
+  Done, minLen=5, maxLen=78, speed 2.725241 sents/s, time 0s, 31-Mar-2017 10:03:40
+  src 1: travel ( ) , verify ( side: gravel hallway ) , turn ( right ) , travel ( ) , verify ( at: easel )
+  ref 1: take a right at the black road intersection and follow it until you come to a black easel <t_eos>
+  tgt 1: to to the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: travel-to travel-to travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the travel-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 0-32 0-33 0-34 0-35 0-36 0-37 0-38 0-39 0-40 0-41 0-42 0-43 0-44 0-45 0-46 0-47 0-48 0-49 0-50 0-51 0-52 0-53 0-54 0-55 0-56 0-57 0-58 0-59 0-60 0-61 0-62 0-63 0-64 0-65 0-66 0-67 0-68 0-69 0-70 0-71 0-72 0-73 0-74 0-75 0-76 24-77 
+  score -253.972
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 10:03:40
+  Done, minLen=0, maxLen=6, speed 20.408996 sents/s, time 0s, 31-Mar-2017 10:03:40
+  src 1: null
+  ref 1: pos 3 is in between the two pieces of <unk> in this hallway <t_eos>
+  tgt 1: to a the the the the <t_eos>
+pairs 1: null-to null-a null-the null-the null-the null-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 
+  score -22.1607
+# Epoch 3, lr=1, 31-Mar-2017 10:03:40
+3, 30, 1.82K, 1, 8.04, gN=412.13, 31-Mar-2017 10:03:47
+# eval 483.16, 3, 33, 1.82K, 1.00, train=8.62, valid=6.17, test=6.18, W_src{1}=0.050 W_tgt{1}=0.052 W_emb_src=0.052 W_emb_tgt=0.050 W_a=0.051 W_h=0.055 W_soft=0.051, time=3.73s
+  save model test perplexity 483.16 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 483.16 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:03:56
+  Done, minLen=0, maxLen=12, speed 14.660607 sents/s, time 0s, 31-Mar-2017 10:03:56
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -5.31715
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:03:56
+  Done, minLen=1, maxLen=18, speed 13.029825 sents/s, time 0s, 31-Mar-2017 10:03:56
+  src 1: travel ( steps: 2 )
+  ref 1: then two spaces forward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -5.18969
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:03:56
+  Done, minLen=3, maxLen=54, speed 8.647751 sents/s, time 0s, 31-Mar-2017 10:03:56
+  src 1: travel ( ) , verify ( front: wall , right: wall ) , turn ( left )
+  ref 1: move into the corner and turn left <t_eos>
+  tgt 1: go left left <t_eos>
+pairs 1: travel-go travel-left travel-left 
+align 1: 0-0 0-1 0-2 
+  score -9.70493
+# Epoch 4, lr=1, 31-Mar-2017 10:03:56
+4, 40, 2.07K, 1, 8.22, gN=2.82, 31-Mar-2017 10:04:03
+# eval 245.74, 4, 44, 2.07K, 1.00, train=7.92, valid=5.70, test=5.50, W_src{1}=0.050 W_tgt{1}=0.053 W_emb_src=0.052 W_emb_tgt=0.050 W_a=0.052 W_h=0.055 W_soft=0.053, time=3.74s
+  save model test perplexity 245.74 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 245.74 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:04:13
+  Done, minLen=0, maxLen=12, speed 13.272633 sents/s, time 0s, 31-Mar-2017 10:04:13
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go the <t_eos>
+pairs 1: travel-go travel-the 
+align 1: 0-0 0-1 
+  score -5.0797
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 10:04:13
+  Done, minLen=0, maxLen=6, speed 13.589541 sents/s, time 0s, 31-Mar-2017 10:04:13
+  src 1: null
+  ref 1: the intersection you are standing in should also be empty <t_eos>
+  tgt 1: go the <t_eos>
+pairs 1: null-go null-the 
+align 1: 0-0 0-1 
+  score -5.2581
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:04:13
+  Done, minLen=3, maxLen=54, speed 3.476048 sents/s, time 0s, 31-Mar-2017 10:04:13
+  src 1: verify ( front: blue hallway ) , travel ( ) , verify ( side: flower hallway )
+  ref 1: take the blue path all the way down to the pink path intersection <t_eos>
+  tgt 1: go the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the <t_eos>
+pairs 1: verify-go verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the verify-the )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 0-32 0-33 0-34 0-35 0-36 0-37 0-38 0-39 0-40 0-41 0-42 0-43 0-44 0-45 0-46 0-47 0-48 0-49 0-50 0-51 0-52 16-53 
+  score -14.3501
+# Epoch 5, lr=1, 31-Mar-2017 10:04:13
+5, 50, 2.27K, 1, 7.66, gN=5.94, 31-Mar-2017 10:04:20
+# eval 108.89, 5, 55, 2.27K, 1.00, train=7.46, valid=4.84, test=4.69, W_src{1}=0.050 W_tgt{1}=0.054 W_emb_src=0.052 W_emb_tgt=0.051 W_a=0.052 W_h=0.055 W_soft=0.055, time=3.93s
+  save model test perplexity 108.89 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 108.89 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:04:29
+  Done, minLen=0, maxLen=12, speed 11.864789 sents/s, time 0s, 31-Mar-2017 10:04:30
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go to the end of <t_eos>
+pairs 1: travel-go travel-to travel-the travel-end travel-of 
+align 1: 0-0 0-1 0-2 0-3 0-4 
+  score -14.0247
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:04:30
+  Done, minLen=2, maxLen=30, speed 6.927846 sents/s, time 0s, 31-Mar-2017 10:04:30
+  src 1: travel ( ) , verify ( left: hallway )
+  ref 1: go straight until you can either go left or towards a dead end <t_eos>
+  tgt 1: go to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to <t_eos>
+pairs 1: travel-go travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to )-to 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 8-29 
+  score -70.2857
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:04:30
+  Done, minLen=3, maxLen=45, speed 4.644035 sents/s, time 0s, 31-Mar-2017 10:04:30
+  src 1: travel ( ) , verify ( at: sofa ) , turn ( right )
+  ref 1: move to this chair and turn right <t_eos>
+  tgt 1: go to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to to hall hall to <t_eos>
+pairs 1: travel-go travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall travel-to travel-to travel-hall travel-hall )-to 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 0-32 0-33 0-34 0-35 0-36 0-37 0-38 0-39 0-40 0-41 0-42 0-43 13-44 
+  score -106.744
+# Epoch 6, lr=1, 31-Mar-2017 10:04:30
+6, 60, 2.98K, 1, 7.24, gN=5.03, 31-Mar-2017 10:04:35
+# eval 151.90, 6, 66, 2.98K, 1.00, train=7.03, valid=5.06, test=5.02, W_src{1}=0.050 W_tgt{1}=0.054 W_emb_src=0.053 W_emb_tgt=0.051 W_a=0.052 W_h=0.056 W_soft=0.057, time=3.88s
+  save model cur test perplexity 151.90 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:04:46
+  Done, minLen=0, maxLen=12, speed 12.392956 sents/s, time 0s, 31-Mar-2017 10:04:46
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go right to your <t_eos>
+pairs 1: (-go travel-right travel-to travel-your 
+align 1: 1-0 0-1 0-2 0-3 
+  score -15.9321
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:04:46
+  Done, minLen=2, maxLen=33, speed 5.452919 sents/s, time 0s, 31-Mar-2017 10:04:46
+  src 1: travel ( ) , verify ( front: fish wall )
+  ref 1: go to the fish walled area <t_eos>
+  tgt 1: turn right to your <t_eos>
+pairs 1: travel-turn travel-right travel-to travel-your 
+align 1: 0-0 0-1 0-2 0-3 
+  score -15.4887
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:04:46
+  Done, minLen=2, maxLen=39, speed 4.850531 sents/s, time 0s, 31-Mar-2017 10:04:46
+  src 1: travel ( steps: 1 ) , verify ( side: brick hallway )
+  ref 1: go forward one segment to the brick hall <t_eos>
+  tgt 1: turn right to your to the red <t_eos>
+pairs 1: travel-turn travel-right travel-to travel-your travel-to travel-the travel-red 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 
+  score -25.2427
+# Finetuning at epoch 6, iter 66, 1 -> 0.9
+# Epoch 7, lr=0.9, 31-Mar-2017 10:04:47
+7, 70, 2.74K, 0.9, 6.90, gN=7.56, 31-Mar-2017 10:04:52
+# eval 57.44, 7, 77, 2.74K, 0.90, train=6.68, valid=4.17, test=4.05, W_src{1}=0.050 W_tgt{1}=0.054 W_emb_src=0.052 W_emb_tgt=0.052 W_a=0.052 W_h=0.056 W_soft=0.058, time=3.95s
+  save model test perplexity 57.44 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 57.44 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:05:05
+  Done, minLen=0, maxLen=12, speed 12.596362 sents/s, time 0s, 31-Mar-2017 10:05:05
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: turn right to the lamp the lamp the lamp the lamp the <t_eos>
+pairs 1: travel-turn travel-right travel-to travel-the travel-lamp travel-the travel-lamp travel-the travel-lamp travel-the travel-lamp )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 2-11 
+  score -28.091
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:05:05
+  Done, minLen=2, maxLen=33, speed 5.301721 sents/s, time 0s, 31-Mar-2017 10:05:05
+  src 1: turn ( ) , verify ( front: grass hallway )
+  ref 1: face the green carpeting <t_eos>
+  tgt 1: turn right to the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the blue <t_eos>
+pairs 1: turn-turn turn-right turn-to turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the )-blue 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 0-29 0-30 0-31 9-32 
+  score -86.6235
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:05:05
+  Done, minLen=2, maxLen=30, speed 5.646655 sents/s, time 0s, 31-Mar-2017 10:05:05
+  src 1: turn ( ) , verify ( back: wall )
+  ref 1: turn so the wall is on your back <t_eos>
+  tgt 1: turn right to the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the lamp the <t_eos>
+pairs 1: turn-turn turn-right turn-to turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp turn-the turn-lamp )-the 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 0-10 0-11 0-12 0-13 0-14 0-15 0-16 0-17 0-18 0-19 0-20 0-21 0-22 0-23 0-24 0-25 0-26 0-27 0-28 8-29 
+  score -78.1966
+# Finetuning at epoch 7, iter 77, 0.9 -> 0.81
+# Epoch 8, lr=0.81, 31-Mar-2017 10:05:05
+8, 80, 5.12K, 0.81, 6.59, gN=12.76, 31-Mar-2017 10:05:08
+# eval 90.95, 8, 88, 5.12K, 0.81, train=6.36, valid=4.83, test=4.51, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.053 W_emb_tgt=0.053 W_a=0.052 W_h=0.057 W_soft=0.059, time=4.61s
+  save model cur test perplexity 90.95 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:05:22
+  Done, minLen=0, maxLen=12, speed 9.698851 sents/s, time 0s, 31-Mar-2017 10:05:22
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go <t_eos>
+pairs 1: travel-go 
+align 1: 0-0 
+  score -4.98433
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 10:05:22
+  Done, minLen=4, maxLen=66, speed 4.855170 sents/s, time 0s, 31-Mar-2017 10:05:22
+  src 1: verify ( front: lamp ) , travel ( steps: 4 ) , verify ( side: wood hallway , back: lamp )
+  ref 1: go forward four segments, passing a lamp, to the intersection with the wooden-floored hall <t_eos>
+  tgt 1: go to the intersection <t_eos>
+pairs 1: verify-go verify-to verify-the verify-intersection 
+align 1: 0-0 0-1 0-2 0-3 
+  score -8.07456
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:05:22
+  Done, minLen=2, maxLen=30, speed 2.334970 sents/s, time 0s, 31-Mar-2017 10:05:23
+  src 1: turn ( ) , verify ( front: hatrack )
+  ref 1: face toward the hatrack in the blue-tiled hall <t_eos>
+  tgt 1: at the intersection <t_eos>
+pairs 1: turn-at turn-the turn-intersection 
+align 1: 0-0 0-1 0-2 
+  score -5.81288
+# Finetuning at epoch 8, iter 88, 0.81 -> 0.729
+# Epoch 9, lr=0.729, 31-Mar-2017 10:05:23
+9, 90, 7.85K, 0.729, 6.33, gN=3.27, 31-Mar-2017 10:05:24
+# eval 43.78, 9, 99, 7.85K, 0.73, train=6.09, valid=3.91, test=3.78, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.055 W_emb_tgt=0.054 W_a=0.052 W_h=0.057 W_soft=0.061, time=4.10s
+  save model test perplexity 43.78 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 43.78 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:05:39
+  Done, minLen=0, maxLen=12, speed 16.740324 sents/s, time 0s, 31-Mar-2017 10:05:39
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: travel-turn travel-right 
+align 1: 0-0 0-1 
+  score -4.54048
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 10:05:39
+  Done, minLen=2, maxLen=36, speed 11.843290 sents/s, time 0s, 31-Mar-2017 10:05:39
+  src 1: verify ( side: brick hallway ) , turn ( right )
+  ref 1: and a right when you see the red hall <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: verify-turn verify-right 
+align 1: 0-0 0-1 
+  score -3.94886
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:05:39
+  Done, minLen=2, maxLen=39, speed 12.091898 sents/s, time 0s, 31-Mar-2017 10:05:39
+  src 1: travel ( steps: 1 ) , verify ( side: concrete hallway )
+  ref 1: go forward one segment to the intersection with a bare concrete flor <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: travel-turn travel-right 
+align 1: 0-0 0-1 
+  score -4.27384
+# Finetuning at epoch 9, iter 99, 0.729 -> 0.6561
+# Epoch 10, lr=0.6561, 31-Mar-2017 10:05:39
+10, 100, 11.37K, 0.6561, 6.06, gN=9.21, 31-Mar-2017 10:05:41
+10, 110, 1.30K, 0.6561, 5.85, gN=4.30, 31-Mar-2017 10:05:51
+# eval 35.51, 10, 110, 1.30K, 0.66, train=5.85, valid=3.69, test=3.57, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.056 W_emb_tgt=0.054 W_a=0.052 W_h=0.058 W_soft=0.062, time=4.69s
+  save model test perplexity 35.51 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 35.51 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:05:56
+  Done, minLen=0, maxLen=12, speed 18.124150 sents/s, time 0s, 31-Mar-2017 10:05:57
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: travel-turn travel-right 
+align 1: 0-0 0-1 
+  score -3.14153
+# Decoding batch of 1 sents, minLen=3, maxLen=51, 31-Mar-2017 10:05:57
+  Done, minLen=3, maxLen=51, speed 8.549420 sents/s, time 0s, 31-Mar-2017 10:05:57
+  src 1: turn ( ) , verify ( front: yellow hallway ) , travel ( steps: 1 )
+  ref 1: from four face the octagon carpet and move forward one alley <t_eos>
+  tgt 1: turn right and turn right <t_eos>
+pairs 1: steps:-turn steps:-right steps:-and steps:-turn steps:-right 
+align 1: 13-0 13-1 13-2 13-3 13-4 
+  score -7.27568
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:05:57
+  Done, minLen=2, maxLen=33, speed 10.601306 sents/s, time 0s, 31-Mar-2017 10:05:57
+  src 1: travel ( ) , verify ( side: gravel hallway )
+  ref 1: continue until you get to the grey floor <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: travel-turn travel-right 
+align 1: 0-0 0-1 
+  score -2.71807
+# Finetuning at epoch 10, iter 110, 0.6561 -> 0.59049
+# Epoch 11, lr=0.59049, 31-Mar-2017 10:05:57
+11, 120, 1.37K, 0.59049, 5.65, gN=4.12, 31-Mar-2017 10:06:07
+# eval 24.79, 11, 121, 1.37K, 0.59, train=5.63, valid=3.45, test=3.21, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.058 W_emb_tgt=0.055 W_a=0.052 W_h=0.058 W_soft=0.063, time=3.99s
+  save model test perplexity 24.79 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 24.79 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:06:12
+  Done, minLen=0, maxLen=12, speed 17.849174 sents/s, time 0s, 31-Mar-2017 10:06:13
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward one segment <t_eos>
+pairs 1: travel-go travel-forward travel-one travel-segment 
+align 1: 0-0 0-1 0-2 0-3 
+  score -4.48086
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:06:13
+  Done, minLen=2, maxLen=30, speed 8.075979 sents/s, time 0s, 31-Mar-2017 10:06:13
+  src 1: travel ( ) , verify ( at: sofa )
+  ref 1: go to the bench <t_eos>
+  tgt 1: go forward one segment <t_eos>
+pairs 1: travel-go travel-forward travel-one travel-segment 
+align 1: 0-0 0-1 0-2 0-3 
+  score -4.91428
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:06:13
+  Done, minLen=2, maxLen=30, speed 8.379561 sents/s, time 0s, 31-Mar-2017 10:06:13
+  src 1: turn ( ) , verify ( front: easel )
+  ref 1: <unk> facing the easel <t_eos>
+  tgt 1: take a right <t_eos>
+pairs 1: turn-take turn-a turn-right 
+align 1: 0-0 0-1 0-2 
+  score -5.48551
+# Finetuning at epoch 11, iter 121, 0.59049 -> 0.531441
+# Epoch 12, lr=0.531441, 31-Mar-2017 10:06:13
+12, 130, 1.54K, 0.531441, 5.45, gN=4.52, 31-Mar-2017 10:06:22
+# eval 36.64, 12, 132, 1.54K, 0.53, train=5.43, valid=3.77, test=3.60, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.059 W_emb_tgt=0.056 W_a=0.052 W_h=0.059 W_soft=0.064, time=3.72s
+  save model cur test perplexity 36.64 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:06:28
+  Done, minLen=0, maxLen=12, speed 18.268177 sents/s, time 0s, 31-Mar-2017 10:06:28
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: travel-move 
+align 1: 0-0 
+  score -2.00738
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 10:06:28
+  Done, minLen=5, maxLen=78, speed 6.760960 sents/s, time 0s, 31-Mar-2017 10:06:28
+  src 1: turn ( ) , verify ( front: yellow hallway , front: sofa ) , travel ( steps: 3 ) , verify ( back: sofa )
+  ref 1: follow the yellow-tiled hall forward three segments, passing the bench <t_eos>
+  tgt 1: go to the the end <t_eos>
+pairs 1: steps:-go steps:-to 3-the steps:-the steps:-end 
+align 1: 16-0 16-1 17-2 16-3 16-4 
+  score -9.68096
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:06:28
+  Done, minLen=3, maxLen=54, speed 8.407671 sents/s, time 0s, 31-Mar-2017 10:06:28
+  src 1: verify ( front: concrete hallway ) , travel ( ) , verify ( side: brick hallway )
+  ref 1: follow the bare concrete hall to the intersection with the brick hall <t_eos>
+  tgt 1: go to the intersection <t_eos>
+pairs 1: (-go (-to verify-the verify-intersection 
+align 1: 8-0 8-1 0-2 0-3 
+  score -5.41116
+# Finetuning at epoch 12, iter 132, 0.531441 -> 0.478297
+# Epoch 13, lr=0.478297, 31-Mar-2017 10:06:29
+13, 140, 1.72K, 0.478297, 5.28, gN=8.20, 31-Mar-2017 10:06:37
+# eval 19.00, 13, 143, 1.72K, 0.48, train=5.25, valid=3.18, test=2.94, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.060 W_emb_tgt=0.056 W_a=0.052 W_h=0.060 W_soft=0.065, time=3.81s
+  save model test perplexity 19.00 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 19.00 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:06:44
+  Done, minLen=0, maxLen=12, speed 15.948709 sents/s, time 0s, 31-Mar-2017 10:06:44
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the chair <t_eos>
+pairs 1: travel-move travel-to travel-the travel-chair 
+align 1: 0-0 0-1 0-2 0-3 
+  score -6.76188
+# Decoding batch of 1 sents, minLen=3, maxLen=57, 31-Mar-2017 10:06:44
+  Done, minLen=3, maxLen=57, speed 7.511624 sents/s, time 0s, 31-Mar-2017 10:06:44
+  src 1: turn ( ) , verify ( front: butterfly wall , front: blue hallway ) , travel ( )
+  ref 1: go down the butterfly <unk> floored hallway <t_eos>
+  tgt 1: take a right <t_eos>
+pairs 1: turn-take turn-a verify-right 
+align 1: 0-0 0-1 4-2 
+  score -5.85639
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:06:44
+  Done, minLen=2, maxLen=33, speed 9.516559 sents/s, time 0s, 31-Mar-2017 10:06:44
+  src 1: travel ( ) , verify ( right: brick hallway )
+  ref 1: move until you see red brick floor to your right <t_eos>
+  tgt 1: go right <t_eos>
+pairs 1: travel-go travel-right 
+align 1: 0-0 0-1 
+  score -5.78146
+# Finetuning at epoch 13, iter 143, 0.478297 -> 0.430467
+# Epoch 14, lr=0.430467, 31-Mar-2017 10:06:44
+14, 150, 1.73K, 0.430467, 5.14, gN=7.41, 31-Mar-2017 10:06:52
+# eval 16.97, 14, 154, 1.73K, 0.43, train=5.09, valid=3.07, test=2.83, W_src{1}=0.050 W_tgt{1}=0.055 W_emb_src=0.061 W_emb_tgt=0.057 W_a=0.052 W_h=0.060 W_soft=0.066, time=3.83s
+  save model test perplexity 16.97 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 16.97 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:07:00
+  Done, minLen=0, maxLen=12, speed 18.794166 sents/s, time 0s, 31-Mar-2017 10:07:00
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the intersection <t_eos>
+pairs 1: travel-move travel-to travel-the travel-intersection 
+align 1: 0-0 0-1 0-2 0-3 
+  score -4.9615
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:07:00
+  Done, minLen=2, maxLen=33, speed 8.963144 sents/s, time 0s, 31-Mar-2017 10:07:00
+  src 1: travel ( ) , verify ( side: flower hallway )
+  ref 1: keep going till the pink floored area <t_eos>
+  tgt 1: move to the easel <t_eos>
+pairs 1: travel-move travel-to travel-the hallway-easel 
+align 1: 0-0 0-1 0-2 8-3 
+  score -5.84386
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:07:00
+  Done, minLen=0, maxLen=12, speed 15.577780 sents/s, time 0s, 31-Mar-2017 10:07:00
+  src 1: travel ( )
+  ref 1: all the way down to a winding hall <t_eos>
+  tgt 1: move to the intersection <t_eos>
+pairs 1: travel-move travel-to travel-the travel-intersection 
+align 1: 0-0 0-1 0-2 0-3 
+  score -4.9615
+# Finetuning at epoch 14, iter 154, 0.430467 -> 0.38742
+# Epoch 15, lr=0.38742, 31-Mar-2017 10:07:00
+15, 160, 2.03K, 0.38742, 4.99, gN=2.75, 31-Mar-2017 10:07:07
+# eval 16.03, 15, 165, 2.03K, 0.39, train=4.93, valid=3.02, test=2.77, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.062 W_emb_tgt=0.057 W_a=0.052 W_h=0.061 W_soft=0.067, time=3.74s
+  save model test perplexity 16.03 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 16.03 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:07:15
+  Done, minLen=0, maxLen=12, speed 15.768891 sents/s, time 0s, 31-Mar-2017 10:07:16
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward one segment to the end of the hall <t_eos>
+pairs 1: travel-go travel-forward travel-one travel-segment travel-to travel-the travel-end travel-of travel-the travel-hall 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 0-6 0-7 0-8 0-9 
+  score -9.80165
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 10:07:16
+  Done, minLen=4, maxLen=66, speed 3.081693 sents/s, time 0s, 31-Mar-2017 10:07:16
+  src 1: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( side: flower hallway )
+  ref 1: follow the hall with the yellow-tiled floor to the hall with pink-flowered carpet on the floor <t_eos>
+  tgt 1: at the end of the hall <t_eos>
+pairs 1: turn-at turn-the turn-end turn-of turn-the turn-hall 
+align 1: 0-0 0-1 0-2 0-3 0-4 0-5 
+  score -7.94501
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 10:07:16
+  Done, minLen=2, maxLen=36, speed 5.661488 sents/s, time 0s, 31-Mar-2017 10:07:16
+  src 1: turn ( right ) , verify ( front: grass hallway )
+  ref 1: turn right onto the green hallway <t_eos>
+  tgt 1: take a left onto the blue path <t_eos>
+pairs 1: right-take right-a ,-left verify-onto hallway-the hallway-blue turn-path 
+align 1: 2-0 2-1 4-2 5-3 9-4 9-5 0-6 
+  score -8.1529
+# Finetuning at epoch 15, iter 165, 0.38742 -> 0.348678
+# Epoch 16, lr=0.348678, 31-Mar-2017 10:07:16
+16, 170, 2.72K, 0.348678, 4.87, gN=3.66, 31-Mar-2017 10:07:21
+# eval 16.07, 16, 176, 2.72K, 0.35, train=4.79, valid=3.04, test=2.78, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.063 W_emb_tgt=0.057 W_a=0.052 W_h=0.062 W_soft=0.068, time=3.82s
+  save model cur test perplexity 16.07 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:07:31
+  Done, minLen=0, maxLen=12, speed 19.565260 sents/s, time 0s, 31-Mar-2017 10:07:31
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: travel-move 
+align 1: 0-0 
+  score -2.7811
+# Decoding batch of 1 sents, minLen=1, maxLen=15, 31-Mar-2017 10:07:31
+  Done, minLen=1, maxLen=15, speed 14.809330 sents/s, time 0s, 31-Mar-2017 10:07:31
+  src 1: turn ( right )
+  ref 1: from here turn to the right <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn right-right 
+align 1: 2-0 2-1 
+  score -2.07506
+# Decoding batch of 1 sents, minLen=4, maxLen=69, 31-Mar-2017 10:07:31
+  Done, minLen=4, maxLen=69, speed 7.445573 sents/s, time 0s, 31-Mar-2017 10:07:31
+  src 1: turn ( right ) , verify ( front: brick hallway ) , travel ( ) , verify ( side: gravel hallway )
+  ref 1: take a right onto the red brick and go all the way down until the intersection of the black path <t_eos>
+  tgt 1: take the blue path <t_eos>
+pairs 1: right-take right-the right-blue right-path 
+align 1: 2-0 2-1 2-2 2-3 
+  score -6.3995
+# Finetuning at epoch 16, iter 176, 0.348678 -> 0.313811
+# Epoch 17, lr=0.313811, 31-Mar-2017 10:07:31
+17, 180, 2.91K, 0.313811, 4.74, gN=3.59, 31-Mar-2017 10:07:37
+# eval 13.74, 17, 187, 2.91K, 0.31, train=4.67, valid=2.88, test=2.62, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.064 W_emb_tgt=0.058 W_a=0.052 W_h=0.062 W_soft=0.068, time=4.02s
+  save model test perplexity 13.74 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 13.74 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:07:47
+  Done, minLen=0, maxLen=12, speed 11.452655 sents/s, time 0s, 31-Mar-2017 10:07:47
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the intersection <t_eos>
+pairs 1: travel-move travel-to travel-the (-intersection 
+align 1: 0-0 0-1 0-2 1-3 
+  score -5.38283
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:07:47
+  Done, minLen=3, maxLen=45, speed 4.728691 sents/s, time 0s, 31-Mar-2017 10:07:48
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: go to blue hall <t_eos>
+pairs 1: travel-go travel-to hallway-blue travel-hall 
+align 1: 0-0 0-1 8-2 0-3 
+  score -6.50726
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:07:48
+  Done, minLen=3, maxLen=45, speed 4.711314 sents/s, time 0s, 31-Mar-2017 10:07:48
+  src 1: travel ( ) , verify ( at: lamp ) , turn ( right )
+  ref 1: at the lamp turn right <t_eos>
+  tgt 1: at the end of the hall <t_eos>
+pairs 1: right-at right-the right-end right-of right-the right-hall 
+align 1: 12-0 12-1 12-2 12-3 12-4 12-5 
+  score -5.75265
+# Finetuning at epoch 17, iter 187, 0.313811 -> 0.28243
+# Epoch 18, lr=0.28243, 31-Mar-2017 10:07:48
+18, 190, 3.64K, 0.28243, 4.64, gN=2.92, 31-Mar-2017 10:07:51
+# eval 12.76, 18, 198, 3.64K, 0.28, train=4.55, valid=2.85, test=2.55, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.064 W_emb_tgt=0.058 W_a=0.052 W_h=0.063 W_soft=0.069, time=3.99s
+  save model test perplexity 12.76 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 12.76 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:08:04
+  Done, minLen=0, maxLen=12, speed 16.039521 sents/s, time 0s, 31-Mar-2017 10:08:04
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: at the intersection of the hall <t_eos>
+pairs 1: (-at travel-the (-intersection (-of (-the travel-hall 
+align 1: 1-0 0-1 1-2 1-3 1-4 0-5 
+  score -6.30372
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:08:04
+  Done, minLen=2, maxLen=33, speed 7.468818 sents/s, time 0s, 31-Mar-2017 10:08:04
+  src 1: turn ( ) , verify ( front: grass hallway )
+  ref 1: turn to face the green <unk> <t_eos>
+  tgt 1: at the end of the hall <t_eos>
+pairs 1: turn-at turn-the turn-end turn-of turn-the hallway-hall 
+align 1: 0-0 0-1 0-2 0-3 0-4 8-5 
+  score -6.65841
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:08:04
+  Done, minLen=3, maxLen=45, speed 5.477381 sents/s, time 0s, 31-Mar-2017 10:08:04
+  src 1: travel ( ) , verify ( at: lamp ) , turn ( right )
+  ref 1: at the lamp turn right <t_eos>
+  tgt 1: at the end of the hall <t_eos>
+pairs 1: right-at right-the right-end right-of right-the right-hall 
+align 1: 12-0 12-1 12-2 12-3 12-4 12-5 
+  score -5.19836
+# Finetuning at epoch 18, iter 198, 0.28243 -> 0.254187
+# Epoch 19, lr=0.254187, 31-Mar-2017 10:08:04
+19, 200, 6.50K, 0.254187, 4.53, gN=3.57, 31-Mar-2017 10:08:07
+# eval 12.83, 19, 209, 6.50K, 0.25, train=4.44, valid=2.84, test=2.55, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.065 W_emb_tgt=0.058 W_a=0.053 W_h=0.063 W_soft=0.069, time=3.98s
+  save model test perplexity 12.83 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 12.83 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:08:20
+  Done, minLen=0, maxLen=12, speed 16.500289 sents/s, time 0s, 31-Mar-2017 10:08:20
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move <t_eos>
+pairs 1: (-move 
+align 1: 1-0 
+  score -3.35097
+# Decoding batch of 1 sents, minLen=7, maxLen=114, 31-Mar-2017 10:08:20
+  Done, minLen=7, maxLen=114, speed 6.052902 sents/s, time 0s, 31-Mar-2017 10:08:20
+  src 1: verify ( side: blue hallway , front: flower hallway ) , travel ( steps: 1 ) , turn ( ) , verify ( front: concrete hallway ) , travel ( ) , verify ( front: wall )
+  ref 1: position 6 is at the end of a bare concrete hall one segment along the pink-flowered carpet hall away from the blue-tiled hall <t_eos>
+  tgt 1: move to the end of the hall <t_eos>
+pairs 1: 1-move verify-to side:-the steps:-end verify-of flower-the verify-hall 
+align 1: 14-0 0-1 2-2 13-3 0-4 7-5 32-6 
+  score -6.98622
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 10:08:20
+  Done, minLen=4, maxLen=60, speed 7.379529 sents/s, time 0s, 31-Mar-2017 10:08:21
+  src 1: verify ( front: blue hallway ) , travel ( steps: 2 ) , verify ( side: flower hallway )
+  ref 1: go forward two segments along the blue-tiled hall to the intersection with the pink-flowered carpet hall <t_eos>
+  tgt 1: go forward two segments <t_eos>
+pairs 1: steps:-go steps:-forward verify-two verify-segments 
+align 1: 9-0 9-1 0-2 13-3 
+  score -5.95188
+# Finetuning at epoch 19, iter 209, 0.254187 -> 0.228768
+# Epoch 20, lr=0.228768, 31-Mar-2017 10:08:21
+20, 210, 19.41K, 0.228768, 4.44, gN=2.12, 31-Mar-2017 10:08:21
+20, 220, 1.36K, 0.228768, 4.34, gN=4.93, 31-Mar-2017 10:08:32
+# eval 11.84, 20, 220, 1.36K, 0.23, train=4.34, valid=2.83, test=2.47, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.066 W_emb_tgt=0.058 W_a=0.053 W_h=0.064 W_soft=0.070, time=3.73s
+  save model test perplexity 11.84 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 11.84 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:08:37
+  Done, minLen=0, maxLen=12, speed 19.080328 sents/s, time 0s, 31-Mar-2017 10:08:37
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: at the intersection of the hall <t_eos>
+pairs 1: travel-at travel-the (-intersection (-of travel-the travel-hall 
+align 1: 0-0 0-1 1-2 1-3 0-4 0-5 
+  score -5.95609
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:08:37
+  Done, minLen=2, maxLen=33, speed 7.848123 sents/s, time 0s, 31-Mar-2017 10:08:37
+  src 1: travel ( ) , verify ( left: concrete hallway )
+  ref 1: move to the alley where there is only gray floor to your left <t_eos>
+  tgt 1: at the intersection of the hall <t_eos>
+pairs 1: (-at travel-the (-intersection concrete-of concrete-the hallway-hall 
+align 1: 1-0 0-1 1-2 7-3 7-4 8-5 
+  score -6.26485
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:08:37
+  Done, minLen=2, maxLen=30, speed 7.952097 sents/s, time 0s, 31-Mar-2017 10:08:37
+  src 1: verify ( front: hatrack , left: concrete hallway )
+  ref 1: in front of you is a hatrack and to your left is grey floored alley <t_eos>
+  tgt 1: you should see an easel <t_eos>
+pairs 1: verify-you verify-should hallway-see hallway-an concrete-easel 
+align 1: 0-0 0-1 7-2 7-3 6-4 
+  score -6.13658
+# Finetuning at epoch 20, iter 220, 0.228768 -> 0.205891
+# Epoch 21, lr=0.205891, 31-Mar-2017 10:08:37
+21, 230, 1.35K, 0.205891, 4.25, gN=8.88, 31-Mar-2017 10:08:48
+# eval 10.76, 21, 231, 1.35K, 0.21, train=4.24, valid=2.69, test=2.38, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.066 W_emb_tgt=0.059 W_a=0.053 W_h=0.064 W_soft=0.070, time=3.87s
+  save model test perplexity 10.76 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 10.76 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:08:53
+  Done, minLen=0, maxLen=12, speed 17.597888 sents/s, time 0s, 31-Mar-2017 10:08:53
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: travel-move (-to travel-the (-corner 
+align 1: 0-0 1-1 0-2 1-3 
+  score -5.65785
+# Decoding batch of 1 sents, minLen=4, maxLen=60, 31-Mar-2017 10:08:53
+  Done, minLen=4, maxLen=60, speed 5.554013 sents/s, time 0s, 31-Mar-2017 10:08:53
+  src 1: verify ( front: chair ) , travel ( ) , verify ( back: chair , side: flower hallway )
+  ref 1: go forward, passing the chair, to the intersection with the pink-flowered carpet <t_eos>
+  tgt 1: move to the easel <t_eos>
+pairs 1: (-move travel-to verify-the back:-easel 
+align 1: 7-0 6-1 0-2 12-3 
+  score -6.01519
+# Decoding batch of 1 sents, minLen=3, maxLen=57, 31-Mar-2017 10:08:53
+  Done, minLen=3, maxLen=57, speed 4.244698 sents/s, time 0s, 31-Mar-2017 10:08:53
+  src 1: verify ( front: yellow hallway ) , travel ( steps: 3 ) , verify ( front: wall )
+  ref 1: walk to the end of the yellow hall, 3 steps <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward verify-twice 
+align 1: 9-0 9-1 13-2 
+  score -4.37208
+# Finetuning at epoch 21, iter 231, 0.205891 -> 0.185302
+# Epoch 22, lr=0.185302, 31-Mar-2017 10:08:53
+22, 240, 1.54K, 0.185302, 4.16, gN=4.67, 31-Mar-2017 10:09:03
+# eval 11.54, 22, 242, 1.54K, 0.19, train=4.15, valid=2.79, test=2.45, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.067 W_emb_tgt=0.059 W_a=0.053 W_h=0.064 W_soft=0.071, time=3.86s
+  save model cur test perplexity 11.54 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:09:08
+  Done, minLen=0, maxLen=12, speed 18.460062 sents/s, time 0s, 31-Mar-2017 10:09:08
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: travel-move travel-forward 
+align 1: 0-0 0-1 
+  score -3.8383
+# Decoding batch of 1 sents, minLen=4, maxLen=66, 31-Mar-2017 10:09:08
+  Done, minLen=4, maxLen=66, speed 6.677529 sents/s, time 0s, 31-Mar-2017 10:09:09
+  src 1: turn ( ) , verify ( front: blue hallway ) , travel ( ) , verify ( side: flower hallway )
+  ref 1: go down the blue-tiled floor until you reach a hall with pink-flowered carpet <t_eos>
+  tgt 1: go to the end of the hall <t_eos>
+pairs 1: (-go travel-to hallway-the turn-end turn-of travel-the verify-hall 
+align 1: 1-0 11-1 8-2 0-3 0-4 11-5 15-6 
+  score -5.70483
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:09:09
+  Done, minLen=1, maxLen=18, speed 11.336326 sents/s, time 0s, 31-Mar-2017 10:09:09
+  src 1: travel ( steps: 1 )
+  ref 1: wlak forward once <t_eos>
+  tgt 1: go forward one segment <t_eos>
+pairs 1: steps:-go steps:-forward steps:-one (-segment 
+align 1: 2-0 2-1 2-2 1-3 
+  score -3.56963
+# Finetuning at epoch 22, iter 242, 0.185302 -> 0.166772
+# Epoch 23, lr=0.166772, 31-Mar-2017 10:09:09
+23, 250, 1.50K, 0.166772, 4.09, gN=2.80, 31-Mar-2017 10:09:17
+# eval 10.37, 23, 253, 1.50K, 0.17, train=4.07, valid=2.69, test=2.34, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.067 W_emb_tgt=0.059 W_a=0.053 W_h=0.065 W_soft=0.071, time=3.76s
+  save model cur test perplexity 10.37 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:09:24
+  Done, minLen=0, maxLen=12, speed 19.157455 sents/s, time 0s, 31-Mar-2017 10:09:24
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: at the intersection of the hall <t_eos>
+pairs 1: travel-at travel-the (-intersection travel-of travel-the travel-hall 
+align 1: 0-0 0-1 1-2 0-3 0-4 0-5 
+  score -6.89319
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:09:24
+  Done, minLen=1, maxLen=18, speed 12.956892 sents/s, time 0s, 31-Mar-2017 10:09:25
+  src 1: travel ( steps: 3 )
+  ref 1: walk three times forward <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward steps:-twice 
+align 1: 2-0 2-1 2-2 
+  score -4.281
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:09:25
+  Done, minLen=2, maxLen=30, speed 7.973782 sents/s, time 0s, 31-Mar-2017 10:09:25
+  src 1: travel ( ) , verify ( front: wall )
+  ref 1: the end of this hall is 5 <t_eos>
+  tgt 1: go to the end of the hall <t_eos>
+pairs 1: travel-go travel-to wall-the verify-end (-of wall-the wall-hall 
+align 1: 0-0 0-1 7-2 4-3 5-4 7-5 7-6 
+  score -6.74958
+# Finetuning at epoch 23, iter 253, 0.166772 -> 0.150095
+# Epoch 24, lr=0.150095, 31-Mar-2017 10:09:25
+24, 260, 2.00K, 0.150095, 4.01, gN=3.37, 31-Mar-2017 10:09:32
+# eval 9.88, 24, 264, 2.00K, 0.15, train=3.99, valid=2.63, test=2.29, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.068 W_emb_tgt=0.059 W_a=0.053 W_h=0.065 W_soft=0.071, time=4.26s
+  save model test perplexity 9.88 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.88 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:09:41
+  Done, minLen=0, maxLen=12, speed 15.614265 sents/s, time 0s, 31-Mar-2017 10:09:41
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move )-one (-alley 
+align 1: 0-0 2-1 1-2 
+  score -4.47054
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:09:41
+  Done, minLen=3, maxLen=45, speed 5.184141 sents/s, time 0s, 31-Mar-2017 10:09:41
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: go to the end of the hall <t_eos>
+pairs 1: travel-go travel-to hallway-the verify-end hallway-of hallway-the verify-hall 
+align 1: 0-0 0-1 8-2 4-3 12-4 12-5 4-6 
+  score -6.86632
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 10:09:41
+  Done, minLen=2, maxLen=36, speed 8.192961 sents/s, time 0s, 31-Mar-2017 10:09:41
+  src 1: turn ( right ) , verify ( front: flower hallway )
+  ref 1: turn right along the pink-flowered carpet hall <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn ,-right 
+align 1: 2-0 4-1 
+  score -2.93445
+# Finetuning at epoch 24, iter 264, 0.150095 -> 0.135085
+# Epoch 25, lr=0.135085, 31-Mar-2017 10:09:41
+25, 270, 2.19K, 0.135085, 3.94, gN=4.15, 31-Mar-2017 10:09:47
+# eval 9.60, 25, 275, 2.19K, 0.14, train=3.91, valid=2.62, test=2.26, W_src{1}=0.051 W_tgt{1}=0.056 W_emb_src=0.068 W_emb_tgt=0.059 W_a=0.053 W_h=0.066 W_soft=0.072, time=4.42s
+  save model test perplexity 9.60 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.60 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:09:57
+  Done, minLen=0, maxLen=12, speed 3.616754 sents/s, time 0s, 31-Mar-2017 10:09:57
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move travel-one travel-alley 
+align 1: 0-0 0-1 0-2 
+  score -4.91476
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:09:58
+  Done, minLen=3, maxLen=45, speed 3.517065 sents/s, time 0s, 31-Mar-2017 10:09:58
+  src 1: travel ( ) , verify ( front: wall ) , turn ( left )
+  ref 1: move to the wall and turn left <t_eos>
+  tgt 1: move to the chair <t_eos>
+pairs 1: left-move travel-to wall-the left-chair 
+align 1: 12-0 0-1 7-2 12-3 
+  score -4.38322
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:09:58
+  Done, minLen=2, maxLen=39, speed 3.178710 sents/s, time 0s, 31-Mar-2017 10:09:58
+  src 1: travel ( steps: 1 ) , verify ( side: gravel hallway )
+  ref 1: go foward one segment to the intersection with the stone hall <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward hallway-twice 
+align 1: 2-0 2-1 10-2 
+  score -4.50479
+# Finetuning at epoch 25, iter 275, 0.135085 -> 0.121577
+# Epoch 26, lr=0.121577, 31-Mar-2017 10:09:58
+26, 280, 2.38K, 0.121577, 3.88, gN=3.14, 31-Mar-2017 10:10:03
+# eval 9.90, 26, 286, 2.38K, 0.12, train=3.84, valid=2.65, test=2.29, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.068 W_emb_tgt=0.059 W_a=0.053 W_h=0.066 W_soft=0.072, time=4.62s
+  save model cur test perplexity 9.90 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:10:18
+  Done, minLen=0, maxLen=12, speed 6.637594 sents/s, time 0s, 31-Mar-2017 10:10:18
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: go forward three segments to the intersection of the hall <t_eos>
+pairs 1: travel-go travel-forward travel-three travel-segments (-to travel-the (-intersection travel-of travel-the travel-hall 
+align 1: 0-0 0-1 0-2 0-3 1-4 0-5 1-6 0-7 0-8 0-9 
+  score -9.22159
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 10:10:18
+  Done, minLen=3, maxLen=48, speed 2.457757 sents/s, time 0s, 31-Mar-2017 10:10:18
+  src 1: travel ( ) , verify ( side: brick hallway ) , turn ( right )
+  ref 1: move to the brick floor and turn right <t_eos>
+  tgt 1: move to the blue carpet <t_eos>
+pairs 1: right-move hallway-to hallway-the )-blue right-carpet 
+align 1: 13-0 8-1 8-2 9-3 13-4 
+  score -5.89071
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:10:18
+  Done, minLen=1, maxLen=18, speed 5.715037 sents/s, time 0s, 31-Mar-2017 10:10:18
+  src 1: travel ( steps: 3 )
+  ref 1: walk forward three times <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward steps:-twice 
+align 1: 2-0 2-1 2-2 
+  score -4.87394
+# Finetuning at epoch 26, iter 286, 0.121577 -> 0.109419
+# Epoch 27, lr=0.109419, 31-Mar-2017 10:10:19
+27, 290, 2.22K, 0.109419, 3.82, gN=3.29, 31-Mar-2017 10:10:25
+# eval 9.48, 27, 297, 2.22K, 0.11, train=3.77, valid=2.61, test=2.25, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.069 W_emb_tgt=0.059 W_a=0.053 W_h=0.066 W_soft=0.072, time=5.10s
+  save model test perplexity 9.48 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.48 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:10:42
+  Done, minLen=0, maxLen=12, speed 15.039856 sents/s, time 0s, 31-Mar-2017 10:10:42
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: travel-move travel-to travel-the travel-corner 
+align 1: 0-0 0-1 0-2 0-3 
+  score -5.99195
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 10:10:42
+  Done, minLen=0, maxLen=6, speed 19.378718 sents/s, time 0s, 31-Mar-2017 10:10:42
+  src 1: null
+  ref 1: the intersection you are standing in should also be empty <t_eos>
+  tgt 1: you should see an easel <t_eos>
+pairs 1: null-you null-should null-see null-an null-easel 
+align 1: 0-0 0-1 0-2 0-3 0-4 
+  score -6.53358
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 10:10:42
+  Done, minLen=1, maxLen=21, speed 5.735491 sents/s, time 0s, 31-Mar-2017 10:10:42
+  src 1: verify ( side: yellow hallway )
+  ref 1: you should end up at the intersection of yellow and green <t_eos>
+  tgt 1: you should see an easel <t_eos>
+pairs 1: verify-you verify-should hallway-see hallway-an hallway-easel 
+align 1: 0-0 0-1 4-2 4-3 4-4 
+  score -6.95154
+# Finetuning at epoch 27, iter 297, 0.109419 -> 0.0984771
+# Epoch 28, lr=0.0984771, 31-Mar-2017 10:10:43
+28, 300, 3.36K, 0.0984771, 3.75, gN=3.74, 31-Mar-2017 10:10:47
+# eval 9.25, 28, 308, 3.36K, 0.10, train=3.71, valid=2.58, test=2.22, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.069 W_emb_tgt=0.059 W_a=0.053 W_h=0.066 W_soft=0.072, time=4.14s
+  save model test perplexity 9.25 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.25 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:11:03
+  Done, minLen=0, maxLen=12, speed 14.874091 sents/s, time 0s, 31-Mar-2017 10:11:03
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move travel-one travel-alley 
+align 1: 0-0 0-1 0-2 
+  score -4.91809
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:11:03
+  Done, minLen=3, maxLen=45, speed 5.298434 sents/s, time 0s, 31-Mar-2017 10:11:04
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: go forward to the end of the hall <t_eos>
+pairs 1: travel-go travel-forward hallway-to hallway-the hallway-end hallway-of hallway-the hallway-hall 
+align 1: 0-0 0-1 12-2 8-3 12-4 12-5 12-6 12-7 
+  score -5.95887
+# Decoding batch of 1 sents, minLen=3, maxLen=48, 31-Mar-2017 10:11:04
+  Done, minLen=3, maxLen=48, speed 5.636693 sents/s, time 0s, 31-Mar-2017 10:11:04
+  src 1: turn ( ) , verify ( left: wall , right: wall , back: wall )
+  ref 1: only one way to go <t_eos>
+  tgt 1: with your back to the wall <t_eos>
+pairs 1: wall-with wall-your wall-back wall-to wall-the wall-wall 
+align 1: 7-0 13-1 13-2 13-3 13-4 13-5 
+  score -5.59493
+# Finetuning at epoch 28, iter 308, 0.0984771 -> 0.0886294
+# Epoch 29, lr=0.0886294, 31-Mar-2017 10:11:04
+29, 310, 5.93K, 0.0886294, 3.69, gN=4.04, 31-Mar-2017 10:11:06
+# eval 9.08, 29, 319, 5.93K, 0.09, train=3.64, valid=2.57, test=2.21, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.069 W_emb_tgt=0.059 W_a=0.053 W_h=0.067 W_soft=0.072, time=4.73s
+  save model test perplexity 9.08 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.08 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:11:22
+  Done, minLen=0, maxLen=12, speed 6.605587 sents/s, time 0s, 31-Mar-2017 10:11:22
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move travel-one travel-alley 
+align 1: 0-0 0-1 0-2 
+  score -5.06555
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 10:11:22
+  Done, minLen=0, maxLen=6, speed 10.708931 sents/s, time 0s, 31-Mar-2017 10:11:22
+  src 1: null
+  ref 1: face the long alley <t_eos>
+  tgt 1: to your left <t_eos>
+pairs 1: null-to null-your null-left 
+align 1: 0-0 0-1 0-2 
+  score -5.5209
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:11:22
+  Done, minLen=1, maxLen=18, speed 7.678310 sents/s, time 0s, 31-Mar-2017 10:11:22
+  src 1: travel ( steps: 1 )
+  ref 1: the very first intersection will be position 7 <t_eos>
+  tgt 1: move one space <t_eos>
+pairs 1: steps:-move 1-one 1-space 
+align 1: 2-0 3-1 3-2 
+  score -4.16514
+# Finetuning at epoch 29, iter 319, 0.0886294 -> 0.0797664
+# Epoch 30, lr=0.0797664, 31-Mar-2017 10:11:22
+30, 320, 10.33K, 0.0797664, 3.64, gN=5.06, 31-Mar-2017 10:11:24
+30, 330, 1.31K, 0.0797664, 3.59, gN=9.30, 31-Mar-2017 10:11:34
+# eval 9.09, 30, 330, 1.31K, 0.08, train=3.59, valid=2.57, test=2.21, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.070 W_emb_tgt=0.059 W_a=0.053 W_h=0.067 W_soft=0.073, time=4.21s
+  save model test perplexity 9.09 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 9.09 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:11:39
+  Done, minLen=0, maxLen=12, speed 9.279278 sents/s, time 0s, 31-Mar-2017 10:11:39
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move )-one (-alley 
+align 1: 0-0 2-1 1-2 
+  score -5.19628
+# Decoding batch of 1 sents, minLen=5, maxLen=78, 31-Mar-2017 10:11:39
+  Done, minLen=5, maxLen=78, speed 1.768697 sents/s, time 1s, 31-Mar-2017 10:11:40
+  src 1: verify ( front: brick hallway , front: lamp ) , travel ( steps: 3 ) , verify ( back: lamp , side: flower hallway )
+  ref 1: go forward along the brick hall three segments to the intersection with the pink-flowered carpet hall, passing a lamp <t_eos>
+  tgt 1: go forward two segments to the intersection with the stone hall <t_eos>
+pairs 1: steps:-go steps:-forward hallway-two verify-segments hallway-to hallway-the back:-intersection back:-with hallway-the hallway-stone back:-hall 
+align 1: 12-0 12-1 23-2 16-3 23-4 23-5 18-6 18-7 4-8 23-9 18-10 
+  score -8.30851
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:11:40
+  Done, minLen=1, maxLen=18, speed 7.488954 sents/s, time 0s, 31-Mar-2017 10:11:40
+  src 1: travel ( steps: 4 )
+  ref 1: walk forward about four times <t_eos>
+  tgt 1: move one block <t_eos>
+pairs 1: steps:-move steps:-one travel-block 
+align 1: 2-0 2-1 0-2 
+  score -4.68918
+# Finetuning at epoch 30, iter 330, 0.0797664 -> 0.0717898
+# Epoch 31, lr=0.0717898, 31-Mar-2017 10:11:40
+31, 340, 1.16K, 0.0717898, 3.54, gN=4.06, 31-Mar-2017 10:11:52
+# eval 8.91, 31, 341, 1.16K, 0.07, train=3.53, valid=2.56, test=2.19, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.070 W_emb_tgt=0.059 W_a=0.053 W_h=0.067 W_soft=0.073, time=4.58s
+  save model test perplexity 8.91 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.91 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:11:59
+  Done, minLen=0, maxLen=12, speed 5.695182 sents/s, time 0s, 31-Mar-2017 10:11:59
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move )-one (-alley 
+align 1: 0-0 2-1 1-2 
+  score -4.80326
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:11:59
+  Done, minLen=2, maxLen=39, speed 3.854708 sents/s, time 0s, 31-Mar-2017 10:11:59
+  src 1: travel ( steps: 2 ) , verify ( side: concrete hallway )
+  ref 1: go forward two segments to a bare concrete hall <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward hallway-twice 
+align 1: 2-0 2-1 10-2 
+  score -4.97131
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:11:59
+  Done, minLen=1, maxLen=18, speed 7.968318 sents/s, time 0s, 31-Mar-2017 10:11:59
+  src 1: travel ( steps: 1 )
+  ref 1: walk forward once <t_eos>
+  tgt 1: move one block <t_eos>
+pairs 1: steps:-move 1-one travel-block 
+align 1: 2-0 3-1 0-2 
+  score -4.15369
+# Finetuning at epoch 31, iter 341, 0.0717898 -> 0.0646108
+# Epoch 32, lr=0.0646108, 31-Mar-2017 10:12:00
+32, 350, 1.36K, 0.0646108, 3.48, gN=6.53, 31-Mar-2017 10:12:10
+# eval 8.95, 32, 352, 1.36K, 0.06, train=3.48, valid=2.58, test=2.19, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.070 W_emb_tgt=0.060 W_a=0.053 W_h=0.067 W_soft=0.073, time=3.72s
+  save model cur test perplexity 8.95 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:12:16
+  Done, minLen=0, maxLen=12, speed 13.290803 sents/s, time 0s, 31-Mar-2017 10:12:16
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: travel-move (-forward 
+align 1: 0-0 1-1 
+  score -4.60746
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:12:16
+  Done, minLen=2, maxLen=30, speed 5.764985 sents/s, time 0s, 31-Mar-2017 10:12:16
+  src 1: verify ( left: concrete hallway , front: lamp )
+  ref 1: the alley to your left has grey floor and you see a lamp in front of you <t_eos>
+  tgt 1: you should see an easel <t_eos>
+pairs 1: verify-you verify-should hallway-see hallway-an hallway-easel 
+align 1: 0-0 0-1 4-2 4-3 4-4 
+  score -5.42657
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:12:16
+  Done, minLen=2, maxLen=33, speed 8.957283 sents/s, time 0s, 31-Mar-2017 10:12:16
+  src 1: turn ( right ) , travel ( steps: 1 )
+  ref 1: turn right and move to the next side alley <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn steps:-right 
+align 1: 2-0 7-1 
+  score -2.80655
+# Finetuning at epoch 32, iter 352, 0.0646108 -> 0.0581497
+# Epoch 33, lr=0.0581497, 31-Mar-2017 10:12:16
+33, 360, 1.53K, 0.0581497, 3.44, gN=6.18, 31-Mar-2017 10:12:24
+# eval 8.78, 33, 363, 1.53K, 0.06, train=3.43, valid=2.55, test=2.17, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.070 W_emb_tgt=0.060 W_a=0.053 W_h=0.067 W_soft=0.073, time=3.77s
+  save model test perplexity 8.78 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.78 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:12:33
+  Done, minLen=0, maxLen=12, speed 14.493594 sents/s, time 0s, 31-Mar-2017 10:12:33
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: travel-move travel-to travel-the travel-corner 
+align 1: 0-0 0-1 0-2 0-3 
+  score -5.60163
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:12:33
+  Done, minLen=2, maxLen=33, speed 6.903122 sents/s, time 0s, 31-Mar-2017 10:12:33
+  src 1: turn ( right ) , travel ( steps: 1 )
+  ref 1: turn right and move one block <t_eos>
+  tgt 1: turn right and walk forward once <t_eos>
+pairs 1: right-turn steps:-right steps:-and steps:-walk steps:-forward travel-once 
+align 1: 2-0 7-1 7-2 7-3 7-4 5-5 
+  score -3.88075
+# Decoding batch of 1 sents, minLen=0, maxLen=6, 31-Mar-2017 10:12:33
+  Done, minLen=0, maxLen=6, speed 21.670351 sents/s, time 0s, 31-Mar-2017 10:12:33
+  src 1: null
+  ref 1: this intersection should be empty and is position 7 <t_eos>
+  tgt 1: to your left <t_eos>
+pairs 1: null-to null-your null-left 
+align 1: 0-0 0-1 0-2 
+  score -5.8328
+# Finetuning at epoch 33, iter 363, 0.0581497 -> 0.0523348
+# Epoch 34, lr=0.0523348, 31-Mar-2017 10:12:34
+34, 370, 2.05K, 0.0523348, 3.40, gN=9.68, 31-Mar-2017 10:12:41
+# eval 8.75, 34, 374, 2.05K, 0.05, train=3.38, valid=2.56, test=2.17, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.070 W_emb_tgt=0.060 W_a=0.053 W_h=0.067 W_soft=0.073, time=3.72s
+  save model cur test perplexity 8.75 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:12:48
+  Done, minLen=0, maxLen=12, speed 14.120704 sents/s, time 0s, 31-Mar-2017 10:12:48
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move one alley <t_eos>
+pairs 1: travel-move )-one travel-alley 
+align 1: 0-0 2-1 0-2 
+  score -5.04393
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 10:12:48
+  Done, minLen=1, maxLen=21, speed 8.031999 sents/s, time 0s, 31-Mar-2017 10:12:48
+  src 1: verify ( right: gravel hallway )
+  ref 1: to your right is stone flooring <t_eos>
+  tgt 1: there should be an easel <t_eos>
+pairs 1: verify-there verify-should )-be hallway-an )-easel 
+align 1: 0-0 0-1 5-2 4-3 5-4 
+  score -6.01719
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:12:48
+  Done, minLen=1, maxLen=18, speed 8.605185 sents/s, time 0s, 31-Mar-2017 10:12:48
+  src 1: travel ( steps: 2 )
+  ref 1: the second intersection down will be position 2 <t_eos>
+  tgt 1: move one block <t_eos>
+pairs 1: steps:-move steps:-one travel-block 
+align 1: 2-0 2-1 0-2 
+  score -4.57365
+# Finetuning at epoch 34, iter 374, 0.0523348 -> 0.0471013
+# Epoch 35, lr=0.0471013, 31-Mar-2017 10:12:49
+35, 380, 2.47K, 0.0471013, 3.36, gN=3.88, 31-Mar-2017 10:12:53
+# eval 8.79, 35, 385, 2.47K, 0.05, train=3.33, valid=2.56, test=2.17, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.073, time=3.69s
+  save model cur test perplexity 8.79 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:13:03
+  Done, minLen=0, maxLen=12, speed 13.846388 sents/s, time 0s, 31-Mar-2017 10:13:03
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the first alley <t_eos>
+pairs 1: travel-move travel-to travel-the )-first )-alley 
+align 1: 0-0 0-1 0-2 2-3 2-4 
+  score -6.74001
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:13:03
+  Done, minLen=2, maxLen=33, speed 6.219524 sents/s, time 0s, 31-Mar-2017 10:13:03
+  src 1: travel ( ) , verify ( side: flower hallway )
+  ref 1: follow it until the intersection of the pink flowered path <t_eos>
+  tgt 1: walk forward to the blue carpet <t_eos>
+pairs 1: travel-walk travel-forward hallway-to hallway-the hallway-blue hallway-carpet 
+align 1: 0-0 0-1 8-2 8-3 8-4 8-5 
+  score -6.67829
+# Decoding batch of 1 sents, minLen=3, maxLen=51, 31-Mar-2017 10:13:03
+  Done, minLen=3, maxLen=51, speed 4.852273 sents/s, time 0s, 31-Mar-2017 10:13:04
+  src 1: verify ( front: gravel hallway ) , travel ( ) , verify ( at: barstool )
+  ref 1: move along the stone floor to the stool <t_eos>
+  tgt 1: go all the way to the end of the hall <t_eos>
+pairs 1: ,-go hallway-all hallway-the travel-way hallway-to barstool-the hallway-end hallway-of barstool-the verify-hall 
+align 1: 10-0 4-1 4-2 7-3 4-4 14-5 4-6 4-7 14-8 11-9 
+  score -8.04032
+# Finetuning at epoch 35, iter 385, 0.0471013 -> 0.0423912
+# Epoch 36, lr=0.0423912, 31-Mar-2017 10:13:04
+36, 390, 3.61K, 0.0423912, 3.32, gN=3.86, 31-Mar-2017 10:13:08
+# eval 8.69, 36, 396, 3.61K, 0.04, train=3.29, valid=2.55, test=2.16, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.073, time=3.86s
+  save model test perplexity 8.69 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.69 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:13:22
+  Done, minLen=0, maxLen=12, speed 14.138472 sents/s, time 0s, 31-Mar-2017 10:13:22
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: travel-move travel-to travel-the travel-corner 
+align 1: 0-0 0-1 0-2 0-3 
+  score -5.38615
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:13:22
+  Done, minLen=2, maxLen=33, speed 5.658861 sents/s, time 0s, 31-Mar-2017 10:13:22
+  src 1: travel ( ) , verify ( side: wood hallway )
+  ref 1: move down it until you get to the wood flooring <t_eos>
+  tgt 1: go forward until you reach the blue hall <t_eos>
+pairs 1: travel-go travel-forward travel-until verify-you hallway-reach hallway-the hallway-blue hallway-hall 
+align 1: 0-0 0-1 0-2 4-3 8-4 8-5 8-6 8-7 
+  score -7.51305
+# Decoding batch of 1 sents, minLen=5, maxLen=75, 31-Mar-2017 10:13:22
+  Done, minLen=5, maxLen=75, speed 4.433469 sents/s, time 0s, 31-Mar-2017 10:13:22
+  src 1: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( side: gravel hallway , at: easel )
+  ref 1: down the yellow hall until it intersects with the grey hall and has an easel <t_eos>
+  tgt 1: turn to the end of the hall <t_eos>
+pairs 1: (-turn travel-to easel-the easel-end hallway-of easel-the verify-hall 
+align 1: 1-0 11-1 22-2 22-3 19-4 22-5 15-6 
+  score -7.07869
+# Finetuning at epoch 36, iter 396, 0.0423912 -> 0.038152
+# Epoch 37, lr=0.038152, 31-Mar-2017 10:13:23
+37, 400, 2.53K, 0.038152, 3.27, gN=5.14, 31-Mar-2017 10:13:29
+# eval 8.74, 37, 407, 2.53K, 0.04, train=3.25, valid=2.56, test=2.17, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.073, time=4.70s
+  save model cur test perplexity 8.74 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:13:41
+  Done, minLen=0, maxLen=12, speed 11.701518 sents/s, time 0s, 31-Mar-2017 10:13:42
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to (-it 
+align 1: 0-0 0-1 1-2 
+  score -4.58548
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:13:42
+  Done, minLen=3, maxLen=45, speed 6.178255 sents/s, time 0s, 31-Mar-2017 10:13:42
+  src 1: travel ( ) , verify ( right: hallway ) , turn ( right )
+  ref 1: make the first rt <t_eos>
+  tgt 1: move to the easel <t_eos>
+pairs 1: right-move hallway-to hallway-the travel-easel 
+align 1: 12-0 7-1 7-2 0-3 
+  score -4.4129
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 10:13:42
+  Done, minLen=2, maxLen=36, speed 6.780121 sents/s, time 0s, 31-Mar-2017 10:13:42
+  src 1: turn ( right ) , verify ( front: butterfly wall )
+  ref 1: make a right <unk> butterfly walled area <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn verify-right 
+align 1: 2-0 5-1 
+  score -3.48623
+# Finetuning at epoch 37, iter 407, 0.038152 -> 0.0343368
+# Epoch 38, lr=0.0343368, 31-Mar-2017 10:13:42
+38, 410, 5.85K, 0.0343368, 3.24, gN=3.14, 31-Mar-2017 10:13:44
+# eval 8.62, 38, 418, 5.85K, 0.03, train=3.21, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.073, time=7.95s
+  save model test perplexity 8.62 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.62 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:14:06
+  Done, minLen=0, maxLen=12, speed 6.251328 sents/s, time 0s, 31-Mar-2017 10:14:06
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -5.08169
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:14:06
+  Done, minLen=3, maxLen=54, speed 2.036320 sents/s, time 0s, 31-Mar-2017 10:14:07
+  src 1: verify ( front: yellow hallway ) , travel ( ) , verify ( side: gravel hallway )
+  ref 1: move along the octagon carpet to the stone floor <t_eos>
+  tgt 1: go all the way down the blue hall <t_eos>
+pairs 1: ,-go hallway-all hallway-the travel-way )-down hallway-the )-blue hallway-hall 
+align 1: 10-0 4-1 4-2 7-3 5-4 15-5 16-6 15-7 
+  score -6.20291
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:14:07
+  Done, minLen=3, maxLen=54, speed 2.324273 sents/s, time 0s, 31-Mar-2017 10:14:07
+  src 1: travel ( ) , verify ( front: wall , left: wall ) , turn ( right )
+  ref 1: at the corner, take a right <t_eos>
+  tgt 1: move to the corner and turn right <t_eos>
+pairs 1: right-move wall-to wall-the right-corner right-and right-turn right-right 
+align 1: 15-0 7-1 7-2 15-3 15-4 15-5 15-6 
+  score -4.37088
+# Finetuning at epoch 38, iter 418, 0.0343368 -> 0.0309032
+# Epoch 39, lr=0.0309032, 31-Mar-2017 10:14:07
+39, 420, 4.18K, 0.0309032, 3.20, gN=4.25, 31-Mar-2017 10:14:11
+# eval 8.61, 39, 429, 4.18K, 0.03, train=3.17, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.31s
+  save model test perplexity 8.61 to ../output/commands.cluster//model.mat
+  save model cur test perplexity 8.61 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:14:26
+  Done, minLen=0, maxLen=12, speed 11.657185 sents/s, time 0s, 31-Mar-2017 10:14:26
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.9953
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:14:26
+  Done, minLen=2, maxLen=39, speed 6.031945 sents/s, time 0s, 31-Mar-2017 10:14:26
+  src 1: verify ( front: yellow hallway ) , travel ( steps: 2 )
+  ref 1: walk down the yellow corridor twice <t_eos>
+  tgt 1: move one alley past the lamp <t_eos>
+pairs 1: steps:-move ,-one )-alley verify-past hallway-the )-lamp 
+align 1: 9-0 6-1 11-2 0-3 4-4 5-5 
+  score -4.88464
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:14:26
+  Done, minLen=0, maxLen=12, speed 10.560889 sents/s, time 0s, 31-Mar-2017 10:14:26
+  src 1: travel ( )
+  ref 1: move to this <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.9953
+# Finetuning at epoch 39, iter 429, 0.0309032 -> 0.0278128
+# Epoch 40, lr=0.0278128, 31-Mar-2017 10:14:26
+40, 430, 14.26K, 0.0278128, 3.17, gN=3.33, 31-Mar-2017 10:14:27
+40, 440, 1.35K, 0.0278128, 3.13, gN=10.13, 31-Mar-2017 10:14:38
+# eval 8.62, 40, 440, 1.35K, 0.03, train=3.13, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.07s
+  save model cur test perplexity 8.62 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:14:42
+  Done, minLen=0, maxLen=12, speed 9.497668 sents/s, time 0s, 31-Mar-2017 10:14:42
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.95438
+# Decoding batch of 1 sents, minLen=2, maxLen=39, 31-Mar-2017 10:14:42
+  Done, minLen=2, maxLen=39, speed 3.756503 sents/s, time 0s, 31-Mar-2017 10:14:42
+  src 1: travel ( steps: 2 ) , verify ( side: blue hallway )
+  ref 1: go forward two segments to the intersection of the blue-tiled hall <t_eos>
+  tgt 1: go forward twice <t_eos>
+pairs 1: steps:-go steps:-forward hallway-twice 
+align 1: 2-0 2-1 10-2 
+  score -4.96074
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:14:42
+  Done, minLen=3, maxLen=45, speed 3.964966 sents/s, time 0s, 31-Mar-2017 10:14:43
+  src 1: travel ( ) , verify ( front: flower hallway , back: flower hallway )
+  ref 1: position 6 is in the hall with the rose floors <t_eos>
+  tgt 1: go all the way to the end of the hall <t_eos>
+pairs 1: travel-go travel-all hallway-the travel-way hallway-to hallway-the hallway-end hallway-of hallway-the )-hall 
+align 1: 0-0 0-1 8-2 0-3 12-4 12-5 12-6 12-7 12-8 13-9 
+  score -9.40002
+# Finetuning at epoch 40, iter 440, 0.0278128 -> 0.0250316
+# Epoch 41, lr=0.0250316, 31-Mar-2017 10:14:43
+41, 450, 1.23K, 0.0250316, 3.10, gN=4.40, 31-Mar-2017 10:14:55
+# eval 8.61, 41, 451, 1.23K, 0.03, train=3.10, valid=2.56, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=3.95s
+  save model cur test perplexity 8.61 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:15:00
+  Done, minLen=0, maxLen=12, speed 9.808537 sents/s, time 0s, 31-Mar-2017 10:15:00
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move forward <t_eos>
+pairs 1: travel-move travel-forward 
+align 1: 0-0 0-1 
+  score -4.80949
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:15:00
+  Done, minLen=2, maxLen=30, speed 3.918603 sents/s, time 0s, 31-Mar-2017 10:15:00
+  src 1: travel ( ) , verify ( front: wall )
+  ref 1: go straight until hall ends <t_eos>
+  tgt 1: go to the end of the hall <t_eos>
+pairs 1: travel-go travel-to wall-the front:-end (-of wall-the wall-hall 
+align 1: 0-0 0-1 7-2 6-3 5-4 7-5 7-6 
+  score -4.53998
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 10:15:00
+  Done, minLen=2, maxLen=42, speed 4.199193 sents/s, time 0s, 31-Mar-2017 10:15:00
+  src 1: verify ( at: chair , front: wall ) , turn ( right )
+  ref 1: at the chair at the end of the hall, go right <t_eos>
+  tgt 1: with your back to the wall <t_eos>
+pairs 1: at:-with wall-your wall-back at:-to wall-the right-wall 
+align 1: 2-0 6-1 6-2 2-3 6-4 11-5 
+  score -4.36677
+# Finetuning at epoch 41, iter 451, 0.0250316 -> 0.0225284
+# Epoch 42, lr=0.0225284, 31-Mar-2017 10:15:01
+42, 460, 1.40K, 0.0225284, 3.07, gN=3.55, 31-Mar-2017 10:15:09
+# eval 8.63, 42, 462, 1.40K, 0.02, train=3.06, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=3.85s
+  save model cur test perplexity 8.63 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:15:16
+  Done, minLen=0, maxLen=12, speed 12.341870 sents/s, time 0s, 31-Mar-2017 10:15:16
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.80835
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:15:16
+  Done, minLen=3, maxLen=45, speed 4.708164 sents/s, time 0s, 31-Mar-2017 10:15:16
+  src 1: travel ( ) , verify ( front: wall ) , turn ( left )
+  ref 1: take another left when the hall ends again <t_eos>
+  tgt 1: move to the corner <t_eos>
+pairs 1: left-move wall-to wall-the left-corner 
+align 1: 12-0 7-1 7-2 12-3 
+  score -4.51595
+# Decoding batch of 1 sents, minLen=3, maxLen=54, 31-Mar-2017 10:15:16
+  Done, minLen=3, maxLen=54, speed 4.966994 sents/s, time 0s, 31-Mar-2017 10:15:17
+  src 1: travel ( steps: 1 ) , verify ( front: wall , right: wall , left: wall )
+  ref 1: go foward one segment to the dead end <t_eos>
+  tgt 1: go forward one segment to the corner <t_eos>
+pairs 1: 1-go 1-forward wall-one wall-segment wall-to wall-the wall-corner 
+align 1: 3-0 3-1 12-2 15-3 15-4 15-5 15-6 
+  score -4.19402
+# Finetuning at epoch 42, iter 462, 0.0225284 -> 0.0202756
+# Epoch 43, lr=0.0202756, 31-Mar-2017 10:15:17
+43, 470, 2.03K, 0.0202756, 3.04, gN=4.12, 31-Mar-2017 10:15:24
+# eval 8.57, 43, 473, 2.03K, 0.02, train=3.03, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.20s
+  save model cur test perplexity 8.57 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:15:33
+  Done, minLen=0, maxLen=12, speed 13.878287 sents/s, time 0s, 31-Mar-2017 10:15:33
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.83127
+# Decoding batch of 1 sents, minLen=1, maxLen=18, 31-Mar-2017 10:15:33
+  Done, minLen=1, maxLen=18, speed 8.915994 sents/s, time 0s, 31-Mar-2017 10:15:33
+  src 1: travel ( steps: 1 )
+  ref 1: move down this and stop at the first alley <t_eos>
+  tgt 1: move one space <t_eos>
+pairs 1: 1-move 1-one travel-space 
+align 1: 3-0 3-1 0-2 
+  score -4.08656
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:15:33
+  Done, minLen=2, maxLen=33, speed 6.504065 sents/s, time 0s, 31-Mar-2017 10:15:33
+  src 1: travel ( steps: 1 ) , turn ( right )
+  ref 1: walk forward once turn right <t_eos>
+  tgt 1: go forward one alley <t_eos>
+pairs 1: right-go 1-forward right-one )-alley 
+align 1: 8-0 3-1 8-2 9-3 
+  score -3.61102
+# Finetuning at epoch 43, iter 473, 0.0202756 -> 0.018248
+# Epoch 44, lr=0.018248, 31-Mar-2017 10:15:33
+44, 480, 1.87K, 0.018248, 3.01, gN=10.30, 31-Mar-2017 10:15:40
+# eval 8.57, 44, 484, 1.87K, 0.02, train=3.00, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.29s
+  save model cur test perplexity 8.57 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:15:50
+  Done, minLen=0, maxLen=12, speed 13.846388 sents/s, time 0s, 31-Mar-2017 10:15:50
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -5.01537
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:15:50
+  Done, minLen=2, maxLen=33, speed 7.426607 sents/s, time 0s, 31-Mar-2017 10:15:50
+  src 1: travel ( steps: 1 ) , turn ( left )
+  ref 1: move one alley and turn left <t_eos>
+  tgt 1: go forward one alley <t_eos>
+pairs 1: left-go 1-forward left-one )-alley 
+align 1: 8-0 3-1 8-2 9-3 
+  score -3.50377
+# Decoding batch of 1 sents, minLen=2, maxLen=36, 31-Mar-2017 10:15:50
+  Done, minLen=2, maxLen=36, speed 4.756288 sents/s, time 0s, 31-Mar-2017 10:15:50
+  src 1: turn ( right ) , verify ( front: grass hallway )
+  ref 1: turn right onto the green hallway <t_eos>
+  tgt 1: turn right <t_eos>
+pairs 1: right-turn verify-right 
+align 1: 2-0 5-1 
+  score -4.06211
+# Finetuning at epoch 44, iter 484, 0.018248 -> 0.0164232
+# Epoch 45, lr=0.0164232, 31-Mar-2017 10:15:50
+45, 490, 2.08K, 0.0164232, 2.99, gN=3.37, 31-Mar-2017 10:15:57
+# eval 8.56, 45, 495, 2.08K, 0.02, train=2.97, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.59s
+  save model cur test perplexity 8.56 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:16:08
+  Done, minLen=0, maxLen=12, speed 11.209757 sents/s, time 0s, 31-Mar-2017 10:16:08
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.89377
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 10:16:08
+  Done, minLen=1, maxLen=21, speed 8.470556 sents/s, time 0s, 31-Mar-2017 10:16:08
+  src 1: verify ( side: brick hallway )
+  ref 1: the side alleys are red brick <t_eos>
+  tgt 1: you should see blue flooring <t_eos>
+pairs 1: verify-you verify-should hallway-see )-blue hallway-flooring 
+align 1: 0-0 0-1 4-2 5-3 4-4 
+  score -5.56417
+# Decoding batch of 1 sents, minLen=3, maxLen=51, 31-Mar-2017 10:16:08
+  Done, minLen=3, maxLen=51, speed 3.704472 sents/s, time 0s, 31-Mar-2017 10:16:09
+  src 1: verify ( front: blue hallway ) , travel ( ) , verify ( front: wall )
+  ref 1: take the blue path all the way to the end of the hall <t_eos>
+  tgt 1: go all the way to the end of the hall <t_eos>
+pairs 1: ,-go hallway-all hallway-the travel-way hallway-to wall-the hallway-end hallway-of wall-the verify-hall 
+align 1: 10-0 4-1 4-2 7-3 4-4 14-5 4-6 4-7 14-8 11-9 
+  score -5.99061
+# Finetuning at epoch 45, iter 495, 0.0164232 -> 0.0147809
+# Epoch 46, lr=0.0147809, 31-Mar-2017 10:16:09
+46, 500, 2.21K, 0.0147809, 2.96, gN=4.28, 31-Mar-2017 10:16:16
+# eval 8.56, 46, 506, 2.21K, 0.01, train=2.94, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.15s
+  save model cur test perplexity 8.56 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:16:26
+  Done, minLen=0, maxLen=12, speed 12.580357 sents/s, time 0s, 31-Mar-2017 10:16:26
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.86497
+# Decoding batch of 1 sents, minLen=6, maxLen=99, 31-Mar-2017 10:16:26
+  Done, minLen=6, maxLen=99, speed 2.671190 sents/s, time 0s, 31-Mar-2017 10:16:27
+  src 1: travel ( ) , verify ( side: grass hallway ) , turn ( right ) , verify ( front: grass hallway ) , travel ( ) , verify ( at: hatrack )
+  ref 1: move right along the grass to the hatrack <t_eos>
+  tgt 1: take a right at the end of the hall <t_eos>
+pairs 1: right-take right-a ,-right hallway-at hallway-the hallway-end hallway-of hatrack-the right-hall 
+align 1: 13-0 13-1 15-2 20-3 20-4 20-5 20-6 30-7 13-8 
+  score -6.29172
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:16:27
+  Done, minLen=3, maxLen=45, speed 4.665049 sents/s, time 0s, 31-Mar-2017 10:16:27
+  src 1: travel ( ) , verify ( at: chair ) , turn ( right )
+  ref 1: at the chair, go right <t_eos>
+  tgt 1: move to the chair and turn right <t_eos>
+pairs 1: right-move at:-to chair-the right-chair right-and right-turn at:-right 
+align 1: 12-0 6-1 7-2 12-3 12-4 12-5 6-6 
+  score -4.0295
+# Finetuning at epoch 46, iter 506, 0.0147809 -> 0.0133028
+# Epoch 47, lr=0.0133028, 31-Mar-2017 10:16:27
+47, 510, 3.70K, 0.0133028, 2.93, gN=3.97, 31-Mar-2017 10:16:30
+# eval 8.55, 47, 517, 3.70K, 0.01, train=2.92, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.071 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.69s
+  save model cur test perplexity 8.55 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:16:45
+  Done, minLen=0, maxLen=12, speed 11.764983 sents/s, time 0s, 31-Mar-2017 10:16:45
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.87912
+# Decoding batch of 1 sents, minLen=1, maxLen=21, 31-Mar-2017 10:16:45
+  Done, minLen=1, maxLen=21, speed 5.550714 sents/s, time 0s, 31-Mar-2017 10:16:45
+  src 1: verify ( front: yellow hallway )
+  ref 1: you will now be facing the yellow-tiled hall <t_eos>
+  tgt 1: you should see blue flooring <t_eos>
+pairs 1: verify-you verify-should hallway-see )-blue hallway-flooring 
+align 1: 0-0 0-1 4-2 5-3 4-4 
+  score -5.32487
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:16:45
+  Done, minLen=2, maxLen=30, speed 4.973739 sents/s, time 0s, 31-Mar-2017 10:16:45
+  src 1: travel ( ) , verify ( at: easel )
+  ref 1: position 1 is the intersection containing the easel <t_eos>
+  tgt 1: move to the easel <t_eos>
+pairs 1: travel-move easel-to easel-the verify-easel 
+align 1: 0-0 7-1 7-2 4-3 
+  score -4.30299
+# Finetuning at epoch 47, iter 517, 0.0133028 -> 0.0119725
+# Epoch 48, lr=0.0119725, 31-Mar-2017 10:16:45
+48, 520, 2.80K, 0.0119725, 2.91, gN=5.62, 31-Mar-2017 10:16:51
+# eval 8.56, 48, 528, 2.80K, 0.01, train=2.89, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.072 W_emb_tgt=0.060 W_a=0.053 W_h=0.068 W_soft=0.074, time=4.34s
+  save model cur test perplexity 8.56 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:17:03
+  Done, minLen=0, maxLen=12, speed 10.162085 sents/s, time 0s, 31-Mar-2017 10:17:03
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.80267
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:17:03
+  Done, minLen=0, maxLen=12, speed 12.346136 sents/s, time 0s, 31-Mar-2017 10:17:03
+  src 1: travel ( )
+  ref 1: if you <unk> it <unk> having <unk> <unk> forward, go forward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.80267
+# Decoding batch of 1 sents, minLen=2, maxLen=30, 31-Mar-2017 10:17:03
+  Done, minLen=2, maxLen=30, speed 4.524150 sents/s, time 0s, 31-Mar-2017 10:17:04
+  src 1: verify ( front: lamp ) , travel ( )
+  ref 1: follow this hallway tward the lamp <t_eos>
+  tgt 1: move to the easel <t_eos>
+pairs 1: (-move lamp-to lamp-the verify-easel 
+align 1: 7-0 3-1 3-2 0-3 
+  score -4.66856
+# Finetuning at epoch 48, iter 528, 0.0119725 -> 0.0107753
+# Epoch 49, lr=0.0107753, 31-Mar-2017 10:17:04
+49, 530, 5.93K, 0.0107753, 2.89, gN=3.36, 31-Mar-2017 10:17:06
+# eval 8.56, 49, 539, 5.93K, 0.01, train=2.86, valid=2.55, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.072 W_emb_tgt=0.060 W_a=0.053 W_h=0.069 W_soft=0.074, time=4.20s
+  save model cur test perplexity 8.56 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:17:21
+  Done, minLen=0, maxLen=12, speed 11.957146 sents/s, time 0s, 31-Mar-2017 10:17:21
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.85067
+# Decoding batch of 1 sents, minLen=3, maxLen=45, 31-Mar-2017 10:17:21
+  Done, minLen=3, maxLen=45, speed 4.875338 sents/s, time 0s, 31-Mar-2017 10:17:22
+  src 1: travel ( ) , verify ( right: blue hallway , left: blue hallway )
+  ref 1: go all the way until you can either go right or left on a blue path <t_eos>
+  tgt 1: walk forward to the blue carpet <t_eos>
+pairs 1: travel-walk travel-forward hallway-to hallway-the hallway-blue hallway-carpet 
+align 1: 0-0 0-1 8-2 8-3 8-4 8-5 
+  score -6.65955
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 10:17:22
+  Done, minLen=2, maxLen=42, speed 4.672024 sents/s, time 0s, 31-Mar-2017 10:17:22
+  src 1: verify ( at: chair , front: wall ) , turn ( right )
+  ref 1: at the chair at the end of the hall, go right <t_eos>
+  tgt 1: with your back to the wall turn right <t_eos>
+pairs 1: at:-with wall-your wall-back at:-to at:-the right-wall right-turn right-right 
+align 1: 2-0 6-1 6-2 2-3 2-4 11-5 11-6 11-7 
+  score -4.37889
+# Finetuning at epoch 49, iter 539, 0.0107753 -> 0.00969774
+# Epoch 50, lr=0.00969774, 31-Mar-2017 10:17:22
+50, 540, 17.13K, 0.00969774, 2.86, gN=3.85, 31-Mar-2017 10:17:23
+50, 550, 1.22K, 0.00969774, 2.84, gN=3.25, 31-Mar-2017 10:17:35
+# eval 8.56, 50, 550, 1.22K, 0.01, train=2.84, valid=2.56, test=2.15, W_src{1}=0.051 W_tgt{1}=0.057 W_emb_src=0.072 W_emb_tgt=0.060 W_a=0.053 W_h=0.069 W_soft=0.074, time=4.46s
+  save model cur test perplexity 8.56 to ../output/commands.cluster//modelRecent.mat
+# Decoding batch of 1 sents, minLen=0, maxLen=12, 31-Mar-2017 10:17:40
+  Done, minLen=0, maxLen=12, speed 12.457954 sents/s, time 0s, 31-Mar-2017 10:17:40
+  src 1: travel ( )
+  ref 1: foward <t_eos>
+  tgt 1: move to it <t_eos>
+pairs 1: travel-move travel-to travel-it 
+align 1: 0-0 0-1 0-2 
+  score -4.86891
+# Decoding batch of 1 sents, minLen=2, maxLen=33, 31-Mar-2017 10:17:40
+  Done, minLen=2, maxLen=33, speed 5.967584 sents/s, time 0s, 31-Mar-2017 10:17:40
+  src 1: travel ( ) , verify ( side: flower hallway )
+  ref 1: follow it until the intersection of the pink flowered path <t_eos>
+  tgt 1: go to the blue floored area <t_eos>
+pairs 1: travel-go hallway-to hallway-the hallway-blue hallway-floored hallway-area 
+align 1: 0-0 8-1 8-2 8-3 8-4 8-5 
+  score -5.76723
+# Decoding batch of 1 sents, minLen=2, maxLen=42, 31-Mar-2017 10:17:40
+  Done, minLen=2, maxLen=42, speed 4.873223 sents/s, time 0s, 31-Mar-2017 10:17:40
+  src 1: turn ( ) , verify ( front: chair ) , travel ( )
+  ref 1: face and move past the chair <t_eos>
+  tgt 1: turn and move to the end <t_eos>
+pairs 1: travel-turn travel-and travel-move chair-to chair-the verify-end 
+align 1: 10-0 10-1 10-2 7-3 7-4 4-5 
+  score -5.32777
+# Finetuning at epoch 50, iter 550, 0.00969774 -> 0.00872796

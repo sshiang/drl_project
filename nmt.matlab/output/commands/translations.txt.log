@@ -1,0 +1,2414 @@
+# Decoding 402 sents, 30-Mar-2017 18:42:36
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:42:36
+  Done, minLen=7, maxLen=21, speed 1.972410 sents/s, time 1s, 30-Mar-2017 18:42:36
+  src 1: turn ( ) , verify ( front: gravel hallway , front: easel )
+  ref 1: orient yourself along the stone hall facing the end of the hall containing the easel <t_eos>
+  tgt 1: turn to face the red brick hallway <t_eos>
+  score -7.6604
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:42:36
+  Done, minLen=5, maxLen=15, speed 1.183068 sents/s, time 1s, 30-Mar-2017 18:42:37
+  src 2: travel ( ) , verify ( front: wall )
+  ref 2: move to the end <t_eos>
+  tgt 2: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:42:37
+  Done, minLen=5, maxLen=16, speed 1.115542 sents/s, time 1s, 30-Mar-2017 18:42:38
+  src 3: turn ( ) , verify ( front: flower hallway )
+  ref 3: follow the pnk floor <t_eos>
+  tgt 3: turn to face the black hallway <t_eos>
+  score -5.49427
+# Decoding batch of 1 sents, minLen=12, maxLen=37, 30-Mar-2017 18:42:38
+  Done, minLen=12, maxLen=37, speed 1.345904 sents/s, time 1s, 30-Mar-2017 18:42:39
+  src 4: turn ( ) , verify ( back: wall ) , travel ( ) , verify ( at: chair ) , turn ( left )
+  ref 4: with your back to the wall move forward to the chair and turn left <t_eos>
+  tgt 4: move to the chair and turn right and move to the hatrack <t_eos>
+  score -13.7607
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:42:39
+  Done, minLen=1, maxLen=3, speed 1.799888 sents/s, time 1s, 30-Mar-2017 18:42:40
+  src 5: null
+  ref 5: if you start with your back toward the wall, you should not go forward toward the grassy hall <t_eos>
+  tgt 5: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:42:40
+  Done, minLen=3, maxLen=10, speed 1.250384 sents/s, time 1s, 30-Mar-2017 18:42:40
+  src 6: verify ( back: fish wall )
+  ref 6: there should be fish on the wall and you should be at position 7 <t_eos>
+  tgt 6: you should be at the end of this hall <t_eos>
+  score -7.63568
+# Decoding batch of 1 sents, minLen=17, maxLen=51, 30-Mar-2017 18:42:41
+  Done, minLen=17, maxLen=51, speed 1.063998 sents/s, time 1s, 30-Mar-2017 18:42:41
+  src 7: verify ( front: easel ) , travel ( ) , verify ( back: easel , front: wall , left: wall ) , turn ( right ) , verify ( front: blue hallway )
+  ref 7: go past the easel to the next corner, and go right again onto the blue path <t_eos>
+  tgt 7: at the end of the hall with your back to the easel at the easel at the easel <t_eos>
+  score -15.7416
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:42:41
+  Done, minLen=6, maxLen=19, speed 2.732024 sents/s, time 0s, 30-Mar-2017 18:42:42
+  src 8: travel ( ) , verify ( front: wall , right: wall )
+  ref 8: go straight to the very next corner and this is 2 <t_eos>
+  tgt 8: go to the end of the hall <t_eos>
+  score -5.2412
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:42:42
+  Done, minLen=9, maxLen=27, speed 1.675951 sents/s, time 1s, 30-Mar-2017 18:42:42
+  src 9: verify ( front: lamp ) , travel ( steps: 3 ) , verify ( back: lamp )
+  ref 9: go forward three segments, passing the lamp <t_eos>
+  tgt 9: go forward two segments to the intersection with the easel <t_eos>
+  score -5.41147
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:42:43
+  Done, minLen=11, maxLen=33, speed 0.358195 sents/s, time 3s, 30-Mar-2017 18:42:45
+  src 10: turn ( ) , verify ( front: brick hallway ) , travel ( ) , verify ( side: wood hallway )
+  ref 10: face the long <unk> alley and move along it to the wooden flooring <t_eos>
+  tgt 10: take the pink path to the blue path intersection to the intersection with the pink-flowered carpet hall <t_eos>
+  score -15.6966
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:42:45
+  Done, minLen=1, maxLen=3, speed 4.042789 sents/s, time 0s, 30-Mar-2017 18:42:46
+  src 11: null
+  ref 11: the intersection you are standing in should <unk> be empty <t_eos>
+  tgt 11: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:42:46
+  Done, minLen=3, maxLen=10, speed 1.129076 sents/s, time 1s, 30-Mar-2017 18:42:47
+  src 12: verify ( front: wood hallway )
+  ref 12: you should see wood flooring <t_eos>
+  tgt 12: you should be facing a chair and a hatrack in <t_eos>
+  score -9.88877
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:42:47
+  Done, minLen=9, maxLen=27, speed 0.413259 sents/s, time 2s, 30-Mar-2017 18:42:49
+  src 13: travel ( ) , verify ( front: wall , left: wall ) , turn ( right )
+  ref 13: move to the corner and turn right again <t_eos>
+  tgt 13: move to the corner and turn left and right at the end <t_eos>
+  score -9.61994
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:42:49
+  Done, minLen=11, maxLen=34, speed 0.585622 sents/s, time 2s, 30-Mar-2017 18:42:51
+  src 14: travel ( ) , verify ( front: butterfly wall , back: butterfly wall , front: blue hallway , back: blue hallway )
+  ref 14: three is in the long butterfly hallway, with blue floors <t_eos>
+  tgt 14: go forward to the end of the hall with the stone floor <t_eos>
+  score -10.9295
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:42:51
+  Done, minLen=5, maxLen=15, speed 1.888610 sents/s, time 1s, 30-Mar-2017 18:42:51
+  src 15: turn ( ) , verify ( left: wall )
+  ref 15: turn so the wall is on your left <t_eos>
+  tgt 15: turn so that the wall is on your left side <t_eos>
+  score -5.98
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:42:52
+  Done, minLen=5, maxLen=16, speed 2.594458 sents/s, time 0s, 30-Mar-2017 18:42:52
+  src 16: travel ( ) , verify ( side: concrete hallway )
+  ref 16: at the intersection with plain cement, you are at 6 <t_eos>
+  tgt 16: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.56345
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:42:52
+  Done, minLen=5, maxLen=16, speed 2.620243 sents/s, time 0s, 30-Mar-2017 18:42:52
+  src 17: turn ( left ) , travel ( steps: 1 )
+  ref 17: then one movement to the left <t_eos>
+  tgt 17: turn left walk forward once <t_eos>
+  score -3.40722
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:42:52
+  Done, minLen=7, maxLen=21, speed 2.317406 sents/s, time 0s, 30-Mar-2017 18:42:53
+  src 18: travel ( ) , verify ( side: yellow hallway , at: 3-intersection )
+  ref 18: follow this hall until it <unk> with the yellow-tiled hall <t_eos>
+  tgt 18: move to the end of the blue-tiled hall <t_eos>
+  score -9.19565
+# Decoding batch of 1 sents, minLen=12, maxLen=37, 30-Mar-2017 18:42:53
+  Done, minLen=12, maxLen=37, speed 1.811296 sents/s, time 1s, 30-Mar-2017 18:42:53
+  src 19: travel ( ) , verify ( at: sofa ) , turn ( left ) , travel ( ) , verify ( at: sofa )
+  ref 19: turn left at the sofa chair and move to the next sofa chair <t_eos>
+  tgt 19: turn left and move to the end of the hall and turn right <t_eos>
+  score -8.69725
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:42:53
+  Done, minLen=5, maxLen=15, speed 2.215993 sents/s, time 0s, 30-Mar-2017 18:42:54
+  src 20: travel ( ) , verify ( at: easel )
+  ref 20: position 1 is the intersection containing the easel <t_eos>
+  tgt 20: move to the easel one segment <t_eos>
+  score -9.47013
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:42:54
+  Done, minLen=3, maxLen=9, speed 2.383131 sents/s, time 0s, 30-Mar-2017 18:42:54
+  src 21: travel ( steps: 4 )
+  ref 21: walk forward about four times <t_eos>
+  tgt 21: go forward two segments <t_eos>
+  score -3.32984
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:42:55
+  Done, minLen=8, maxLen=24, speed 1.088280 sents/s, time 1s, 30-Mar-2017 18:42:55
+  src 22: travel ( ) , verify ( side: blue hallway ) , turn ( left )
+  ref 22: move to the blue carpet and turn left <t_eos>
+  tgt 22: move to the blue carpet and turn right <t_eos>
+  score -5.23101
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:42:55
+  Done, minLen=5, maxLen=16, speed 2.741957 sents/s, time 0s, 30-Mar-2017 18:42:56
+  src 23: travel ( steps: 1 ) , turn ( left )
+  ref 23: walk forward one alley and turn left <t_eos>
+  tgt 23: go forward one segment to this intersection <t_eos>
+  score -5.20156
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:42:56
+  Done, minLen=5, maxLen=16, speed 2.123769 sents/s, time 0s, 30-Mar-2017 18:42:56
+  src 24: travel ( ) , verify ( left: fish wall )
+  ref 24: stop when the first fish hallway to your left <unk> <t_eos>
+  tgt 24: go to the end of the hall <t_eos>
+  score -5.12449
+# Decoding batch of 1 sents, minLen=18, maxLen=55, 30-Mar-2017 18:42:56
+  Done, minLen=18, maxLen=55, speed 1.074957 sents/s, time 1s, 30-Mar-2017 18:42:57
+  src 25: turn ( ) , verify ( front: yellow hallway , back: wall ) , travel ( ) , verify ( side: blue hallway ) , turn ( right ) , verify ( front: blue hallway )
+  ref 25: take the yellow path away from the end of the hall and at the blue path intersection, go right onto the blue path <t_eos>
+  tgt 25: take the yellow path to the end of the hall with the wood path and take a left <t_eos>
+  score -15.8056
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:42:57
+  Done, minLen=9, maxLen=27, speed 2.007472 sents/s, time 0s, 30-Mar-2017 18:42:58
+  src 26: turn ( ) , verify ( left: wall , right: flower hallway , front: blue hallway )
+  ref 26: turn so that there is a wall to your left, blue floor to the <unk> and pink floor to your right <t_eos>
+  tgt 26: take the yellow path towards the blue path towards the lamp <t_eos>
+  score -8.05267
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:42:58
+  Done, minLen=4, maxLen=13, speed 2.963973 sents/s, time 0s, 30-Mar-2017 18:42:58
+  src 27: travel ( ) , turn ( right )
+  ref 27: move forward and turn right <t_eos>
+  tgt 27: turn left at the first alley <t_eos>
+  score -5.50267
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:42:58
+  Done, minLen=3, maxLen=9, speed 4.530524 sents/s, time 0s, 30-Mar-2017 18:42:58
+  src 28: travel ( steps: 3 )
+  ref 28: walk three times forward <t_eos>
+  tgt 28: go forward two segments <t_eos>
+  score -3.33413
+# Decoding batch of 1 sents, minLen=12, maxLen=36, 30-Mar-2017 18:42:59
+  Done, minLen=12, maxLen=36, speed 1.214022 sents/s, time 1s, 30-Mar-2017 18:42:59
+  src 29: turn ( ) , verify ( front: concrete hallway ) , travel ( steps: 1 ) , verify ( side: blue hallway )
+  ref 29: you will follow the <unk> concrete path toward the blue tiled flooring one segment <t_eos>
+  tgt 29: go forward along the stone hall one segment to the intersection with the brick hall <t_eos>
+  score -7.09026
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:42:59
+  Done, minLen=1, maxLen=3, speed 6.298578 sents/s, time 0s, 30-Mar-2017 18:43:00
+  src 30: null
+  ref 30: at that intersection stop <t_eos>
+  tgt 30: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:00
+  Done, minLen=6, maxLen=19, speed 2.702586 sents/s, time 0s, 30-Mar-2017 18:43:00
+  src 31: travel ( steps: 3 ) , verify ( side: blue hallway )
+  ref 31: follow this hallway three segments to the blue-tiled hallway <t_eos>
+  tgt 31: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -4.68554
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:00
+  Done, minLen=3, maxLen=9, speed 3.970381 sents/s, time 0s, 30-Mar-2017 18:43:00
+  src 32: verify ( front: easel )
+  ref 32: you should be able to see a painting easel in the far <unk> <t_eos>
+  tgt 32: there should be an easel in front of you <t_eos>
+  score -5.22272
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:00
+  Done, minLen=9, maxLen=27, speed 2.326344 sents/s, time 0s, 30-Mar-2017 18:43:01
+  src 33: verify ( front: easel ) , travel ( steps: 2 ) , verify ( back: easel )
+  ref 33: go forward two segments, passing the easel <t_eos>
+  tgt 33: go forward two segments to the intersection containing the easel <t_eos>
+  score -5.17379
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:43:01
+  Done, minLen=10, maxLen=31, speed 2.059376 sents/s, time 0s, 30-Mar-2017 18:43:01
+  src 34: travel ( ) , verify ( front: wall ) , turn ( left ) , verify ( front: easel )
+  ref 34: at the very end of the hall, you will turn left towards the easel <t_eos>
+  tgt 34: at the end of the hall at the corner, take a left <t_eos>
+  score -9.72538
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:43:01
+  Done, minLen=10, maxLen=30, speed 2.320256 sents/s, time 0s, 30-Mar-2017 18:43:02
+  src 35: turn ( ) , travel ( ) , verify ( at: chair ) , travel ( steps: 1 )
+  ref 35: turn and walk one block <unk> the chair <t_eos>
+  tgt 35: turn left and move one alley past the chair and turn right <t_eos>
+  score -10.7966
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:02
+  Done, minLen=6, maxLen=18, speed 2.719852 sents/s, time 0s, 30-Mar-2017 18:43:02
+  src 36: turn ( left ) , verify ( front: blue hallway )
+  ref 36: turn to your left along the blue-tiled hall <t_eos>
+  tgt 36: turn left into the red hall <t_eos>
+  score -6.14484
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:02
+  Done, minLen=3, maxLen=9, speed 4.286382 sents/s, time 0s, 30-Mar-2017 18:43:02
+  src 37: travel ( steps: 1 )
+  ref 37: forward one movement <t_eos>
+  tgt 37: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:02
+  Done, minLen=3, maxLen=9, speed 4.515876 sents/s, time 0s, 30-Mar-2017 18:43:03
+  src 38: verify ( front: hatrack )
+  ref 38: in front of you is a hatrack <t_eos>
+  tgt 38: you should be facing a chair and a hatrack <t_eos>
+  score -7.51854
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:03
+  Done, minLen=5, maxLen=15, speed 4.063125 sents/s, time 0s, 30-Mar-2017 18:43:03
+  src 39: travel ( ) , verify ( front: wall )
+  ref 39: the end of this hall is 3 <t_eos>
+  tgt 39: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:03
+  Done, minLen=6, maxLen=18, speed 3.470632 sents/s, time 0s, 30-Mar-2017 18:43:03
+  src 40: turn ( left ) , verify ( front: yellow hallway )
+  ref 40: go left onto the yellow <t_eos>
+  tgt 40: turn to face the yellow hallway <t_eos>
+  score -5.01796
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:03
+  Done, minLen=5, maxLen=16, speed 3.458963 sents/s, time 0s, 30-Mar-2017 18:43:04
+  src 41: travel ( ) , verify ( side: concrete hallway )
+  ref 41: when you come to the intersection with the plain cement path, you are at position 6 <t_eos>
+  tgt 41: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.56345
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:43:04
+  Done, minLen=7, maxLen=21, speed 2.617000 sents/s, time 0s, 30-Mar-2017 18:43:04
+  src 42: verify ( at: easel , left: gravel hallway , right: gravel hallway )
+  ref 42: you should be in the same square as an easel and rock flooring to your right and left <t_eos>
+  tgt 42: you should be facing a chair and grey floored hallway <t_eos>
+  score -10.6305
+# Decoding batch of 1 sents, minLen=15, maxLen=46, 30-Mar-2017 18:43:04
+  Done, minLen=15, maxLen=46, speed 1.761450 sents/s, time 1s, 30-Mar-2017 18:43:05
+  src 43: verify ( front: flower hallway ) , travel ( ) , turn ( ) , travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 43: position 6 is at a dead end, a branch off from the rose floors <t_eos>
+  tgt 43: move to the corner and turn left and right at the end of the yellow corner <t_eos>
+  score -14.8469
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:05
+  Done, minLen=5, maxLen=16, speed 3.255335 sents/s, time 0s, 30-Mar-2017 18:43:05
+  src 44: turn ( right ) , travel ( steps: 1 )
+  ref 44: one movement to the right <t_eos>
+  tgt 44: turn left and walk forward once <t_eos>
+  score -3.86759
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:05
+  Done, minLen=5, maxLen=16, speed 3.599803 sents/s, time 0s, 30-Mar-2017 18:43:05
+  src 45: travel ( ) , verify ( side: blue hallway )
+  ref 45: move forward to the blue carpet <t_eos>
+  tgt 45: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.84235
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:05
+  Done, minLen=11, maxLen=33, speed 1.390167 sents/s, time 1s, 30-Mar-2017 18:43:06
+  src 46: turn ( ) , verify ( front: gravel hallway , left: tower wall , right: tower wall , front: lamp )
+  ref 46: turn to face the black hallway with the pictures of towers on either side and a lamp down in the <unk> <t_eos>
+  tgt 46: take the black path towards the end of the hall to the walls <t_eos>
+  score -13.3033
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:06
+  Done, minLen=6, maxLen=19, speed 2.402200 sents/s, time 0s, 30-Mar-2017 18:43:06
+  src 47: travel ( steps: 1 ) , verify ( side: concrete hallway )
+  ref 47: go forward one segment to the intersection with a bare concrete flor <t_eos>
+  tgt 47: go forward one segment to the blue-tiled hall <t_eos>
+  score -3.00701
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:43:07
+  Done, minLen=2, maxLen=7, speed 2.840159 sents/s, time 0s, 30-Mar-2017 18:43:07
+  src 48: turn ( left )
+  ref 48: take a left here <t_eos>
+  tgt 48: turn left <t_eos>
+  score -2.6984
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:07
+  Done, minLen=7, maxLen=22, speed 1.916935 sents/s, time 1s, 30-Mar-2017 18:43:07
+  src 49: travel ( ) , verify ( front: wall ) , turn ( right )
+  ref 49: when hall ends, go right <t_eos>
+  tgt 49: move to the corner and turn right <t_eos>
+  score -4.29087
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:07
+  Done, minLen=8, maxLen=24, speed 2.133793 sents/s, time 0s, 30-Mar-2017 18:43:08
+  src 50: travel ( ) , verify ( side: flower hallway ) , turn ( left )
+  ref 50: move to the flowered carpet and turn left <t_eos>
+  tgt 50: move to the pink carpet and turn right <t_eos>
+  score -5.40771
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:08
+  Done, minLen=5, maxLen=16, speed 3.133568 sents/s, time 0s, 30-Mar-2017 18:43:08
+  src 51: verify ( left: flower hallway , right: flower hallway )
+  ref 51: to your left and right is flowered carpet <t_eos>
+  tgt 51: to your right you should see a chair and grey carpet <t_eos>
+  score -11.2128
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:43:08
+  Done, minLen=3, maxLen=10, speed 3.784753 sents/s, time 0s, 30-Mar-2017 18:43:08
+  src 52: verify ( side: flower hallway )
+  ref 52: you should see flowered carpet to the sides <t_eos>
+  tgt 52: the side alleys have blue flooring <t_eos>
+  score -6.26983
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:09
+  Done, minLen=5, maxLen=15, speed 2.379338 sents/s, time 0s, 30-Mar-2017 18:43:09
+  src 53: turn ( ) , verify ( back: wall )
+  ref 53: with your back to the wall <t_eos>
+  tgt 53: turn so that the wall is on your right and back <t_eos>
+  score -7.46129
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:09
+  Done, minLen=5, maxLen=15, speed 3.262015 sents/s, time 0s, 30-Mar-2017 18:43:09
+  src 54: travel ( ) , verify ( front: wall )
+  ref 54: walk forward to the far end <t_eos>
+  tgt 54: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=12, maxLen=36, 30-Mar-2017 18:43:09
+  Done, minLen=12, maxLen=36, speed 1.197984 sents/s, time 1s, 30-Mar-2017 18:43:10
+  src 55: turn ( ) , verify ( front: blue hallway , front: chair ) , travel ( ) , verify ( front: wall )
+  ref 55: take the blue path towards the chair all the way to the end of the hall <t_eos>
+  tgt 55: take the yellow path all the way to the end of the hall <t_eos>
+  score -5.42896
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:10
+  Done, minLen=5, maxLen=16, speed 2.197691 sents/s, time 0s, 30-Mar-2017 18:43:11
+  src 56: travel ( steps: 1 ) , turn ( right )
+  ref 56: walk forward once turn right <t_eos>
+  tgt 56: go forward one segment to this intersection <t_eos>
+  score -5.17413
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:11
+  Done, minLen=9, maxLen=27, speed 0.938385 sents/s, time 1s, 30-Mar-2017 18:43:12
+  src 57: turn ( right ) , verify ( front: gravel hallway ) , travel ( steps: 2 )
+  ref 57: turn right onto the stone and move to the second alley <t_eos>
+  tgt 57: turn left and move along the brick and one alley past the lamp <t_eos>
+  score -10.6434
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:12
+  Done, minLen=5, maxLen=15, speed 2.147508 sents/s, time 0s, 30-Mar-2017 18:43:12
+  src 58: turn ( ) , verify ( front: hatrack )
+  ref 58: face toward the hatrack in the blue-tiled hall <t_eos>
+  tgt 58: turn so that the wall is on your left side <t_eos>
+  score -6.53769
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:43:12
+  Done, minLen=8, maxLen=25, speed 2.315597 sents/s, time 0s, 30-Mar-2017 18:43:13
+  src 59: verify ( front: wall , right: wall , back: yellow hallway , left: grass hallway )
+  ref 59: this corner, where the yellow-tiled hall intersects the grassy hall, is position 4 <t_eos>
+  tgt 59: you should be facing a chair and move to the end of the yellow floored hallway <t_eos>
+  score -14.7835
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:13
+  Done, minLen=8, maxLen=24, speed 1.455166 sents/s, time 1s, 30-Mar-2017 18:43:14
+  src 60: travel ( ) , verify ( front: wall , right: wall , left: wall )
+  ref 60: keep going down this hallways for as long as it will go <t_eos>
+  tgt 60: move to the end of the alley and the wall is on your left and left <t_eos>
+  score -16.3017
+# Decoding batch of 1 sents, minLen=12, maxLen=36, 30-Mar-2017 18:43:14
+  Done, minLen=12, maxLen=36, speed 1.544478 sents/s, time 1s, 30-Mar-2017 18:43:14
+  src 61: turn ( ) , verify ( front: yellow hallway , back: wall ) , travel ( ) , verify ( front: wall )
+  ref 61: with your back to the wall move forward along the octagon flooring to the end of the alley <t_eos>
+  tgt 61: go all the way down the blue hall to the end of the hall <t_eos>
+  score -9.70963
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:14
+  Done, minLen=5, maxLen=16, speed 3.272016 sents/s, time 0s, 30-Mar-2017 18:43:15
+  src 62: verify ( front: butterfly wall , back: butterfly wall )
+  ref 62: it is a hall segment that is between pictures of butterflies <t_eos>
+  tgt 62: you should see an easel in front of you <t_eos>
+  score -7.04185
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:15
+  Done, minLen=6, maxLen=19, speed 3.515198 sents/s, time 0s, 30-Mar-2017 18:43:15
+  src 63: travel ( steps: 2 ) , verify ( side: gravel hallway )
+  ref 63: go two segments to the <unk> with the <unk> hallway <t_eos>
+  tgt 63: go forward two segments to the intersection with the stone hall <t_eos>
+  score -4.59736
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:15
+  Done, minLen=7, maxLen=22, speed 2.343671 sents/s, time 0s, 30-Mar-2017 18:43:16
+  src 64: travel ( ) , verify ( left: flower hallway ) , travel ( )
+  ref 64: go forward, passing the pink-flowered carpet hall on your left <t_eos>
+  tgt 64: move to the end of the yellow hall <t_eos>
+  score -7.76215
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:16
+  Done, minLen=5, maxLen=16, speed 1.696658 sents/s, time 1s, 30-Mar-2017 18:43:16
+  src 65: verify ( left: concrete hallway , right: concrete hallway )
+  ref 65: there should be a bare concrete hall to each side of you <t_eos>
+  tgt 65: you should be facing a brick hall to your left <t_eos>
+  score -9.80795
+# Decoding batch of 1 sents, minLen=2, maxLen=6, 30-Mar-2017 18:43:16
+  Done, minLen=2, maxLen=6, speed 2.544898 sents/s, time 0s, 30-Mar-2017 18:43:17
+  src 66: travel ( )
+  ref 66: foward <t_eos>
+  tgt 66: go forward <t_eos>
+  score -3.58158
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:43:17
+  Done, minLen=1, maxLen=3, speed 8.154811 sents/s, time 0s, 30-Mar-2017 18:43:17
+  src 67: null
+  ref 67: but one movement forward and it will <t_eos>
+  tgt 67: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:17
+  Done, minLen=7, maxLen=22, speed 2.163945 sents/s, time 0s, 30-Mar-2017 18:43:17
+  src 68: travel ( ) , verify ( at: hatrack ) , turn ( left )
+  ref 68: at the coat rack take a left <t_eos>
+  tgt 68: move to the chair and turn right <t_eos>
+  score -3.78016
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:43:17
+  Done, minLen=3, maxLen=10, speed 3.814290 sents/s, time 0s, 30-Mar-2017 18:43:18
+  src 69: verify ( right: yellow hallway )
+  ref 69: you should then see <unk> green octagon carpet to your right <t_eos>
+  tgt 69: you should be facing a chair and a right <t_eos>
+  score -9.66449
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:18
+  Done, minLen=11, maxLen=33, speed 2.473344 sents/s, time 0s, 30-Mar-2017 18:43:18
+  src 70: turn ( ) , verify ( back: wall , right: wall , left: wall ) , travel ( steps: 1 )
+  ref 70: move out of the dead end <t_eos>
+  tgt 70: with your back to the wall and move forward one alley <t_eos>
+  score -6.90193
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:18
+  Done, minLen=11, maxLen=33, speed 1.768691 sents/s, time 1s, 30-Mar-2017 18:43:19
+  src 71: turn ( right ) , verify ( front: blue hallway ) , travel ( ) , verify ( at: hatrack )
+  ref 71: take a right down the blue hall until you see a coat rack <t_eos>
+  tgt 71: turn left and move along the brick floor to the hatrack <t_eos>
+  score -7.3991
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:19
+  Done, minLen=3, maxLen=9, speed 2.772356 sents/s, time 0s, 30-Mar-2017 18:43:19
+  src 72: verify ( right: barstool )
+  ref 72: to one side you will see an intersection with the stone hall containing a stool <t_eos>
+  tgt 72: there is a bench to your right <t_eos>
+  score -5.04815
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:43:19
+  Done, minLen=10, maxLen=31, speed 1.384208 sents/s, time 1s, 30-Mar-2017 18:43:20
+  src 73: verify ( front: grass hallway ) , travel ( ) , verify ( front: wall , right: yellow hallway )
+  ref 73: at the end of the grass there should be green octagon carpet to your right <t_eos>
+  tgt 73: move along the stone floor to the end of the hall <t_eos>
+  score -10.0143
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:20
+  Done, minLen=5, maxLen=15, speed 2.464311 sents/s, time 0s, 30-Mar-2017 18:43:20
+  src 74: travel ( ) , verify ( front: wall )
+  ref 74: go to end <t_eos>
+  tgt 74: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:20
+  Done, minLen=8, maxLen=24, speed 1.683213 sents/s, time 1s, 30-Mar-2017 18:43:21
+  src 75: travel ( steps: 3 ) , verify ( side: gravel hallway , at: 3-intersection )
+  ref 75: go forward three <unk> to the 't' intersection with the stone floor <t_eos>
+  tgt 75: go forward two segments to the intersection with the stone hall <t_eos>
+  score -5.92889
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:43:21
+  Done, minLen=3, maxLen=10, speed 3.226806 sents/s, time 0s, 30-Mar-2017 18:43:21
+  src 76: verify ( front: brick hallway )
+  ref 76: position 5 is one stop before the intersection of the red brick and the wood <t_eos>
+  tgt 76: you should be facing a chair and a right <t_eos>
+  score -10.8176
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:21
+  Done, minLen=5, maxLen=15, speed 2.978886 sents/s, time 0s, 30-Mar-2017 18:43:22
+  src 77: turn ( ) , verify ( back: wall )
+  ref 77: turn so that the wall is on your back <t_eos>
+  tgt 77: turn so that the wall is on your right and back <t_eos>
+  score -7.46129
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:22
+  Done, minLen=9, maxLen=27, speed 2.123534 sents/s, time 0s, 30-Mar-2017 18:43:22
+  src 78: verify ( front: gravel hallway ) , travel ( ) , verify ( side: brick hallway )
+  ref 78: go straight on black path to red brick junction <t_eos>
+  tgt 78: go all the way down the blue hall until you reach the blue hall <t_eos>
+  score -10.04
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:22
+  Done, minLen=9, maxLen=27, speed 2.435466 sents/s, time 0s, 30-Mar-2017 18:43:23
+  src 79: turn ( ) , verify ( front: gravel hallway , front: easel , front: butterfly wall )
+  ref 79: turn to face the black corridor where you can see a painting easel at the end and pictures of butterflys on both sides of the walls <t_eos>
+  tgt 79: take the black path towards the end of the hall with the easel <t_eos>
+  score -13.0159
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:23
+  Done, minLen=9, maxLen=27, speed 2.149165 sents/s, time 0s, 30-Mar-2017 18:43:23
+  src 80: verify ( front: blue hallway ) , travel ( ) , verify ( side: flower hallway )
+  ref 80: move far down the blue carpet to the flowered carpet <t_eos>
+  tgt 80: go all the way down the blue hall until you reach the blue hall <t_eos>
+  score -9.9204
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:23
+  Done, minLen=3, maxLen=9, speed 2.127379 sents/s, time 0s, 30-Mar-2017 18:43:24
+  src 81: verify ( at: sofa )
+  ref 81: there is <unk> a bench there <t_eos>
+  tgt 81: there is a bench in this intersection <t_eos>
+  score -5.59848
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:24
+  Done, minLen=6, maxLen=19, speed 1.934472 sents/s, time 1s, 30-Mar-2017 18:43:24
+  src 82: turn ( ) , verify ( left: wall , back: wall )
+  ref 82: turn so that the wall is on your left and to your back <t_eos>
+  tgt 82: turn so that the wall is on your left and back <t_eos>
+  score -6.46918
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:24
+  Done, minLen=5, maxLen=16, speed 2.282089 sents/s, time 0s, 30-Mar-2017 18:43:25
+  src 83: travel ( ) , verify ( side: flower hallway )
+  ref 83: then pink <t_eos>
+  tgt 83: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.83969
+# Decoding batch of 1 sents, minLen=12, maxLen=37, 30-Mar-2017 18:43:25
+  Done, minLen=12, maxLen=37, speed 1.014621 sents/s, time 1s, 30-Mar-2017 18:43:26
+  src 84: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( side: gravel hallway , at: easel )
+  ref 84: down the yellow hall until it intersects with the grey hall and has an easel <t_eos>
+  tgt 84: take the yellow path all the way to the end of the hall <t_eos>
+  score -6.33024
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:43:26
+  Done, minLen=7, maxLen=21, speed 1.847090 sents/s, time 1s, 30-Mar-2017 18:43:26
+  src 85: travel ( ) , verify ( front: wall , back: fish wall )
+  ref 85: end of the fish area <t_eos>
+  tgt 85: go to the end of the hall <t_eos>
+  score -5.59842
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:27
+  Done, minLen=8, maxLen=24, speed 2.038927 sents/s, time 0s, 30-Mar-2017 18:43:27
+  src 86: travel ( ) , verify ( side: blue hallway ) , turn ( left )
+  ref 86: at the blue path intersection, <unk> a left <t_eos>
+  tgt 86: move to the blue carpet and turn right <t_eos>
+  score -5.23101
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:27
+  Done, minLen=3, maxLen=9, speed 4.226811 sents/s, time 0s, 30-Mar-2017 18:43:27
+  src 87: verify ( at: chair )
+  ref 87: this <unk> contains a chair <t_eos>
+  tgt 87: there is a bench in this intersection <t_eos>
+  score -5.47213
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:27
+  Done, minLen=11, maxLen=33, speed 0.735771 sents/s, time 1s, 30-Mar-2017 18:43:29
+  src 88: turn ( ) , verify ( front: flower hallway ) , travel ( ) , verify ( side: brick hallway )
+  ref 88: go straight on the pink flowered path to the intersection of the red brick <t_eos>
+  tgt 88: take the pink path to the blue path intersection and move to the intersection of the red brick hall <t_eos>
+  score -16.5893
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:29
+  Done, minLen=5, maxLen=15, speed 2.646735 sents/s, time 0s, 30-Mar-2017 18:43:29
+  src 89: travel ( ) , verify ( front: hatrack )
+  ref 89: if you continue on you will see a hat rack <t_eos>
+  tgt 89: go to the end of this hall <t_eos>
+  score -5.00386
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:29
+  Done, minLen=5, maxLen=16, speed 2.590029 sents/s, time 0s, 30-Mar-2017 18:43:29
+  src 90: verify ( front: butterfly wall , back: butterfly wall )
+  ref 90: it is a hall section between the two sections of butterfly pictures <t_eos>
+  tgt 90: you should see an easel in front of you <t_eos>
+  score -7.04185
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:30
+  Done, minLen=5, maxLen=15, speed 2.381491 sents/s, time 0s, 30-Mar-2017 18:43:30
+  src 91: verify ( at: easel , side: brick hallway )
+  ref 91: if you are at the intersection of red and pink and there is a painting <unk> you are there <t_eos>
+  tgt 91: you should be facing the bench to your left and a hatrack <t_eos>
+  score -12.6641
+# Decoding batch of 1 sents, minLen=2, maxLen=6, 30-Mar-2017 18:43:30
+  Done, minLen=2, maxLen=6, speed 5.865481 sents/s, time 0s, 30-Mar-2017 18:43:30
+  src 92: travel ( )
+  ref 92: go straight until you get to the grey floor <t_eos>
+  tgt 92: go forward <t_eos>
+  score -3.58158
+# Decoding batch of 1 sents, minLen=12, maxLen=36, 30-Mar-2017 18:43:30
+  Done, minLen=12, maxLen=36, speed 1.252348 sents/s, time 1s, 30-Mar-2017 18:43:31
+  src 93: travel ( ) , turn ( ) , travel ( ) , turn ( ) , travel ( ) , turn ( )
+  ref 93: follow this hallway out <t_eos>
+  tgt 93: turn left and move to the chair and turn right and move to the chair and turn right <t_eos>
+  score -13.3831
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:31
+  Done, minLen=3, maxLen=9, speed 1.510672 sents/s, time 1s, 30-Mar-2017 18:43:32
+  src 94: travel ( steps: 2 )
+  ref 94: two spaces foward <t_eos>
+  tgt 94: go forward two segments <t_eos>
+  score -3.37365
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:43:32
+  Done, minLen=4, maxLen=13, speed 3.183699 sents/s, time 0s, 30-Mar-2017 18:43:32
+  src 95: turn ( ) , verify (front: hatrack )
+  ref 95: face the hatrack in the blue-tiled hallway <t_eos>
+  tgt 95: turn so that the wall is on your left and back <t_eos>
+  score -8.23026
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:32
+  Done, minLen=6, maxLen=18, speed 3.789530 sents/s, time 0s, 30-Mar-2017 18:43:32
+  src 96: verify ( side: blue hallway ) , turn ( right )
+  ref 96: a left at the blue hall <t_eos>
+  tgt 96: at the intersection with the blue path, take a right <t_eos>
+  score -7.67402
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:32
+  Done, minLen=3, maxLen=9, speed 5.582507 sents/s, time 0s, 30-Mar-2017 18:43:32
+  src 97: travel ( steps: 1 )
+  ref 97: go one space foward <t_eos>
+  tgt 97: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:33
+  Done, minLen=5, maxLen=16, speed 3.602202 sents/s, time 0s, 30-Mar-2017 18:43:33
+  src 98: travel ( ) , verify ( side: flower hallway )
+  ref 98: follow it to the pink-flowered carpet hall <t_eos>
+  tgt 98: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.83969
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:33
+  Done, minLen=7, maxLen=22, speed 2.297177 sents/s, time 0s, 30-Mar-2017 18:43:33
+  src 99: travel ( ) , verify ( left: hallway ) , turn ( left )
+  ref 99: 1st <unk> <t_eos>
+  tgt 99: move to the chair and turn right <t_eos>
+  score -4.37343
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:33
+  Done, minLen=5, maxLen=16, speed 2.982075 sents/s, time 0s, 30-Mar-2017 18:43:34
+  src 100: travel ( steps: 1 ) , turn ( left )
+  ref 100: move one alley and turn left <t_eos>
+  tgt 100: go forward one segment to this intersection <t_eos>
+  score -5.20156
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:34
+  Done, minLen=3, maxLen=9, speed 5.370944 sents/s, time 0s, 30-Mar-2017 18:43:34
+  src 101: travel ( steps: 2 )
+  ref 101: move forward two alleys <t_eos>
+  tgt 101: go forward two segments <t_eos>
+  score -3.37365
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:34
+  Done, minLen=5, maxLen=16, speed 3.588693 sents/s, time 0s, 30-Mar-2017 18:43:34
+  src 102: travel ( ) , verify ( front: blue hallway )
+  ref 102: move forward and follow the alley around until you end up on blue carpet <t_eos>
+  tgt 102: go to the red brick area <t_eos>
+  score -4.88741
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:43:34
+  Done, minLen=14, maxLen=42, speed 2.380561 sents/s, time 0s, 30-Mar-2017 18:43:35
+  src 103: verify ( front: hatrack , front: lamp ) , travel ( steps: 5 ) , verify ( back: hatrack , back: lamp , side: concrete hallway )
+  ref 103: go forward five segments to the empty intersection with a bare concrete hall, passing a hatrack and a lamp <t_eos>
+  tgt 103: go forward two segments to the intersection with the pink-flowered carpet hall to your right <t_eos>
+  score -10.0254
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:35
+  Done, minLen=6, maxLen=18, speed 3.201260 sents/s, time 0s, 30-Mar-2017 18:43:35
+  src 104: turn ( right ) , verify ( front: flower hallway )
+  ref 104: make a right toward the pink floored area <t_eos>
+  tgt 104: turn left into the red brick hallway <t_eos>
+  score -7.46404
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:35
+  Done, minLen=9, maxLen=27, speed 1.620173 sents/s, time 1s, 30-Mar-2017 18:43:36
+  src 105: turn ( right ) , verify ( front: blue hallway ) , travel ( steps: 2 )
+  ref 105: turn right and walk down the blue hallway twice <t_eos>
+  tgt 105: turn left and move along the brick and one alley past the chair <t_eos>
+  score -11.2215
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:36
+  Done, minLen=11, maxLen=33, speed 1.764014 sents/s, time 1s, 30-Mar-2017 18:43:36
+  src 106: turn ( ) , verify ( front: brick hallway ) , travel ( ) , verify ( side: gravel hallway )
+  ref 106: take the red hall to the grey hall <t_eos>
+  tgt 106: take the pink path to the red brick path towards the chair <t_eos>
+  score -9.01983
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:36
+  Done, minLen=7, maxLen=22, speed 2.812750 sents/s, time 0s, 30-Mar-2017 18:43:37
+  src 107: turn ( right ) , travel ( ) , verify ( at: barstool )
+  ref 107: turn right and move forward to the stool <t_eos>
+  tgt 107: turn left and move to the chair <t_eos>
+  score -4.59316
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:37
+  Done, minLen=7, maxLen=22, speed 3.138190 sents/s, time 0s, 30-Mar-2017 18:43:37
+  src 108: travel ( ) , verify ( front: blue hallway , side: flower hallway )
+  ref 108: 4 is at the intersection of the blue and rose hallways <t_eos>
+  tgt 108: go forward until you reach the intersection with the stone floor to the blue floor <t_eos>
+  score -14.6346
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:43:37
+  Done, minLen=10, maxLen=31, speed 1.473700 sents/s, time 1s, 30-Mar-2017 18:43:38
+  src 109: turn ( ) , verify ( left: blue hallway , right: blue hallway , front: hallway , back: wall )
+  ref 109: with your back to the wall at 3 you see an alley in front and blue carpet to each side <t_eos>
+  tgt 109: take the yellow path towards the blue path towards the lamp <t_eos>
+  score -8.95085
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:43:38
+  Done, minLen=4, maxLen=13, speed 3.743370 sents/s, time 0s, 30-Mar-2017 18:43:38
+  src 110: verify ( front: easel , left: chair )
+  ref 110: two blocks in front of you is an easel and to your left is a chair <t_eos>
+  tgt 110: you should see an easel in front of you <t_eos>
+  score -4.97488
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:38
+  Done, minLen=5, maxLen=16, speed 3.399383 sents/s, time 0s, 30-Mar-2017 18:43:38
+  src 111: travel ( ) , verify ( side: gravel hallway )
+  ref 111: go all the way until the intersection of black road <t_eos>
+  tgt 111: go to the blue floored area <t_eos>
+  score -6.0029
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:39
+  Done, minLen=3, maxLen=9, speed 5.784493 sents/s, time 0s, 30-Mar-2017 18:43:39
+  src 112: travel ( steps: 1 )
+  ref 112: the very first intersection will be position 7 <t_eos>
+  tgt 112: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:39
+  Done, minLen=6, maxLen=19, speed 3.576986 sents/s, time 0s, 30-Mar-2017 18:43:39
+  src 113: verify ( front: blue hallway ) , travel ( steps: 2 )
+  ref 113: the second intersection down on the blue path is 3 <t_eos>
+  tgt 113: move along the brick and the hatrack and position 3 <t_eos>
+  score -12.2514
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:39
+  Done, minLen=8, maxLen=24, speed 2.802094 sents/s, time 0s, 30-Mar-2017 18:43:39
+  src 114: travel ( ) , turn ( ) , travel ( ) , turn ( )
+  ref 114: follow the alley <t_eos>
+  tgt 114: at the first intersection, take a right and go to the chair <t_eos>
+  score -11.3939
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:40
+  Done, minLen=6, maxLen=19, speed 2.380346 sents/s, time 0s, 30-Mar-2017 18:43:40
+  src 115: travel ( steps: 1 ) , verify ( side: gravel hallway )
+  ref 115: the first intersection at the black will be position 6 <t_eos>
+  tgt 115: go forward one segment to the blue-tiled hall <t_eos>
+  score -2.9859
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:40
+  Done, minLen=6, maxLen=18, speed 2.671789 sents/s, time 0s, 30-Mar-2017 18:43:40
+  src 116: travel ( steps: 1 ) , verify ( at: barstool )
+  ref 116: and the very next intersection where there is <unk> a stool is 7 <t_eos>
+  tgt 116: go forward one segment to the intersection with the stool <t_eos>
+  score -4.2341
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:40
+  Done, minLen=5, maxLen=15, speed 3.244720 sents/s, time 0s, 30-Mar-2017 18:43:41
+  src 117: travel ( ) , verify ( front: wall )
+  ref 117: p 4 is at the end of this alley <t_eos>
+  tgt 117: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=13, maxLen=39, 30-Mar-2017 18:43:41
+  Done, minLen=13, maxLen=39, speed 1.931367 sents/s, time 1s, 30-Mar-2017 18:43:41
+  src 118: verify ( front: flower hallway , front: hatrack ) , travel ( steps: 3 ) , verify ( back: hatrack , side: blue hallway )
+  ref 118: go forward along the pink-flowered carpet hall three segments to the blue-tiled hall, passing a hatrack maybe <t_eos>
+  tgt 118: go forward two segments to the intersection with the pink-flowered carpet hall passing a lamp <t_eos>
+  score -11.5634
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:41
+  Done, minLen=6, maxLen=19, speed 2.641987 sents/s, time 0s, 30-Mar-2017 18:43:42
+  src 119: turn ( ) , verify ( back: wall , right: wall )
+  ref 119: turn so the walls are on your right and back <t_eos>
+  tgt 119: turn so that the wall is on your right and back <t_eos>
+  score -6.78555
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:42
+  Done, minLen=5, maxLen=16, speed 4.013727 sents/s, time 0s, 30-Mar-2017 18:43:42
+  src 120: travel ( steps: 1 ) , turn ( right )
+  ref 120: move forward one alley and turn right <t_eos>
+  tgt 120: go forward one segment to this intersection <t_eos>
+  score -5.17413
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:43:42
+  Done, minLen=1, maxLen=3, speed 8.622697 sents/s, time 0s, 30-Mar-2017 18:43:42
+  src 121: null
+  ref 121: you see grey stone <t_eos>
+  tgt 121: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:42
+  Done, minLen=8, maxLen=24, speed 2.199552 sents/s, time 0s, 30-Mar-2017 18:43:42
+  src 122: verify ( left: wall , right: wall , front: wall , back: yellow hallway )
+  ref 122: if <unk> <unk> <unk> position 4 is at end of the yellow-tiled hall farthest from the intersection with the stone hall <t_eos>
+  tgt 122: you should be facing a chair and move to the wall <t_eos>
+  score -11.6783
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:43:43
+  Done, minLen=10, maxLen=31, speed 1.167476 sents/s, time 1s, 30-Mar-2017 18:43:43
+  src 123: verify ( front: chair ) , travel ( steps: 2 ) , verify ( back: chair , at: barstool )
+  ref 123: go forward two <unk> passing the chair, to the intersection containing the stool <t_eos>
+  tgt 123: go forward two segments to the intersection containing the hatrack <t_eos>
+  score -5.59246
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:44
+  Done, minLen=5, maxLen=16, speed 2.337574 sents/s, time 0s, 30-Mar-2017 18:43:44
+  src 124: turn ( right ) , travel ( steps: 4 )
+  ref 124: turn right walk forward four times <t_eos>
+  tgt 124: turn left and walk forward once <t_eos>
+  score -4.34674
+# Decoding batch of 1 sents, minLen=13, maxLen=39, 30-Mar-2017 18:43:44
+  Done, minLen=13, maxLen=39, speed 1.437401 sents/s, time 1s, 30-Mar-2017 18:43:45
+  src 125: turn ( ) , verify ( front: yellow hallway , front: sofa ) , travel ( steps: 3 ) , verify ( back: sofa )
+  ref 125: follow the yellow-tiled hall forward three segments, passing the bench <t_eos>
+  tgt 125: go forward along the stone hall one segment to the intersection containing the hatrack <t_eos>
+  score -10.9101
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:45
+  Done, minLen=5, maxLen=16, speed 3.677674 sents/s, time 0s, 30-Mar-2017 18:43:45
+  src 126: turn ( ) , verify ( front: flower hallway )
+  ref 126: go down the rose hall <t_eos>
+  tgt 126: turn to face the black hallway <t_eos>
+  score -5.49427
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:45
+  Done, minLen=6, maxLen=19, speed 2.453681 sents/s, time 0s, 30-Mar-2017 18:43:45
+  src 127: travel ( steps: 1 ) , verify ( side: brick hallway )
+  ref 127: go forward one segment to the brick hall <t_eos>
+  tgt 127: go forward one segment to the intersection with the brick hall <t_eos>
+  score -2.96608
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:46
+  Done, minLen=5, maxLen=15, speed 2.354853 sents/s, time 0s, 30-Mar-2017 18:43:46
+  src 128: turn ( ) , verify ( front: easel )
+  ref 128: face the easel <t_eos>
+  tgt 128: turn so that the wall is on your left side <t_eos>
+  score -7.90724
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:43:46
+  Done, minLen=5, maxLen=15, speed 2.463795 sents/s, time 0s, 30-Mar-2017 18:43:46
+  src 129: travel ( ) , verify ( at: easel )
+  ref 129: pos 1 is on the aesal <t_eos>
+  tgt 129: move to the easel one segment <t_eos>
+  score -9.47013
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:47
+  Done, minLen=6, maxLen=18, speed 3.103585 sents/s, time 0s, 30-Mar-2017 18:43:47
+  src 130: turn ( left ) , verify ( front: brick hallway )
+  ref 130: go left onto the red brick path <t_eos>
+  tgt 130: turn left into the brick hall <t_eos>
+  score -7.27213
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:47
+  Done, minLen=3, maxLen=9, speed 3.686554 sents/s, time 0s, 30-Mar-2017 18:43:47
+  src 131: travel ( steps: 1 )
+  ref 131: walk forward once <t_eos>
+  tgt 131: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:43:47
+  Done, minLen=7, maxLen=21, speed 1.752259 sents/s, time 1s, 30-Mar-2017 18:43:48
+  src 132: turn ( ) , travel ( ) , verify ( at: barstool )
+  ref 132: turn down this alley and move to the stool <t_eos>
+  tgt 132: turn left and move to the chair <t_eos>
+  score -5.24224
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:48
+  Done, minLen=11, maxLen=33, speed 1.961488 sents/s, time 1s, 30-Mar-2017 18:43:48
+  src 133: turn ( ) , verify ( front: gravel hallway ) , travel ( ) , verify ( side: brick hallway )
+  ref 133: go down grey hall until you get to the red hall <t_eos>
+  tgt 133: take the pink path to the red brick path towards the chair <t_eos>
+  score -9.04195
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:43:48
+  Done, minLen=9, maxLen=27, speed 1.118105 sents/s, time 1s, 30-Mar-2017 18:43:49
+  src 134: travel ( steps: 1 ) , turn ( right ) , verify ( front: blue hallway )
+  ref 134: at the next intersection, take a right onto the blue path <t_eos>
+  tgt 134: go forward one segment to the intersection with the brick hall <t_eos>
+  score -5.09784
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:49
+  Done, minLen=11, maxLen=33, speed 1.134158 sents/s, time 1s, 30-Mar-2017 18:43:50
+  src 135: travel ( ) , verify ( at: sofa ) , turn ( right ) , verify ( front: yellow hallway )
+  ref 135: turn right at the bench into the yellow tiled hall <t_eos>
+  tgt 135: at the next corner, take a right onto the blue path <t_eos>
+  score -7.35622
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:43:50
+  Done, minLen=11, maxLen=33, speed 1.897486 sents/s, time 1s, 30-Mar-2017 18:43:51
+  src 136: turn ( left ) , verify ( front: blue hallway ) , travel ( ) , verify ( front: wall )
+  ref 136: then left all the way down the blue hall <t_eos>
+  tgt 136: turn left and move to the end of the yellow floor <t_eos>
+  score -8.4238
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:43:51
+  Done, minLen=6, maxLen=19, speed 2.984683 sents/s, time 0s, 30-Mar-2017 18:43:51
+  src 137: travel ( steps: 2 ) , verify ( side: blue hallway )
+  ref 137: go forward two segments to the intersection with the blue-tiled hall <t_eos>
+  tgt 137: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -4.66447
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:51
+  Done, minLen=8, maxLen=24, speed 2.366886 sents/s, time 0s, 30-Mar-2017 18:43:52
+  src 138: travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 138: keep going down it until you reach a dead end square area <t_eos>
+  tgt 138: move to the end of the alley and the wall is on your left and back <t_eos>
+  score -16.3095
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:52
+  Done, minLen=8, maxLen=24, speed 1.443885 sents/s, time 1s, 30-Mar-2017 18:43:52
+  src 139: verify ( front: lamp ) , travel ( ) , verify ( back: lamp )
+  ref 139: you will pass a lamp <t_eos>
+  tgt 139: move past the chair to the end of the hall <t_eos>
+  score -7.76911
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:52
+  Done, minLen=5, maxLen=16, speed 2.440316 sents/s, time 0s, 30-Mar-2017 18:43:53
+  src 140: turn ( ) , verify ( front: blue hallway )
+  ref 140: turn onto the blue hallway <t_eos>
+  tgt 140: take the red brick path towards the chair <t_eos>
+  score -5.82051
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:53
+  Done, minLen=7, maxLen=22, speed 1.232011 sents/s, time 1s, 30-Mar-2017 18:43:54
+  src 141: travel ( ) , verify ( front: yellow hallway , side: grass hallway )
+  ref 141: it's at the corner of the yellow floor and the grassy floor <t_eos>
+  tgt 141: go to the red brick floored area <t_eos>
+  score -7.10108
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:43:54
+  Done, minLen=3, maxLen=10, speed 3.545420 sents/s, time 0s, 30-Mar-2017 18:43:54
+  src 142: verify ( left: concrete hallway )
+  ref 142: to your left is grey flooring <t_eos>
+  tgt 142: you should be facing the bench to your left <t_eos>
+  score -8.80184
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:43:54
+  Done, minLen=7, maxLen=21, speed 2.206716 sents/s, time 0s, 30-Mar-2017 18:43:54
+  src 143: turn ( ) , verify ( front: gravel hallway , front: lamp )
+  ref 143: turn to face the long black hallway <unk> <unk> lamp at the end <t_eos>
+  tgt 143: take the red brick path towards the lamp <t_eos>
+  score -4.98757
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:43:55
+  Done, minLen=14, maxLen=42, speed 1.961292 sents/s, time 1s, 30-Mar-2017 18:43:55
+  src 144: verify ( front: barstool , front: chair ) , travel ( steps: 4 ) , verify ( back: barstool , back: chair , side: grass hallway )
+  ref 144: go forward four segments, passing the stool and chair, to the grassy hallway <t_eos>
+  tgt 144: go forward along the stone hall one segment to the intersection with the brick hall <t_eos>
+  score -8.94171
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:55
+  Done, minLen=3, maxLen=9, speed 4.199581 sents/s, time 0s, 30-Mar-2017 18:43:55
+  src 145: verify ( front: lamp )
+  ref 145: the lamp should <unk> be in front of you <t_eos>
+  tgt 145: you should be facing a chair <t_eos>
+  score -5.74996
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:55
+  Done, minLen=5, maxLen=16, speed 3.725893 sents/s, time 0s, 30-Mar-2017 18:43:56
+  src 146: travel ( ) , verify ( side: yellow hallway )
+  ref 146: until you reach the yellow floors <t_eos>
+  tgt 146: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -8.24566
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:43:56
+  Done, minLen=8, maxLen=24, speed 2.730636 sents/s, time 0s, 30-Mar-2017 18:43:56
+  src 147: travel ( steps: 1 ) , verify ( at: 3-intersection , side: concrete hallway )
+  ref 147: go forward one segment to the 't' intersection with the bare concrete hall <t_eos>
+  tgt 147: go forward one segment to the blue-tiled hall <t_eos>
+  score -3.23615
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:56
+  Done, minLen=7, maxLen=22, speed 2.546467 sents/s, time 0s, 30-Mar-2017 18:43:56
+  src 148: travel ( ) , verify ( at: hatrack ) , turn ( right )
+  ref 148: move forward to the hat rack and turn right <t_eos>
+  tgt 148: move to the chair and turn right <t_eos>
+  score -3.6533
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:43:56
+  Done, minLen=3, maxLen=9, speed 4.415635 sents/s, time 0s, 30-Mar-2017 18:43:57
+  src 149: verify ( back: chair )
+  ref 149: the intersection with the blue-tiled hall should be to your left; the section containing the chair behind you <t_eos>
+  tgt 149: there is a bench in this intersection <t_eos>
+  score -5.76141
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:57
+  Done, minLen=7, maxLen=22, speed 2.808050 sents/s, time 0s, 30-Mar-2017 18:43:57
+  src 150: travel ( ) , verify ( at: barstool ) , turn ( right )
+  ref 150: move forward to the stool and turn right <t_eos>
+  tgt 150: move to the chair and turn right <t_eos>
+  score -3.31985
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:43:57
+  Done, minLen=7, maxLen=22, speed 2.077145 sents/s, time 0s, 30-Mar-2017 18:43:58
+  src 151: travel ( ) , verify ( front: wall ) , turn ( left )
+  ref 151: move to the wall and turn left <t_eos>
+  tgt 151: move to the corner and turn right <t_eos>
+  score -4.46446
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:43:58
+  Done, minLen=14, maxLen=42, speed 1.580063 sents/s, time 1s, 30-Mar-2017 18:43:58
+  src 152: verify ( front: lamp , front: hatrack ) , travel ( steps: 6 ) , verify ( back: lamp , back: hatrack , side: gravel hallway )
+  ref 152: go forward six segments to the intersection with the stone hall, passing a lamp and a hatrack <t_eos>
+  tgt 152: go forward two segments to the intersection with the stone floor passing the hatrack <t_eos>
+  score -9.30847
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:43:58
+  Done, minLen=6, maxLen=18, speed 1.966390 sents/s, time 1s, 30-Mar-2017 18:43:59
+  src 153: turn ( left ) , verify ( front: yellow hallway )
+  ref 153: turn left and move forward along the green octagon flooring <t_eos>
+  tgt 153: turn to face the yellow hallway <t_eos>
+  score -5.01796
+# Decoding batch of 1 sents, minLen=14, maxLen=43, 30-Mar-2017 18:43:59
+  Done, minLen=14, maxLen=43, speed 2.134645 sents/s, time 0s, 30-Mar-2017 18:43:59
+  src 154: verify ( front: wood hallway , front: lamp ) , travel ( steps: 2 ) , verify ( back: lamp , at: chair , side: blue hallway )
+  ref 154: go forward two segments down the wooden hall to the chair in the blue-tiled hall, passing the lamp <t_eos>
+  tgt 154: go forward along the stone hall one segment to the intersection with the brick hall <t_eos>
+  score -7.85924
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:43:59
+  Done, minLen=5, maxLen=16, speed 2.612480 sents/s, time 0s, 30-Mar-2017 18:44:00
+  src 155: verify ( front: grass hallway ) , travel ( )
+  ref 155: walk down the grass <t_eos>
+  tgt 155: move along the stone floor to the hatrack <t_eos>
+  score -6.07182
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:44:00
+  Done, minLen=7, maxLen=21, speed 2.669008 sents/s, time 0s, 30-Mar-2017 18:44:00
+  src 156: verify ( front: wall , left: wall ) , turn ( right )
+  ref 156: there should be only once <unk> to turn right <t_eos>
+  tgt 156: at the end of the hall and take a right <t_eos>
+  score -8.87141
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:00
+  Done, minLen=6, maxLen=19, speed 2.619159 sents/s, time 0s, 30-Mar-2017 18:44:00
+  src 157: travel ( ) , verify ( front: wall , left: wall )
+  ref 157: at the end of the hall in the corner, you are at position 5 <t_eos>
+  tgt 157: go to the end of the hall <t_eos>
+  score -5.29375
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:01
+  Done, minLen=7, maxLen=22, speed 1.800481 sents/s, time 1s, 30-Mar-2017 18:44:01
+  src 158: turn ( left ) , travel ( ) , verify ( at: easel )
+  ref 158: turn left and move to the easel <t_eos>
+  tgt 158: turn left and move to the easel <t_eos>
+  score -3.40381
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:44:01
+  Done, minLen=11, maxLen=34, speed 1.410028 sents/s, time 1s, 30-Mar-2017 18:44:02
+  src 159: verify ( front: brick hallway , front: lamp ) , travel ( ) , verify ( back: lamp , at: hatrack )
+  ref 159: move along the brick floor past the lamp to the hatrack <t_eos>
+  tgt 159: move past the chair to the end of the hall to your right <t_eos>
+  score -8.08815
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:02
+  Done, minLen=9, maxLen=27, speed 1.913909 sents/s, time 1s, 30-Mar-2017 18:44:02
+  src 160: travel ( steps: 1 ) , turn ( left ) , verify ( front: flower hallway )
+  ref 160: at the first intersection, take a left onto the pink path <t_eos>
+  tgt 160: go forward one segment to the intersection with the brick hall <t_eos>
+  score -4.82366
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:44:02
+  Done, minLen=1, maxLen=3, speed 9.027308 sents/s, time 0s, 30-Mar-2017 18:44:03
+  src 161: null
+  ref 161: go to the <unk> end of the hallway <t_eos>
+  tgt 161: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:03
+  Done, minLen=5, maxLen=15, speed 4.011264 sents/s, time 0s, 30-Mar-2017 18:44:03
+  src 162: turn ( ) , verify ( left: easel )
+  ref 162: face so the aesal is to your left <t_eos>
+  tgt 162: turn so that the wall is on your left side <t_eos>
+  score -7.59121
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:03
+  Done, minLen=3, maxLen=10, speed 3.959863 sents/s, time 0s, 30-Mar-2017 18:44:03
+  src 163: verify ( front: butterfly wall )
+  ref 163: stay on the butterfly street <t_eos>
+  tgt 163: you should see an easel in front of you <t_eos>
+  score -5.3231
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:03
+  Done, minLen=6, maxLen=19, speed 2.829703 sents/s, time 0s, 30-Mar-2017 18:44:04
+  src 164: travel ( steps: 2 ) , verify ( side: flower hallway )
+  ref 164: move down two blocks til you get to the alley with flowered carpet <t_eos>
+  tgt 164: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -4.64599
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:44:04
+  Done, minLen=6, maxLen=18, speed 3.520842 sents/s, time 0s, 30-Mar-2017 18:44:04
+  src 165: travel ( steps: 1 ) , verify ( at: sofa )
+  ref 165: go one section down to the bench and you are at position 1 <t_eos>
+  tgt 165: go forward one segment to the intersection containing the easel <t_eos>
+  score -4.04242
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:04
+  Done, minLen=5, maxLen=15, speed 4.014839 sents/s, time 0s, 30-Mar-2017 18:44:04
+  src 166: travel ( ) , verify ( front: wall )
+  ref 166: walk to the end of this aisle <t_eos>
+  tgt 166: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:44:04
+  Done, minLen=2, maxLen=7, speed 5.388396 sents/s, time 0s, 30-Mar-2017 18:44:04
+  src 167: turn ( right )
+  ref 167: take a right onto this <t_eos>
+  tgt 167: turn right <t_eos>
+  score -2.69595
+# Decoding batch of 1 sents, minLen=18, maxLen=54, 30-Mar-2017 18:44:05
+  Done, minLen=18, maxLen=54, speed 1.327965 sents/s, time 1s, 30-Mar-2017 18:44:05
+  src 168: travel ( ) , verify ( front: wall ) , turn ( left ) , verify ( front: lamp ) , travel ( ) , verify ( at: lamp ) , turn ( right )
+  ref 168: at the end of this hall, take a left towards the lamp and once at the lamp, take a right <t_eos>
+  tgt 168: at the end of the hall take a right onto the wood path and at the end of the hall <t_eos>
+  score -15.3565
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:05
+  Done, minLen=9, maxLen=27, speed 2.241760 sents/s, time 0s, 30-Mar-2017 18:44:06
+  src 169: travel ( ) , verify ( at: easel , front: flower hallway , back: flower hallway )
+  ref 169: go to the aesal in the pink floored area <t_eos>
+  tgt 169: go forward to the end of the hall with the brick hall <t_eos>
+  score -10.6399
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:06
+  Done, minLen=11, maxLen=33, speed 1.887608 sents/s, time 1s, 30-Mar-2017 18:44:06
+  src 170: verify ( at: chair ) , turn ( left ) , travel ( steps: 1 ) , turn ( right )
+  ref 170: turn left at the chair and turn right at the next interesection <t_eos>
+  tgt 170: turn left and move one block past the chair to the hatrack <t_eos>
+  score -14.0544
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:44:06
+  Done, minLen=8, maxLen=24, speed 2.514964 sents/s, time 0s, 30-Mar-2017 18:44:07
+  src 171: travel ( ) , verify ( at: lamp ) , travel ( steps: 1 )
+  ref 171: one intersection past the lamp is 7 <t_eos>
+  tgt 171: move one block past the chair and move forward one alley <t_eos>
+  score -11.0622
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:44:07
+  Done, minLen=8, maxLen=24, speed 1.966541 sents/s, time 1s, 30-Mar-2017 18:44:07
+  src 172: travel ( steps: 2 ) , verify ( side: yellow hallway , at: 3-intersection )
+  ref 172: go forward two segments to the 't' intersection with the yellow-tiled hall <t_eos>
+  tgt 172: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -6.53388
+# Decoding batch of 1 sents, minLen=19, maxLen=57, 30-Mar-2017 18:44:08
+  Done, minLen=19, maxLen=57, speed 1.019714 sents/s, time 1s, 30-Mar-2017 18:44:08
+  src 173: turn ( ) , verify ( front: brick hallway , back: sofa ) , travel ( ) , verify ( front: wall , left: wall ) , turn ( right ) , verify ( front: easel )
+  ref 173: take the red brick path away from the bench and at the corner, go right towards the easel <t_eos>
+  tgt 173: at the end of the hall with your back to the wall at the end of the hall with your back <t_eos>
+  score -17.6411
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:09
+  Done, minLen=5, maxLen=15, speed 2.080680 sents/s, time 0s, 30-Mar-2017 18:44:09
+  src 174: verify ( left: concrete hallway , left: sofa )
+  ref 174: the bench in the bare concrete hall should be to your left <t_eos>
+  tgt 174: you should be facing a chair and a hatrack in front of you <t_eos>
+  score -10.8499
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:09
+  Done, minLen=5, maxLen=16, speed 3.052047 sents/s, time 0s, 30-Mar-2017 18:44:09
+  src 175: travel ( steps: 1 ) , turn ( right )
+  ref 175: move forward to the next block and turn right <t_eos>
+  tgt 175: go forward one segment to this intersection <t_eos>
+  score -5.17413
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:09
+  Done, minLen=9, maxLen=27, speed 1.860119 sents/s, time 1s, 30-Mar-2017 18:44:10
+  src 176: travel ( ) , verify ( front: wall , left: blue hallway , right: blue hallway )
+  ref 176: at the end where you can only go right or left onto a blue path, you are at 3 <t_eos>
+  tgt 176: go to the end of the yellow floored hall <t_eos>
+  score -7.8527
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:44:10
+  Done, minLen=10, maxLen=31, speed 3.103306 sents/s, time 0s, 30-Mar-2017 18:44:10
+  src 177: verify ( front: chair ) , travel ( steps: 2 ) , verify ( back: chair , at: barstool )
+  ref 177: go forward two segments to the intersection containing the stool, passing a chair <t_eos>
+  tgt 177: go forward two segments to the intersection containing the hatrack <t_eos>
+  score -5.59246
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:44:10
+  Done, minLen=6, maxLen=18, speed 2.729831 sents/s, time 0s, 30-Mar-2017 18:44:11
+  src 178: turn ( right ) , verify ( front: brick hallway )
+  ref 178: go right on red brick <t_eos>
+  tgt 178: turn left into the red brick hallway <t_eos>
+  score -7.54816
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:11
+  Done, minLen=3, maxLen=10, speed 3.993196 sents/s, time 0s, 30-Mar-2017 18:44:11
+  src 179: verify ( front: flower hallway )
+  ref 179: you are facing flowered carpet <t_eos>
+  tgt 179: you should be facing a chair and grey carpet <t_eos>
+  score -8.82532
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:11
+  Done, minLen=5, maxLen=15, speed 2.468136 sents/s, time 0s, 30-Mar-2017 18:44:11
+  src 180: verify ( front: lamp ) , travel ( )
+  ref 180: follow this hallway tward the lamp <t_eos>
+  tgt 180: move past the chair to the hatrack <t_eos>
+  score -5.13848
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:44:12
+  Done, minLen=10, maxLen=31, speed 1.952096 sents/s, time 1s, 30-Mar-2017 18:44:12
+  src 181: turn ( left ) , travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 181: <unk> a left into dead end <t_eos>
+  tgt 181: turn left and move to the end of the wall <t_eos>
+  score -7.148
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:12
+  Done, minLen=7, maxLen=22, speed 2.504069 sents/s, time 0s, 30-Mar-2017 18:44:12
+  src 182: travel ( ) , verify ( left: hallway ) , turn ( left )
+  ref 182: first left <t_eos>
+  tgt 182: move to the chair and turn right <t_eos>
+  score -4.37343
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:13
+  Done, minLen=5, maxLen=16, speed 2.285589 sents/s, time 0s, 30-Mar-2017 18:44:13
+  src 183: verify ( front: gravel hallway , side: yellow hallway )
+  ref 183: if you are in the right place you should be at the intersection of black and yellow <t_eos>
+  tgt 183: you should be at the intersection of the red hall <t_eos>
+  score -8.57228
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:13
+  Done, minLen=3, maxLen=9, speed 4.528924 sents/s, time 0s, 30-Mar-2017 18:44:13
+  src 184: verify ( front: sofa )
+  ref 184: there is a bench two segments farther down the hall <t_eos>
+  tgt 184: you should be facing a chair <t_eos>
+  score -6.01769
+# Decoding batch of 1 sents, minLen=13, maxLen=39, 30-Mar-2017 18:44:14
+  Done, minLen=13, maxLen=39, speed 1.179048 sents/s, time 1s, 30-Mar-2017 18:44:14
+  src 185: verify ( front: brick hallway , front: lamp ) , travel ( ) , verify ( at: lamp ) , travel ( steps: 2 )
+  ref 185: walk along the brick two alleys past the lamp <t_eos>
+  tgt 185: move past the chair to the end of the hall to your right <t_eos>
+  score -10.7554
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:14
+  Done, minLen=5, maxLen=15, speed 2.491963 sents/s, time 0s, 30-Mar-2017 18:44:15
+  src 186: travel ( ) , verify ( at: easel )
+  ref 186: once at the black easel, you are at 1 <t_eos>
+  tgt 186: move to the easel one segment <t_eos>
+  score -9.47013
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:44:15
+  Done, minLen=9, maxLen=28, speed 1.815175 sents/s, time 1s, 30-Mar-2017 18:44:15
+  src 187: verify ( front: gravel hallway ) , travel ( steps: 3 ) , verify ( front: wall )
+  ref 187: walk to the end of the black hall, 3 steps <t_eos>
+  tgt 187: walk forward along the stone hall one segment to the end of the hall <t_eos>
+  score -9.559
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:15
+  Done, minLen=7, maxLen=22, speed 3.419236 sents/s, time 0s, 30-Mar-2017 18:44:16
+  src 188: travel ( ) , verify ( front: blue hallway , side: flower hallway )
+  ref 188: position 4 is at the intersection of the blue and rose floored halls <t_eos>
+  tgt 188: go forward until you reach the intersection with the stone floor to the blue floor <t_eos>
+  score -14.6346
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:16
+  Done, minLen=7, maxLen=22, speed 1.644526 sents/s, time 1s, 30-Mar-2017 18:44:16
+  src 189: turn ( right ) , travel ( ) , verify ( at: hatrack )
+  ref 189: turn right and walk to the hat rack <t_eos>
+  tgt 189: turn left and move to the hatrack <t_eos>
+  score -4.33543
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:44:16
+  Done, minLen=9, maxLen=28, speed 2.284654 sents/s, time 0s, 30-Mar-2017 18:44:17
+  src 190: verify ( front: wood hallway ) , travel ( steps: 2 ) , verify ( at: easel )
+  ref 190: go forward two segments along the wooden-floored hall to the intersection containing the easel <t_eos>
+  tgt 190: go forward two segments to the intersection containing the easel <t_eos>
+  score -6.18945
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:44:17
+  Done, minLen=10, maxLen=31, speed 1.925087 sents/s, time 1s, 30-Mar-2017 18:44:17
+  src 191: turn ( left ) , travel ( ) , verify ( right: wall , left: wall , front: wall )
+  ref 191: then take a left and take the hall all the way down to the dead end <t_eos>
+  tgt 191: turn left and move to the end of the wall <t_eos>
+  score -6.89069
+# Decoding batch of 1 sents, minLen=13, maxLen=40, 30-Mar-2017 18:44:17
+  Done, minLen=13, maxLen=40, speed 1.924580 sents/s, time 1s, 30-Mar-2017 18:44:18
+  src 192: turn ( left ) , travel ( ) , verify ( side: blue hallway ) , turn ( ) , verify ( front: blue hallway )
+  ref 192: turn left and move down the aisle with blue flooring <t_eos>
+  tgt 192: turn left and move to the end of the hall with the stone floor <t_eos>
+  score -10.3395
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:44:18
+  Done, minLen=8, maxLen=25, speed 2.374727 sents/s, time 0s, 30-Mar-2017 18:44:18
+  src 193: verify ( front: blue hallway ) , travel ( ) , verify ( at: hatrack )
+  ref 193: follow the blue path all the way to the coat rack <t_eos>
+  tgt 193: move along the stone floor to the hatrack <t_eos>
+  score -5.80708
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:18
+  Done, minLen=5, maxLen=16, speed 2.789167 sents/s, time 0s, 30-Mar-2017 18:44:19
+  src 194: turn ( ) , verify ( front: grass hallway )
+  ref 194: at 4 face the grass carpet <t_eos>
+  tgt 194: turn to face the black hallway <t_eos>
+  score -5.44338
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:44:19
+  Done, minLen=8, maxLen=25, speed 2.429101 sents/s, time 0s, 30-Mar-2017 18:44:19
+  src 195: travel ( ) , verify ( front: wall , left: wall , back: yellow hallway )
+  ref 195: walk to the corner of the green octagon carpet <t_eos>
+  tgt 195: go to the end of the yellow floored hallway <t_eos>
+  score -8.55669
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:19
+  Done, minLen=5, maxLen=15, speed 2.451798 sents/s, time 0s, 30-Mar-2017 18:44:20
+  src 196: turn ( ) , verify ( back: wall )
+  ref 196: turn so the wall is on your back <t_eos>
+  tgt 196: turn so that the wall is on your right and back <t_eos>
+  score -7.46129
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:20
+  Done, minLen=3, maxLen=10, speed 3.168749 sents/s, time 0s, 30-Mar-2017 18:44:20
+  src 197: verify ( side: flower hallway )
+  ref 197: the carpet is flowers <t_eos>
+  tgt 197: the side alleys have blue flooring <t_eos>
+  score -6.26983
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:44:20
+  Done, minLen=10, maxLen=30, speed 1.591599 sents/s, time 1s, 30-Mar-2017 18:44:21
+  src 198: verify ( front: yellow hallway ) , travel ( steps: 3 ) , verify ( side: concrete hallway )
+  ref 198: go forward three segments along the yellow-tiled hall to the intersection with a bare concrete floor <t_eos>
+  tgt 198: go forward two segments to the intersection with the stone hall <t_eos>
+  score -6.27835
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:44:21
+  Done, minLen=9, maxLen=28, speed 2.381003 sents/s, time 0s, 30-Mar-2017 18:44:21
+  src 199: turn ( right ) , verify ( front: blue hallway , front: hatrack ) , travel ( )
+  ref 199: take a right onto the blue path and go straight towards the coat rack <t_eos>
+  tgt 199: take the yellow path all the way to the end of the hall <t_eos>
+  score -6.01503
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:21
+  Done, minLen=11, maxLen=33, speed 1.325270 sents/s, time 1s, 30-Mar-2017 18:44:22
+  src 200: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( side: gravel hallway )
+  ref 200: follow the yellow path until it <unk> the black <t_eos>
+  tgt 200: take the pink path to the blue path intersection and move to the intersection of the blue hall <t_eos>
+  score -16.0647
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:22
+  Done, minLen=3, maxLen=9, speed 3.345746 sents/s, time 0s, 30-Mar-2017 18:44:22
+  src 201: verify ( left: sofa )
+  ref 201: there is a bench two segments to your left <t_eos>
+  tgt 201: there is a bench to your right <t_eos>
+  score -4.76204
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:22
+  Done, minLen=5, maxLen=16, speed 2.380051 sents/s, time 0s, 30-Mar-2017 18:44:23
+  src 202: turn ( ) , verify ( front: brick hallway )
+  ref 202: orient yourself to face the longer portion of the brick hall <t_eos>
+  tgt 202: take the red brick path towards the lamp <t_eos>
+  score -5.87067
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:44:23
+  Done, minLen=8, maxLen=24, speed 2.264359 sents/s, time 0s, 30-Mar-2017 18:44:23
+  src 203: travel ( ) , verify ( side: flower hallway ) , turn ( left )
+  ref 203: go left on pink flowered path at that juncture <t_eos>
+  tgt 203: move to the pink carpet and turn right <t_eos>
+  score -5.40771
+# Decoding batch of 1 sents, minLen=18, maxLen=55, 30-Mar-2017 18:44:23
+  Done, minLen=18, maxLen=55, speed 1.333188 sents/s, time 1s, 30-Mar-2017 18:44:24
+  src 204: turn ( left ) , travel ( ) , turn ( ) , travel ( ) , turn ( ) , travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 204: then take a left and go all the way down the winding hall till you hit a dead end <t_eos>
+  tgt 204: turn left and move to the end of the wall and turn right and move to the end of the alley and turn right <t_eos>
+  score -15.8089
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:24
+  Done, minLen=5, maxLen=15, speed 3.459094 sents/s, time 0s, 30-Mar-2017 18:44:24
+  src 205: turn ( ) , verify ( right: wall )
+  ref 205: turn so that the wall is on your right side <t_eos>
+  tgt 205: turn so that the wall is on your left side <t_eos>
+  score -6.05841
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:25
+  Done, minLen=3, maxLen=10, speed 3.494683 sents/s, time 0s, 30-Mar-2017 18:44:25
+  src 206: verify ( front: flower hallway )
+  ref 206: you should see flowered carpet <t_eos>
+  tgt 206: you should be facing a chair and grey carpet <t_eos>
+  score -8.82532
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:25
+  Done, minLen=3, maxLen=9, speed 3.583883 sents/s, time 0s, 30-Mar-2017 18:44:25
+  src 207: verify ( front: easel )
+  ref 207: there is an easel one segment farther down this hall <t_eos>
+  tgt 207: there should be an easel in front of you <t_eos>
+  score -5.22272
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:44:25
+  Done, minLen=1, maxLen=3, speed 7.000987 sents/s, time 0s, 30-Mar-2017 18:44:25
+  src 208: null
+  ref 208: i believe this is a right turn an <unk> the intersection is two segments down <t_eos>
+  tgt 208: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=15, maxLen=46, 30-Mar-2017 18:44:25
+  Done, minLen=15, maxLen=46, speed 1.433583 sents/s, time 1s, 30-Mar-2017 18:44:26
+  src 209: travel ( ) , verify ( right: hallway ) , turn ( right ) , travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 209: make the first right into a dead end <t_eos>
+  tgt 209: at the corner, take a right and go to the end of the hall and take a right at the end of the hall <t_eos>
+  score -16.0403
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:26
+  Done, minLen=11, maxLen=33, speed 2.753524 sents/s, time 0s, 30-Mar-2017 18:44:26
+  src 210: travel ( ) , verify ( at: sofa ) , turn ( left ) , verify ( front: blue hallway )
+  ref 210: at the black bench, take a left onto the blue path <t_eos>
+  tgt 210: turn left and move to the end of the hall to your right <t_eos>
+  score -9.15005
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:27
+  Done, minLen=5, maxLen=15, speed 4.464625 sents/s, time 0s, 30-Mar-2017 18:44:27
+  src 211: travel ( ) , verify ( at: barstool )
+  ref 211: move to the stool <t_eos>
+  tgt 211: move to the chair and a hatrack <t_eos>
+  score -9.8355
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:27
+  Done, minLen=9, maxLen=27, speed 1.823260 sents/s, time 1s, 30-Mar-2017 18:44:27
+  src 212: verify ( front: grass hallway ) , travel ( ) , verify ( side: yellow hallway )
+  ref 212: then go all the way down the grassy hall until it intersects with the yellow hall <t_eos>
+  tgt 212: go all the way down the blue hall until you reach the blue hall <t_eos>
+  score -10.0805
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:27
+  Done, minLen=5, maxLen=15, speed 1.298722 sents/s, time 1s, 30-Mar-2017 18:44:28
+  src 213: verify ( front: easel ) , travel ( )
+  ref 213: walk toward the easel and stop on the block where there are no butterflies on the sides <t_eos>
+  tgt 213: move along the easel to the easel <t_eos>
+  score -4.75604
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:44:29
+  Done, minLen=9, maxLen=28, speed 1.282199 sents/s, time 1s, 30-Mar-2017 18:44:29
+  src 214: turn ( ) , verify ( back: easel , right: sofa ) , travel ( steps: 1 )
+  ref 214: with your back to the easel and the chair to your right move one alley <t_eos>
+  tgt 214: with your back to the easel move one block <t_eos>
+  score -6.04059
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:29
+  Done, minLen=11, maxLen=33, speed 2.231749 sents/s, time 0s, 30-Mar-2017 18:44:29
+  src 215: turn ( right ) , verify ( front: grass hallway ) , travel ( ) , verify ( front: wall )
+  ref 215: go right onto the green path to the end of the hall <t_eos>
+  tgt 215: turn left and move to the end of the yellow floor <t_eos>
+  score -8.21059
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:44:30
+  Done, minLen=6, maxLen=18, speed 3.384942 sents/s, time 0s, 30-Mar-2017 18:44:30
+  src 216: turn ( right ) , verify ( front: gravel hallway )
+  ref 216: turn right to face the black hallway <t_eos>
+  tgt 216: turn left into the red brick hallway <t_eos>
+  score -7.38478
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:30
+  Done, minLen=5, maxLen=16, speed 0.750702 sents/s, time 1s, 30-Mar-2017 18:44:31
+  src 217: travel ( ) , verify ( right: concrete hallway )
+  ref 217: to your right there will be a bare concrete hall <t_eos>
+  tgt 217: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -8.44498
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:31
+  Done, minLen=5, maxLen=15, speed 3.062965 sents/s, time 0s, 30-Mar-2017 18:44:32
+  src 218: turn ( ) , verify ( front: sofa )
+  ref 218: head down toward the <unk> <t_eos>
+  tgt 218: take a left onto the wood path <t_eos>
+  score -6.09633
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:32
+  Done, minLen=7, maxLen=22, speed 1.982428 sents/s, time 1s, 30-Mar-2017 18:44:32
+  src 219: travel ( ) , verify ( front: brick hallway , side: flower hallway )
+  ref 219: position one is at the red floors and rose floors intersection <t_eos>
+  tgt 219: go forward until you reach the intersection with the stone floor to the blue floor <t_eos>
+  score -14.151
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:32
+  Done, minLen=5, maxLen=16, speed 1.908313 sents/s, time 1s, 30-Mar-2017 18:44:33
+  src 220: travel ( ) , verify ( side: concrete hallway )
+  ref 220: at the intersection with the plain cement, you'll be at 6 <t_eos>
+  tgt 220: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.56345
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:33
+  Done, minLen=3, maxLen=10, speed 2.371686 sents/s, time 0s, 30-Mar-2017 18:44:33
+  src 221: verify ( right: blue hallway )
+  ref 221: you should have the blue hallway on your right now <t_eos>
+  tgt 221: you should be facing a chair and a right <t_eos>
+  score -11.2809
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:33
+  Done, minLen=5, maxLen=16, speed 2.200414 sents/s, time 0s, 30-Mar-2017 18:44:34
+  src 222: turn ( ) , verify ( front: flower hallway )
+  ref 222: face the pink-flowered carpet hall <t_eos>
+  tgt 222: turn to face the black hallway <t_eos>
+  score -5.49427
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:34
+  Done, minLen=5, maxLen=16, speed 2.448844 sents/s, time 0s, 30-Mar-2017 18:44:34
+  src 223: travel ( ) , verify ( side: concrete hallway )
+  ref 223: go all the way down to the grey hall <t_eos>
+  tgt 223: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.56345
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:34
+  Done, minLen=3, maxLen=9, speed 3.641621 sents/s, time 0s, 30-Mar-2017 18:44:34
+  src 224: travel ( steps: 6 )
+  ref 224: walk forward six times <t_eos>
+  tgt 224: go forward two segments <t_eos>
+  score -3.34505
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:35
+  Done, minLen=5, maxLen=16, speed 2.491070 sents/s, time 0s, 30-Mar-2017 18:44:35
+  src 225: turn ( ) , verify ( front: flower hallway )
+  ref 225: go down the longer end of the pink floored area <t_eos>
+  tgt 225: turn to face the black hallway <t_eos>
+  score -5.49427
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:35
+  Done, minLen=5, maxLen=15, speed 2.608072 sents/s, time 0s, 30-Mar-2017 18:44:35
+  src 226: travel ( ) , verify ( front: wall )
+  ref 226: go to the other end of the hallway <t_eos>
+  tgt 226: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:35
+  Done, minLen=11, maxLen=33, speed 1.763239 sents/s, time 1s, 30-Mar-2017 18:44:36
+  src 227: turn ( ) , verify ( front: gravel hallway ) , travel ( ) , verify ( side: yellow hallway )
+  ref 227: then take the grey hall until it intersects with the yellow hall <t_eos>
+  tgt 227: take the yellow path to the red brick intersection with the red hall <t_eos>
+  score -13.3226
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:36
+  Done, minLen=9, maxLen=27, speed 1.923687 sents/s, time 1s, 30-Mar-2017 18:44:36
+  src 228: travel ( steps: 1 ) , turn ( left ) , verify ( front: blue hallway )
+  ref 228: at the next intersection, take a left onto the blue path <t_eos>
+  tgt 228: go forward one segment to the intersection with the brick hall <t_eos>
+  score -4.87995
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:37
+  Done, minLen=3, maxLen=9, speed 2.879222 sents/s, time 0s, 30-Mar-2017 18:44:37
+  src 229: travel ( steps: 1 )
+  ref 229: move one square <t_eos>
+  tgt 229: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:37
+  Done, minLen=3, maxLen=9, speed 3.076308 sents/s, time 0s, 30-Mar-2017 18:44:37
+  src 230: verify ( at: easel )
+  ref 230: there is an easel in this intersection <t_eos>
+  tgt 230: there should be an easel <t_eos>
+  score -5.09655
+# Decoding batch of 1 sents, minLen=20, maxLen=60, 30-Mar-2017 18:44:37
+  Done, minLen=20, maxLen=60, speed 1.203606 sents/s, time 1s, 30-Mar-2017 18:44:38
+  src 231: travel ( ) , verify ( front: wall , right: wall ) , turn ( left ) , travel ( ) , verify ( front: wall ) , turn ( left ) , verify ( front: grass hallway )
+  ref 231: again, follow the path and take a left at the corner, at the end of this hall, take a left onto the green path <t_eos>
+  tgt 231: turn left and move to the end of the alley and turn right and turn left at the end of the yellow floored hallway <t_eos>
+  score -23.3831
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:38
+  Done, minLen=3, maxLen=10, speed 2.394659 sents/s, time 0s, 30-Mar-2017 18:44:39
+  src 232: verify ( front: butterfly wall )
+  ref 232: you see butterflies on the walls <t_eos>
+  tgt 232: you should see an easel in front of you <t_eos>
+  score -5.3231
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:39
+  Done, minLen=11, maxLen=33, speed 2.284430 sents/s, time 0s, 30-Mar-2017 18:44:39
+  src 233: turn ( ) , verify ( front: flower hallway ) , travel ( ) , verify ( side: brick hallway )
+  ref 233: take the pink path to the red brick intersection <t_eos>
+  tgt 233: take the pink path to the blue path intersection and move to the intersection of the red brick hall <t_eos>
+  score -16.5893
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:44:39
+  Done, minLen=7, maxLen=21, speed 1.909727 sents/s, time 1s, 30-Mar-2017 18:44:40
+  src 234: turn ( ) , verify ( right: chair , front: wood hallway )
+  ref 234: turn so that the chair is on the right and you are facing the brown floor <t_eos>
+  tgt 234: take the black path towards the lamp <t_eos>
+  score -6.19837
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:40
+  Done, minLen=5, maxLen=16, speed 2.801583 sents/s, time 0s, 30-Mar-2017 18:44:40
+  src 235: turn ( ) , verify ( front: gravel hallway )
+  ref 235: take the black path <unk> the red brick intersection <t_eos>
+  tgt 235: take the black path towards the red brick intersection <t_eos>
+  score -6.8463
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:40
+  Done, minLen=5, maxLen=15, speed 2.224788 sents/s, time 0s, 30-Mar-2017 18:44:41
+  src 236: travel ( ) , verify ( at: barstool )
+  ref 236: when you reach the stool, you are at 7 <t_eos>
+  tgt 236: move to the chair and a hatrack <t_eos>
+  score -9.8355
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:41
+  Done, minLen=5, maxLen=15, speed 3.157832 sents/s, time 0s, 30-Mar-2017 18:44:41
+  src 237: turn ( ) , verify ( front: hatrack )
+  ref 237: face toward the blue-tiled hall containing the hatrack <t_eos>
+  tgt 237: turn so that the wall is on your left side <t_eos>
+  score -6.53769
+# Decoding batch of 1 sents, minLen=15, maxLen=46, 30-Mar-2017 18:44:41
+  Done, minLen=15, maxLen=46, speed 2.051114 sents/s, time 0s, 30-Mar-2017 18:44:41
+  src 238: verify ( front: easel ) , travel ( ) , verify ( back: easel , front: wall ) , turn ( left ) , verify ( front: brick hallway )
+  ref 238: go past the easel to the end of this hall and take a left onto the red brick at the corner <t_eos>
+  tgt 238: at the end of this hall at the end of the hall you are at the end <t_eos>
+  score -14.9255
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:42
+  Done, minLen=5, maxLen=16, speed 0.978709 sents/s, time 1s, 30-Mar-2017 18:44:43
+  src 239: turn ( right ) , travel ( steps: 2 )
+  ref 239: turn right and go forward twice <t_eos>
+  tgt 239: turn left and walk forward twice <t_eos>
+  score -4.35368
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:43
+  Done, minLen=5, maxLen=16, speed 1.999836 sents/s, time 1s, 30-Mar-2017 18:44:43
+  src 240: travel ( ) , verify ( side: yellow hallway )
+  ref 240: where this hall intersects the yellow-tiled hall, there should be an empty intersection <t_eos>
+  tgt 240: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -8.24566
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:44:43
+  Done, minLen=11, maxLen=33, speed 0.596018 sents/s, time 2s, 30-Mar-2017 18:44:45
+  src 241: verify ( front: chair ) , travel ( ) , verify ( at: chair ) , travel ( steps: 1 )
+  ref 241: walk one alley past the chair <t_eos>
+  tgt 241: move one alley past the chair to the intersection containing the easel <t_eos>
+  score -9.42684
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:44:45
+  Done, minLen=11, maxLen=34, speed 1.121840 sents/s, time 1s, 30-Mar-2017 18:44:46
+  src 242: verify ( front: blue hallway ) , travel ( ) , verify ( at: chair ) , travel ( steps: 1 )
+  ref 242: move along the blue one alley past the chair <t_eos>
+  tgt 242: move one alley past the chair to the intersection with the pink-flowered carpet hall <t_eos>
+  score -9.44405
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:46
+  Done, minLen=5, maxLen=16, speed 3.908555 sents/s, time 0s, 30-Mar-2017 18:44:46
+  src 243: travel ( ) , verify ( side: brick hallway )
+  ref 243: go to the intersection of the red brick path <t_eos>
+  tgt 243: go to the red brick area <t_eos>
+  score -5.18547
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:44:46
+  Done, minLen=11, maxLen=34, speed 2.462587 sents/s, time 0s, 30-Mar-2017 18:44:46
+  src 244: verify ( side: gravel hallway ) , turn ( left ) , travel ( ) , verify ( side: yellow hallway )
+  ref 244: turn left at the gray stone carpet and move to the alley with octagon flooring on either side <t_eos>
+  tgt 244: take the pink path all the way to the intersection with the blue path and turn right <t_eos>
+  score -13.6703
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:44:46
+  Done, minLen=9, maxLen=27, speed 3.523770 sents/s, time 0s, 30-Mar-2017 18:44:47
+  src 245: travel ( ) , verify ( front: yellow hallway , side: gravel hallway , at: easel )
+  ref 245: it's at a spot between the yellow floor and the grey floor, with an easel <t_eos>
+  tgt 245: go to the end of the rose floored hall with the stone floor with the stone hall with no furniture <t_eos>
+  score -26.9578
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:47
+  Done, minLen=6, maxLen=19, speed 4.442904 sents/s, time 0s, 30-Mar-2017 18:44:47
+  src 246: turn ( ) , verify ( back: wall , at: 3-intersection )
+  ref 246: place your back to the 't' intersection <t_eos>
+  tgt 246: turn so that the wall is on your right and back <t_eos>
+  score -7.3894
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:47
+  Done, minLen=7, maxLen=22, speed 4.390259 sents/s, time 0s, 30-Mar-2017 18:44:47
+  src 247: turn ( right ) , travel ( ) , verify ( at: easel )
+  ref 247: next, take a right and follow the path until you reach a black easel, this is position 2 <t_eos>
+  tgt 247: turn left and move to the easel <t_eos>
+  score -3.4569
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:44:47
+  Done, minLen=7, maxLen=21, speed 3.094720 sents/s, time 0s, 30-Mar-2017 18:44:47
+  src 248: turn ( ) , verify ( front: wood hallway , front: easel )
+  ref 248: take the wood path towards the easel <t_eos>
+  tgt 248: turn to face the red brick hallway <t_eos>
+  score -7.94962
+# Decoding batch of 1 sents, minLen=18, maxLen=55, 30-Mar-2017 18:44:48
+  Done, minLen=18, maxLen=55, speed 1.943846 sents/s, time 1s, 30-Mar-2017 18:44:48
+  src 249: turn ( ) , verify ( front: blue hallway , front: chair ) , travel ( ) , verify ( side: flower hallway ) , turn ( right ) , verify ( front: flower hallway )
+  ref 249: take the blue path towards the chair and at the pink path intersection, take a right onto the pink path <t_eos>
+  tgt 249: take the yellow path all the way to the end of the hall with the pink-flowered carpet hall <t_eos>
+  score -11.4901
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:48
+  Done, minLen=5, maxLen=15, speed 5.955004 sents/s, time 0s, 30-Mar-2017 18:44:48
+  src 250: verify ( front: gravel hallway , back: easel )
+  ref 250: you are facing gray stone carpet and an easel is behind you <t_eos>
+  tgt 250: you should be facing a chair and an easel in front of you <t_eos>
+  score -10.1118
+# Decoding batch of 1 sents, minLen=13, maxLen=39, 30-Mar-2017 18:44:48
+  Done, minLen=13, maxLen=39, speed 2.454241 sents/s, time 0s, 30-Mar-2017 18:44:49
+  src 251: verify ( front: barstool , front: chair ) , travel ( ) , verify ( back: barstool , back: chair , side: flower hallway )
+  ref 251: move past the stool and the chair to the side alley with flowered carpet <t_eos>
+  tgt 251: go all the way down the blue hall until you get to the intersection with the blue path <t_eos>
+  score -12.7523
+# Decoding batch of 1 sents, minLen=17, maxLen=51, 30-Mar-2017 18:44:49
+  Done, minLen=17, maxLen=51, speed 3.930972 sents/s, time 0s, 30-Mar-2017 18:44:49
+  src 252: verify ( front: easel ) , travel ( ) , verify ( back: easel , front: wall , left: wall ) , turn ( right ) , verify ( front: blue hallway )
+  ref 252: go past the easel to the next corner and take a right onto the blue path <t_eos>
+  tgt 252: at the end of the hall with your back to the easel at the easel at the easel <t_eos>
+  score -15.7416
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:49
+  Done, minLen=6, maxLen=19, speed 3.161825 sents/s, time 0s, 30-Mar-2017 18:44:49
+  src 253: travel ( steps: 3 ) , verify ( side: blue hallway )
+  ref 253: go forward three segments to the intersection with the blue-tiled hall <t_eos>
+  tgt 253: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -4.68554
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:44:49
+  Done, minLen=3, maxLen=10, speed 2.781827 sents/s, time 0s, 30-Mar-2017 18:44:50
+  src 254: verify ( right: concrete hallway )
+  ref 254: you are looking at an <unk> and to your right is gray floor <t_eos>
+  tgt 254: you should be facing the bench to your right <t_eos>
+  score -8.54043
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:50
+  Done, minLen=5, maxLen=16, speed 2.877060 sents/s, time 0s, 30-Mar-2017 18:44:50
+  src 255: turn ( ) , verify ( front: brick hallway )
+  ref 255: orient yourself to face the hall with brown brick <t_eos>
+  tgt 255: take the red brick path towards the lamp <t_eos>
+  score -5.87067
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:44:50
+  Done, minLen=10, maxLen=30, speed 1.693747 sents/s, time 1s, 30-Mar-2017 18:44:51
+  src 256: turn ( ) , verify ( front: chair ) , travel ( ) , verify ( at: chair )
+  ref 256: face and move to the wooden chair <t_eos>
+  tgt 256: take a left onto the wood path and go all the way down until you get to a right <t_eos>
+  score -12.9822
+# Decoding batch of 1 sents, minLen=2, maxLen=6, 30-Mar-2017 18:44:51
+  Done, minLen=2, maxLen=6, speed 8.888020 sents/s, time 0s, 30-Mar-2017 18:44:51
+  src 257: turn ( )
+  ref 257: from one turn until you can see a corner of blue carpet on the side alleys <t_eos>
+  tgt 257: turn right <t_eos>
+  score -3.78521
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:44:51
+  Done, minLen=1, maxLen=3, speed 15.541223 sents/s, time 0s, 30-Mar-2017 18:44:51
+  src 258: null
+  ref 258: go to the intersection <unk> <unk> <unk> you look down this street you see no furniture <t_eos>
+  tgt 258: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=15, maxLen=45, 30-Mar-2017 18:44:51
+  Done, minLen=15, maxLen=45, speed 2.007835 sents/s, time 0s, 30-Mar-2017 18:44:51
+  src 259: turn ( ) , verify ( front: grass hallway , front: hatrack ) , travel ( steps: 3 ) , verify ( back: hatrack , side: blue hallway )
+  ref 259: go three segments down the grassy hall to the blue-tiled hall, passing the hatrack <t_eos>
+  tgt 259: go forward along the stone hall one segment to the intersection with the stone hall <t_eos>
+  score -8.12405
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:44:51
+  Done, minLen=8, maxLen=24, speed 3.597148 sents/s, time 0s, 30-Mar-2017 18:44:52
+  src 260: travel ( ) , verify ( at: lamp ) , travel ( steps: 2 )
+  ref 260: the second intersection after the lamp will be position 7 <t_eos>
+  tgt 260: go forward two segments to the intersection containing the lamp <t_eos>
+  score -7.84355
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:44:52
+  Done, minLen=2, maxLen=7, speed 8.549201 sents/s, time 0s, 30-Mar-2017 18:44:52
+  src 261: turn ( right )
+  ref 261: from this <unk> turn right <t_eos>
+  tgt 261: turn right <t_eos>
+  score -2.69595
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:44:52
+  Done, minLen=10, maxLen=31, speed 2.655577 sents/s, time 0s, 30-Mar-2017 18:44:52
+  src 262: verify ( front: wall , right: wall ) , turn ( left ) , verify ( front: brick hallway )
+  ref 262: at this corner, turn left onto the red brick <t_eos>
+  tgt 262: at the end of the hall with your back to the wall <t_eos>
+  score -8.48932
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:44:52
+  Done, minLen=10, maxLen=30, speed 2.234737 sents/s, time 0s, 30-Mar-2017 18:44:53
+  src 263: verify ( front: brick hallway ) , travel ( steps: 5 ) , verify ( side: gravel hallway )
+  ref 263: go forward along the brick hall five segments to the intersection with the stone hall <t_eos>
+  tgt 263: go forward two segments to the intersection with the stone hall <t_eos>
+  score -6.14277
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:53
+  Done, minLen=5, maxLen=16, speed 4.124171 sents/s, time 0s, 30-Mar-2017 18:44:53
+  src 264: turn ( right ) , travel ( steps: 1 )
+  ref 264: turn right and move to the next alley <t_eos>
+  tgt 264: turn left and walk forward once <t_eos>
+  score -3.86759
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:53
+  Done, minLen=5, maxLen=16, speed 4.764945 sents/s, time 0s, 30-Mar-2017 18:44:53
+  src 265: travel ( ) , verify ( side: flower hallway )
+  ref 265: follow it until the intersection of the pink flowered path <t_eos>
+  tgt 265: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.83969
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:53
+  Done, minLen=6, maxLen=19, speed 2.750267 sents/s, time 0s, 30-Mar-2017 18:44:53
+  src 266: turn ( ) , verify ( back: wall , at: 3-intersection )
+  ref 266: <unk> with your back to the wall of the 't' intersection <t_eos>
+  tgt 266: turn so that the wall is on your right and back <t_eos>
+  score -7.3894
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:54
+  Done, minLen=3, maxLen=9, speed 6.471696 sents/s, time 0s, 30-Mar-2017 18:44:54
+  src 267: travel ( steps: 1 )
+  ref 267: the very next intersection will be 5 <t_eos>
+  tgt 267: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:44:54
+  Done, minLen=1, maxLen=3, speed 16.160571 sents/s, time 0s, 30-Mar-2017 18:44:54
+  src 268: null
+  ref 268: go down toward the longer end of the hallway <t_eos>
+  tgt 268: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:44:54
+  Done, minLen=4, maxLen=13, speed 4.870873 sents/s, time 0s, 30-Mar-2017 18:44:54
+  src 269: turn ( ) , turn ( left )
+  ref 269: at seven <unk> from looking at the long alley turn left <t_eos>
+  tgt 269: turn left and turn left <t_eos>
+  score -5.7989
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:44:54
+  Done, minLen=4, maxLen=13, speed 5.787774 sents/s, time 0s, 30-Mar-2017 18:44:54
+  src 270: verify ( front: sofa , front: hatrack )
+  ref 270: there should be a sofa in front of you and a hat rack beyond that <t_eos>
+  tgt 270: you should be facing a chair and a hatrack <t_eos>
+  score -7.19546
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:54
+  Done, minLen=5, maxLen=16, speed 4.838889 sents/s, time 0s, 30-Mar-2017 18:44:54
+  src 271: travel ( ) , verify ( side: blue hallway )
+  ref 271: look for the blue hall <t_eos>
+  tgt 271: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.84235
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:44:54
+  Done, minLen=6, maxLen=18, speed 2.754745 sents/s, time 0s, 30-Mar-2017 18:44:55
+  src 272: turn ( left ) , verify ( front: wood hallway )
+  ref 272: then another left onto a wood hall <t_eos>
+  tgt 272: turn left into the brick hall <t_eos>
+  score -7.6515
+# Decoding batch of 1 sents, minLen=15, maxLen=46, 30-Mar-2017 18:44:55
+  Done, minLen=15, maxLen=46, speed 2.339017 sents/s, time 0s, 30-Mar-2017 18:44:55
+  src 273: verify ( front: blue hallway , front: chair ) , travel ( ) , verify ( at: chair ) , turn ( right ) , verify ( front: barstool )
+  ref 273: follow the blue path towards the chair and at the chair, take a right towards the stool <t_eos>
+  tgt 273: at the end of the hall with your back to the wall and go right <t_eos>
+  score -13.8728
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:44:55
+  Done, minLen=5, maxLen=15, speed 6.185478 sents/s, time 0s, 30-Mar-2017 18:44:55
+  src 274: verify ( right: concrete hallway , front: chair )
+  ref 274: you should see gray floor to your right and a chair in front of you <t_eos>
+  tgt 274: you should be facing a chair and a hatrack <t_eos>
+  score -9.24558
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:55
+  Done, minLen=3, maxLen=9, speed 5.113259 sents/s, time 0s, 30-Mar-2017 18:44:56
+  src 275: verify ( front: lamp )
+  ref 275: there will be a lamp in the next segment in front of you <t_eos>
+  tgt 275: you should be facing a chair <t_eos>
+  score -5.74996
+# Decoding batch of 1 sents, minLen=2, maxLen=6, 30-Mar-2017 18:44:56
+  Done, minLen=2, maxLen=6, speed 5.405990 sents/s, time 0s, 30-Mar-2017 18:44:56
+  src 276: travel ( )
+  ref 276: follow this all the way down <t_eos>
+  tgt 276: go forward <t_eos>
+  score -3.58158
+# Decoding batch of 1 sents, minLen=15, maxLen=45, 30-Mar-2017 18:44:56
+  Done, minLen=15, maxLen=45, speed 1.628723 sents/s, time 1s, 30-Mar-2017 18:44:56
+  src 277: verify ( at: chair , front: chair ) , travel ( ) , verify ( at: chair ) , turn ( ) , verify ( front: brick hallway )
+  ref 277: standing next to a chair and looking at a chair move to the next chair and turn to face the red brick <t_eos>
+  tgt 277: go all the way down the hall until you get to the intersection with the brick hall <t_eos>
+  score -12.8211
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:44:57
+  Done, minLen=10, maxLen=30, speed 2.941782 sents/s, time 0s, 30-Mar-2017 18:44:57
+  src 278: verify ( front: yellow hallway ) , travel ( steps: 1 ) , verify ( side: concrete hallway )
+  ref 278: go forward along the yellow-tiled hall one segment to the intersection with a bare concrete hall <t_eos>
+  tgt 278: go forward along the stone hall one segment to the intersection with the brick hall <t_eos>
+  score -7.10566
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:44:57
+  Done, minLen=7, maxLen=22, speed 3.162635 sents/s, time 0s, 30-Mar-2017 18:44:57
+  src 279: travel ( ) , verify ( front: wall ) , turn ( right )
+  ref 279: when the hall ends, take a right <t_eos>
+  tgt 279: move to the corner and turn right <t_eos>
+  score -4.29087
+# Decoding batch of 1 sents, minLen=13, maxLen=39, 30-Mar-2017 18:44:57
+  Done, minLen=13, maxLen=39, speed 1.482692 sents/s, time 1s, 30-Mar-2017 18:44:58
+  src 280: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( front: wall ) , turn ( right )
+  ref 280: follow the yellow road all the way to the other end where it ends and take a right <t_eos>
+  tgt 280: at the end of the hall with the wood path and take a left <t_eos>
+  score -10.5928
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:44:58
+  Done, minLen=6, maxLen=19, speed 2.867712 sents/s, time 0s, 30-Mar-2017 18:44:58
+  src 281: verify ( front: gravel hallway ) , travel ( steps: 1 )
+  ref 281: <unk> your forward <unk> along the black floor for one more <unk> <t_eos>
+  tgt 281: move one alley past the easel <t_eos>
+  score -6.24361
+# Decoding batch of 1 sents, minLen=12, maxLen=36, 30-Mar-2017 18:44:58
+  Done, minLen=12, maxLen=36, speed 3.222927 sents/s, time 0s, 30-Mar-2017 18:44:59
+  src 282: turn ( ) , verify ( front: grass hallway ) , travel ( steps: 3 ) , verify ( side: blue hallway )
+  ref 282: follow the grassy hall three segments to the blue-tiled hall <t_eos>
+  tgt 282: go forward along the stone hall one segment to the intersection with the brick hall <t_eos>
+  score -8.6514
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:59
+  Done, minLen=3, maxLen=9, speed 8.617718 sents/s, time 0s, 30-Mar-2017 18:44:59
+  src 283: verify ( front: easel )
+  ref 283: you are one block away from an easel <t_eos>
+  tgt 283: there should be an easel in front of you <t_eos>
+  score -5.22272
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:44:59
+  Done, minLen=5, maxLen=16, speed 2.037407 sents/s, time 0s, 30-Mar-2017 18:44:59
+  src 284: travel ( ) , verify ( side: brick hallway )
+  ref 284: follow this hall until you reach the hall with a brown stone <unk> previous to the blue-tiled hall <t_eos>
+  tgt 284: go to the red brick area <t_eos>
+  score -5.18547
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:44:59
+  Done, minLen=3, maxLen=9, speed 3.610030 sents/s, time 0s, 30-Mar-2017 18:44:59
+  src 285: travel ( steps: 3 )
+  ref 285: go down three spaces <t_eos>
+  tgt 285: go forward two segments <t_eos>
+  score -3.33413
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:00
+  Done, minLen=5, maxLen=15, speed 5.521293 sents/s, time 0s, 30-Mar-2017 18:45:00
+  src 286: travel ( ) , verify ( right: hallway )
+  ref 286: foward till 1st right turn <t_eos>
+  tgt 286: go to the red brick intersection <t_eos>
+  score -5.50159
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:45:00
+  Done, minLen=2, maxLen=7, speed 6.359988 sents/s, time 0s, 30-Mar-2017 18:45:00
+  src 287: turn ( left )
+  ref 287: take left <t_eos>
+  tgt 287: turn left <t_eos>
+  score -2.6984
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:00
+  Done, minLen=6, maxLen=18, speed 2.721651 sents/s, time 0s, 30-Mar-2017 18:45:00
+  src 288: verify ( side: gravel hallway ) , turn ( right )
+  ref 288: at the <unk> hall, turn right <t_eos>
+  tgt 288: at the intersection with the red brick and take a right <t_eos>
+  score -8.08045
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:00
+  Done, minLen=5, maxLen=15, speed 2.783546 sents/s, time 0s, 30-Mar-2017 18:45:01
+  src 289: turn ( ) , verify ( front: hatrack )
+  ref 289: go on the path towards the coat rack <t_eos>
+  tgt 289: turn so that the wall is on your left side <t_eos>
+  score -6.53769
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:01
+  Done, minLen=7, maxLen=22, speed 2.683354 sents/s, time 0s, 30-Mar-2017 18:45:01
+  src 290: turn ( left ) , travel ( ) , verify ( at: barstool )
+  ref 290: turn left and move to the stool <t_eos>
+  tgt 290: turn left and move to the chair <t_eos>
+  score -4.56268
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:45:01
+  Done, minLen=2, maxLen=7, speed 3.935737 sents/s, time 0s, 30-Mar-2017 18:45:01
+  src 291: turn ( left )
+  ref 291: turn left into this hall <t_eos>
+  tgt 291: turn left <t_eos>
+  score -2.6984
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:02
+  Done, minLen=3, maxLen=9, speed 1.537641 sents/s, time 1s, 30-Mar-2017 18:45:02
+  src 292: travel ( steps: 1 )
+  ref 292: the next intersection will be 1 <t_eos>
+  tgt 292: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:02
+  Done, minLen=3, maxLen=9, speed 0.916343 sents/s, time 1s, 30-Mar-2017 18:45:03
+  src 293: verify ( front: hatrack )
+  ref 293: in the next block is a hatrack <t_eos>
+  tgt 293: you should be facing a chair and a hatrack <t_eos>
+  score -7.51854
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:04
+  Done, minLen=7, maxLen=22, speed 0.473599 sents/s, time 2s, 30-Mar-2017 18:45:05
+  src 294: turn ( ) , verify ( back: wall ) , turn ( left )
+  ref 294: with you back to the wall turn left <t_eos>
+  tgt 294: turn so that the wall is on your right <t_eos>
+  score -6.18421
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:45:06
+  Done, minLen=14, maxLen=42, speed 0.917979 sents/s, time 1s, 30-Mar-2017 18:45:07
+  src 295: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( right: wall , side: grass hallway , front: wall )
+  ref 295: go straight down the yellow hall until you hit a corner that intersects with the grass hall <t_eos>
+  tgt 295: take the yellow path to the end of the hall with the yellow hall <t_eos>
+  score -11.4004
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:07
+  Done, minLen=3, maxLen=9, speed 4.961376 sents/s, time 0s, 30-Mar-2017 18:45:07
+  src 296: travel ( steps: 3 )
+  ref 296: go forward three segments <t_eos>
+  tgt 296: go forward two segments <t_eos>
+  score -3.33413
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:45:07
+  Done, minLen=6, maxLen=19, speed 3.568854 sents/s, time 0s, 30-Mar-2017 18:45:07
+  src 297: travel ( ) , verify ( front: wall , left: wall )
+  ref 297: move into the corner <t_eos>
+  tgt 297: go to the end of the hall <t_eos>
+  score -5.29375
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:07
+  Done, minLen=5, maxLen=16, speed 1.183991 sents/s, time 1s, 30-Mar-2017 18:45:08
+  src 298: verify ( front: blue hallway ) , travel ( )
+  ref 298: then the blue hall almost all the way down <t_eos>
+  tgt 298: move along the stone floor to the intersection with the stone floor <t_eos>
+  score -8.59174
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:08
+  Done, minLen=10, maxLen=30, speed 1.523742 sents/s, time 1s, 30-Mar-2017 18:45:09
+  src 299: turn ( ) , verify ( front: chair ) , travel ( ) , verify ( at: chair )
+  ref 299: face and move to the chair <t_eos>
+  tgt 299: take a left onto the wood path and go all the way down until you get to a right <t_eos>
+  score -12.9822
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:09
+  Done, minLen=5, maxLen=16, speed 3.538746 sents/s, time 0s, 30-Mar-2017 18:45:09
+  src 300: turn ( ) , verify ( front: brick hallway )
+  ref 300: face toward the longer portion of the brick hall <t_eos>
+  tgt 300: take the red brick path towards the lamp <t_eos>
+  score -5.87067
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:45:09
+  Done, minLen=6, maxLen=19, speed 2.105383 sents/s, time 0s, 30-Mar-2017 18:45:10
+  src 301: travel ( steps: 1 ) , verify ( side: brick hallway )
+  ref 301: one segment down this hall, a brick <unk> hallway intersects it <t_eos>
+  tgt 301: go forward one segment to the intersection with the brick hall <t_eos>
+  score -2.96608
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:10
+  Done, minLen=6, maxLen=18, speed 2.310077 sents/s, time 0s, 30-Mar-2017 18:45:10
+  src 302: travel ( steps: 2 ) , verify ( at: easel )
+  ref 302: go forward two segments to the intersection containing the easel <t_eos>
+  tgt 302: go forward two segments to the intersection containing the easel <t_eos>
+  score -4.89377
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:45:10
+  Done, minLen=8, maxLen=25, speed 1.717576 sents/s, time 1s, 30-Mar-2017 18:45:11
+  src 303: verify ( front: yellow hallway ) , travel ( ) , verify ( front: wall )
+  ref 303: move along the octagon carpet to the wall <t_eos>
+  tgt 303: move along the stone floor to the end <t_eos>
+  score -6.41799
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:45:11
+  Done, minLen=3, maxLen=10, speed 4.188394 sents/s, time 0s, 30-Mar-2017 18:45:11
+  src 304: verify ( front: blue hallway )
+  ref 304: you should see blue carpet <t_eos>
+  tgt 304: you should be facing the blue hall <t_eos>
+  score -7.51463
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:45:11
+  Done, minLen=3, maxLen=10, speed 2.056035 sents/s, time 0s, 30-Mar-2017 18:45:11
+  src 305: verify ( left: grass hallway )
+  ref 305: at your left you should see grass <t_eos>
+  tgt 305: you should be facing a chair and a right <t_eos>
+  score -9.54848
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:12
+  Done, minLen=3, maxLen=9, speed 3.538721 sents/s, time 0s, 30-Mar-2017 18:45:12
+  src 306: travel ( steps: 2 )
+  ref 306: do so and walk forward twice <t_eos>
+  tgt 306: go forward two segments <t_eos>
+  score -3.37365
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:12
+  Done, minLen=10, maxLen=30, speed 1.706109 sents/s, time 1s, 30-Mar-2017 18:45:12
+  src 307: turn ( ) , verify ( front: hatrack ) , travel ( ) , verify ( at: hatrack )
+  ref 307: face the hat rack and move to it <t_eos>
+  tgt 307: take a right onto the wood path and the next intersection <t_eos>
+  score -9.30091
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:45:13
+  Done, minLen=11, maxLen=33, speed 1.860476 sents/s, time 1s, 30-Mar-2017 18:45:13
+  src 308: turn ( ) , verify ( front: yellow hallway ) , travel ( ) , verify ( left: flower hallway )
+  ref 308: go down the hall with yellow stone floors until you come to a hall to your left with pink-flowered carpet <t_eos>
+  tgt 308: take the pink path to the red brick intersection with the wood path <t_eos>
+  score -13.3808
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:45:13
+  Done, minLen=8, maxLen=25, speed 1.212574 sents/s, time 1s, 30-Mar-2017 18:45:14
+  src 309: travel ( steps: 1 ) , verify ( front: flower hallway , side: brick hallway )
+  ref 309: go forward one segment to the intersection of the pink-flowered carpet hall and the brick hall <t_eos>
+  tgt 309: go forward one segment to the intersection with the pink-flowered carpet hall <t_eos>
+  score -4.026
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:14
+  Done, minLen=5, maxLen=15, speed 3.128500 sents/s, time 0s, 30-Mar-2017 18:45:14
+  src 310: travel ( ) , verify ( front: wall )
+  ref 310: the end of this hall is 2 <t_eos>
+  tgt 310: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:45:15
+  Done, minLen=10, maxLen=31, speed 1.531879 sents/s, time 1s, 30-Mar-2017 18:45:15
+  src 311: turn ( right ) , travel ( ) , verify ( front: wall , right: wall , left: wall )
+  ref 311: turn right and move to the dead end <t_eos>
+  tgt 311: turn left and move to the end of the wall and turn right <t_eos>
+  score -8.69362
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:15
+  Done, minLen=8, maxLen=24, speed 2.417661 sents/s, time 0s, 30-Mar-2017 18:45:16
+  src 312: turn ( ) , verify ( back: wall , left: wall , right: wall )
+  ref 312: only one direction to go <t_eos>
+  tgt 312: at the end of the corner, go right towards the easel <t_eos>
+  score -11.3454
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:16
+  Done, minLen=3, maxLen=9, speed 5.460304 sents/s, time 0s, 30-Mar-2017 18:45:16
+  src 313: verify ( at: easel )
+  ref 313: this intersection <unk> an easel <t_eos>
+  tgt 313: there should be an easel <t_eos>
+  score -5.09655
+# Decoding batch of 1 sents, minLen=17, maxLen=51, 30-Mar-2017 18:45:16
+  Done, minLen=17, maxLen=51, speed 1.490851 sents/s, time 1s, 30-Mar-2017 18:45:16
+  src 314: verify ( front: flower hallway ) , turn ( ) , verify ( front: tower wall ) , travel ( ) , verify ( front: wall , left: wall , right: wall )
+  ref 314: position 6 is a dead end of a branch of the rose <unk> hall, with two pictures of the eiffel tower on the walls <t_eos>
+  tgt 314: at the end of the hall with your back to the wall and the end of the hall <t_eos>
+  score -15.7591
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:17
+  Done, minLen=8, maxLen=24, speed 1.694143 sents/s, time 1s, 30-Mar-2017 18:45:17
+  src 315: travel ( ) , turn ( left ) , verify ( front: flower hallway )
+  ref 315: go straight towards the pink path and at this intersection take a left onto th <unk> path <t_eos>
+  tgt 315: turn left and move to the end of the hall <t_eos>
+  score -5.95815
+# Decoding batch of 1 sents, minLen=18, maxLen=54, 30-Mar-2017 18:45:17
+  Done, minLen=18, maxLen=54, speed 1.260058 sents/s, time 1s, 30-Mar-2017 18:45:18
+  src 316: verify ( front: blue hallway , front: sofa , front: barstool , front: chair ) , travel ( ) , verify ( back: sofa , back: barstool , back: chair , side: flower hallway )
+  ref 316: move along the blue carpet past the sofa stool and chair til the alley with the flowered carpet <t_eos>
+  tgt 316: go all the way down the blue hall until you get to the intersection with the wood path <t_eos>
+  score -14.0389
+# Decoding batch of 1 sents, minLen=14, maxLen=43, 30-Mar-2017 18:45:18
+  Done, minLen=14, maxLen=43, speed 1.620814 sents/s, time 1s, 30-Mar-2017 18:45:19
+  src 317: turn ( ) , verify ( front: wood hallway , front: easel ) , travel ( ) , verify ( at: easel ) , turn ( left )
+  ref 317: take the wood path towards the easel and at the easel, go left <t_eos>
+  tgt 317: at the end of the hall with your back to the easel at the easel <t_eos>
+  score -12.1355
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:19
+  Done, minLen=7, maxLen=22, speed 3.061259 sents/s, time 0s, 30-Mar-2017 18:45:19
+  src 318: travel ( ) , verify ( front: flower hallway , side: yellow hallway )
+  ref 318: it's at the intersection of the rose hall and the yellow hall <t_eos>
+  tgt 318: go forward until you get to the intersection with the yellow floor and the yellow floor <t_eos>
+  score -15.347
+# Decoding batch of 1 sents, minLen=10, maxLen=31, 30-Mar-2017 18:45:19
+  Done, minLen=10, maxLen=31, speed 1.589350 sents/s, time 1s, 30-Mar-2017 18:45:20
+  src 319: verify ( front: chair ) , travel ( steps: 2 ) , verify ( back: chair , at: barstool )
+  ref 319: go forward two segments, passing a chair, to the intersection containing the stool <t_eos>
+  tgt 319: go forward two segments to the intersection containing the hatrack <t_eos>
+  score -5.59246
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:20
+  Done, minLen=3, maxLen=9, speed 2.712254 sents/s, time 0s, 30-Mar-2017 18:45:20
+  src 320: verify ( at: 3-intersection )
+  ref 320: this 't' intersection is position 3 <t_eos>
+  tgt 320: there is a bench in this intersection <t_eos>
+  score -5.71142
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:45:20
+  Done, minLen=1, maxLen=3, speed 7.508184 sents/s, time 0s, 30-Mar-2017 18:45:20
+  src 321: null
+  ref 321: stop here <t_eos>
+  tgt 321: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:20
+  Done, minLen=6, maxLen=18, speed 1.737973 sents/s, time 1s, 30-Mar-2017 18:45:21
+  src 322: turn ( right ) , verify ( front: blue hallway )
+  ref 322: turn right into the blue-tiled hall <t_eos>
+  tgt 322: turn right into the red hall <t_eos>
+  score -6.16351
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:21
+  Done, minLen=6, maxLen=18, speed 2.601863 sents/s, time 0s, 30-Mar-2017 18:45:21
+  src 323: turn ( left ) , verify ( front: blue hallway )
+  ref 323: left down the blue hall <t_eos>
+  tgt 323: turn left into the red hall <t_eos>
+  score -6.14484
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:21
+  Done, minLen=5, maxLen=16, speed 2.447477 sents/s, time 0s, 30-Mar-2017 18:45:22
+  src 324: turn ( left ) , travel ( steps: 4 )
+  ref 324: turn left and walk forward four times <t_eos>
+  tgt 324: turn left walk forward three times <t_eos>
+  score -3.9604
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:22
+  Done, minLen=6, maxLen=18, speed 2.892506 sents/s, time 0s, 30-Mar-2017 18:45:22
+  src 325: turn ( right ) , verify ( front: gravel hallway )
+  ref 325: here, take a right onto the black path <t_eos>
+  tgt 325: turn left into the red brick hallway <t_eos>
+  score -7.38478
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:45:22
+  Done, minLen=2, maxLen=7, speed 3.823068 sents/s, time 0s, 30-Mar-2017 18:45:22
+  src 326: turn ( left )
+  ref 326: make a left <t_eos>
+  tgt 326: turn left <t_eos>
+  score -2.6984
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:22
+  Done, minLen=10, maxLen=30, speed 1.820840 sents/s, time 1s, 30-Mar-2017 18:45:23
+  src 327: verify ( front: blue hallway ) , travel ( steps: 2 ) , verify ( side: gravel hallway )
+  ref 327: follow the blue-tiled hall two segments to the intersection with the stone hall <t_eos>
+  tgt 327: go forward two segments to the intersection with the stone hall <t_eos>
+  score -6.40818
+# Decoding batch of 1 sents, minLen=17, maxLen=51, 30-Mar-2017 18:45:23
+  Done, minLen=17, maxLen=51, speed 1.436697 sents/s, time 1s, 30-Mar-2017 18:45:24
+  src 328: verify ( front: flower hallway , front: hatrack , front: <unk> , travel ( ) , verify ( at: lamp ) , travel ( steps: 1 ) , verify ( back: hatrack )
+  ref 328: move along the flowers past the hatrack and one alley past the lamp <t_eos>
+  tgt 328: go forward one segment to the intersection with the brick floor passing the chair and one intersection of an easel <t_eos>
+  score -19.8181
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:24
+  Done, minLen=7, maxLen=22, speed 2.083034 sents/s, time 0s, 30-Mar-2017 18:45:24
+  src 329: travel ( ) , verify ( front: butterfly wall , back: butterfly wall )
+  ref 329: position three is located in the butterfly area <t_eos>
+  tgt 329: go to the end of the hall <t_eos>
+  score -6.16026
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:24
+  Done, minLen=10, maxLen=30, speed 1.150449 sents/s, time 1s, 30-Mar-2017 18:45:25
+  src 330: verify ( left: wall , right: wall , front: wall , back: fish wall , back: yellow hallway )
+  ref 330: position 4 is at the dead end of a hall with yellow floors and fish on the walls <t_eos>
+  tgt 330: you should be at the wall of the yellow floored area <t_eos>
+  score -13.3171
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:25
+  Done, minLen=8, maxLen=24, speed 1.884712 sents/s, time 1s, 30-Mar-2017 18:45:26
+  src 331: turn ( ) , verify ( left: wall , right: wall , back: wall )
+  ref 331: only one way to go <t_eos>
+  tgt 331: face the lamp towards the end of the hall <t_eos>
+  score -9.29764
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:45:26
+  Done, minLen=1, maxLen=3, speed 7.389781 sents/s, time 0s, 30-Mar-2017 18:45:26
+  src 332: null
+  ref 332: go towards the intersection of red brick <t_eos>
+  tgt 332: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:26
+  Done, minLen=7, maxLen=22, speed 2.688215 sents/s, time 0s, 30-Mar-2017 18:45:26
+  src 333: travel ( ) , verify ( front: wood hallway , back: wood hallway )
+  ref 333: position 5 is in a hall with wood floors <t_eos>
+  tgt 333: go forward to the end of the hall with the stone floor <t_eos>
+  score -11.5744
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:45:27
+  Done, minLen=9, maxLen=27, speed 1.965957 sents/s, time 1s, 30-Mar-2017 18:45:27
+  src 334: verify ( front: gravel hallway ) , travel ( ) , verify ( side: concrete hallway )
+  ref 334: take this black path until you reach the intersection with the white cement <t_eos>
+  tgt 334: go all the way down the blue hall until you reach the blue hall <t_eos>
+  score -9.68755
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:27
+  Done, minLen=5, maxLen=16, speed 3.594343 sents/s, time 0s, 30-Mar-2017 18:45:27
+  src 335: travel ( ) , verify ( side: flower hallway )
+  ref 335: follow it until you come to the pink path <unk> <t_eos>
+  tgt 335: go forward until you reach the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.83969
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:27
+  Done, minLen=6, maxLen=18, speed 2.654322 sents/s, time 0s, 30-Mar-2017 18:45:28
+  src 336: turn ( right ) , verify ( front: blue hallway )
+  ref 336: turn right down the long blue alley <t_eos>
+  tgt 336: turn right into the red hall <t_eos>
+  score -6.16351
+# Decoding batch of 1 sents, minLen=3, maxLen=10, 30-Mar-2017 18:45:28
+  Done, minLen=3, maxLen=10, speed 2.549206 sents/s, time 0s, 30-Mar-2017 18:45:28
+  src 337: verify ( side: blue hallway )
+  ref 337: <unk> you get tot blue floored area <t_eos>
+  tgt 337: the side alleys have blue flooring <t_eos>
+  score -6.146
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:28
+  Done, minLen=6, maxLen=18, speed 2.382002 sents/s, time 0s, 30-Mar-2017 18:45:28
+  src 338: turn ( right ) , verify ( front: wood hallway )
+  ref 338: take a right onto the wood path <t_eos>
+  tgt 338: turn left into the brick hall <t_eos>
+  score -7.60755
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:45:29
+  Done, minLen=6, maxLen=19, speed 3.332922 sents/s, time 0s, 30-Mar-2017 18:45:29
+  src 339: verify ( front: yellow hallway ) , travel ( steps: 2 )
+  ref 339: walk down the yellow corridor twice <t_eos>
+  tgt 339: move along the brick and one alley past the chair <t_eos>
+  score -8.62004
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:45:29
+  Done, minLen=11, maxLen=34, speed 1.147986 sents/s, time 1s, 30-Mar-2017 18:45:30
+  src 340: travel ( ) , verify ( side: flower hallway ) , turn ( left ) , verify ( front: flower hallway )
+  ref 340: <unk> take another left at the pink flowered intersection onto the pink path <t_eos>
+  tgt 340: at the pink path intersection, take a left onto the blue path <t_eos>
+  score -6.49913
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:45:30
+  Done, minLen=9, maxLen=27, speed 1.839585 sents/s, time 1s, 30-Mar-2017 18:45:30
+  src 341: verify ( front: blue hallway ) , travel ( steps: 1 ) , turn ( left )
+  ref 341: move along the blue and turn left at the first alley <t_eos>
+  tgt 341: move to the end of the blue-tiled hall, passing the lamp <t_eos>
+  score -9.58843
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:45:30
+  Done, minLen=11, maxLen=33, speed 1.886312 sents/s, time 1s, 30-Mar-2017 18:45:31
+  src 342: travel ( ) , verify ( front: wall ) , turn ( right ) , verify ( front: blue hallway )
+  ref 342: here, at the end of the hall, take a right to the blue path <t_eos>
+  tgt 342: at the end of the hall with your back to the wall <t_eos>
+  score -7.84275
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:31
+  Done, minLen=7, maxLen=22, speed 2.389012 sents/s, time 0s, 30-Mar-2017 18:45:31
+  src 343: travel ( ) , verify ( side: brick hallway ) , turn ( )
+  ref 343: then turn when you see the red hall <t_eos>
+  tgt 343: move to the intersection with the stone floor <t_eos>
+  score -7.74889
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:31
+  Done, minLen=8, maxLen=24, speed 2.594666 sents/s, time 0s, 30-Mar-2017 18:45:32
+  src 344: verify ( front: chair ) , travel ( ) , verify ( back: chair )
+  ref 344: pass the chair <t_eos>
+  tgt 344: move past the chair to the chair and move to the chair <t_eos>
+  score -10.4949
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:32
+  Done, minLen=3, maxLen=9, speed 5.019854 sents/s, time 0s, 30-Mar-2017 18:45:32
+  src 345: verify ( left: sofa )
+  ref 345: the end containing the bench should be to your left <t_eos>
+  tgt 345: there is a bench to your right <t_eos>
+  score -4.76204
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:32
+  Done, minLen=6, maxLen=18, speed 3.181370 sents/s, time 0s, 30-Mar-2017 18:45:33
+  src 346: turn ( right ) , verify ( front: blue hallway )
+  ref 346: turn right in the blue-tiled hall <t_eos>
+  tgt 346: turn right into the red hall <t_eos>
+  score -6.16351
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:45:33
+  Done, minLen=9, maxLen=28, speed 4.078403 sents/s, time 0s, 30-Mar-2017 18:45:33
+  src 347: verify (front: flower hallway ) , travel ( steps: 2 ) , verify ( side: brick hallway )
+  ref 347: follow the pink-flowered carpet hall two segments to the intersection with the brick hall <t_eos>
+  tgt 347: go forward two segments to the intersection with the stone hall <t_eos>
+  score -6.64167
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:33
+  Done, minLen=6, maxLen=18, speed 1.400207 sents/s, time 1s, 30-Mar-2017 18:45:34
+  src 348: verify ( side: brick hallway ) , turn ( right )
+  ref 348: and a right when you see the red hall <t_eos>
+  tgt 348: take a left onto the blue path <t_eos>
+  score -5.435
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:34
+  Done, minLen=5, maxLen=16, speed 3.264858 sents/s, time 0s, 30-Mar-2017 18:45:34
+  src 349: verify ( left: blue hallway , right: blue hallway )
+  ref 349: to your left and right should be blue carpet <t_eos>
+  tgt 349: you should be at the intersection of the red brick hall <t_eos>
+  score -9.52023
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:45:34
+  Done, minLen=11, maxLen=34, speed 2.452766 sents/s, time 0s, 30-Mar-2017 18:45:34
+  src 350: turn ( ) , verify ( front: chair ) , travel ( ) , verify ( back: chair , at: barstool )
+  ref 350: turn and move past the chair to the stool <t_eos>
+  tgt 350: take a left onto the wood path and go all the way down until you get to the intersection with the wood path <t_eos>
+  score -16.5733
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:35
+  Done, minLen=3, maxLen=9, speed 5.165850 sents/s, time 0s, 30-Mar-2017 18:45:35
+  src 351: verify ( front: wall )
+  ref 351: you should be at the end of the hallway <t_eos>
+  tgt 351: you should be facing a lamp and a hatrack <t_eos>
+  score -7.56376
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:35
+  Done, minLen=10, maxLen=30, speed 2.629192 sents/s, time 0s, 30-Mar-2017 18:45:35
+  src 352: turn ( ) , verify ( front: sofa ) , travel ( ) , verify ( at: sofa )
+  ref 352: face and move to the chair <t_eos>
+  tgt 352: take a left onto the wood path and go all the way down until you reach a chair <t_eos>
+  score -12.652
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:35
+  Done, minLen=7, maxLen=22, speed 3.489135 sents/s, time 0s, 30-Mar-2017 18:45:35
+  src 353: travel ( ) , verify ( front: tower wall , right: butterfly wall )
+  ref 353: go forward to the intersection which has butterfly pictures on one side and eiffel tower pictures on the other <t_eos>
+  tgt 353: go to the end of the hall <t_eos>
+  score -6.09515
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:45:36
+  Done, minLen=11, maxLen=34, speed 3.116576 sents/s, time 0s, 30-Mar-2017 18:45:36
+  src 354: verify ( at: easel ) , travel ( steps: 1 ) , verify ( front: butterfly wall , back: butterfly wall )
+  ref 354: from the easel, move one block and place yourself between butterfly pictures <t_eos>
+  tgt 354: go forward one segment to the intersection containing the easel in the hall <t_eos>
+  score -8.90984
+# Decoding batch of 1 sents, minLen=12, maxLen=37, 30-Mar-2017 18:45:36
+  Done, minLen=12, maxLen=37, speed 3.444356 sents/s, time 0s, 30-Mar-2017 18:45:36
+  src 355: verify ( left: gravel hallway ) , turn ( left ) , travel ( steps: 3 ) , verify ( side: blue hallway )
+  ref 355: follow the stone hall to your left three segments to the blue-tiled hallway <t_eos>
+  tgt 355: turn left and walk forward twice to the intersection with the brick hall <t_eos>
+  score -11.4598
+# Decoding batch of 1 sents, minLen=11, maxLen=33, 30-Mar-2017 18:45:36
+  Done, minLen=11, maxLen=33, speed 3.099420 sents/s, time 0s, 30-Mar-2017 18:45:36
+  src 356: travel ( ) , verify ( at: hatrack ) , turn ( left ) , verify ( front: concrete hallway )
+  ref 356: at the coat rack, take another left onto the plain cement <t_eos>
+  tgt 356: turn left and move to the end of the hall to your right <t_eos>
+  score -9.31103
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:45:37
+  Done, minLen=9, maxLen=27, speed 3.475927 sents/s, time 0s, 30-Mar-2017 18:45:37
+  src 357: travel ( ) , verify ( right: blue hallway , left: blue hallway , front: wall )
+  ref 357: when you can either turn only right or left onto a blue path, you are at position 4 <t_eos>
+  tgt 357: go to the end of the yellow floored hall <t_eos>
+  score -9.05462
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:37
+  Done, minLen=8, maxLen=24, speed 3.784882 sents/s, time 0s, 30-Mar-2017 18:45:37
+  src 358: travel ( ) , verify ( side: brick hallway ) , turn ( left )
+  ref 358: when you come to a red brick path, go left <t_eos>
+  tgt 358: move to the blue carpet and turn right <t_eos>
+  score -5.86744
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:37
+  Done, minLen=6, maxLen=18, speed 4.682722 sents/s, time 0s, 30-Mar-2017 18:45:37
+  src 359: travel ( steps: 2 ) , verify ( at: chair )
+  ref 359: go forward about two segments to the intersection containing the chair <t_eos>
+  tgt 359: go forward two segments to the intersection with the stool <t_eos>
+  score -5.41452
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:37
+  Done, minLen=3, maxLen=9, speed 6.040289 sents/s, time 0s, 30-Mar-2017 18:45:37
+  src 360: travel ( steps: 1 )
+  ref 360: <unk> 1 <t_eos>
+  tgt 360: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:45:38
+  Done, minLen=7, maxLen=21, speed 4.926812 sents/s, time 0s, 30-Mar-2017 18:45:38
+  src 361: turn ( ) , travel ( ) , verify ( front: wall )
+  ref 361: turn onto this carpet and move forward as far as you can <t_eos>
+  tgt 361: at the end of the hall with your back <t_eos>
+  score -7.88932
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:38
+  Done, minLen=7, maxLen=22, speed 3.723965 sents/s, time 0s, 30-Mar-2017 18:45:38
+  src 362: turn ( right ) , travel ( ) , verify ( at: barstool )
+  ref 362: turn right and move to the stool <t_eos>
+  tgt 362: turn left and move to the chair <t_eos>
+  score -4.59316
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:45:38
+  Done, minLen=4, maxLen=13, speed 4.356520 sents/s, time 0s, 30-Mar-2017 18:45:38
+  src 363: travel ( ) , turn ( right )
+  ref 363: move to it and turn right <t_eos>
+  tgt 363: turn left at the first alley <t_eos>
+  score -5.50267
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:38
+  Done, minLen=8, maxLen=24, speed 3.801212 sents/s, time 0s, 30-Mar-2017 18:45:39
+  src 364: travel ( ) , verify ( side: gravel hallway ) , turn ( right )
+  ref 364: then a right at the grey hall <t_eos>
+  tgt 364: move to the blue carpet and turn right <t_eos>
+  score -5.76196
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:39
+  Done, minLen=5, maxLen=16, speed 5.510188 sents/s, time 0s, 30-Mar-2017 18:45:39
+  src 365: turn ( right ) , travel ( steps: 1 )
+  ref 365: go right one move <t_eos>
+  tgt 365: turn left and walk forward once <t_eos>
+  score -3.86759
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:45:39
+  Done, minLen=7, maxLen=21, speed 4.024809 sents/s, time 0s, 30-Mar-2017 18:45:39
+  src 366: travel ( ) , verify ( side: concrete hallway , at: 4-intersection )
+  ref 366: when you reach an intersection with black and <unk> <unk> you are at 6 <t_eos>
+  tgt 366: go forward until you get to the intersection of the blue-tiled hall <t_eos>
+  score -9.2671
+# Decoding batch of 1 sents, minLen=9, maxLen=27, 30-Mar-2017 18:45:39
+  Done, minLen=9, maxLen=27, speed 3.293200 sents/s, time 0s, 30-Mar-2017 18:45:39
+  src 367: travel ( ) , verify ( front: wall , left: wall ) , turn ( right )
+  ref 367: at the corner, take a right <t_eos>
+  tgt 367: move to the corner and turn left and right at the end <t_eos>
+  score -9.61994
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:45:39
+  Done, minLen=2, maxLen=7, speed 6.377795 sents/s, time 0s, 30-Mar-2017 18:45:40
+  src 368: turn ( right )
+  ref 368: then take a right <t_eos>
+  tgt 368: turn right <t_eos>
+  score -2.69595
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:45:40
+  Done, minLen=14, maxLen=42, speed 3.146851 sents/s, time 0s, 30-Mar-2017 18:45:40
+  src 369: travel ( ) , verify ( at: easel ) , turn ( right ) , verify ( front: wood hallway ) , travel ( steps: 1 )
+  ref 369: take a right at the easel onto the wood path and the first section you come to will be 5 <t_eos>
+  tgt 369: turn left and move along the brick floor one alley to the hatrack and move forward two segments to the intersection containing the easel <t_eos>
+  score -22.2912
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:45:40
+  Done, minLen=8, maxLen=25, speed 4.289526 sents/s, time 0s, 30-Mar-2017 18:45:40
+  src 370: verify ( front: grass hallway ) , travel ( ) , verify ( front: wall )
+  ref 370: follow this green path to the very end of the hall <t_eos>
+  tgt 370: move along the stone floor to the end <t_eos>
+  score -6.27572
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:45:40
+  Done, minLen=6, maxLen=19, speed 5.082076 sents/s, time 0s, 30-Mar-2017 18:45:40
+  src 371: turn ( ) , verify ( right: wall , back: wall )
+  ref 371: turn so that the walls are on your right and back <t_eos>
+  tgt 371: turn so that the wall is on your left and back <t_eos>
+  score -6.6772
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:40
+  Done, minLen=5, maxLen=15, speed 5.120092 sents/s, time 0s, 30-Mar-2017 18:45:41
+  src 372: verify ( right: concrete hallway , front: chair )
+  ref 372: to your right is grey flooring and in front is a chair <t_eos>
+  tgt 372: you should be facing a chair and a hatrack <t_eos>
+  score -9.24558
+# Decoding batch of 1 sents, minLen=11, maxLen=34, 30-Mar-2017 18:45:41
+  Done, minLen=11, maxLen=34, speed 2.694314 sents/s, time 0s, 30-Mar-2017 18:45:41
+  src 373: turn ( right ) , verify ( front: brick hallway ) , travel ( ) , verify ( side: concrete hallway )
+  ref 373: once here, take a right onto the red brick and follow it until the intersection with red brick and plain cement <t_eos>
+  tgt 373: take the pink path to the blue path intersection and go all the way down until you get to the intersection with the pink-flowered carpet hall <t_eos>
+  score -20.2297
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:41
+  Done, minLen=5, maxLen=15, speed 5.151718 sents/s, time 0s, 30-Mar-2017 18:45:41
+  src 374: travel ( ) , verify ( right: hallway )
+  ref 374: go down till you can make a right in to another hallway <t_eos>
+  tgt 374: go to the red brick intersection <t_eos>
+  score -5.50159
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:41
+  Done, minLen=5, maxLen=16, speed 4.534181 sents/s, time 0s, 30-Mar-2017 18:45:41
+  src 375: turn ( right ) , travel ( steps: 1 )
+  ref 375: turn right and move to the next side alley <t_eos>
+  tgt 375: turn left and walk forward once <t_eos>
+  score -3.86759
+# Decoding batch of 1 sents, minLen=4, maxLen=13, 30-Mar-2017 18:45:42
+  Done, minLen=4, maxLen=13, speed 4.572578 sents/s, time 0s, 30-Mar-2017 18:45:42
+  src 376: verify ( front: lamp , front: easel )
+  ref 376: you should be two alleys away from a lamp and then an easel beyond that <t_eos>
+  tgt 376: you should be facing a lamp and an easel in front of you <t_eos>
+  score -8.58119
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:42
+  Done, minLen=5, maxLen=16, speed 3.813693 sents/s, time 0s, 30-Mar-2017 18:45:42
+  src 377: turn ( ) , verify ( front: gravel hallway )
+  ref 377: take the black path towards the pink flowered path intersection <t_eos>
+  tgt 377: take the black path towards the red brick intersection <t_eos>
+  score -6.8463
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:42
+  Done, minLen=3, maxLen=9, speed 5.965484 sents/s, time 0s, 30-Mar-2017 18:45:42
+  src 378: travel ( steps: 1 )
+  ref 378: move one alley <t_eos>
+  tgt 378: go forward one segment <t_eos>
+  score -2.99359
+# Decoding batch of 1 sents, minLen=17, maxLen=52, 30-Mar-2017 18:45:42
+  Done, minLen=17, maxLen=52, speed 2.145370 sents/s, time 0s, 30-Mar-2017 18:45:43
+  src 379: verify ( at: hatrack ) , turn ( right ) , verify ( front: blue hallway , front: chair ) , travel ( ) , verify ( back: chair , side: flower hallway )
+  ref 379: at the coat rack, take a right onto the blue path and follow past the chair to the pink path intersection <t_eos>
+  tgt 379: take the yellow path to the red brick intersection with the brick path intersection with the blue path <t_eos>
+  score -18.5307
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:43
+  Done, minLen=5, maxLen=15, speed 4.480688 sents/s, time 0s, 30-Mar-2017 18:45:43
+  src 380: verify ( left: concrete hallway , left: chair )
+  ref 380: to your left is grey flooring with a wooden chair in the <unk> <t_eos>
+  tgt 380: you should be facing a chair and a hatrack you are to your right <t_eos>
+  score -12.5815
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:43
+  Done, minLen=10, maxLen=30, speed 3.771351 sents/s, time 0s, 30-Mar-2017 18:45:44
+  src 381: verify ( front: sofa ) , travel ( ) , verify ( back: sofa , side: wood hallway )
+  ref 381: go past the black bench and all of the way down until you reach the wood path intersection <t_eos>
+  tgt 381: go all the way to the end of the hall <t_eos>
+  score -7.31911
+# Decoding batch of 1 sents, minLen=6, maxLen=19, 30-Mar-2017 18:45:44
+  Done, minLen=6, maxLen=19, speed 3.976206 sents/s, time 0s, 30-Mar-2017 18:45:44
+  src 382: travel ( steps: 2 ) , verify ( side: yellow hallway )
+  ref 382: go forward two segments to the intersection with the yellow-tiled hall <t_eos>
+  tgt 382: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -5.06509
+# Decoding batch of 1 sents, minLen=9, maxLen=28, 30-Mar-2017 18:45:44
+  Done, minLen=9, maxLen=28, speed 3.334011 sents/s, time 0s, 30-Mar-2017 18:45:44
+  src 383: travel ( ) , verify ( left: hallway , left: fish wall ) , turn ( left )
+  ref 383: make the first left in to the fish <unk> <t_eos>
+  tgt 383: at the end of the hall with your left <t_eos>
+  score -8.17144
+# Decoding batch of 1 sents, minLen=7, maxLen=22, 30-Mar-2017 18:45:44
+  Done, minLen=7, maxLen=22, speed 3.534943 sents/s, time 0s, 30-Mar-2017 18:45:44
+  src 384: travel ( ) , verify ( right: hallway ) , turn ( right )
+  ref 384: make 1st rt <t_eos>
+  tgt 384: move to the chair and turn right <t_eos>
+  score -4.13234
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:45
+  Done, minLen=6, maxLen=18, speed 4.371661 sents/s, time 0s, 30-Mar-2017 18:45:45
+  src 385: turn ( left ) , verify ( front: wood hallway )
+  ref 385: go left on wood <t_eos>
+  tgt 385: turn left into the brick hall <t_eos>
+  score -7.6515
+# Decoding batch of 1 sents, minLen=5, maxLen=15, 30-Mar-2017 18:45:45
+  Done, minLen=5, maxLen=15, speed 4.260323 sents/s, time 0s, 30-Mar-2017 18:45:45
+  src 386: travel ( ) , verify ( front: wall )
+  ref 386: the end of this hall will be 5 <t_eos>
+  tgt 386: go to the end of the hall <t_eos>
+  score -4.43748
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:45
+  Done, minLen=6, maxLen=18, speed 4.579530 sents/s, time 0s, 30-Mar-2017 18:45:45
+  src 387: travel ( steps: 2 ) , verify ( at: hatrack )
+  ref 387: go forward about two segments to the intersection containing the hatrack <t_eos>
+  tgt 387: go forward two segments to the intersection containing the hatrack <t_eos>
+  score -5.1359
+# Decoding batch of 1 sents, minLen=8, maxLen=25, 30-Mar-2017 18:45:45
+  Done, minLen=8, maxLen=25, speed 3.633259 sents/s, time 0s, 30-Mar-2017 18:45:46
+  src 388: verify ( front: wood hallway ) , travel ( ) , verify ( at: 3-intersection )
+  ref 388: follow the wooden floored hallway to the 't' intersection where the <unk> of the 't' is two sections of wooden floor and the <unk> of the 't' is a yellow <unk> tiled section <t_eos>
+  tgt 388: move along the stone floor to the hatrack <t_eos>
+  score -5.70212
+# Decoding batch of 1 sents, minLen=1, maxLen=3, 30-Mar-2017 18:45:46
+  Done, minLen=1, maxLen=3, speed 7.749835 sents/s, time 0s, 30-Mar-2017 18:45:46
+  src 389: null
+  ref 389: at the other end of the bare concrete hall is the blue-tiled hall <t_eos>
+  tgt 389: the intersection of <t_eos>
+  score -4.14703
+# Decoding batch of 1 sents, minLen=3, maxLen=9, 30-Mar-2017 18:45:46
+  Done, minLen=3, maxLen=9, speed 3.022472 sents/s, time 0s, 30-Mar-2017 18:45:46
+  src 390: verify ( at: hatrack )
+  ref 390: this <unk> contains a hatrack <t_eos>
+  tgt 390: there is a bench in this intersection <t_eos>
+  score -5.94478
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:45:46
+  Done, minLen=7, maxLen=21, speed 2.756157 sents/s, time 0s, 30-Mar-2017 18:45:47
+  src 391: turn ( ) , verify ( front: flower hallway , back: sofa )
+  ref 391: face the pink-flowered carpet hall with your back to the bench at the intersection of it and the yellow-tiled hall <t_eos>
+  tgt 391: take the black path towards the chair <t_eos>
+  score -5.57106
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:47
+  Done, minLen=5, maxLen=16, speed 4.922180 sents/s, time 0s, 30-Mar-2017 18:45:47
+  src 392: verify ( back: butterfly wall , left: butterfly wall )
+  ref 392: there should be butterfly <unk> on the side at this point <t_eos>
+  tgt 392: you should see an easel in front of you <t_eos>
+  score -6.99485
+# Decoding batch of 1 sents, minLen=2, maxLen=7, 30-Mar-2017 18:45:47
+  Done, minLen=2, maxLen=7, speed 5.967976 sents/s, time 0s, 30-Mar-2017 18:45:47
+  src 393: turn ( right )
+  ref 393: then right <t_eos>
+  tgt 393: turn right <t_eos>
+  score -2.69595
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:47
+  Done, minLen=5, maxLen=16, speed 3.844986 sents/s, time 0s, 30-Mar-2017 18:45:47
+  src 394: turn ( ) , verify ( front: grass hallway )
+  ref 394: face the green carpeting <t_eos>
+  tgt 394: turn to face the black hallway <t_eos>
+  score -5.44338
+# Decoding batch of 1 sents, minLen=5, maxLen=16, 30-Mar-2017 18:45:47
+  Done, minLen=5, maxLen=16, speed 4.761361 sents/s, time 0s, 30-Mar-2017 18:45:47
+  src 395: travel ( ) , verify ( side: wood hallway )
+  ref 395: move down it until you get to the wood flooring <t_eos>
+  tgt 395: go forward to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.61009
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:48
+  Done, minLen=10, maxLen=30, speed 3.564859 sents/s, time 0s, 30-Mar-2017 18:45:48
+  src 396: verify ( front: blue hallway ) , travel ( steps: 5 ) , verify ( side: flower hallway )
+  ref 396: follow the blue-tiled hall five segments to the pink-flowered carpet hall <t_eos>
+  tgt 396: go forward two segments to the intersection with the pink-flowered carpet hall <t_eos>
+  score -7.33308
+# Decoding batch of 1 sents, minLen=12, maxLen=37, 30-Mar-2017 18:45:48
+  Done, minLen=12, maxLen=37, speed 3.345489 sents/s, time 0s, 30-Mar-2017 18:45:48
+  src 397: turn ( ) , verify ( front: brick hallway , back: lamp ) , travel ( ) , verify ( side: grass hallway )
+  ref 397: take the red brick road away from the lamp to the green path intersection <t_eos>
+  tgt 397: take the yellow path all the way to the end of the hall <t_eos>
+  score -6.00693
+# Decoding batch of 1 sents, minLen=6, maxLen=18, 30-Mar-2017 18:45:48
+  Done, minLen=6, maxLen=18, speed 3.022052 sents/s, time 0s, 30-Mar-2017 18:45:48
+  src 398: turn ( right ) , verify ( front: brick hallway )
+  ref 398: take a right onto red brick <t_eos>
+  tgt 398: turn left into the red brick hallway <t_eos>
+  score -7.54816
+# Decoding batch of 1 sents, minLen=7, maxLen=21, 30-Mar-2017 18:45:49
+  Done, minLen=7, maxLen=21, speed 4.354035 sents/s, time 0s, 30-Mar-2017 18:45:49
+  src 399: verify ( at: easel , left: tower wall , right: butterfly wall )
+  ref 399: the left alley at the easel has the eiffel tower and the right has butterflies <t_eos>
+  tgt 399: you should see an easel in front of you <t_eos>
+  score -6.57059
+# Decoding batch of 1 sents, minLen=14, maxLen=42, 30-Mar-2017 18:45:49
+  Done, minLen=14, maxLen=42, speed 2.996210 sents/s, time 0s, 30-Mar-2017 18:45:49
+  src 400: turn ( ) , verify ( back: easel ) , travel ( ) , verify ( front: wall , right: wall ) , turn ( left )
+  ref 400: with your back to the easel move into the corner and turn left <t_eos>
+  tgt 400: move to the corner and turn left and a hatrack you see a chair and a hatrack <t_eos>
+  score -22.0396
+# Decoding batch of 1 sents, minLen=10, maxLen=30, 30-Mar-2017 18:45:49
+  Done, minLen=10, maxLen=30, speed 3.014145 sents/s, time 0s, 30-Mar-2017 18:45:50
+  src 401: turn ( ) , verify ( back: wall , front: yellow hallway ) , travel ( steps: 1 )
+  ref 401: with your back to the wall move forward along the octagon carpet one alley <t_eos>
+  tgt 401: with your back to the wall move forward one alley past the lamp and turn right <t_eos>
+  score -10.5373
+# Decoding batch of 1 sents, minLen=8, maxLen=24, 30-Mar-2017 18:45:50
+  Done, minLen=8, maxLen=24, speed 2.085493 sents/s, time 0s, 30-Mar-2017 18:45:50
+  src 402: turn ( ) , verify ( back: wall , right: wall , left: wall )
+  ref 402: only one way to go <t_eos>
+  tgt 402: at the end of the corner, go right towards the easel <t_eos>
+  score -11.3509
+# Complete decoding 402 sents, time 195s, 30-Mar-2017 18:45:50

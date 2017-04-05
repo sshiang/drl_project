@@ -1,0 +1,323 @@
+<s> travel ( steps: 2 ) , </s> <s> verify ( side: concrete hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( right: hallway ) , </s> <s> turn ( right ) , </s> <s> travel ( ) , </s> <s> turn ( ) , </s> <s> travel ( ) , </s> <s> turn ( ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall , right: wall , left: wall ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> null </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( right ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 2 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> verify ( at: easel ) </s> 
+<s> verify ( front: gravel hallway ) , </s> <s> travel ( ) , </s> <s> verify ( at: barstool ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway , front: chair ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall ) , </s> <s> turn ( right ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( front: fish wall ) , </s> <s> turn ( left ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> verify ( front: lamp , front: hatrack ) , </s> <s> travel ( ) , </s> <s> verify ( back: lamp , back: hatrack ) </s> 
+<s> verify ( side: grass hallway ) </s> 
+<s> travel ( steps: 3 ) , </s> <s> verify ( side: yellow hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: wood hallway , front: easel ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: grass hallway ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( ) , </s> <s> verify ( right: hallway ) , </s> <s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: easel ) </s> 
+<s> turn ( right ) , </s> <s> travel ( steps: 2 ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( right: wall , back: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> verify ( side: yellow hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> verify ( left: flower hallway , right: flower hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: easel ) , </s> <s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: lamp ) , </s> <s> travel ( steps: 1 ) , </s> <s> turn ( right ) , </s> <s> verify ( front: concrete hallway ) </s> 
+<s> verify ( front: wood hallway , side: butterfly wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: flower hallway ) </s> 
+<s> turn ( left ) , </s> <s> travel ( steps: 3 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: grass hallway ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: chair ) , </s> <s> turn ( right ) , </s> <s> verify ( front: brick hallway ) , </s> <s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall ) , </s> <s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( left: gravel hallway , left: easel , front: yellow hallway ) </s> 
+<s> turn ( left ) </s> 
+<s> verify ( front: yellow hallway ) , </s> <s> travel ( steps: 1 ) , </s> <s> verify ( side: concrete hallway ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( front: wood hallway ) </s> 
+<s> travel ( steps: 2 ) , </s> <s> verify ( side: flower hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: gravel hallway , side: yellow hallway ) </s> 
+<s> null </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) , </s> <s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: concrete hallway , side: blue hallway ) </s> 
+<s> travel ( steps: 3 ) </s> 
+<s> verify ( left: concrete hallway , front: lamp ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: barstool ) </s> 
+<s> verify ( right: barstool ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: easel ) , </s> <s> turn ( right ) </s> 
+<s> verify ( front: yellow hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: wood hallway , front: easel ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: lamp ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway , front: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: wood hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( left: wall , back: wall ) </s> 
+<s> travel ( ) , </s> <s> verify (front: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: hatrack ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( front: blue hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: flower hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: flower hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> travel ( steps: 5 ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall , right: wall , left: wall ) </s> 
+<s> turn ( ) </s> 
+<s> verify ( front: flower hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: hallway ) , </s> <s> turn ( right ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: easel ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( right: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: lamp , front: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway , front: easel ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: flower hallway , at: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: grass hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: brick hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: gravel hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> turn ( left ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( left ) </s> 
+<s> null </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> turn ( left ) , </s> <s> travel ( ) , </s> <s> verify ( at: 4-intersection , front: brick hallway , side: flower hallway , at: easel ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall , left: wall ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( right ) , </s> <s> verify ( front: wood hallway ) , </s> <s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: grass hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: yellow hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> verify ( front: wood hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: barstool ) </s> 
+<s> verify ( left: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( left: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) </s> 
+<s> verify ( front: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: lamp ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> turn ( left ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: flower hallway ) </s> 
+<s> travel ( steps: 3 ) , </s> <s> verify ( side: yellow hallway ) , </s> <s> turn ( left ) , </s> <s> travel ( steps: 1 ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) , </s> <s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: grass hallway ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: yellow hallway ) , </s> <s> turn ( right ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( right ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> verify ( side: concrete hallway ) </s> 
+<s> turn ( right ) , </s> <s> verify ( front: brick hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: gravel hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> verify ( front: concrete hallway , front: chair ) , </s> <s> travel ( steps: 2 ) , </s> <s> verify ( back: chair ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway , back: easel ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: chair ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: sofa ) , </s> <s> turn ( left ) , </s> <s> travel ( ) , </s> <s> verify ( at: sofa ) , </s> <s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall , left: blue hallway , right: blue hallway ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: wood hallway , front: chair ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway , front: butterfly wall ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , left: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: brick hallway ) , </s> <s> turn ( left ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall , left: wall , back: lamp , right: concrete hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: sofa ) </s> 
+<s> travel ( steps: 2 ) , </s> <s> verify ( right: flower hallway ) </s> 
+<s> null </s> 
+<s> verify ( at: easel ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: hatrack ) , </s> <s> travel ( ) , </s> <s> verify ( at: hatrack ) , </s> <s> turn ( left ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) , </s> <s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: flower hallway ) , </s> <s> travel ( steps: 1 ) , </s> <s> verify ( side: brick hallway ) </s> 
+<s> verify ( front: blue hallway ) , </s> <s> travel ( ) , </s> <s> verify ( left: flower hallway ) , </s> <s> travel ( ) </s> 
+<s> verify ( front: wood hallway ) , </s> <s> travel ( ) , </s> <s> verify ( at: chair ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: grass hallway , front: hatrack ) , </s> <s> travel ( steps: 3 ) , </s> <s> verify ( back: hatrack , side: blue hallway ) </s> 
+<s> travel ( ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( side: wood hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( front: flower hallway ) , </s> <s> travel ( steps: 2 ) , </s> <s> verify ( side: brick hallway ) </s> 
+<s> turn ( left ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( front: flower hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: wood hallway , front: easel ) </s> 
+<s> verify ( front: wood hallway , back: wood hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> verify ( at: sofa ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: brick hallway ) </s> 
+<s> verify ( right: concrete hallway ) </s> 
+<s> verify ( back: butterfly wall , left: butterfly wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( left ) </s> 
+<s> verify ( at: hatrack ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: barstool ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: blue hallway , side: flower hallway ) </s> 
+<s> turn ( left ) , </s> <s> turn ( left ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify (front: flower hallway ) , </s> <s> travel ( steps: 2 ) , </s> <s> verify ( side: brick hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( left: wall , back: wall ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway , front: lamp ) </s> 
+<s> travel ( ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: sofa ) , </s> <s> travel ( ) , </s> <s> verify ( at: sofa ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: hatrack ) , </s> <s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: flower hallway ) </s> 
+<s> null </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) , </s> <s> verify ( front: blue hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: flower hallway ) , </s> <s> travel ( ) , </s> <s> turn ( ) , </s> <s> verify ( front: tower wall ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall , left: wall , right: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( side: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: wood hallway ) </s> 
+<s> verify ( front: brick hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: gravel hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway , front: chair ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( right: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , right: wall , left: wall ) </s> 
+<s> verify ( front: chair ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( side: brick hallway ) , </s> <s> turn ( left ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> verify ( front: concrete hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall , left: wall , right: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: hatrack ) </s> 
+<s> verify ( left: concrete hallway ) </s> 
+<s> verify ( front: chair , front: hatrack ) , </s> <s> travel ( ) , </s> <s> verify ( back: chair , back: hatrack ) </s> 
+<s> travel ( ) , </s> <s> verify ( left: hallway ) , </s> <s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall ) </s> 
+<s> verify ( front: chair ) , </s> <s> travel ( ) , </s> <s> verify ( at: barstool , back: chair ) </s> 
+<s> turn ( ) , </s> <s> verify (back: sofa ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 2 ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: easel ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall , right: wall ) , </s> <s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: chair ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: lamp , left: wall , front: wall ) , </s> <s> turn ( right ) </s> 
+<s> turn ( right ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall , left: wall , right: wall ) </s> 
+<s> null </s> 
+<s> turn ( left ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> verify ( front: brick hallway ) , </s> <s> travel ( steps: 5 ) , </s> <s> verify ( side: gravel hallway ) </s> 
+<s> verify ( at: easel ) </s> 
+<s> turn ( left ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( front: brick hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) , </s> <s> turn ( right ) </s> 
+<s> turn ( right ) , </s> <s> verify ( front: blue hallway ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall , left: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) , </s> <s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: blue hallway ) , </s> <s> turn ( right ) , </s> <s> verify ( front: blue hallway , front: chair , front: hatrack ) , </s> <s> travel ( ) , </s> <s> verify ( back: hatrack ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> travel ( ) , </s> <s> verify ( left: hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: gravel hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: yellow hallway ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) </s> 
+<s> travel ( steps: 4 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( at: hatrack ) </s> 
+<s> null </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel ) , </s> <s> turn ( right ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall , left: wall , back: grass hallway , right: yellow hallway , back: fish wall , right: fish wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway ) , </s> <s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> travel ( steps: 2 ) </s> 
+<s> verify ( front: wall , right: wall , back: yellow hallway , left: grass hallway ) </s> 
+<s> verify ( front: lamp ) , </s> <s> travel ( steps: 4 ) , </s> <s> verify ( side: wood hallway , back: lamp ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: gravel hallway , side: concrete hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: yellow hallway ) , </s> <s> travel ( ) , </s> <s> verify ( side: flower hallway ) </s> 
+<s> verify ( front: butterfly wall ) </s> 
+<s> verify ( at: chair ) , </s> <s> turn ( right ) </s> 
+<s> verify ( front: flower hallway ) , </s> <s> travel ( ) , </s> <s> verify ( at: hatrack ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: chair ) </s> 
+<s> verify ( left: grass hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway , front: chair ) , </s> <s> travel ( ) , </s> <s> verify ( side: flower hallway ) , </s> <s> turn ( right ) , </s> <s> verify ( front: flower hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: blue hallway , back: sofa , back: hatrack ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: lamp ) , </s> <s> travel ( steps: 2 ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , left: wall , right: wall ) </s> 
+<s> verify ( side: blue hallway ) , </s> <s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( front: gravel hallway , back: easel ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: concrete hallway ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( at: easel , side: brick hallway ) , </s> <s> turn ( left ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( at: hatrack ) , </s> <s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) , </s> <s> verify ( front: wall , right: wall , left: wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: wall ) </s> 
+<s> turn ( left ) , </s> <s> travel ( ) , </s> <s> verify ( at: lamp ) , </s> <s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) </s> 
+<s> verify ( front: brick hallway ) , </s> <s> travel ( ) </s> 
+<s> verify ( left: concrete hallway , left: chair ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: yellow hallway ) </s> 
+<s> turn ( left ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> turn ( ) , </s> <s> travel ( ) </s> 
+<s> turn ( left ) </s> 
+<s> turn ( ) , </s> <s> verify ( front: easel , front: brick hallway ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> verify ( front: chair ) , </s> <s> travel ( ) , </s> <s> verify ( back: chair , at: barstool ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: yellow hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: wall , at: 3-intersection ) </s> 
+<s> verify ( front: chair , front: wood hallway ) </s> 
+<s> verify ( front: chair ) , </s> <s> travel ( steps: 2 ) , </s> <s> verify ( back: chair ) </s> 
+<s> verify ( at: easel ) </s> 
+<s> verify ( front: chair ) , </s> <s> travel ( ) , </s> <s> verify ( back: chair , at: hatrack ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> turn ( right ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: blue hallway ) </s> 
+<s> travel ( ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: butterfly wall , back: butterfly wall ) </s> 
+<s> travel ( ) , </s> <s> turn ( right ) </s> 
+<s> turn ( left ) , </s> <s> verify ( front: brick hallway ) </s> 
+<s> turn ( ) , </s> <s> verify ( back: easel ) </s> 
+<s> travel ( ) , </s> <s> verify ( front: fish wall ) </s> 
+<s> travel ( ) , </s> <s> verify ( side: gravel hallway ) , </s> <s> turn ( right ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> travel ( steps: 1 ) </s> 
+<s> turn ( right ) </s> 
+<s> turn ( right ) </s> 

@@ -1,0 +1,324 @@
+<s> at the end of the hall, take a left towards the easel </s>
+<s> turn so the walls are on your right and back </s>
+<s> face and move to the lamp </s>
+<s> walk forward once </s>
+<s> at the intersection of plain cement and red brick path, this is position 7 </s>
+<s> follow this until the end of the hall </s>
+<s> go straight until you can either go left or towards a dead end </s>
+<s> with your back to the wall turn left </s>
+<s> turn right </s>
+<s> face the lamp and move to it </s>
+<s> there is an easel there </s>
+<s> then stop at the first intersection </s>
+<s> turn right </s>
+<s> turn left </s>
+<s> go forward one segment to the wooden-tiled hall </s>
+<s> there is a bench in this intersection </s>
+<s> walk forward once </s>
+<s> go down first left </s>
+<s> orient yourself along the wooden hall with your back to the hatrack </s>
+<s> all the way down the winding hall </s>
+<s> walk forward twice </s>
+<s> move down two blocks til you get to the alley with flowered carpet </s>
+<s> turn left </s>
+<s> the next intersection will be 1 </s>
+<s> turn right </s>
+<s> face and move to the chair </s>
+<s> with your back to the wall at three move forward one alley </s>
+<s> walk forward once </s>
+<s> walk forward once </s>
+<s> till you are at the hat rack </s>
+<s> from here you can turn left and see a lamp </s>
+<s> walk three times forward </s>
+<s> turn so that the wall is on your left side </s>
+<s> turn left </s>
+<s> go forward one movement in the direction of the red floor </s>
+<s> place your back to the easel and move forward two alleys along the stone floor </s>
+<s> at the easel, take a right onto the wood path </s>
+<s> walk forward once </s>
+<s> walk forward once </s>
+<s> at the intersection with the blue path, take a right onto the blue path and follow it towards the chair and past the coat rack </s>
+<s> follow the pink floored area toward the fish walled area </s>
+<s> go on the path towards the lamp </s>
+<s> go forward one segment to the intersection with the pink-flowered carpet </s>
+<s> turn and move past the chair to the octagon carpet </s>
+<s> then a right at the grey hall </s>
+<s> 1st rt </s>
+<s> from 2 you should be able to look left and see a hatrack </s>
+<s> turn left </s>
+<s> turn left </s>
+<s> go forward one segment to the intersection with the blue-tiled hall </s>
+<s> move to the next alley </s>
+<s> turn to where the wall is on your left side </s>
+<s> turn right </s>
+<s> walk forward twice </s>
+<s> follow the black until you meet up with a black easel </s>
+<s> go forward along the yellow-tiled hall one segment to the intersection with a bare concrete hall </s>
+<s> turn left </s>
+<s> move forward to the hat rack and turn right </s>
+<s> go forward four segments down the brick hallway, passing a lamp and an easel to the grassy hallway </s>
+<s> it's at the corner of the yellow floor and the grassy floor </s>
+<s> walk forward three times </s>
+<s> turn left </s>
+<s> if you can only see pictures of towers in front of you and butterflys on the walls behind you then you are in the right spot </s>
+<s> turn left and move to the chair </s>
+<s> walk forward to the far end </s>
+<s> the bench in the bare concrete hall should be to your left </s>
+<s> turn right </s>
+<s> go forward two segments to the end of the hall </s>
+<s> walk forward </s>
+<s> go forward three segments to an intersection with a bare concrete hall, passing a lamp </s>
+<s> turn right </s>
+<s> position one is where the bench is </s>
+<s> go forward one segment to the intersection with the blue-tiled floor </s>
+<s> the side alleys have green octagon carpet </s>
+<s> walk forward once </s>
+<s> go forward one segment to the intersection containing the easel </s>
+<s> go forward three segments to the pink-flowered carpet hall </s>
+<s> go left until you come to the four way intersection of the red and rose floors, with an easel </s>
+<s> walk forward once </s>
+<s> there will be a lamp in the next segment in front of you </s>
+<s> go forward one segment to the brick hall </s>
+<s> when road ends, go right </s>
+<s> go forward one segment </s>
+<s> fwd 1 </s>
+<s> at the intersection with the green path, take a right and again, go to the end of the hall where the corner meets with the yellow path </s>
+<s> this intersection will contain an easel </s>
+<s> turn left </s>
+<s> go right onto the red brick path towards the lamp </s>
+<s> once you reach the black stool, you are at 7 </s>
+<s> make a rt into the pink flowered floor hallway </s>
+<s> next, take a right and follow the path until you reach a black easel, this is position 2 </s>
+<s> turn onto the pink hallway and walk forward once </s>
+<s> walk forward once </s>
+<s> walk forward twice </s>
+<s> turn left again and move along the brick one alley </s>
+<s> position 1 is in the middle of the red brick floored hall </s>
+<s> move out of the dead end </s>
+<s> turn so the wall is on your back </s>
+<s> walk forward once </s>
+<s> take the red brick towards the butterflies on the wall </s>
+<s> walk forward twice </s>
+<s> turn left </s>
+<s> go all the way down until you reach the black intersection </s>
+<s> walk forward twice </s>
+<s> walk forward once </s>
+<s> turn left into this hall </s>
+<s> there is an easel one segment farther down the hall ahead of you </s>
+<s> at the next corner, go right onto the wood path </s>
+<s> turn left at the first alley </s>
+<s> take the path towards the chair </s>
+<s> move to the chair and turn left </s>
+<s> go left on the pink path until you either have to turn left or go towards a dead end </s>
+<s> turn left </s>
+<s> go forward one segment to the intersection with the wooden-floored hall </s>
+<s> at the lamp, go left </s>
+<s> then stop when you look to the right and see a blue corridor </s>
+<s> at the intersection of the rose floors and the yellow floors </s>
+<s> if you continue on you will see a hat rack </s>
+<s> once you hit a intersection with a bench, you are at position 1 </s>
+<s> turn right </s>
+<s> take the yellow path towards the coat rack </s>
+<s> go forward one segment to the blue-tiled hall </s>
+<s> go forward one segment to the intersection with the grassy hall </s>
+<s> the intersection should be empty, though the next intersection will contain a bench and the one following will contain a hatrack </s>
+<s> you should now be facing the yellow-tiled hall </s>
+<s> take the blue path all the way to the end of the hall and at the corner, go left towards the easel </s>
+<s> go straight one movement </s>
+<s> face and move to the chair </s>
+<s> go straight </s>
+<s> turn right </s>
+<s> you see a long alley with grass </s>
+<s> the end of this hall is position 3 </s>
+<s> the side alleys are red brick </s>
+<s> only one direction to go </s>
+<s> go forward two segments to the intersection with the brick hall </s>
+<s> go straight unitl the end of the hall, here, take a left and go straight again until the end of the hall </s>
+<s> go till the bench </s>
+<s> face and move to the easel </s>
+<s> the very next intersection will be 5 </s>
+<s> walk forward once </s>
+<s> position 5 is in the middle, with a dead end branch to the left, and nothing on the walls </s>
+<s> turn left </s>
+<s> the bench in the bare concrete hall should be to your right </s>
+<s> go all the way down the blue hall </s>
+<s> go forward three segments to the intersection with the yellow-tiled hall </s>
+<s> turn right </s>
+<s> walk forward once </s>
+<s> forward one movement </s>
+<s> turn left </s>
+<s> walk forward once </s>
+<s> upon turning right you should see an alley with rose carpet </s>
+<s> turn right at the hatrack, go forward two segments, passing the bench, to the empty intersection </s>
+<s> turn and move to the end of the octagon carpet </s>
+<s> it has flowered carpet </s>
+<s> the side alley has stone flooring </s>
+<s> position 1 is in the middle of a red brick floored room </s>
+<s> go forward one segment to the 't' intersection with the bare concrete hall </s>
+<s> face and move to the lamp </s>
+<s> go forward one segment to the intersection with the grassy hall </s>
+<s> go forward one segment </s>
+<s> take the blue path towards the chair to the very end of the hall </s>
+<s> go forward one segment to the intersection containing the easel </s>
+<s> spot is near the end of the red hall, with a branch to the side with a blank walled dead end </s>
+<s> take a right onto the blue path </s>
+<s> right </s>
+<s> turn right </s>
+<s> this hall will end in the blue-tiled hall </s>
+<s> to your left is grey flooring and in front of you is brick </s>
+<s> move to the blue carpet </s>
+<s> turn so the wall is on your left </s>
+<s> go forward one segment to the blue-tiled hall </s>
+<s> turn left </s>
+<s> in front is a hatrack and left is grey flooring </s>
+<s> go forward one segment to the intersection with a bare concrete hall </s>
+<s> walk down the pink corridor to the intersection of the red one, 2 steps </s>
+<s> go forward two segments, passing the bench </s>
+<s> turn to the left </s>
+<s> walk forward </s>
+<s> foward </s>
+<s> go down grey hall until you get to the red hall </s>
+<s> resume your forward course along the black floor for one more click </s>
+<s> at the next junction of yellow and black, take a left </s>
+<s> there is a lamp in this intersection </s>
+<s> turn left </s>
+<s> turn right </s>
+<s> then all the way down the grey hall </s>
+<s> follow the yellow path towards the chair </s>
+<s> turn right and move into the corner </s>
+<s> go forward two segments to the intersection with the blue-tiled hall </s>
+<s> you should see gray floor to your right </s>
+<s> face the green carpeting </s>
+<s> walk forward three times </s>
+<s> follow the alley </s>
+<s> turn so that the wall is on your left and to your back </s>
+<s> turn left into this hall </s>
+<s> move to the stool </s>
+<s> turn left </s>
+<s> turn right </s>
+<s> with your back to the wall turn left </s>
+<s> walk forward three times </s>
+<s> you will pass a hatrack and a lamp </s>
+<s> go towards the coat rack </s>
+<s> turn left </s>
+<s> at the chair at the end of the hall, go right </s>
+<s> go forward one segment to the intersection with the yellow-tiled hall </s>
+<s> face and move to the lamp </s>
+<s> walk to the blue carpet and turn right </s>
+<s> go down until the pink floored area </s>
+<s> move along the octagon carpet to the stone floor </s>
+<s> go forward one segment </s>
+<s> position 3 is the empty section between the two pieces of furniture in this hall </s>
+<s> there is an easel to your right </s>
+<s> this intersection contains an easel </s>
+<s> turn so that the wall is on your left and to your back </s>
+<s> go forward one segment </s>
+<s> move along it to the end till you reach the blue carpet alley, which should be to your left and right </s>
+<s> keep going, looking  down each of the streets on the right, until you see the street with no furniture do not go down it </s>
+<s> take the blue hall until you get to the grassy hall </s>
+<s> move to the hatrack </s>
+<s> walk to the chair and turn left </s>
+<s> move along the stone floor two alleys to the brick floor </s>
+<s> turn left </s>
+<s> face the hall toward the stool </s>
+<s> walk forward once </s>
+<s> go forward one segment </s>
+<s> face so the aesal is to your right </s>
+<s> at the next corner, take a right onto the blue path and follow it towards the chair </s>
+<s> you should be looking at the blue hallway </s>
+<s> turn right in to this hall </s>
+<s> position 2 is at the corner of two halls with no tiles on the floor but butterflies on the walls </s>
+<s> go forward two segments to the end of the hall </s>
+<s> move into the corner such that the lamp is behind you and to your right you see a gray carpeted alley </s>
+<s> with your back to the wall at 3 turn left </s>
+<s> go forward three segments along the yellow-tiled hall to the intersection with a bare concrete floor </s>
+<s> turn so that the walls are on your right and back </s>
+<s> then a right </s>
+<s> turn right </s>
+<s> turn right </s>
+<s> this interesction contains a chair </s>
+<s> go down the longer end of the pink floored area </s>
+<s> then turn when you see the red hall </s>
+<s> move to the corner and turn left </s>
+<s> walk forward once </s>
+<s> move to it and down the alley </s>
+<s> walk forward four times </s>
+<s> and then another left at the coat rack </s>
+<s> go forward two segments, or to the first empty intersection </s>
+<s> turn left </s>
+<s> then left on to the blue floored area </s>
+<s> there is an easel in this intersection </s>
+<s> keep going until the bench </s>
+<s> place your back against the wall of the 't' intersection </s>
+<s> walk forward once </s>
+<s> walk forward once </s>
+<s> from this point, turn right </s>
+<s> go down to the easel, and take a left </s>
+<s> at seven put your back to the chair </s>
+<s> blue floored area </s>
+<s> take the black path and turn left on the red path at that intersection </s>
+<s> turn to face the black hallway with the pictures of towers on either side and a lamp down in the distance </s>
+<s> walk forward once </s>
+<s> go forward one segment to the intersection with a bare concrete hall </s>
+<s> again move forward to the blue carpet and turn left </s>
+<s> this intersection should be empty and is position 7 </s>
+<s> go right onto the blue path and follow it towards the chair </s>
+<s> move forward one block </s>
+<s> take the black path towars the red brick intersection </s>
+<s> the floor should be bare concrete </s>
+<s> turn left </s>
+<s> turn left </s>
+<s> make a right </s>
+<s> move to the flowered carpet and turn left </s>
+<s> it was two pictures of the eiffel tower on it </s>
+<s> all the way till almost the end </s>
+<s> one block past the chair is p-3 </s>
+<s> the end of this hall is 3 </s>
+<s> turn toward the end of the hall that intersects the yellow-tiled hall </s>
+<s> turn to the right </s>
+<s> go towards the chair on the green path </s>
+<s> at the easel, take a left onto the wood path and the very first section you come to, you will be at 5 </s>
+<s> take a left on red brick, and then a right on the black path </s>
+<s> go to the blue floored area </s>
+<s> at the coat rack take a left </s>
+<s> orient yourself along the yellow-tiled hallway with the easel in the stone hall to your left </s>
+<s> go until the hall dead ends, take a left </s>
+<s> take the blue path away from the black bench </s>
+<s> walk forward once </s>
+<s> turn right </s>
+<s> turn left </s>
+<s> turn right </s>
+<s> follow the hall with the yellow-tiled floor to the hall with pink-flowered carpet on the floor </s>
+<s> face and move to the hatrack </s>
+<s> walk forward once </s>
+<s> go forward one segment </s>
+<s> continue until you get to the grey floor </s>
+<s> go forward one segment to the end of the hall </s>
+<s> turn right </s>
+<s> turn right </s>
+<s> make a left </s>
+<s> from one turn until you see a corner of blue carpet in a side alley </s>
+<s> face the intersection containing the hatrack </s>
+<s> move foward one spce </s>
+<s> turn right into the blue-tiled hall </s>
+<s> face the easel </s>
+<s> turn left </s>
+<s> the intersection with the blue-tiled hall should be to your left; the section containing the chair behind you </s>
+<s> turn right </s>
+<s> at one face the long brick alley </s>
+<s> go forward three segments to the intersection with the blue-tiled hall </s>
+<s> turn to face the easel </s>
+<s> turn left </s>
+<s> take the path towards the lamp </s>
+<s> turn right onto the pink hallway </s>
+<s> turn right </s>
+<s> then right </s>
+<s> pass the pink-flowered carpet hall </s>
+<s> turn left </s>
+<s> turn right </s>
+<s> make a left at the hat rack </s>
+<s> at the end of this hall, take a left towards the lamp </s>
+<s> there is a bench two segments to your left </s>
+<s> at the easel, take a left to the next corner </s>
+<s> at the rack, go right onto the blue path </s>
+<s> with your back to the wall move forward to the second alley </s>
