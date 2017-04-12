@@ -13,7 +13,7 @@ import re
 
 parser = argparse.ArgumentParser(description='MultiRank for object recognition improvement.')
 parser.add_argument('-m', '--mapDir', dest='mapDir', default="../maps", help='Map directory')
-parser.add_argument('-i', '--input', dest='input', default='../data/semantic/SingleSentences-sail.xml', help='input xml file')
+parser.add_argument('-i', '--input', dest='input', default='../data/semantic/', help='input xml file')
 parser.add_argument('-j', '--demo_input', dest='demo_input', default='../data/SingleSentence.xml', help='input xml file')
 parser.add_argument('-s', '--source', dest='source', default='../data/sail_source', help='source states feature output')
 parser.add_argument('-t', '--target', dest='target', default='../data/sail_target', help='target commands output')
@@ -73,6 +73,370 @@ def readMap(path):
 def getShapeIndex(a,b,c,d):
 	x = [a,b,c,d]
 	return sum([x[i]*(2**(i)) for i in range(len(x))])	
+
+
+def findBracketFront(s, brackets):
+	for i in range(len(s)):
+		if s[i] in brackets:
+			return i
+	return -1
+
+def findBracketBack(s, br):
+	for i in range(len(s)-1, -1, -1):
+		if s[i] == br:
+			return i
+	return -1
+
+def getAttributes(s, brackets, brackets_rev):
+	attrs = []
+	brs = []
+	start = 0
+	for i in range(len(s)):
+		if s[i] in brackets:
+			brs.append(s[i])
+		elif s[i] in brackets_rev: 
+			if brs[-1] == brackets_rev[s[i]]:
+				brs = brs[:-1]
+		if len(brs)==0 and i != 0 and s[i] ==",":
+			# compelete a segment 
+			attrs.append(s[start:i].strip())
+			start = i+1
+	attrs.append(s[start:].strip())
+	return attrs
+	
+'''
+def parseGrammar(string):
+	string = string.strip()
+	#default = ["(","["]
+	brackets = {"[":"]", "(":")"}
+	brackets_rev = {"]":"[", ")":"("}
+	delimiter = ","
+	grammar = {}
+	while string != "":
+		first_match = findBracketFront(string, brackets)
+		last_match = findBracketBack(string, brackets[string[first_match]])
+			
+		elif brackets[first_match] == "[":
+			catgory = string[:first_match]
+			attributes = getAttributes(string[first_match:last_match], brackets, brackets_rev)
+		elif brackets[first_match] == "(":
+			action = string[:first_match]
+			attributes = getAttributes(string[first_match:last_match], brackets, brackets_rev)
+			
+		string = string[first_match+1:last_match].strip()
+	return grammar
+'''
+def getCASFeatures(cas):
+	#number of key information to remember 
+	#low-level command groundtruth
+	#CAS command maximum depth
+	#number of defined attributes
+	#number of floor colors mentioned
+	#number of wall colors mentioned
+	#whether or not to head towards an object
+	#number of landmarks mentioned
+	#turn reference frame
+
+	fea = []
+	#number of key information to remember  ???
+	fea += [cas.count('=')]
+
+	#low-level command groundtruth
+	fea += [cas.count("(")]
+
+	#CAS command maximum depth
+	depth = 0
+	brs = ""
+	brackets = {"[":"]", "(":")"}
+	for i in range(len(cas)):
+		if cas[i] in brackets:
+			brs += cas[i]
+			depth = max(depth, len(brs)) #sum([brs.count(x) for x in brackets]))
+		if cas[i] in brackets.values():
+			brs = brs[:-1]
+	fea += [depth]
+
+	#number of defined attributes
+	fea += [cas.count('=')]
+
+	floors = ["honeycomb", "cement", "brick", "grass", "rose", "wood", "stone", "bluetile"]
+	walls = ["fish", "butterfly", "eiffel"]
+
+	#number of floor colors mentioned
+	fea += [sum([cas.lower().count(x) for x in floors])]
+
+	#number of wall colors mentioned
+	fea += [sum([cas.lower().count(x) for x in walls])]
+
+	#whether or not to head towards an object
+	target = "thing("
+	fea += [0]
+	for i in range(len(cas)):
+		if cas[i:i+len(target)].lower() == target:
+			start, depth, subcas = i, "", ""
+			for j in range(i, len(cas)):
+				if cas == "(":
+					subcas += cas[j]
+				if cas[j] in brackets:
+					depth += cas[j]
+				if cas[j] in brackets.keys():
+					depth = depth[:-1]
+			if "front" in subcas.lower() and 'obj' in subcas.lower():
+				fea[-1]+=1
+
+	#number of landmarks mentioned
+	fea += [cas.lower().count("thing(")]
+
+	#turn reference frame
+	fea += [cas.lower().count('turn')]
+
+	return fea
+	
+
+
+def getPaperFeatures(paths, env):
+	global wallMap 
+	global floorMap 
+	global itemMap
+
+	#change orientation
+	#change position
+	#change orientation and then position change position and then orientation
+	#the final place contains an object 
+	#pass an object while walking
+	#the final place is a dead-end
+	#the final pose is the goal pose
+	#it is the first action to take
+	#final pose faces a new floor color
+	#an object is visible from the final pose there is an object at the turn location final pose faces a new wall color
+	#the place where to turn at is a dead-end
+
+	fea = []
+
+	#change orientation
+	fea += [0]
+	for i in range(len(paths)):
+		delta_a = paths[i][-1]-paths[i-1][-1] if i!=0 else 0
+		if delta_a !=0:
+			fea[-1] = 1
+			break
+
+	#change position
+
+	fea += [0]
+	for i in range(len(paths)):
+		delta_x = paths[i][0]-paths[i-1][0] if i!=0 else 0
+		delta_y = paths[i][1]-paths[i-1][1] if i!=0 else 0
+		if delta_x !=0 or delta_y != 0:
+			fea[-1] = 1
+			break
+
+	#change orientation and then position 
+	changeFlag = False
+	fea += [0]
+	for i in range(len(paths)):
+		delta_x = paths[i][0]-paths[i-1][0] if i!=0 else 0
+		delta_y = paths[i][1]-paths[i-1][1] if i!=0 else 0 
+		delta_a = paths[i][-1]-paths[i-1][-1] if i!=0 else 0
+		if (delta_x!=0 or delta_y!=0):
+			changeFlag = True
+		if delta_a !=0 and changeFlag==True:
+			fea[-1] = 1
+
+	# change position and then orientation
+	changeFlag = False
+	fea += [0]
+	for i in range(len(paths)):
+		delta_x = paths[i][0]-paths[i-1][0] if i!=0 else 0
+		delta_y = paths[i][1]-paths[i-1][1] if i!=0 else 0 
+		delta_a = paths[i][-1]-paths[i-1][-1] if i!=0 else 0
+		if delta_a!=0:
+			changeFlag = True
+		if (delta_x!=0 or delta_y!=0) and changeFlag==True:
+			fea[-1] = 1
+
+		
+	#the final place contains an object 
+	[x,y,a] = paths[-1]	
+	if (x,y) in env.nodes and env.nodes[(x,y)]!="":
+		fea += [1]	
+	else:
+		fea += [0]
+
+	#pass an object while walking
+	fea += [0]
+	for i in range(len(paths)):
+		[x,y,a] =  paths[i]	
+		if (x,y) in env.nodes and env.nodes[(x,y)]!="": 
+			fea[-1] = 1
+			break
+
+	#the final place is a dead-end
+	fea += [1]
+	[x,y,a] = paths[-1]
+	if (x,y) in env.edges: 
+		if len(env.edges[x,y])<=1:
+			fea[-1]=1
+	
+	#the final pose is the goal pose
+	# ??? 
+	fea += [0]
+
+	#it is the first action to take
+	if paths[0][-1] == -1:
+		fea += [1]
+	else:
+		fea == [0]
+
+	#final pose faces a new floor/wall color
+	[x,y,a] = paths[-1]
+	[x_p,y_p,a_p] = [x,y,a]
+	trace = 1
+	while trace < len(paths):
+		[x_p,y_p,a_p] = paths[-1-trace]
+		trace += 1
+		if (x_p!=x or y_p!=y):
+			break
+	
+	fea += [0, 0]
+	if (x,y) in env.edges and (x_p!=x or y_p!=y):
+		wall_next, wall_this, floor_next, floor_this = "", "", "", ""
+		if a == 0:
+			if (x,y-1) in env.edges[(x,y)]:
+				[wall_next, floor_next] = env.edges[(x,y)][(x,y-1)]
+				[wall_this, floor_this] = env.edges[(x_p, y_p)][(x,y)]
+		elif a == 90:
+			if (x-1,y) in env.edges[(x,y)]:
+				[wall_next, floor_next] = env.edges[(x,y)][(x-1,y)]
+				[wall_this, floor_this] = env.edges[(x_p, y_p)][(x,y)]
+		elif a == 180:
+			if (x,y+1) in env.edges[(x,y)]:
+				[wall_next, floor_next] = env.edges[(x,y)][(x,y+1)]
+				[wall_this, floor_this] = env.edges[(x_p, y_p)][(x,y)]
+		elif a == 270:
+			if (x+1,y) in env.edges[(x,y)]:
+				[wall_next, floor_next] = env.edges[(x,y)][(x+1,y)]
+				[wall_this, floor_this] = env.edges[(x_p, y_p)][(x,y)]		
+
+		if wall_next != "" and wall_this!=wall_next:
+			fea[-2]=1
+		if floor_next != "" and floor_this != floor_next:
+			fea[-1]=1
+ 
+	#an object is visible from the final pose 
+	[x,y,a] = paths[-1]
+	fea += [0]
+	if a == 0:
+		while True:
+			if (x,y-1) in env.nodes:
+				if env.nodes[(x,y-1)] != "":
+					fea[-1] = 1
+			else:
+				break
+			y -= 1
+
+	elif a == 90:
+		while True:
+			if (x-1,y) in env.nodes:
+				if env.nodes[(x-1,y)] != "":
+					fea[-1] = 1
+			else:
+				break
+			x -= 1
+
+			
+	elif a == 180:
+		while True:
+			if (x,y+1) in env.nodes:
+				if env.nodes[(x,y+1)] != "":
+					fea[-1] = 1
+			else:
+				break
+			y += 1
+
+
+	elif a == 270:
+		while True:
+			if (x+1,y) in env.nodes:
+				if env.nodes[(x+1,y)] != "":
+					fea[-1] = 1
+			else:
+				break
+			x += 1
+
+
+	#there is an object at the turn 
+	fea += [0]
+	for i in range(len(paths)):
+		if i !=0:
+			[x,y,a] = paths[i]
+			delta_a = a-paths[i-1][-1]
+			if delta_a != 0 and (x,y) in env.nodes and env.nodes[(x,y)] != "":
+				fea[-1]=1
+				break
+
+	
+	#the place where to turn at is a dead-end
+	fea += [0]
+	for i in range(len(paths)):
+		if fea[-1] == 1:
+			break
+
+		if i !=0:
+			[x,y,a] = paths[i]
+			delta_a = a-paths[i-1][-1]
+			if delta_a != 0:
+				if a == 0:
+					while True:
+						if (x,y-1) in env.nodes:
+							length = len(env.edges[(x,y-1)])
+							if length ==1:
+								fea[-1] = 1
+								break
+							elif length >2:
+								break
+						else:
+							break
+						y -= 1
+				elif a == 90:
+					while True:
+						if (x-1,y) in env.nodes:
+							length = len(env.edges[(x-1,y)])
+							if length ==1:
+								fea[-1] = 1
+								break
+							elif length >2:
+								break
+						else:
+							break
+						x-=1
+				elif a == 180:
+					while True:
+						if (x,y+1) in env.nodes:
+							length = len(env.edges[(x,y+1)])
+							if length ==1:
+								fea[-1] = 1
+								break
+							elif length >2:
+								break
+						else:
+							break
+						y+=1
+				elif a == 270: 				
+					while True:
+						if (x+1,y) in env.nodes:
+							length = len(env.edges[(x+1,y)])
+							if length ==1:
+								fea[-1] = 1
+								break
+							elif length >2:
+								break
+						else:
+							break
+						x+=1
+
+
+
 
 def getFeatures(paths, i, env):
 	global wallMap 
@@ -161,7 +525,8 @@ def getMapID(string):
 	return map_id
 
 # read sail commands
-tree = ET.parse(opts.input)
+
+tree = ET.parse(opts.input+"/SingleSentences-sail.xml")
 root = tree.getroot()
 
 commands_map = {}
@@ -178,12 +543,29 @@ for examples in root:
 		elif example.tag == "mrl":
 			sail_commands_map[filename+ID] = example.text.strip().lower()
 
+tree = ET.parse(opts.input+"/SingleSentences-marco.xml")
+root = tree.getroot()
+
+marco_commands_map = {}
+#f_tgt = open(opts.target,"w")
+for examples in root:
+	filename = examples.attrib["file"].lower()
+	ID = examples.attrib['id'].lower()
+	mapid = getMapID(examples.attrib["file"].lower())
+	for example in examples:
+		if example.tag == "mrl":
+			marco_commands_map[filename+ID] = example.text.strip().lower()
+
+#getCASFeatures(cas)
+
+
 # read demonstrations and commands
 tree = ET.parse(opts.demo_input)
 root = tree.getroot()
 
 paths_map = {}
 features_map = {}
+cas_features_map = {}
 filename = ""
 #f_tgt = open(opts.target,"w")
 for examples in root:
@@ -197,6 +579,7 @@ for examples in root:
 				feature.append(getFeatures(path, i, envs[mapid]))
 			paths_map[filename+ID] = path
 			features_map[filename+ID] = feature
+			cas_features_map[filename+ID] = getPaperFeatures(path, envs[mapid])
 		elif example.tag == "instruction":
 			filename = example.attrib['filename'].lower()
 
@@ -205,17 +588,20 @@ features = []
 paths = []
 commands = []
 sail_commands = []
+cas_features = []
+marco_features = []
 c = 0
 for key in sail_commands_map:
 	if key not in features_map:
 		c += 1
 		continue
 
+	cas_features.append(cas_features_map[key])
 	features.append(features_map[key])
 	paths.append(paths_map[key])
 	commands.append(commands_map[key])
 	sail_commands.append(sail_commands_map[key])
-
+	marco_features.append(getCASFeatures(marco_commands_map[key]))
 
 '''
 # clean duplicate
@@ -281,7 +667,6 @@ for i in range(len(sail_commands)):
 
 	sail_process_commands.append(process)
 
-print sail_map
 
 map_features = []
 for i in range(len(sail_process_commands)):
@@ -290,7 +675,6 @@ for i in range(len(sail_process_commands)):
 		fea[sail_map[s[0]][s[1]][s[2]]] = 1
 	map_features.append(fea)
 
-print len(map_features)
 
 def loadPickle(path):
 	fi = open(path,'rb')
@@ -325,17 +709,29 @@ def dumpPickle(path, data):
 for i in range(len(ratios)):
 	start = int(len(features)*sum(ratios[:i]))
 	end = int(len(features)*sum(ratios[:i+1]))
+
+	print start, end
+
 	paths_set = [paths[indexes[x]] for x in range(start, end)]
 	sail_set = [sail_process_commands[indexes[x]] for x in range(start, end)]
 	features_set = [features[indexes[x]] for x in range(start, end)]
 	map_features_set = [map_features[indexes[x]] for x in range(start, end)]
+	cas_features_set = [cas_features[indexes[x]] for x in range(start, end)]
+	marco_features_set = [marco_features[indexes[x]] for x in range(start, end)]
 
 	f = open(opts.target+"."+sets[i]+".txt","w")
 	for j in range(start,end):
-		f.write("<s> "+commands[indexes[j]]+" </s>\n")
+		f.write(commands[indexes[j]]+"\n")
 	f.close()
 
+	f = open(opts.source+"."+sets[i]+".txt","w")
+	for j in range(start,end):
+		f.write(sail_commands[indexes[j]]+"\n")
+	f.close()
+
+	dumpPickle(opts.source+".marcoFeature."+sets[i]+".pkl", marco_features_set)
 	dumpPickle(opts.source+".path."+sets[i]+".pkl", paths_set)
 	dumpPickle(opts.source+".sail."+sets[i]+".pkl", sail_set)
 	dumpPickle(opts.source+".feature."+sets[i]+".pkl", features_set)
 	dumpPickle(opts.source+".outFeature."+sets[i]+".pkl", map_features_set)
+	dumpPickle(opts.source+".CASFeature."+sets[i]+".pkl", cas_features_set)
