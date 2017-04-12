@@ -1,2 +1,9 @@
+nlp.{set}.txt: raw data for natural language commands(nl)
+cas.{set}.txt: raw data for cas commands(sail) 
+
+cas.feature.{set}.pkl: path feature - my own definition 
+
+
+// features required by inverse reinforcement learning 
 cas.marcoFeature.{set}.pkl: marco feature - 9 dims
 cas.CASFeature.{set}.pkl: trajectory feature - 14 dims
