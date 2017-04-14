@@ -1,77 +1,437 @@
-turn ( ) ,
-		verify ( back: easel )
+travel ( steps: 1 ) ,
+		verify ( side: blue hallway )
+travel ( )
+travel ( steps: 1 )
 travel ( ) ,
+		verify ( left: hallway )
+travel ( steps: 2 )
+travel ( ) ,
+		verify ( at: 4-intersection )
+verify ( front: yellow hallway ) ,
+		travel ( steps: 3 ) ,
 		verify ( front: wall )
 travel ( ) ,
-		verify ( front: wall , right: wall , left: concrete hallway , back: concrete hallway )
-verify ( front: brick hallway ) ,
-		travel ( ) ,
-		verify ( right: blue hallway )
+		verify ( side: brick hallway ) ,
+		turn ( right )
+turn ( right )
+turn ( right )
+verify ( left: gravel hallway )
+verify ( front: yellow hallway )
+travel ( steps: 1 ) ,
+		verify ( side: blue hallway )
+travel ( ) ,
+		verify ( right: easel )
+turn ( left ) ,
+		travel ( steps: 4 )
+travel ( steps: 1 ) ,
+		turn ( left )
+travel ( steps: 2 )
+turn ( left )
 turn ( ) ,
-		verify ( front: brick hallway , front: lamp ) ,
-		travel ( ) ,
-		verify ( side: gravel hallway )
-turn ( left )
-turn ( left )
-travel ( steps: 3 )
+		verify ( left: wall )
+turn ( right )
+null
+travel ( ) ,
+		verify ( at: barstool ) ,
+		turn ( left )
+verify ( front: barstool , front: chair ) ,
+		travel ( steps: 4 ) ,
+		verify ( back: barstool , back: chair , side: grass hallway )
+verify ( at: easel , front: wood hallway , side: hallway )
+turn ( right )
+verify ( front: easel ) ,
+		travel ( steps: 1 )
+travel ( ) ,
+		verify ( front: wall ) ,
+		turn ( left ) ,
+		verify ( front: lamp )
+travel ( ) ,
+		verify ( right: wood hallway )
+travel ( ) ,
+		verify ( left: hallway ) ,
+		turn ( left )
 travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: lamp )
+travel ( ) ,
+		verify ( front: wall , right: wall ) ,
+		turn ( left )
+turn ( right )
+travel ( steps: 1 )
+turn ( left ) ,
+		travel ( steps: 1 )
+verify ( left: concrete hallway , front: lamp )
+turn ( left ) ,
+		verify ( front: brick hallway )
+verify ( front: barstool , front: chair ) ,
+		travel ( ) ,
+		verify ( back: barstool , back: chair , side: flower hallway )
+travel ( ) ,
+		verify ( side: flower hallway ) ,
+		turn ( right )
+null
+verify ( front: flower hallway ) ,
+		travel ( steps: 2 ) ,
+		verify ( side: brick hallway )
+travel ( steps: 2 )
+travel ( steps: 1 )
+verify ( right: wall )
+travel ( steps: 2 ) ,
+		verify ( front: wall )
+travel ( steps: 1 )
+travel ( steps: 1 ) ,
+		verify ( side: wood hallway )
+travel ( ) ,
+		verify ( at: lamp ) ,
+		turn ( right )
+travel ( ) ,
+		verify ( side: blue hallway ) ,
+		turn ( left )
+turn ( left ) ,
+		travel ( ) ,
+		verify ( at: 4-intersection , front: brick hallway , side: flower hallway , at: easel )
+travel ( ) ,
+		verify ( front: wall , back: butterfly wall )
+travel ( )
+travel ( ) ,
+		verify ( side: brick hallway )
+turn ( left ) ,
+		verify ( front: brick hallway )
+travel ( steps: 2 )
+turn ( ) ,
+		verify ( front: grass hallway ) ,
+		travel ( ) ,
+		verify ( side: brick hallway )
+travel ( ) ,
+		verify ( at: chair ) ,
+                travel ( steps: 1 )
+turn ( left )
+travel ( steps: 2 )
+turn ( right ) ,
+		travel ( steps: 1 )
+travel ( ) ,
+		verify ( front: wall , left: wall )
+travel ( steps: 2 ) ,
+		verify ( side: yellow hallway , at: 3-intersection )
+travel ( ) ,
+		verify ( side: blue hallway )
+turn ( ) ,
+		verify ( back: wall , at: 3-intersection )
+verify ( back: easel )
+turn ( ) ,
+		verify ( back: wall ) ,
+		turn ( left )
+turn ( ) ,
+		verify ( right: wall , left: wall , back: wall )
+travel ( steps: 2 )
+verify ( right: butterfly wall )
+travel ( steps: 2 ) ,
+		verify ( side: concrete hallway )
+turn ( right )
+travel ( ) ,
+		verify ( front: fish wall )
+turn ( right )
+verify ( front: wood hallway )
+travel ( ) ,
+		verify ( side: flower hallway )
+turn ( left )
+verify ( front: hatrack , front: lamp ) ,
+		travel ( steps: 5 ) ,
+		verify ( back: hatrack , back: lamp , side: concrete hallway )
+turn ( right ) ,
+		verify ( front: hatrack )
+travel ( steps: 2 )
+travel ( ) ,
+		verify ( at: hatrack )
+travel ( steps: 1 ) ,
+		verify ( at: easel )
+travel ( steps: 1 )
+travel ( steps: 1 )
+turn ( ) ,
+		turn ( left )
+travel ( ) ,
+		verify ( front: flower hallway , side: yellow hallway )
+travel ( steps: 3 ) ,
+		verify ( side: blue hallway )
+travel ( steps: 1 )
+verify ( front: blue hallway , front: chair ) ,
+		travel ( ) ,
+		verify ( back: chair , front: wall )
+turn ( left )
+turn ( left )
+turn ( right ) ,
+		verify ( front: grass hallway )
+travel ( ) ,	
+		turn ( left ) ,
+		verify ( front: wood hallway )
+verify ( front: brick hallway , front: lamp ) ,
+		travel ( steps: 3 ) ,
+		verify ( back: lamp , side: flower hallway )
+travel ( steps: 3 )
+verify ( left: flower hallway , right: flower hallway )
+turn ( ) ,
+		verify ( right: wall , left: wall , back: wall )
+travel ( ) ,
+		verify ( at: barstool )
+travel ( steps: 3 )
 travel ( ) ,
 		verify ( at: chair ) ,
 		turn ( right )
-turn ( right )
 travel ( ) ,
 		verify ( side: brick hallway ) ,
+		turn ( right )
+verify ( front: butterfly wall )
+verify ( at: easel )
+verify ( front: flower hallway ) ,
+		travel ( ) ,
+		verify ( at: hatrack )
+turn ( ) ,
+		verify ( front: sofa , front: flower hallway )
+turn ( left )
+turn ( right )
+travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: yellow hallway , back: wall ) ,
+		travel ( ) ,
+		verify ( front: wall )
+travel ( steps: 1 ) ,
+		verify ( side: gravel hallway )
+verify ( front: brick hallway ) ,
+		travel ( ) ,
+		verify ( at: hatrack ) ,
+		travel ( steps: 1 )
+travel ( ) ,
+		verify ( at: hatrack ) ,
 		turn ( left )
+travel ( ) ,
+		verify ( at: chair ) ,
+		turn ( right )
+turn ( ) ,
+		verify ( back: wall , at: 3-intersection )
+verify ( side: flower hallway ) ,
+		turn ( left ) ,	
+		travel ( ) ,
+		verify ( left: hallway , right: wall )
+turn ( left ) ,
+                travel ( ) ,
+                verify ( at: lamp ) ,	
+		travel ( steps: 1 )
+verify ( left: yellow hallway )
+turn ( ) ,
+		verify ( back: wall , left: wall , right: wall )
+travel ( steps: 1 )
+travel ( steps: 1 ) ,
+		turn ( left )
+travel ( steps: 1 ) ,
+		verify ( side: wood hallway )
+verify ( front: grass hallway ) ,
+		travel ( ) ,
+		verify ( front: wall )
+verify ( left: gravel hallway )
+travel ( ) ,
+		verify ( front: blue hallway , back: blue hallway , front: hatrack , back: chair )
+turn ( right )
+travel ( steps: 1 ) ,
+		verify ( at: lamp )
+travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: grass hallway ) ,
+		travel ( ) ,
+		verify ( side: blue hallway )
+verify ( front: hatrack ) ,
+		travel ( steps: 3 ) ,
+		verify ( back: hatrack , side: yellow hallway )
+turn ( ) ,
+		verify ( front: yellow hallway ) ,
+		travel ( ) ,
+		verify ( side: gravel hallway )
+travel ( ) ,
+		verify ( front: wall ) ,
+		turn ( right )
+travel ( )
+travel ( steps: 2 )
 turn ( right )
 turn ( ) ,
 		verify ( back: wall ) ,
-		turn ( right )
+		travel ( ) ,
+		verify ( front: wall )
+turn ( ) ,
+		verify ( front: lamp )
+travel ( steps: 3 )
+turn ( left )
 travel ( ) ,
 		verify ( at: hatrack ) ,
 		turn ( left ) ,
-		verify ( front: grass hallway )
+		verify ( front: yellow hallway )
+verify ( left: hatrack )
+travel ( ) ,
+		verify ( side: wood hallway ) ,
+		turn ( left )
 turn ( ) ,
-		verify ( back: wall ) ,
-		turn ( right )
-travel ( steps: 3 )
-verify ( at: hatrack )
-turn ( left )
-turn ( ) ,
-		verify ( back: wall ) ,
-		travel ( ) ,
-		verify ( at: chair ) ,
-		turn ( right )
+		verify ( left: wall )
 travel ( steps: 1 )
-turn ( left )
-turn ( ) ,
-		verify ( front: flower hallway ) ,
-		travel ( ) ,
-		verify ( side: brick hallway )
-verify ( at: hatrack ) ,
-		turn ( left ) ,	
-		travel ( )
-turn ( ) ,
-		verify ( front: gravel hallway , back: easel )
-travel ( steps: 1 ) ,
-		verify ( side: flower hallway )
-verify ( at: easel )
+travel ( ) ,
+		verify ( front: wall )
 travel ( ) ,
 		verify ( at: easel ) ,
 		turn ( left )
-turn ( ) ,
-		verify ( front: wood hallway , back: hatrack )
-travel ( steps: 1 )
-turn ( ) ,
-		verify ( back: wall , front: hatrack ) ,
-		travel ( ) ,
-		verify ( back: hatrack )
+travel ( ) ,
+		verify ( front: flower hallway )
+turn ( right )
+turn ( right )
+verify ( front: chair ) , 
+		travel ( steps: 2 ) ,
+		verify ( back: chair , at: barstool )
+verify ( side: yellow hallway )
 travel ( steps: 1 )
 travel ( steps: 2 )
+travel ( steps: 1 )
+travel ( steps: 1 ) ,
+		verify ( at: barstool )
+verify ( front: blue hallway ) ,
+		travel ( ) ,
+		verify ( at: chair )
+turn ( left )
+travel ( steps: 1 )
+travel ( steps: 1 )
+turn ( left ) ,
+		verify ( front: brick hallway ) ,
+		travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: hatrack ) ,
+		travel ( ) ,
+		verify ( at: hatrack )
+travel ( steps: 5 )
+travel ( ) ,
+		turn ( ) ,
+		travel ( )
+turn ( left ) ,
+		verify ( front: blue hallway )
+travel ( ) ,
+		verify ( front: wall )
+verify ( front: hatrack , back: lamp )
+verify ( front: hatrack )
+travel ( ) ,
+		verify ( side: brick hallway ) ,
+		turn ( )
+turn ( ) ,
+		verify ( front: lamp ) ,
+		travel ( ) ,
+		verify ( at: lamp )
+verify ( front: flower hallway ) ,
+		travel ( ) ,
+		verify ( side: brick hallway )
+travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: grass hallway ) ,
+		travel ( steps: 2 ) ,
+		verify ( at: hatrack )
+verify ( front: blue hallway ) ,
+		travel ( )
+travel ( steps: 1 ) ,
+		verify ( front: wall )
+travel ( ) ,
+		verify ( front: blue hallway )
+verify ( front: gravel hallway )
+travel ( ) ,	
+		turn ( right )
+travel ( steps: 1 )
+turn ( ) ,
+		verify ( front: chair ) ,
+		travel ( ) ,
+		verify ( back: chair , side: yellow hallway )
+turn ( ) ,
+		verify ( back: wall , right: wall )
+turn ( right )
+turn ( ) ,
+		verify ( front: flower hallway )
+travel ( steps: 3 )
 turn ( left )
 turn ( right )
-verify ( at: easel )
-travel ( steps: 3 )
-verify ( front: flower hallway , side: brick hallway )
+travel ( ) ,
+		verify ( front: butterfly wall )
+travel ( steps: 1 )
+turn ( ) ,
+		verify ( back: wall ) ,
+		turn ( right )
+turn ( ) ,
+		verify ( front: hatrack ) ,
+		travel ( ) ,
+		verify ( at: hatrack )
+turn ( ) ,	
+		travel ( ) ,
+		verify ( front: wall , right: wall , left: wall )
+travel ( ) ,
+		verify ( front: blue hallway , side: flower hallway )
+travel ( steps: 1 ) ,
+		verify ( side: brick hallway )
+travel ( steps: 1 ) ,
+		verify ( side: blue hallway )
+travel ( ) ,
+		verify ( right: hallway ) ,
+		turn ( right ) ,
+		travel ( ) ,
+		verify ( front: wall , left: wall , right: wall )
+travel ( steps: 1 )
+travel ( ) ,
+		verify ( at: chair ) ,
+		turn ( right )
+turn ( left ) ,
+		travel ( steps: 1 )
+travel ( )
+turn ( left )
+turn ( right ) ,
+		travel ( steps: 3 )
+verify ( front: sofa )
+verify ( front: butterfly wall )
+travel ( steps: 1 )
+travel ( steps: 1 )
+turn ( ) ,
+		verify (back: easel , right: sofa )
+travel ( steps: 1 )
+travel ( ) ,
+		verify ( at: barstool ) ,
+		turn ( right )
+turn ( left )
+turn ( left )
+turn ( right ) ,
+		verify ( front: yellow hallway ) ,
+		travel ( ) ,
+		verify ( side: gravel hallway )
+travel ( steps: 2 ) ,
+		verify ( side: blue hallway )
+travel ( steps: 1 ) ,
+		turn ( left )
+travel ( ) ,
+		verify ( front: butterfly wall )
+travel ( steps: 2 )
+travel ( ) ,
+		verify ( at: sofa )
+turn ( left )
+verify ( front: blue hallway ) ,
+		travel ( ) ,
+		verify ( at: hatrack )
+turn ( ) ,
+		verify ( front: flower hallway )
+verify ( at: hatrack )
+turn ( right )
+verify ( right: concrete hallway )
+travel ( steps: 1 )
+travel ( steps: 1 ) ,
+		turn ( right )
+verify ( front: blue hallway ) ,
+		travel ( ) ,
+		verify ( front: wall ) ,
+		turn ( left )
+verify ( front: sofa , front: hatrack )
+travel ( steps: 5 ) ,
+		verify ( front: wall )
+verify ( left: sofa )
+turn ( ) ,
+		verify ( front: lamp , front: brick hallway ) ,
+		travel ( ) ,		
+		turn ( right ) ,
+		verify ( front: wood hallway )
 travel ( ) ,
 		turn ( ) ,
 		travel ( ) ,
@@ -79,287 +439,111 @@ travel ( ) ,
 		travel ( ) ,
 		turn ( )
 turn ( right ) ,
-		verify ( front: brick hallway )
-travel ( ) ,
-		verify ( right: flower hallway ) ,
-		turn ( right )
-verify ( front: easel )
-turn ( right ) ,
-		travel ( steps: 1 )
-turn ( ) ,
-		verify ( back: wall , at: 3-intersection )
-turn ( left )
+		travel ( ) ,
+		verify ( front: wall )
 turn ( right )
-verify ( front: easel ) ,
-		travel ( ) ,
-		verify ( back: easel )
-travel ( )
-travel ( ) ,
-		verify ( side: gravel hallway )
-travel ( ) ,
-		verify ( side: blue hallway ) ,
-		turn ( left )
-travel ( steps: 1 )
-travel ( ) ,
-		verify ( at: easel ) ,
-		turn ( right ) ,
-		verify ( front: wood hallway )
-travel ( steps: 2 )
-travel ( ) ,
-		verify ( side: wood hallway )
-verify ( side: brick hallway )
-travel ( steps: 2 )
-turn ( left )
-travel ( ) ,
-		verify ( front: wall , right: wall )
-verify ( front: easel ) ,
-		travel ( ) ,
-		verify ( back: easel , front: wall , left: wall ) ,
-		turn ( right ) ,
-		verify ( front: blue hallway )
-turn ( ) ,
-		verify ( front: grass hallway )
+travel ( steps: 1 ) ,
+		verify ( side: blue hallway )
 travel ( steps: 1 ) ,		
 		turn ( right ) ,
 		verify ( front: blue hallway )
-null
-verify ( front: sofa , front: hatrack )
+travel ( steps: 1 )
+travel ( steps: 1 )
+travel ( ) ,
+		verify ( front: wall ) ,
+		turn ( left ) ,
+		verify ( front: easel )
+travel ( steps: 1 ) ,
+		verify ( at: lamp )
+turn ( left )
+verify ( front: yellow hallway ) ,
+		travel ( steps: 3 ) ,
+		verify ( front: wall )
+verify ( front: barstool , front: chair ) ,
+		travel ( ) ,
+		verify ( side: flower hallway , back: chair , back: barstool )
+travel ( ) ,
+		verify ( front: wall )
+verify ( at: hatrack ) ,
+		turn ( left ) ,
+		verify ( front: yellow hallway ) ,
+		travel ( ) ,
+		verify ( front: wall )
+travel ( steps: 2 )
+travel ( ) ,
+		verify ( front: wall , right: wall , back: concrete hallway , left: concrete hallway , back: butterfly wall ,  left: butterfly wall  )
+verify ( front: blue hallway ) ,
+		travel ( steps: 5 ) ,
+		verify ( side: yellow hallway )
+turn ( ) ,
+		verify ( front: blue hallway ) ,
+		travel ( ) ,
+		verify ( side: wood hallway )
+travel ( steps: 1 )
+verify ( left: sofa )
+verify ( back: chair )
+turn ( left )
+verify ( front: yellow hallway )
+turn ( right )
+travel ( steps: 2 ) ,
+		verify ( side: brick hallway )
+turn ( left )
+turn ( right ) ,
+		verify ( front: flower hallway ) ,
+		travel ( ) ,
+		verify ( left: yellow hallway )
+travel ( steps: 1 )
+travel ( ) ,
+		verify ( front: wall )
+travel ( )
+verify ( side: concrete hallway )
+travel ( ) ,
+		verify ( side: blue hallway )
+verify ( right: sofa )
+travel ( steps: 2 ) ,
+		verify ( front: wall )
+travel ( ) ,
+		verify ( side: blue hallway )
+turn ( ) ,
+		verify ( front: yellow hallway ) ,
+		travel ( ) ,
+		verify ( front: wall )
+turn ( ) ,
+		verify ( front: flower hallway )
+turn ( left )
+turn ( left )
+turn ( ) ,
+		verify ( front: easel )
+turn ( left )
+turn ( left ) ,
+		verify ( front: brick hallway , front: hatrack ) ,
+		travel ( ) ,
+		verify ( at: lamp ) ,
+		travel ( steps: 1 ) ,
+		verify ( back: hatrack )
+turn ( ) ,
+		verify ( front: easel )
+turn ( ) ,
+		verify ( front: yellow hallway ) ,
+		travel ( steps: 1 )
+verify ( at: easel )
 turn ( ) ,
 		verify ( front: flower hallway ) ,
 		travel ( ) ,
 		verify ( side: brick hallway )
 turn ( ) ,
-		verify ( front: brick hallway ) ,
-		travel ( ) ,	
-		verify ( side: concrete hallway )
-turn ( ) ,
-		verify ( front: brick hallway , front: lamp )
-travel ( ) ,
-		verify ( front: wall ) ,
-		turn ( left ) ,
-		verify ( front: lamp )
-travel ( ) ,
-		verify ( at: lamp ) ,
-		travel ( steps: 2 )
-verify ( front: sofa ) ,
-		travel ( steps: 2 ) ,
-		verify ( back: sofa , front: yellow hallway , side: grass hallway )
-turn ( ) ,
-		verify ( right: wall )
-turn ( left )
-travel ( ) ,	
-		verify ( front: blue hallway )
-turn ( right ) ,	
-		travel ( ) ,	
-		verify ( at: easel )
-turn ( right ) ,
-		verify ( front: hatrack )
-verify ( front: lamp , front: easel )
-turn ( right )
-verify ( front: wood hallway )
-turn ( ) ,
-		verify ( back: wall ) ,
-                turn ( right )
-travel ( ) ,
-		verify ( right: flower hallway ) ,
-		turn ( right )
-turn ( ) ,
-		verify ( front: brick hallway , front: butterfly wall )
-turn ( right )
-travel ( steps: 2 )
-verify ( side: concrete hallway , back: yellow hallway , front: yellow hallway )
-travel ( steps: 1 )
-turn ( ) ,
-		verify ( right: wall )
-travel ( steps: 1 )
-travel ( steps: 1 ) ,
-		verify ( side: blue hallway )
-turn ( right )
-travel ( ) ,
+		verify ( front: flower hallway ) ,
+		travel ( ) ,
 		verify ( side: brick hallway )
-verify ( front: gravel hallway ) ,
-		travel ( ) ,
-		verify ( side: yellow hallway )
-verify ( left: concrete hallway , left: sofa )
-travel ( ) ,
-		verify ( at: easel , front: wall )
-turn ( right ) ,
-		verify ( front: grass hallway ) ,
-		travel ( ) ,
-		verify ( front: wall , side: yellow hallway , left: wall )
-verify ( front: flower hallway , front: hatrack ) ,
-		travel ( steps: 3 ) ,
-		verify ( back: hatrack , side: blue hallway )
-verify ( front: easel ) ,
-		travel ( ) ,
-		verify ( back: easel , front: wall ) ,
-		turn ( left ) ,
-		verify ( front: brick hallway )
-travel ( steps: 1 ) ,
-		verify ( at: lamp )
-verify ( at: easel )
-travel ( steps: 3 )
-turn ( ) ,
-		verify ( back: wall ) ,
-		turn ( left ) ,	
-		travel ( steps: 1 )
-travel ( steps: 2 )
-travel ( ) ,
-		verify ( left: hallway )
-verify ( front: brick hallway ) ,
-		travel ( ) ,
-		verify ( front: wall ) ,
-		turn ( right )
-travel ( steps: 5 )
-verify ( front: chair ) ,
-		travel ( ) ,
-		verify ( at: barstool , back: chair )
 turn ( left )
-travel ( steps: 2 ) ,
-		verify ( side: gravel hallway )
-verify ( front: sofa , front: hatrack )
-travel ( steps: 1 )
+turn ( left )
+turn ( left ) ,
+		verify ( front: brick hallway ) ,
+		travel ( steps: 1 )
 turn ( ) ,
 		verify ( left: wall )
-turn ( right )
-verify ( right: sofa )
 turn ( right ) ,
-		verify ( front: blue hallway , front: hatrack ) ,
-		travel ( )
-turn ( right )
-travel ( ) ,
-		verify ( side: gravel hallway ) ,
-		turn ( right ) ,	
-		travel ( ) ,
-		verify ( at: easel )
-verify ( at: easel , front: fish wall , front: gravel hallway )
-turn ( left )
-travel ( steps: 1 )
-turn ( right )
-travel ( steps: 2 ) ,
-		verify ( side: blue hallway )
-travel ( steps: 2 ) ,
-		verify ( side: brick hallway )
-turn ( ) ,
-		verify ( front: lamp )
-turn ( right ) ,
-		verify ( front: concrete hallway )
-verify ( back: easel )
-turn ( right ) ,
-		travel ( ) ,
-		verify ( front: wall )
-turn ( ) ,
 		verify ( front: blue hallway , front: chair )
-travel ( steps: 1 ) ,
-		verify ( at: easel )
-turn ( left )
-turn ( right )
-travel ( steps: 1 ) ,
-		verify ( side: blue hallway )
-travel ( ) ,	
-		verify ( side: blue hallway )
-turn ( left )
-travel ( ) ,
-		verify ( at: easel ) ,
-		turn ( left ) ,
-		verify ( front: wood hallway ) ,
-		travel ( steps: 1 )
-turn ( left ) ,
-		verify ( front: blue hallway )
-turn ( ) ,
-		verify ( front: brick hallway ) ,
-		travel ( ) ,
-		verify ( side: wood hallway )
-turn ( ) ,
-		verify ( right: wall )
-verify ( at: easel )
-travel ( ) ,
-		verify ( side: yellow hallway , at: 3-intersection )
-turn ( ) ,
-		verify ( back: wall )
-verify ( front: blue hallway )
-travel ( ) ,
-		verify ( front: wall )
-travel ( steps: 1 ) ,
-		verify ( front: wall )
-turn ( left ) ,
-		verify ( front: yellow hallway )
-verify ( left: sofa , right: barstool )
-travel ( ) ,
-		verify ( right: hallway ) ,
-		turn ( right ) ,
-		verify ( front: gravel hallway )
-turn ( left )
-turn ( ) ,
-		verify ( front: hatrack )
-verify ( side: flower hallway )
-turn ( ) ,
-		verify ( front: easel ) ,
-		travel ( ) ,
-		verify ( at: easel )
-turn ( ) ,
-		travel ( ) ,
-		turn ( ) ,
-		travel ( ) ,
-		turn ( ) ,
-		travel ( ) ,
-		verify ( front: wall , left: wall , right: wall )
-travel ( steps: 1 ) ,
-		verify ( front: wall , right: wall , left: wall )
-travel ( ) ,
-		verify ( side: flower hallway ) ,
-		turn ( left )
-verify ( at: easel )
-turn ( left )
-turn ( right )
-turn ( ) ,
-		verify ( front: easel )
-turn ( left )
-travel ( ) ,
-		verify ( side: wood hallway )
-turn ( right ) ,
-		verify ( front: yellow hallway ) ,
-		travel ( ) ,
-		verify ( side: gravel hallway )
-turn ( ) ,
-		verify ( right: chair )
-verify ( left: sofa )
-turn ( ) ,
-		verify ( front: yellow hallway , left: easel , left: gravel hallway )
-turn ( left ) ,
-		verify ( front: brick hallway )
-turn ( ) ,
-		verify ( front: gravel hallway , back: sofa  ) ,
-		travel ( ) ,
-		verify ( front: wall )
-verify ( front: grass hallway ) ,
-		travel ( ) ,
-		verify ( front: wall , right: yellow hallway )
-turn ( ) ,
-		verify ( front: brick hallway ) ,
-		travel ( ) ,
-		verify ( side: wood hallway )
-verify ( side: blue hallway )
-null
-travel ( steps: 1 ) ,
-		verify ( front: gravel hallway , side: yellow hallway )
-verify ( front: flower hallway )
-turn ( ) ,
-		verify ( front: easel )
-travel ( steps: 1 )
-travel ( ) ,
-		verify ( side: blue hallway ) ,
-		turn ( right )
-travel ( steps: 1 )
-travel ( ) ,
-		verify ( side: blue hallway ) ,
-		turn ( right ) ,
-		verify ( front: blue hallway )
-turn ( right )
-travel ( ) ,
-		verify ( front: easel ) ,	
-		turn ( right )
-verify ( at: hatrack )
 travel ( ) ,
 		verify ( front: flower hallway ) , 
 		travel ( ) , 
@@ -367,293 +551,80 @@ travel ( ) ,
 		verify ( front: tower wall ) ,
 		travel ( ) ,	
 		verify ( front: wall , left: wall , right: wall )
-verify ( right: concrete hallway , front: chair )
-travel ( steps: 1 ) ,
-		verify ( front: wall )
-turn ( left ) ,	
-		verify ( front: brick hallway )
-turn ( ) ,
-		verify ( left: wall )
-turn ( )
-travel ( steps: 1 ) ,
-		verify (  front: tower wall , back: butterfly wall )
-travel ( steps: 1 ) ,
-		verify ( front: wall )
-verify ( front: flower hallway , front: hatrack , front: lamp) ,
-		travel ( ) ,
-		verify ( at: lamp ) ,
-		travel ( steps: 1 ) ,
-		verify ( back: hatrack )
-turn ( ) ,
-		verify ( front: yellow hallway , back: wall )
+travel ( steps: 1 )
 travel ( ) ,
-		verify ( front: fish wall )
-travel ( steps: 1 ) ,
-		verify ( front: flower hallway , at: easel )
-verify ( front: gravel hallway ) ,
+		verify ( at: sofa )
+travel ( ) ,
+		verify ( side: blue hallway )
+null
+verify ( front: hatrack , front: flower hallway ) ,
 		travel ( ) ,
-		verify ( side: yellow hallway )
-verify ( right: concrete hallway , front: barstool )
+		verify ( back: hatrack , front: wall )
 travel ( )
 travel ( ) ,
-		verify ( side: flower hallway ) ,
-		turn ( right )
-verify ( left: barstool , side: concrete hallway )
-travel ( ) ,
-		verify ( at: sofa ) ,
-		turn ( left ) ,	
-		travel ( ) ,
-		verify ( at: sofa )
-verify ( back: tower wall )
-turn ( right )
-travel ( ) ,	
-		turn ( left ) ,
-		verify ( front: flower hallway )
-turn ( right )
-travel ( steps: 1 )
-travel ( steps: 1 )
-travel ( ) ,
-		verify ( front: wall ) ,
-		turn ( right ) ,	
-		verify ( front: blue hallway )
-travel ( steps: 1 )
-travel ( steps: 1 ) ,
-		verify ( front: wall )
-turn ( left )
-turn ( right )
-travel ( steps: 7 ) ,
-		verify ( front: wall )
-turn ( left )
-verify ( front: gravel hallway )
-travel ( steps: 2 ) ,
-		verify ( side: yellow hallway )
-travel ( steps: 1 )
-turn ( left ) ,
-		verify ( front: blue hallway )
-travel ( steps: 2 ) ,
-		verify ( side: gravel hallway )
-null
-verify ( front: gravel hallway ) ,
-		travel ( ) ,
-		verify ( front: wall )
-null
-verify ( left: wall , front: wall ) ,
-		turn ( right ) ,
-		verify ( front: blue hallway ) ,
-		travel ( ) ,
-		verify ( at: hatrack )
-turn ( ) ,
-		verify ( front: wood hallway )
-turn ( ) ,
-		verify ( front: grass hallway ) ,
-		travel ( ) ,
-		verify ( side: yellow hallway )
-turn ( left )
-turn ( ) ,
-		verify ( front: hatrack )
-verify ( at: hatrack ) ,
-		turn ( right )
-turn ( ) ,
-		verify ( front: lamp )
-turn ( ) ,
-		verify ( back: wall , at: 3-intersection )
-travel ( steps: 1 )
-verify ( front: easel ) ,
-		travel ( ) ,
-		verify ( back: easel )
-travel ( steps: 1 )
-turn ( ) ,
-		verify ( front: flower hallway )
-turn ( left )
-travel ( steps: 1 )
-verify ( front: concrete hallway ) ,
-		travel ( steps: 1 ) ,
-		verify ( side: flower hallway )
-verify ( front: chair ) ,
-		travel ( ) ,
-		verify ( back: chair , side: flower hallway )
-travel ( ) ,
-		verify ( front: wood hallway , back: wood hallway )
-travel ( ) ,
-		verify ( front: yellow hallway , side: grass hallway )
-travel ( steps: 1 ) ,
-		verify ( at: chair )
-turn ( left ) ,
-		verify ( front: grass hallway ) ,
-		travel ( ) ,
-		verify ( at: chair )
-travel ( ) ,
-		verify ( side: concrete hallway , front: tower wall , side: fish wall )
-travel ( ) ,
 		verify ( at: barstool )
-travel ( ) ,
-		verify ( side: blue hallway )
-turn ( left )
-turn ( left )
 turn ( right )
-turn ( ) ,
-		verify ( front: hatrack ) ,
-		travel ( ) ,
-		verify ( at: hatrack ) ,
-		turn ( left )
-turn ( right ) ,
-		verify ( front: brick hallway )
-turn ( left )
-travel ( steps: 1 ) ,
-		verify ( side: concrete hallway )
-turn ( right )
-turn ( right ) ,
-		verify ( front: flower hallway ) ,
-		travel ( ) ,
-		verify ( left: yellow hallway )
-turn ( ) ,
-		verify ( front: butterfly wall )
-turn ( ) ,
-		verify ( front: lamp ) ,
-		travel ( ) ,
-		verify ( front: wall , right: wall ) ,
-		turn ( left )
-turn ( ) ,
-		verify ( left: wall )
-turn ( left ) ,
-		travel ( steps: 2 )
-turn ( left )
-turn ( ) ,
-		verify ( back: wall , right: wall , left: wall )
-travel ( ) ,
-		verify ( side: concrete hallway ) ,
-		turn ( left )
-turn ( right ) ,
-		verify ( front: wood hallway )
-travel ( ) ,
-		verify ( at: hatrack ) ,
-		turn ( left )
-travel ( ) ,
-		verify ( front: blue hallway )
-travel ( ) ,
-		verify ( at: chair ) ,
-		turn ( right )
-turn ( right )
-turn ( left )
-turn ( right )
-verify ( at: sofa )
-travel ( steps: 1 )
 null
-travel ( steps: 1 )
 turn ( ) ,
-		verify ( front: gravel hallway ) ,
-		travel ( ) ,	
-		verify ( side: flower hallway )
-turn ( right ) ,
-		verify ( front: brick hallway ) ,
-		travel ( ) ,
-		verify ( side: flower hallway )
+		verify ( front: brick hallway )
 travel ( steps: 2 )
-turn ( right )
-turn ( right )
-travel ( ) ,
-		verify ( at: lamp ) ,
-		travel ( steps: 1 )
-travel ( ) ,	
-		turn ( left ) ,
-		verify ( front: wood hallway )
-turn ( right )
-turn ( right ) ,
-		travel ( steps: 1 )
-travel ( ) ,
-		verify ( at: sofa )
-verify ( at: easel )
-travel ( ) ,
+travel ( steps: 4 ) ,
 		verify ( front: wall )
 travel ( ) ,
-		verify ( front: wall , side: blue hallway )
-travel ( ) ,
-		verify ( side: blue hallway )
-turn ( left ) ,
-		verify ( front: hatrack ) ,
-		travel ( ) ,
-		verify ( back: hatrack , front: wall , back: yellow hallway )
-travel ( steps: 2 ) ,
-		verify ( front: yellow hallway , side: flower hallway )
-turn ( ) ,
-		verify ( front: yellow hallway ) ,
-		travel ( ) ,
-		verify ( front: wall )
-turn ( right ) ,
-		verify ( back: easel )
+		verify ( at: easel ) ,
+		turn ( right ) ,
+		verify ( front: wood hallway ) ,
+		travel ( steps: 1 )
 travel ( steps: 1 )
-verify ( at: lamp ) ,
-		travel ( steps: 1 )
-turn ( right )
 travel ( steps: 1 ) ,
-		verify ( at: 3-intersection , side: concrete hallway )
-turn ( ) ,
-		verify ( back: wall , at: 3-intersection )
-travel ( ) ,
-		verify ( front: wall ) ,
-		turn ( right )
-travel ( steps: 1 )
-turn ( left ) ,	
-		verify ( front: yellow hallway ) ,
-		travel ( ) ,
-		verify ( front: wall )
-verify ( front: blue hallway ) ,
-		travel ( steps: 5 ) ,
 		verify ( side: yellow hallway )
-turn ( left )
-verify ( front: blue hallway ) ,
-		travel ( ) ,
-		verify ( front: wall ) ,
-		turn ( left )
 turn ( ) ,
-		verify ( front: lamp )
-turn ( left ) ,
-		verify ( front: brick hallway ) ,
-		travel ( steps: 1 )
+		verify ( front: blue hallway , front: chair )
 travel ( steps: 1 )
-travel ( steps: 2 )
-verify ( front: blue hallway ) ,
-		travel ( ) ,
-		verify ( at: chair )
-verify ( front: easel )
+turn ( left )
 travel ( ) ,
-		verify ( at: easel )
-travel ( ) ,
-		verify ( at: barstool ) ,
-		turn ( left )
-turn ( right )
-turn ( left ) ,
-		verify ( front: fish wall )
-travel ( ) ,
-		verify ( left: easel )
-turn ( ) ,
-		verify ( back: wall , at: 3-intersection )
+		verify ( side: gravel hallway )
 turn ( right ) ,
 		verify ( front: blue hallway )
-verify ( front: yellow hallway ) ,
-		travel ( steps: 2 )
+verify ( front: blue hallway )
+turn ( ) ,
+		verify ( front: gravel hallway , back: easel )
+travel ( steps: 1 ) ,
+		turn ( left )
+verify ( front: grass hallway ) ,
+		travel ( ) ,
+		verify ( front: wall )
+turn ( ) ,
+		verify ( back: wall , at: 3-intersection )
+travel ( steps: 1 ) ,
+		verify ( front: flower hallway , side: brick hallway )
+travel ( ) ,
+		verify ( side: flower hallway )
+travel ( steps: 1 )
+turn ( left )
+turn ( left ) ,
+		verify ( front: yellow hallway )
+travel ( ) ,
+		verify ( at: hatrack ) ,
+		turn ( right ) ,
+		verify ( front: blue hallway )
+verify ( front: easel , left: chair )
+travel ( ) ,
+		verify ( front: concrete hallway , side: gravel hallway )
+travel ( ) ,
+		verify ( side: wood hallway )
 turn ( right )
 turn ( ) ,
-		verify ( front: flower hallway )
+		verify ( front: gravel hallway , left: tower wall , right: tower wall , front: lamp )
+travel ( ) ,
+		verify ( side: brick hallway )
+travel ( ) ,
+		verify ( side: concrete hallway , front: brick hallway )
+travel ( steps: 1 )
 turn ( left )
-travel ( steps: 2 )
-turn ( right ) ,
-		verify ( front: concrete hallway )
-turn ( ) ,
-		verify ( back: wall ) ,
-		turn ( right )
-turn ( left ) ,
-		travel ( steps: 1 )
-verify ( front: gravel hallway , side: yellow hallway )
-travel ( steps: 2 )
-turn ( ) ,
-		verify ( left: wall , back: wall )
-turn ( ) ,
-		verify ( front: yellow hallway )
-turn ( ) ,
-		verify ( front: wood hallway , right: chair )
-verify ( front: easel ) ,
-		travel ( steps: 2 ) ,
-		verify ( back: easel )
-turn ( left ) ,
-		verify ( front: brick hallway )
+turn ( left )
+null
+travel ( ) ,
+		verify ( side: concrete hallway )
+travel ( ) ,
+		verify ( side: yellow hallway , at: 3-intersection )
