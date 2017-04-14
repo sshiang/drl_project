@@ -1,650 +1,632 @@
 (lp1
 (lp2
-(S'turn'
-S''
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp3
 a(S'verify'
-S'back'
-S' easel'
+S'side'
+S' blue hallway'
 tp4
 aa(lp5
 (S'travel'
 S''
 S''
 tp6
-a(S'verify'
-S'front'
-S' wall'
-tp7
-aa(lp8
+aa(lp7
+(S'travel'
+S'steps'
+S' 1'
+tp8
+aa(lp9
 (S'travel'
 S''
 S''
-tp9
+tp10
 a(S'verify'
-p10
-S'front'
-S' wall'
+S'left'
+S' hallway'
 tp11
-a(g10
-S'right'
-S' wall'
-tp12
-a(g10
-S'left'
-S' concrete hallway'
-tp13
-a(g10
-S'back'
-S' concrete hallway'
-tp14
-aa(lp15
-(S'verify'
-S'front'
-S' brick hallway'
-tp16
-a(S'travel'
-S''
-S''
-tp17
-a(S'verify'
-S'right'
-S' blue hallway'
-tp18
-aa(lp19
-(S'turn'
-S''
-S''
-tp20
-a(S'verify'
-p21
-S'front'
-S' brick hallway'
-tp22
-a(g21
-S'front'
-S' lamp'
-tp23
-a(S'travel'
-S''
-S''
-tp24
-a(S'verify'
-S'side'
-S' gravel hallway'
-tp25
-aa(lp26
-(S'turn'
-S'left'
-S''
-tp27
-aa(lp28
-(S'turn'
-S'left'
-S''
-tp29
-aa(lp30
-(S'travel'
-S'steps'
-S' 3'
-tp31
-aa(lp32
-(S'travel'
-S'steps'
-S' 1'
-tp33
-aa(lp34
-(S'travel'
-S''
-S''
-tp35
-a(S'verify'
-S'at'
-S' chair'
-tp36
-a(S'turn'
-S'right'
-S''
-tp37
-aa(lp38
-(S'turn'
-S'right'
-S''
-tp39
-aa(lp40
-(S'travel'
-S''
-S''
-tp41
-a(S'verify'
-S'side'
-S' brick hallway'
-tp42
-a(S'turn'
-S'left'
-S''
-tp43
-aa(lp44
-(S'turn'
-S'right'
-S''
-tp45
-aa(lp46
-(S'turn'
-S''
-S''
-tp47
-a(S'verify'
-S'back'
-S' wall'
-tp48
-a(S'turn'
-S'right'
-S''
-tp49
-aa(lp50
-(S'travel'
-S''
-S''
-tp51
-a(S'verify'
-S'at'
-S' hatrack'
-tp52
-a(S'turn'
-S'left'
-S''
-tp53
-a(S'verify'
-S'front'
-S' grass hallway'
-tp54
-aa(lp55
-(S'turn'
-S''
-S''
-tp56
-a(S'verify'
-S'back'
-S' wall'
-tp57
-a(S'turn'
-S'right'
-S''
-tp58
-aa(lp59
-(S'travel'
-S'steps'
-S' 3'
-tp60
-aa(lp61
-(S'verify'
-S'at'
-S' hatrack'
-tp62
-aa(lp63
-(S'turn'
-S'left'
-S''
-tp64
-aa(lp65
-(S'turn'
-S''
-S''
-tp66
-a(S'verify'
-S'back'
-S' wall'
-tp67
-a(S'travel'
-S''
-S''
-tp68
-a(S'verify'
-S'at'
-S' chair'
-tp69
-a(S'turn'
-S'right'
-S''
-tp70
-aa(lp71
-(S'travel'
-S'steps'
-S' 1'
-tp72
-aa(lp73
-(S'turn'
-S'left'
-S''
-tp74
-aa(lp75
-(S'turn'
-S''
-S''
-tp76
-a(S'verify'
-S'front'
-S' flower hallway'
-tp77
-a(S'travel'
-S''
-S''
-tp78
-a(S'verify'
-S'side'
-S' brick hallway'
-tp79
-aa(lp80
-(S'verify'
-S'at'
-S' hatrack'
-tp81
-a(S'turn'
-S'left'
-S''
-tp82
-a(S'travel'
-S''
-S''
-tp83
-aa(lp84
-(S'turn'
-S''
-S''
-tp85
-a(S'verify'
-p86
-S'front'
-S' gravel hallway'
-tp87
-a(g86
-S'back'
-S' easel'
-tp88
-aa(lp89
-(S'travel'
-S'steps'
-S' 1'
-tp90
-a(S'verify'
-S'side'
-S' flower hallway'
-tp91
-aa(lp92
-(S'verify'
-S'at'
-S' easel'
-tp93
-aa(lp94
-(S'travel'
-S''
-S''
-tp95
-a(S'verify'
-S'at'
-S' easel'
-tp96
-a(S'turn'
-S'left'
-S''
-tp97
-aa(lp98
-(S'turn'
-S''
-S''
-tp99
-a(S'verify'
-p100
-S'front'
-S' wood hallway'
-tp101
-a(g100
-S'back'
-S' hatrack'
-tp102
-aa(lp103
-(S'travel'
-S'steps'
-S' 1'
-tp104
-aa(lp105
-(S'turn'
-S''
-S''
-tp106
-a(S'verify'
-p107
-S'back'
-S' wall'
-tp108
-a(g107
-S'front'
-S' hatrack'
-tp109
-a(S'travel'
-S''
-S''
-tp110
-a(S'verify'
-S'back'
-S' hatrack'
-tp111
-aa(lp112
-(S'travel'
-S'steps'
-S' 1'
-tp113
-aa(lp114
+aa(lp12
 (S'travel'
 S'steps'
 S' 2'
+tp13
+aa(lp14
+(S'travel'
+S''
+S''
+tp15
+a(S'verify'
+S'at'
+S' 4-intersection'
+tp16
+aa(lp17
+(S'verify'
+S'front'
+S' yellow hallway'
+tp18
+a(S'travel'
+S'steps'
+S' 3'
+tp19
+a(S'verify'
+S'front'
+S' wall'
+tp20
+aa(lp21
+(S'travel'
+S''
+S''
+tp22
+a(S'verify'
+S'side'
+S' brick hallway'
+tp23
+a(S'turn'
+S'right'
+S''
+tp24
+aa(lp25
+(S'turn'
+S'right'
+S''
+tp26
+aa(lp27
+(S'turn'
+S'right'
+S''
+tp28
+aa(lp29
+(S'verify'
+S'left'
+S' gravel hallway'
+tp30
+aa(lp31
+(S'verify'
+S'front'
+S' yellow hallway'
+tp32
+aa(lp33
+(S'travel'
+S'steps'
+S' 1'
+tp34
+a(S'verify'
+S'side'
+S' blue hallway'
+tp35
+aa(lp36
+(S'travel'
+S''
+S''
+tp37
+a(S'verify'
+S'right'
+S' easel'
+tp38
+aa(lp39
+(S'turn'
+S'left'
+S''
+tp40
+a(S'travel'
+S'steps'
+S' 4'
+tp41
+aa(lp42
+(S'travel'
+S'steps'
+S' 1'
+tp43
+a(S'turn'
+S'left'
+S''
+tp44
+aa(lp45
+(S'travel'
+S'steps'
+S' 2'
+tp46
+aa(lp47
+(S'turn'
+S'left'
+S''
+tp48
+aa(lp49
+(S'turn'
+S''
+S''
+tp50
+a(S'verify'
+S'left'
+S' wall'
+tp51
+aa(lp52
+(S'turn'
+S'right'
+S''
+tp53
+aa(lp54
+(S'null'
+p55
+S''
+S''
+tp56
+aa(lp57
+(S'travel'
+S''
+S''
+tp58
+a(S'verify'
+S'at'
+S' barstool'
+tp59
+a(S'turn'
+S'left'
+S''
+tp60
+aa(lp61
+(S'verify'
+p62
+S'front'
+S' barstool'
+tp63
+a(g62
+S'front'
+S' chair'
+tp64
+a(S'travel'
+S'steps'
+S' 4'
+tp65
+a(S'verify'
+p66
+S'back'
+S' barstool'
+p67
+tp68
+a(g66
+S'back'
+S' chair'
+tp69
+a(g66
+S'side'
+S' grass hallway'
+tp70
+aa(lp71
+(S'verify'
+p72
+S'at'
+S' easel'
+tp73
+a(g72
+S'front'
+S' wood hallway'
+tp74
+a(g72
+S'side'
+S' hallway'
+tp75
+aa(lp76
+(S'turn'
+S'right'
+S''
+tp77
+aa(lp78
+(S'verify'
+S'front'
+S' easel'
+tp79
+a(S'travel'
+S'steps'
+S' 1'
+tp80
+aa(lp81
+(S'travel'
+S''
+S''
+tp82
+a(S'verify'
+S'front'
+S' wall'
+tp83
+a(S'turn'
+S'left'
+S''
+tp84
+a(S'verify'
+S'front'
+S' lamp'
+tp85
+aa(lp86
+(S'travel'
+S''
+S''
+tp87
+a(S'verify'
+S'right'
+S' wood hallway'
+p88
+tp89
+aa(lp90
+(S'travel'
+S''
+S''
+tp91
+a(S'verify'
+S'left'
+S' hallway'
+tp92
+a(S'turn'
+S'left'
+S''
+tp93
+aa(lp94
+(S'travel'
+S'steps'
+S' 1'
+tp95
+aa(lp96
+(S'turn'
+S''
+S''
+tp97
+a(S'verify'
+S'front'
+S' lamp'
+tp98
+aa(lp99
+(S'travel'
+S''
+S''
+tp100
+a(S'verify'
+p101
+S'front'
+S' wall'
+tp102
+a(g101
+S'right'
+S' wall'
+tp103
+a(S'turn'
+S'left'
+S''
+tp104
+aa(lp105
+(S'turn'
+S'right'
+S''
+tp106
+aa(lp107
+(S'travel'
+S'steps'
+S' 1'
+tp108
+aa(lp109
+(S'turn'
+S'left'
+S''
+tp110
+a(S'travel'
+S'steps'
+S' 1'
+tp111
+aa(lp112
+(S'verify'
+p113
+S'left'
+S' concrete hallway'
+tp114
+a(g113
+S'front'
+S' lamp'
 tp115
 aa(lp116
 (S'turn'
 S'left'
 S''
 tp117
-aa(lp118
-(S'turn'
-S'right'
-S''
-tp119
-aa(lp120
-(S'verify'
-S'at'
-S' easel'
-tp121
-aa(lp122
-(S'travel'
-S'steps'
-S' 3'
-tp123
-aa(lp124
-(S'verify'
-p125
+a(S'verify'
 S'front'
-S' flower hallway'
-tp126
-a(g125
-S'side'
 S' brick hallway'
+tp118
+aa(lp119
+(S'verify'
+p120
+S'front'
+S' barstool'
+tp121
+a(g120
+S'front'
+S' chair'
+tp122
+a(S'travel'
+S''
+S''
+tp123
+a(S'verify'
+p124
+S'back'
+S' barstool'
+tp125
+a(g124
+S'back'
+S' chair'
+tp126
+a(g124
+S'side'
+S' flower hallway'
 tp127
 aa(lp128
 (S'travel'
 S''
 S''
 tp129
-a(S'turn'
-S''
-S''
+a(S'verify'
+S'side'
+S' flower hallway'
 tp130
-a(S'travel'
-S''
+a(S'turn'
+S'right'
 S''
 tp131
-a(S'turn'
-S''
-S''
-tp132
-a(S'travel'
+aa(lp132
+(g55
 S''
 S''
 tp133
-a(S'turn'
-S''
-S''
-tp134
-aa(lp135
-(S'turn'
-S'right'
-S''
+aa(lp134
+(S'verify'
+S'front'
+S' flower hallway'
+tp135
+a(S'travel'
+S'steps'
+S' 2'
 tp136
 a(S'verify'
-S'front'
+S'side'
 S' brick hallway'
 tp137
 aa(lp138
 (S'travel'
-S''
-S''
+S'steps'
+S' 2'
 tp139
-a(S'verify'
-S'right'
-S' flower hallway'
-tp140
-a(S'turn'
-S'right'
-S''
+aa(lp140
+(S'travel'
+S'steps'
+S' 1'
 tp141
 aa(lp142
 (S'verify'
-S'front'
-S' easel'
+S'right'
+S' wall'
 tp143
 aa(lp144
-(S'turn'
-S'right'
-S''
-tp145
-a(S'travel'
+(S'travel'
 S'steps'
-S' 1'
+S' 2'
+tp145
+a(S'verify'
+S'front'
+S' wall'
 tp146
 aa(lp147
-(S'turn'
-S''
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp148
-a(S'verify'
-p149
-S'back'
-S' wall'
+aa(lp149
+(S'travel'
+S'steps'
+S' 1'
 tp150
-a(g149
-S'at'
-S' 3-intersection'
+a(S'verify'
+S'side'
+S' wood hallway'
 tp151
 aa(lp152
-(S'turn'
-S'left'
+(S'travel'
+S''
 S''
 tp153
-aa(lp154
-(S'turn'
+a(S'verify'
+S'at'
+S' lamp'
+tp154
+a(S'turn'
 S'right'
 S''
 tp155
 aa(lp156
-(S'verify'
-S'front'
-S' easel'
+(S'travel'
+S''
+S''
 tp157
-a(S'travel'
-S''
-S''
-tp158
-a(S'verify'
-S'back'
-S' easel'
-tp159
-aa(lp160
-(S'travel'
-S''
-S''
-tp161
-aa(lp162
-(S'travel'
-S''
-S''
-tp163
-a(S'verify'
-S'side'
-S' gravel hallway'
-tp164
-aa(lp165
-(S'travel'
-S''
-S''
-tp166
 a(S'verify'
 S'side'
 S' blue hallway'
-tp167
+tp158
 a(S'turn'
 S'left'
 S''
-tp168
-aa(lp169
-(S'travel'
-S'steps'
-S' 1'
-tp170
-aa(lp171
-(S'travel'
+tp159
+aa(lp160
+(S'turn'
+S'left'
+S''
+tp161
+a(S'travel'
 S''
 S''
-tp172
+tp162
 a(S'verify'
+p163
+S'at'
+S' 4-intersection'
+tp164
+a(g163
+S'front'
+S' brick hallway'
+tp165
+a(g163
+S'side'
+S' flower hallway'
+tp166
+a(g163
 S'at'
 S' easel'
-tp173
-a(S'turn'
-S'right'
+tp167
+aa(lp168
+(S'travel'
+S''
+S''
+tp169
+a(S'verify'
+p170
+S'front'
+S' wall'
+tp171
+a(g170
+S'back'
+S' butterfly wall'
+tp172
+aa(lp173
+(S'travel'
+S''
 S''
 tp174
-a(S'verify'
-S'front'
-S' wood hallway'
-tp175
-aa(lp176
-(S'travel'
-S'steps'
-S' 2'
-tp177
-aa(lp178
+aa(lp175
 (S'travel'
 S''
+S''
+tp176
+a(S'verify'
+S'side'
+S' brick hallway'
+tp177
+aa(lp178
+(S'turn'
+S'left'
 S''
 tp179
 a(S'verify'
-S'side'
-S' wood hallway'
+S'front'
+S' brick hallway'
 tp180
 aa(lp181
-(S'verify'
-S'side'
-S' brick hallway'
-tp182
-aa(lp183
 (S'travel'
 S'steps'
 S' 2'
+tp182
+aa(lp183
+(S'turn'
+S''
+S''
 tp184
-aa(lp185
-(S'turn'
-S'left'
-S''
-tp186
-aa(lp187
-(S'travel'
-S''
-S''
-tp188
-a(S'verify'
-p189
-S'front'
-S' wall'
-tp190
-a(g189
-S'right'
-S' wall'
-tp191
-aa(lp192
-(S'verify'
-S'front'
-S' easel'
-tp193
-a(S'travel'
-S''
-S''
-tp194
-a(S'verify'
-p195
-S'back'
-S' easel'
-tp196
-a(g195
-S'front'
-S' wall'
-tp197
-a(g195
-S'left'
-S' wall'
-tp198
-a(S'turn'
-S'right'
-S''
-tp199
-a(S'verify'
-S'front'
-S' blue hallway'
-tp200
-aa(lp201
-(S'turn'
-S''
-S''
-tp202
 a(S'verify'
 S'front'
 S' grass hallway'
-tp203
-aa(lp204
-(S'travel'
-S'steps'
-S' 1'
-tp205
-a(S'turn'
-S'right'
-S''
-tp206
-a(S'verify'
-S'front'
-S' blue hallway'
-tp207
-aa(lp208
-(S'null'
-p209
-S''
-S''
-tp210
-aa(lp211
-(S'verify'
-p212
-S'front'
-S' sofa'
-tp213
-a(g212
-S'front'
-S' hatrack'
-tp214
-aa(lp215
-(S'turn'
-S''
-S''
-tp216
-a(S'verify'
-S'front'
-S' flower hallway'
-tp217
+p185
+tp186
 a(S'travel'
 S''
 S''
-tp218
+tp187
 a(S'verify'
 S'side'
 S' brick hallway'
+tp188
+aa(lp189
+(S'travel'
+S''
+S''
+tp190
+a(S'verify'
+S'at'
+S' chair'
+tp191
+a(S'travel'
+S'steps'
+S' 1'
+tp192
+aa(lp193
+(S'turn'
+S'left'
+S''
+tp194
+aa(lp195
+(S'travel'
+S'steps'
+S' 2'
+tp196
+aa(lp197
+(S'turn'
+S'right'
+S''
+tp198
+a(S'travel'
+S'steps'
+S' 1'
+tp199
+aa(lp200
+(S'travel'
+S''
+S''
+tp201
+a(S'verify'
+p202
+S'front'
+S' wall'
+tp203
+a(g202
+S'left'
+S' wall'
+tp204
+aa(lp205
+(S'travel'
+S'steps'
+S' 2'
+tp206
+a(S'verify'
+p207
+S'side'
+S' yellow hallway'
+tp208
+a(g207
+S'at'
+S' 3-intersection'
+tp209
+aa(lp210
+(S'travel'
+S''
+S''
+tp211
+a(S'verify'
+S'side'
+S' blue hallway'
+tp212
+aa(lp213
+(S'turn'
+S''
+S''
+tp214
+a(S'verify'
+p215
+S'back'
+S' wall'
+tp216
+a(g215
+S'at'
+S' 3-intersection'
+tp217
+aa(lp218
+(S'verify'
+S'back'
+S' easel'
 tp219
 aa(lp220
 (S'turn'
@@ -652,385 +634,370 @@ S''
 S''
 tp221
 a(S'verify'
-S'front'
-S' brick hallway'
+S'back'
+S' wall'
 tp222
-a(S'travel'
-S''
+a(S'turn'
+S'left'
 S''
 tp223
-a(S'verify'
-S'side'
-S' concrete hallway'
-tp224
-aa(lp225
+aa(lp224
 (S'turn'
 S''
 S''
-tp226
+tp225
 a(S'verify'
-p227
-S'front'
-S' brick hallway'
+p226
+S'right'
+S' wall'
+tp227
+a(g226
+S'left'
+S' wall'
 tp228
-a(g227
-S'front'
-S' lamp'
+a(g226
+S'back'
+S' wall'
 tp229
 aa(lp230
 (S'travel'
-S''
-S''
-tp231
-a(S'verify'
-S'front'
-S' wall'
-tp232
-a(S'turn'
-S'left'
-S''
-tp233
-a(S'verify'
-S'front'
-S' lamp'
-tp234
-aa(lp235
-(S'travel'
-S''
-S''
-tp236
-a(S'verify'
-S'at'
-S' lamp'
-tp237
-a(S'travel'
 S'steps'
 S' 2'
+tp231
+aa(lp232
+(S'verify'
+S'right'
+S' butterfly wall'
+tp233
+aa(lp234
+(S'travel'
+S'steps'
+S' 2'
+tp235
+a(S'verify'
+S'side'
+S' concrete hallway'
+tp236
+aa(lp237
+(S'turn'
+S'right'
+S''
 tp238
 aa(lp239
-(S'verify'
-S'front'
-S' sofa'
-tp240
-a(S'travel'
-S'steps'
-S' 2'
-tp241
-a(S'verify'
-p242
-S'back'
-S' sofa'
-tp243
-a(g242
-S'front'
-S' yellow hallway'
-tp244
-a(g242
-S'side'
-S' grass hallway'
-p245
-tp246
-aa(lp247
-(S'turn'
-S''
-S''
-tp248
-a(S'verify'
-S'right'
-S' wall'
-tp249
-aa(lp250
-(S'turn'
-S'left'
-S''
-tp251
-aa(lp252
 (S'travel'
 S''
 S''
-tp253
+tp240
 a(S'verify'
 S'front'
-S' blue hallway'
-tp254
-aa(lp255
+S' fish wall'
+tp241
+aa(lp242
 (S'turn'
 S'right'
 S''
-tp256
-a(S'travel'
-S''
-S''
-tp257
-a(S'verify'
-S'at'
-S' easel'
-tp258
-aa(lp259
-(S'turn'
-S'right'
-S''
-tp260
-a(S'verify'
-S'front'
-S' hatrack'
-tp261
-aa(lp262
-(S'verify'
-p263
-S'front'
-S' lamp'
-tp264
-a(g263
-S'front'
-S' easel'
-tp265
-aa(lp266
-(S'turn'
-S'right'
-S''
-tp267
-aa(lp268
+tp243
+aa(lp244
 (S'verify'
 S'front'
 S' wood hallway'
-tp269
-aa(lp270
-(S'turn'
-S''
-S''
-tp271
-a(S'verify'
-S'back'
-S' wall'
-tp272
-a(S'turn'
-S'right'
-S''
-tp273
-aa(lp274
+tp245
+aa(lp246
 (S'travel'
 S''
 S''
-tp275
+tp247
 a(S'verify'
-S'right'
+S'side'
 S' flower hallway'
+tp248
+aa(lp249
+(S'turn'
+S'left'
+S''
+tp250
+aa(lp251
+(S'verify'
+p252
+S'front'
+S' hatrack'
+tp253
+a(g252
+S'front'
+S' lamp'
+tp254
+a(S'travel'
+S'steps'
+S' 5'
+tp255
+a(S'verify'
+p256
+S'back'
+S' hatrack'
+tp257
+a(g256
+S'back'
+S' lamp'
+tp258
+a(g256
+S'side'
+S' concrete hallway'
+tp259
+aa(lp260
+(S'turn'
+S'right'
+S''
+tp261
+a(S'verify'
+S'front'
+S' hatrack'
+tp262
+aa(lp263
+(S'travel'
+S'steps'
+S' 2'
+tp264
+aa(lp265
+(S'travel'
+S''
+S''
+tp266
+a(S'verify'
+S'at'
+S' hatrack'
+tp267
+aa(lp268
+(S'travel'
+S'steps'
+S' 1'
+tp269
+a(S'verify'
+S'at'
+S' easel'
+tp270
+aa(lp271
+(S'travel'
+S'steps'
+S' 1'
+tp272
+aa(lp273
+(S'travel'
+S'steps'
+S' 1'
+tp274
+aa(lp275
+(S'turn'
+S''
+S''
 tp276
 a(S'turn'
-S'right'
+S'left'
 S''
 tp277
 aa(lp278
-(S'turn'
+(S'travel'
 S''
 S''
 tp279
 a(S'verify'
 p280
 S'front'
-S' brick hallway'
+S' flower hallway'
 tp281
 a(g280
-S'front'
-S' butterfly wall'
+S'side'
+S' yellow hallway'
 tp282
 aa(lp283
-(S'turn'
-S'right'
-S''
+(S'travel'
+S'steps'
+S' 3'
 tp284
-aa(lp285
-(S'travel'
-S'steps'
-S' 2'
-tp286
-aa(lp287
-(S'verify'
-p288
-S'side'
-S' concrete hallway'
-tp289
-a(g288
-S'back'
-S' yellow hallway'
-tp290
-a(g288
-S'front'
-S' yellow hallway'
-tp291
-aa(lp292
-(S'travel'
-S'steps'
-S' 1'
-tp293
-aa(lp294
-(S'turn'
-S''
-S''
-tp295
-a(S'verify'
-S'right'
-S' wall'
-tp296
-aa(lp297
-(S'travel'
-S'steps'
-S' 1'
-tp298
-aa(lp299
-(S'travel'
-S'steps'
-S' 1'
-tp300
 a(S'verify'
 S'side'
 S' blue hallway'
-tp301
-aa(lp302
-(S'turn'
-S'right'
-S''
-tp303
-aa(lp304
+tp285
+aa(lp286
 (S'travel'
-S''
-S''
-tp305
-a(S'verify'
-S'side'
-S' brick hallway'
-tp306
-aa(lp307
+S'steps'
+S' 1'
+tp287
+aa(lp288
 (S'verify'
+p289
 S'front'
-S' gravel hallway'
-tp308
+S' blue hallway'
+tp290
+a(g289
+S'front'
+S' chair'
+tp291
 a(S'travel'
 S''
 S''
-tp309
+tp292
 a(S'verify'
-S'side'
-S' yellow hallway'
-tp310
-aa(lp311
-(S'verify'
-p312
-S'left'
-S' concrete hallway'
-tp313
-a(g312
-S'left'
-S' sofa'
-tp314
-aa(lp315
-(S'travel'
-S''
-S''
-tp316
-a(S'verify'
-p317
-S'at'
-S' easel'
-tp318
-a(g317
+p293
+S'back'
+S' chair'
+tp294
+a(g293
 S'front'
 S' wall'
-tp319
-aa(lp320
+tp295
+aa(lp296
+(S'turn'
+S'left'
+S''
+tp297
+aa(lp298
+(S'turn'
+S'left'
+S''
+tp299
+aa(lp300
 (S'turn'
 S'right'
 S''
-tp321
+tp301
 a(S'verify'
 S'front'
 S' grass hallway'
-tp322
-a(S'travel'
+tp302
+aa(lp303
+(S'travel'
 S''
 S''
-tp323
-a(S'verify'
-p324
-S'front'
-S' wall'
-tp325
-a(g324
-S'side'
-S' yellow hallway'
-tp326
-a(g324
-S'left'
-S' wall'
-tp327
-aa(lp328
-(S'verify'
-p329
-S'front'
-S' flower hallway'
-tp330
-a(g329
-S'front'
-S' hatrack'
-tp331
-a(S'travel'
-S'steps'
-S' 3'
-tp332
-a(S'verify'
-p333
-S'back'
-S' hatrack'
-tp334
-a(g333
-S'side'
-S' blue hallway'
-tp335
-aa(lp336
-(S'verify'
-S'front'
-S' easel'
-tp337
-a(S'travel'
-S''
-S''
-tp338
-a(S'verify'
-p339
-S'back'
-S' easel'
-tp340
-a(g339
-S'front'
-S' wall'
-tp341
+tp304
 a(S'turn'
 S'left'
 S''
-tp342
+tp305
 a(S'verify'
 S'front'
-S' brick hallway'
-tp343
-aa(lp344
-(S'travel'
-S'steps'
-S' 1'
-tp345
-a(S'verify'
-S'at'
-S' lamp'
-tp346
-aa(lp347
+S' wood hallway'
+tp306
+aa(lp307
 (S'verify'
-S'at'
-S' easel'
-tp348
-aa(lp349
+p308
+S'front'
+S' brick hallway'
+tp309
+a(g308
+S'front'
+S' lamp'
+tp310
+a(S'travel'
+S'steps'
+S' 3'
+tp311
+a(S'verify'
+p312
+S'back'
+S' lamp'
+tp313
+a(g312
+S'side'
+S' flower hallway'
+tp314
+aa(lp315
 (S'travel'
 S'steps'
 S' 3'
+tp316
+aa(lp317
+(S'verify'
+p318
+S'left'
+S' flower hallway'
+p319
+tp320
+a(g318
+S'right'
+S' flower hallway'
+p321
+tp322
+aa(lp323
+(S'turn'
+S''
+S''
+tp324
+a(S'verify'
+p325
+S'right'
+S' wall'
+tp326
+a(g325
+S'left'
+S' wall'
+tp327
+a(g325
+S'back'
+S' wall'
+tp328
+aa(lp329
+(S'travel'
+S''
+S''
+tp330
+a(S'verify'
+S'at'
+S' barstool'
+tp331
+aa(lp332
+(S'travel'
+S'steps'
+S' 3'
+tp333
+aa(lp334
+(S'travel'
+S''
+S''
+tp335
+a(S'verify'
+S'at'
+S' chair'
+tp336
+a(S'turn'
+S'right'
+S''
+tp337
+aa(lp338
+(S'travel'
+S''
+S''
+tp339
+a(S'verify'
+S'side'
+S' brick hallway'
+tp340
+a(S'turn'
+S'right'
+S''
+tp341
+aa(lp342
+(S'verify'
+S'front'
+S' butterfly wall'
+tp343
+aa(lp344
+(S'verify'
+S'at'
+S' easel'
+tp345
+aa(lp346
+(S'verify'
+S'front'
+S' flower hallway'
+tp347
+a(S'travel'
+S''
+S''
+tp348
+a(S'verify'
+S'at'
+S' hatrack'
+p349
 tp350
 aa(lp351
 (S'turn'
@@ -1038,99 +1005,102 @@ S''
 S''
 tp352
 a(S'verify'
-S'back'
-S' wall'
-tp353
-a(S'turn'
-S'left'
-S''
+p353
+S'front'
+S' sofa'
 tp354
-a(S'travel'
-S'steps'
-S' 1'
+a(g353
+S'front'
+S' flower hallway'
 tp355
 aa(lp356
-(S'travel'
-S'steps'
-S' 2'
+(S'turn'
+S'left'
+S''
 tp357
 aa(lp358
-(S'travel'
-S''
+(S'turn'
+S'right'
 S''
 tp359
-a(S'verify'
-S'left'
-S' hallway'
-tp360
-aa(lp361
-(S'verify'
-S'front'
-S' brick hallway'
-tp362
-a(S'travel'
+aa(lp360
+(S'travel'
+S'steps'
+S' 1'
+tp361
+aa(lp362
+(S'turn'
 S''
 S''
 tp363
 a(S'verify'
+p364
 S'front'
-S' wall'
-tp364
-a(S'turn'
-S'right'
-S''
+S' yellow hallway'
 tp365
-aa(lp366
-(S'travel'
-S'steps'
-S' 5'
-tp367
-aa(lp368
-(S'verify'
-S'front'
-S' chair'
-tp369
+a(g364
+S'back'
+S' wall'
+tp366
 a(S'travel'
 S''
 S''
-tp370
+tp367
 a(S'verify'
-p371
-S'at'
-S' barstool'
-tp372
-a(g371
-S'back'
-S' chair'
-tp373
-aa(lp374
-(S'turn'
-S'left'
-S''
-tp375
-aa(lp376
-(S'travel'
-S'steps'
-S' 2'
-tp377
-a(S'verify'
-S'side'
-S' gravel hallway'
-tp378
-aa(lp379
-(S'verify'
-p380
 S'front'
-S' sofa'
-tp381
-a(g380
-S'front'
-S' hatrack'
-tp382
-aa(lp383
+S' wall'
+tp368
+aa(lp369
 (S'travel'
 S'steps'
 S' 1'
+tp370
+a(S'verify'
+S'side'
+S' gravel hallway'
+tp371
+aa(lp372
+(S'verify'
+S'front'
+S' brick hallway'
+tp373
+a(S'travel'
+S''
+S''
+tp374
+a(S'verify'
+S'at'
+S' hatrack'
+tp375
+a(S'travel'
+S'steps'
+S' 1'
+tp376
+aa(lp377
+(S'travel'
+S''
+S''
+tp378
+a(S'verify'
+S'at'
+S' hatrack'
+tp379
+a(S'turn'
+S'left'
+S''
+tp380
+aa(lp381
+(S'travel'
+S''
+S''
+tp382
+a(S'verify'
+S'at'
+S' chair'
+tp383
+a(S'turn'
+S'right'
+S''
 tp384
 aa(lp385
 (S'turn'
@@ -1138,231 +1108,237 @@ S''
 S''
 tp386
 a(S'verify'
-S'left'
+p387
+S'back'
 S' wall'
-tp387
-aa(lp388
-(S'turn'
-S'right'
-S''
+tp388
+a(g387
+S'at'
+S' 3-intersection'
 tp389
 aa(lp390
 (S'verify'
-S'right'
-S' sofa'
+S'side'
+S' flower hallway'
 tp391
-aa(lp392
-(S'turn'
-S'right'
+a(S'turn'
+S'left'
+S''
+tp392
+a(S'travel'
+S''
 S''
 tp393
 a(S'verify'
 p394
-S'front'
-S' blue hallway'
+S'left'
+S' hallway'
 tp395
 a(g394
-S'front'
-S' hatrack'
+S'right'
+S' wall'
 tp396
-a(S'travel'
-S''
-S''
-tp397
-aa(lp398
-(S'turn'
-S'right'
-S''
-tp399
-aa(lp400
-(S'travel'
-S''
-S''
-tp401
-a(S'verify'
-S'side'
-S' gravel hallway'
-tp402
-a(S'turn'
-S'right'
-S''
-tp403
-a(S'travel'
-S''
-S''
-tp404
-a(S'verify'
-S'at'
-S' easel'
-tp405
-aa(lp406
-(S'verify'
-p407
-S'at'
-S' easel'
-tp408
-a(g407
-S'front'
-S' fish wall'
-tp409
-a(g407
-S'front'
-S' gravel hallway'
-tp410
-aa(lp411
+aa(lp397
 (S'turn'
 S'left'
 S''
-tp412
-aa(lp413
+tp398
+a(S'travel'
+S''
+S''
+tp399
+a(S'verify'
+S'at'
+S' lamp'
+tp400
+a(S'travel'
+S'steps'
+S' 1'
+tp401
+aa(lp402
+(S'verify'
+S'left'
+S' yellow hallway'
+tp403
+aa(lp404
+(S'turn'
+S''
+S''
+tp405
+a(S'verify'
+p406
+S'back'
+S' wall'
+tp407
+a(g406
+S'left'
+S' wall'
+tp408
+a(g406
+S'right'
+S' wall'
+tp409
+aa(lp410
 (S'travel'
 S'steps'
 S' 1'
+tp411
+aa(lp412
+(S'travel'
+S'steps'
+S' 1'
+tp413
+a(S'turn'
+S'left'
+S''
 tp414
 aa(lp415
-(S'turn'
-S'right'
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp416
-aa(lp417
-(S'travel'
-S'steps'
-S' 2'
-tp418
 a(S'verify'
 S'side'
-S' blue hallway'
-tp419
-aa(lp420
-(S'travel'
-S'steps'
-S' 2'
-tp421
-a(S'verify'
-S'side'
-S' brick hallway'
-tp422
-aa(lp423
-(S'turn'
-S''
-S''
-tp424
-a(S'verify'
-S'front'
-S' lamp'
-tp425
-aa(lp426
-(S'turn'
-S'right'
-S''
-tp427
-a(S'verify'
-S'front'
-S' concrete hallway'
-tp428
-aa(lp429
+S' wood hallway'
+tp417
+aa(lp418
 (S'verify'
+S'front'
+S' grass hallway'
+tp419
+a(S'travel'
+S''
+S''
+tp420
+a(S'verify'
+S'front'
+S' wall'
+tp421
+aa(lp422
+(S'verify'
+S'left'
+S' gravel hallway'
+tp423
+aa(lp424
+(S'travel'
+S''
+S''
+tp425
+a(S'verify'
+p426
+S'front'
+S' blue hallway'
+tp427
+a(g426
 S'back'
-S' easel'
+S' blue hallway'
+tp428
+a(g426
+S'front'
+S' hatrack'
+tp429
+a(g426
+S'back'
+S' chair'
 tp430
 aa(lp431
 (S'turn'
 S'right'
 S''
 tp432
+aa(lp433
+(S'travel'
+S'steps'
+S' 1'
+tp434
+a(S'verify'
+S'at'
+S' lamp'
+tp435
+aa(lp436
+(S'travel'
+S'steps'
+S' 1'
+tp437
+aa(lp438
+(S'turn'
+S''
+S''
+tp439
+a(S'verify'
+S'front'
+S' grass hallway'
+tp440
 a(S'travel'
 S''
 S''
-tp433
+tp441
+a(S'verify'
+S'side'
+S' blue hallway'
+tp442
+aa(lp443
+(S'verify'
+S'front'
+S' hatrack'
+tp444
+a(S'travel'
+S'steps'
+S' 3'
+tp445
+a(S'verify'
+p446
+S'back'
+S' hatrack'
+tp447
+a(g446
+S'side'
+S' yellow hallway'
+tp448
+aa(lp449
+(S'turn'
+S''
+S''
+tp450
+a(S'verify'
+S'front'
+S' yellow hallway'
+tp451
+a(S'travel'
+S''
+S''
+tp452
+a(S'verify'
+S'side'
+S' gravel hallway'
+tp453
+aa(lp454
+(S'travel'
+S''
+S''
+tp455
 a(S'verify'
 S'front'
 S' wall'
-tp434
-aa(lp435
-(S'turn'
+tp456
+a(S'turn'
+S'right'
+S''
+tp457
+aa(lp458
+(S'travel'
 S''
 S''
-tp436
-a(S'verify'
-p437
-S'front'
-S' blue hallway'
-tp438
-a(g437
-S'front'
-S' chair'
-tp439
-aa(lp440
+tp459
+aa(lp460
 (S'travel'
 S'steps'
-S' 1'
-tp441
-a(S'verify'
-S'at'
-S' easel'
-tp442
-aa(lp443
-(S'turn'
-S'left'
-S''
-tp444
-aa(lp445
+S' 2'
+tp461
+aa(lp462
 (S'turn'
 S'right'
 S''
-tp446
-aa(lp447
-(S'travel'
-S'steps'
-S' 1'
-tp448
-a(S'verify'
-S'side'
-S' blue hallway'
-tp449
-aa(lp450
-(S'travel'
-S''
-S''
-tp451
-a(S'verify'
-S'side'
-S' blue hallway'
-tp452
-aa(lp453
-(S'turn'
-S'left'
-S''
-tp454
-aa(lp455
-(S'travel'
-S''
-S''
-tp456
-a(S'verify'
-S'at'
-S' easel'
-tp457
-a(S'turn'
-S'left'
-S''
-tp458
-a(S'verify'
-S'front'
-S' wood hallway'
-tp459
-a(S'travel'
-S'steps'
-S' 1'
-tp460
-aa(lp461
-(S'turn'
-S'left'
-S''
-tp462
-a(S'verify'
-S'front'
-S' blue hallway'
 tp463
 aa(lp464
 (S'turn'
@@ -1370,16 +1346,16 @@ S''
 S''
 tp465
 a(S'verify'
-S'front'
-S' brick hallway'
+S'back'
+S' wall'
 tp466
 a(S'travel'
 S''
 S''
 tp467
 a(S'verify'
-S'side'
-S' wood hallway'
+S'front'
+S' wall'
 tp468
 aa(lp469
 (S'turn'
@@ -1387,1122 +1363,1137 @@ S''
 S''
 tp470
 a(S'verify'
-S'right'
-S' wall'
+S'front'
+S' lamp'
 tp471
 aa(lp472
-(S'verify'
-S'at'
-S' easel'
+(S'travel'
+S'steps'
+S' 3'
 tp473
 aa(lp474
+(S'turn'
+S'left'
+S''
+tp475
+aa(lp476
 (S'travel'
 S''
 S''
-tp475
-a(S'verify'
-p476
-S'side'
-S' yellow hallway'
 tp477
-a(g476
+a(S'verify'
 S'at'
-S' 3-intersection'
+S' hatrack'
 tp478
-aa(lp479
+a(S'turn'
+S'left'
+S''
+tp479
+a(S'verify'
+S'front'
+S' yellow hallway'
+tp480
+aa(lp481
+(S'verify'
+S'left'
+S' hatrack'
+tp482
+aa(lp483
+(S'travel'
+S''
+S''
+tp484
+a(S'verify'
+S'side'
+S' wood hallway'
+tp485
+a(S'turn'
+S'left'
+S''
+tp486
+aa(lp487
 (S'turn'
 S''
 S''
-tp480
-a(S'verify'
-S'back'
-S' wall'
-tp481
-aa(lp482
-(S'verify'
-S'front'
-S' blue hallway'
-tp483
-aa(lp484
-(S'travel'
-S''
-S''
-tp485
-a(S'verify'
-S'front'
-S' wall'
-tp486
-aa(lp487
-(S'travel'
-S'steps'
-S' 1'
 tp488
 a(S'verify'
-S'front'
+S'left'
 S' wall'
 tp489
 aa(lp490
-(S'turn'
-S'left'
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp491
-a(S'verify'
-S'front'
-S' yellow hallway'
-tp492
-aa(lp493
-(S'verify'
-p494
-S'left'
-S' sofa'
-tp495
-a(g494
-S'right'
-S' barstool'
-tp496
-aa(lp497
+aa(lp492
 (S'travel'
 S''
 S''
-tp498
+tp493
 a(S'verify'
-S'right'
-S' hallway'
-tp499
+S'front'
+S' wall'
+tp494
+aa(lp495
+(S'travel'
+S''
+S''
+tp496
+a(S'verify'
+S'at'
+S' easel'
+tp497
 a(S'turn'
-S'right'
+S'left'
+S''
+tp498
+aa(lp499
+(S'travel'
+S''
 S''
 tp500
 a(S'verify'
 S'front'
-S' gravel hallway'
+S' flower hallway'
 tp501
 aa(lp502
 (S'turn'
-S'left'
+S'right'
 S''
 tp503
 aa(lp504
 (S'turn'
-S''
+S'right'
 S''
 tp505
-a(S'verify'
+aa(lp506
+(S'verify'
 S'front'
-S' hatrack'
-tp506
-aa(lp507
+S' chair'
+tp507
+a(S'travel'
+S'steps'
+S' 2'
+tp508
+a(S'verify'
+p509
+S'back'
+S' chair'
+tp510
+a(g509
+S'at'
+S' barstool'
+tp511
+aa(lp512
 (S'verify'
 S'side'
-S' flower hallway'
-tp508
-aa(lp509
-(S'turn'
-S''
-S''
-tp510
-a(S'verify'
-S'front'
-S' easel'
-tp511
-a(S'travel'
-S''
-S''
-tp512
-a(S'verify'
-S'at'
-S' easel'
+S' yellow hallway'
 tp513
 aa(lp514
-(S'turn'
-S''
-S''
-tp515
-a(S'travel'
-S''
-S''
-tp516
-a(S'turn'
-S''
-S''
-tp517
-a(S'travel'
-S''
-S''
-tp518
-a(S'turn'
-S''
-S''
-tp519
-a(S'travel'
-S''
-S''
-tp520
-a(S'verify'
-p521
-S'front'
-S' wall'
-tp522
-a(g521
-S'left'
-S' wall'
-tp523
-a(g521
-S'right'
-S' wall'
-tp524
-aa(lp525
 (S'travel'
 S'steps'
 S' 1'
-tp526
+tp515
+aa(lp516
+(S'travel'
+S'steps'
+S' 2'
+tp517
+aa(lp518
+(S'travel'
+S'steps'
+S' 1'
+tp519
+aa(lp520
+(S'travel'
+S'steps'
+S' 1'
+tp521
 a(S'verify'
-p527
+S'at'
+S' barstool'
+tp522
+aa(lp523
+(S'verify'
 S'front'
-S' wall'
-tp528
-a(g527
-S'right'
-S' wall'
-tp529
-a(g527
+S' blue hallway'
+tp524
+a(S'travel'
+S''
+S''
+tp525
+a(S'verify'
+S'at'
+S' chair'
+tp526
+aa(lp527
+(S'turn'
 S'left'
-S' wall'
+S''
+tp528
+aa(lp529
+(S'travel'
+S'steps'
+S' 1'
 tp530
 aa(lp531
 (S'travel'
-S''
-S''
+S'steps'
+S' 1'
 tp532
-a(S'verify'
-S'side'
-S' flower hallway'
-tp533
-a(S'turn'
+aa(lp533
+(S'turn'
 S'left'
 S''
 tp534
-aa(lp535
-(S'verify'
-S'at'
-S' easel'
+a(S'verify'
+S'front'
+S' brick hallway'
+tp535
+a(S'travel'
+S'steps'
+S' 1'
 tp536
 aa(lp537
 (S'turn'
-S'left'
+S''
 S''
 tp538
-aa(lp539
-(S'turn'
-S'right'
-S''
-tp540
-aa(lp541
-(S'turn'
-S''
-S''
-tp542
 a(S'verify'
 S'front'
-S' easel'
+S' hatrack'
+tp539
+a(S'travel'
+S''
+S''
+tp540
+a(S'verify'
+S'at'
+S' hatrack'
+tp541
+aa(lp542
+(S'travel'
+S'steps'
+S' 5'
 tp543
 aa(lp544
-(S'turn'
-S'left'
-S''
-tp545
-aa(lp546
 (S'travel'
 S''
 S''
-tp547
-a(S'verify'
-S'side'
-S' wood hallway'
-tp548
-aa(lp549
-(S'turn'
-S'right'
+tp545
+a(S'turn'
 S''
-tp550
+S''
+tp546
+a(S'travel'
+S''
+S''
+tp547
+aa(lp548
+(S'turn'
+S'left'
+S''
+tp549
 a(S'verify'
 S'front'
-S' yellow hallway'
-tp551
-a(S'travel'
+S' blue hallway'
+tp550
+aa(lp551
+(S'travel'
 S''
 S''
 tp552
 a(S'verify'
-S'side'
-S' gravel hallway'
+S'front'
+S' wall'
 tp553
 aa(lp554
-(S'turn'
-S''
-S''
-tp555
-a(S'verify'
-S'right'
-S' chair'
-tp556
-aa(lp557
 (S'verify'
-S'left'
-S' sofa'
-tp558
-aa(lp559
-(S'turn'
-S''
-S''
-tp560
-a(S'verify'
-p561
+p555
 S'front'
-S' yellow hallway'
-tp562
-a(g561
-S'left'
-S' easel'
-tp563
-a(g561
-S'left'
-S' gravel hallway'
-p564
-tp565
-aa(lp566
-(S'turn'
-S'left'
-S''
-tp567
-a(S'verify'
-S'front'
-S' brick hallway'
-tp568
-aa(lp569
-(S'turn'
-S''
-S''
-tp570
-a(S'verify'
-p571
-S'front'
-S' gravel hallway'
-tp572
-a(g571
+S' hatrack'
+tp556
+a(g555
 S'back'
-S' sofa'
-tp573
+S' lamp'
+tp557
+aa(lp558
+(S'verify'
+S'front'
+S' hatrack'
+tp559
+aa(lp560
+(S'travel'
+S''
+S''
+tp561
+a(S'verify'
+S'side'
+S' brick hallway'
+tp562
+a(S'turn'
+S''
+S''
+tp563
+aa(lp564
+(S'turn'
+S''
+S''
+tp565
+a(S'verify'
+S'front'
+S' lamp'
+tp566
 a(S'travel'
 S''
 S''
-tp574
+tp567
 a(S'verify'
-S'front'
-S' wall'
-tp575
-aa(lp576
+S'at'
+S' lamp'
+tp568
+aa(lp569
 (S'verify'
+S'front'
+S' flower hallway'
+tp570
+a(S'travel'
+S''
+S''
+tp571
+a(S'verify'
+S'side'
+S' brick hallway'
+tp572
+aa(lp573
+(S'travel'
+S'steps'
+S' 1'
+tp574
+aa(lp575
+(S'turn'
+S''
+S''
+tp576
+a(S'verify'
 S'front'
 S' grass hallway'
 tp577
 a(S'travel'
-S''
-S''
+S'steps'
+S' 2'
 tp578
 a(S'verify'
-p579
+S'at'
+S' hatrack'
+tp579
+aa(lp580
+(S'verify'
 S'front'
-S' wall'
-tp580
-a(g579
-S'right'
-S' yellow hallway'
+S' blue hallway'
 tp581
-aa(lp582
-(S'turn'
-S''
-S''
-tp583
-a(S'verify'
-S'front'
-S' brick hallway'
-tp584
 a(S'travel'
 S''
 S''
-tp585
-a(S'verify'
-S'side'
-S' wood hallway'
-p586
-tp587
-aa(lp588
-(S'verify'
-S'side'
-S' blue hallway'
-tp589
-aa(lp590
-(g209
-S''
-S''
-tp591
-aa(lp592
+tp582
+aa(lp583
 (S'travel'
 S'steps'
 S' 1'
-tp593
+tp584
 a(S'verify'
-p594
+S'front'
+S' wall'
+tp585
+aa(lp586
+(S'travel'
+S''
+S''
+tp587
+a(S'verify'
+S'front'
+S' blue hallway'
+tp588
+aa(lp589
+(S'verify'
 S'front'
 S' gravel hallway'
-tp595
-a(g594
-S'side'
-S' yellow hallway'
-tp596
-aa(lp597
-(S'verify'
-S'front'
-S' flower hallway'
-tp598
-aa(lp599
-(S'turn'
-S''
-S''
-tp600
-a(S'verify'
-S'front'
-S' easel'
-tp601
-aa(lp602
-(S'travel'
-S'steps'
-S' 1'
-tp603
-aa(lp604
+tp590
+aa(lp591
 (S'travel'
 S''
 S''
-tp605
-a(S'verify'
-S'side'
-S' blue hallway'
-tp606
+tp592
 a(S'turn'
 S'right'
 S''
-tp607
-aa(lp608
+tp593
+aa(lp594
 (S'travel'
 S'steps'
 S' 1'
+tp595
+aa(lp596
+(S'turn'
+S''
+S''
+tp597
+a(S'verify'
+S'front'
+S' chair'
+tp598
+a(S'travel'
+S''
+S''
+tp599
+a(S'verify'
+p600
+S'back'
+S' chair'
+tp601
+a(g600
+S'side'
+S' yellow hallway'
+tp602
+aa(lp603
+(S'turn'
+S''
+S''
+tp604
+a(S'verify'
+p605
+S'back'
+S' wall'
+tp606
+a(g605
+S'right'
+S' wall'
+tp607
+aa(lp608
+(S'turn'
+S'right'
+S''
 tp609
 aa(lp610
-(S'travel'
+(S'turn'
 S''
 S''
 tp611
 a(S'verify'
-S'side'
-S' blue hallway'
-tp612
-a(S'turn'
-S'right'
-S''
-tp613
-a(S'verify'
 S'front'
-S' blue hallway'
+S' flower hallway'
+tp612
+aa(lp613
+(S'travel'
+S'steps'
+S' 3'
 tp614
 aa(lp615
 (S'turn'
-S'right'
+S'left'
 S''
 tp616
 aa(lp617
-(S'travel'
-S''
+(S'turn'
+S'right'
 S''
 tp618
-a(S'verify'
-S'front'
-S' easel'
-tp619
-a(S'turn'
-S'right'
+aa(lp619
+(S'travel'
+S''
 S''
 tp620
-aa(lp621
-(S'verify'
-S'at'
-S' hatrack'
-tp622
-aa(lp623
-(S'travel'
-S''
-S''
-tp624
 a(S'verify'
 S'front'
-S' flower hallway'
+S' butterfly wall'
+tp621
+aa(lp622
+(S'travel'
+S'steps'
+S' 1'
+tp623
+aa(lp624
+(S'turn'
+S''
+S''
 tp625
-a(S'travel'
-S''
-S''
+a(S'verify'
+S'back'
+S' wall'
 tp626
 a(S'turn'
-S''
+S'right'
 S''
 tp627
+aa(lp628
+(S'turn'
+S''
+S''
+tp629
 a(S'verify'
 S'front'
-S' tower wall'
-p628
-tp629
+S' hatrack'
+tp630
 a(S'travel'
 S''
 S''
-tp630
+tp631
 a(S'verify'
-p631
+S'at'
+S' hatrack'
+tp632
+aa(lp633
+(S'turn'
+S''
+S''
+tp634
+a(S'travel'
+S''
+S''
+tp635
+a(S'verify'
+p636
 S'front'
 S' wall'
-tp632
-a(g631
-S'left'
-S' wall'
-tp633
-a(g631
-S'right'
-S' wall'
-tp634
-aa(lp635
-(S'verify'
-p636
-S'right'
-S' concrete hallway'
 tp637
 a(g636
-S'front'
-S' chair'
-tp638
-aa(lp639
-(S'travel'
-S'steps'
-S' 1'
-tp640
-a(S'verify'
-S'front'
+S'right'
 S' wall'
-tp641
-aa(lp642
-(S'turn'
+tp638
+a(g636
 S'left'
+S' wall'
+tp639
+aa(lp640
+(S'travel'
 S''
-tp643
+S''
+tp641
 a(S'verify'
+p642
 S'front'
-S' brick hallway'
+S' blue hallway'
+tp643
+a(g642
+S'side'
+S' flower hallway'
 tp644
 aa(lp645
-(S'turn'
-S''
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp646
 a(S'verify'
-S'left'
-S' wall'
+S'side'
+S' brick hallway'
 tp647
 aa(lp648
-(S'turn'
-S''
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp649
-aa(lp650
-(S'travel'
-S'steps'
-S' 1'
-tp651
 a(S'verify'
-p652
-S'front'
-S' tower wall'
+S'side'
+S' blue hallway'
+tp650
+aa(lp651
+(S'travel'
+S''
+S''
+tp652
+a(S'verify'
+S'right'
+S' hallway'
 tp653
-a(g652
-S'back'
-S' butterfly wall'
+a(S'turn'
+S'right'
+S''
 tp654
-aa(lp655
-(S'travel'
-S'steps'
-S' 1'
-tp656
+a(S'travel'
+S''
+S''
+tp655
 a(S'verify'
+p656
 S'front'
 S' wall'
 tp657
-aa(lp658
-(S'verify'
-p659
-S'front'
-S' flower hallway'
-tp660
-a(g659
-S'front'
-S' hatrack'
+a(g656
+S'left'
+S' wall'
+tp658
+a(g656
+S'right'
+S' wall'
+tp659
+aa(lp660
+(S'travel'
+S'steps'
+S' 1'
 tp661
-a(g659
-S'front'
-S' lamp'
-tp662
-a(S'travel'
+aa(lp662
+(S'travel'
 S''
 S''
 tp663
 a(S'verify'
 S'at'
-S' lamp'
+S' chair'
 tp664
-a(S'travel'
-S'steps'
-S' 1'
-tp665
-a(S'verify'
-S'back'
-S' hatrack'
-tp666
-aa(lp667
-(S'turn'
-S''
-S''
-tp668
-a(S'verify'
-p669
-S'front'
-S' yellow hallway'
-tp670
-a(g669
-S'back'
-S' wall'
-tp671
-aa(lp672
-(S'travel'
-S''
-S''
-tp673
-a(S'verify'
-S'front'
-S' fish wall'
-tp674
-aa(lp675
-(S'travel'
-S'steps'
-S' 1'
-tp676
-a(S'verify'
-p677
-S'front'
-S' flower hallway'
-tp678
-a(g677
-S'at'
-S' easel'
-tp679
-aa(lp680
-(S'verify'
-S'front'
-S' gravel hallway'
-tp681
-a(S'travel'
-S''
-S''
-tp682
-a(S'verify'
-S'side'
-S' yellow hallway'
-tp683
-aa(lp684
-(S'verify'
-p685
-S'right'
-S' concrete hallway'
-tp686
-a(g685
-S'front'
-S' barstool'
-tp687
-aa(lp688
-(S'travel'
-S''
-S''
-tp689
-aa(lp690
-(S'travel'
-S''
-S''
-tp691
-a(S'verify'
-S'side'
-S' flower hallway'
-tp692
 a(S'turn'
 S'right'
 S''
-tp693
-aa(lp694
-(S'verify'
-p695
+tp665
+aa(lp666
+(S'turn'
 S'left'
-S' barstool'
-p696
-tp697
-a(g695
-S'side'
-S' concrete hallway'
-tp698
-aa(lp699
+S''
+tp667
+a(S'travel'
+S'steps'
+S' 1'
+tp668
+aa(lp669
 (S'travel'
 S''
+S''
+tp670
+aa(lp671
+(S'turn'
+S'left'
+S''
+tp672
+aa(lp673
+(S'turn'
+S'right'
+S''
+tp674
+a(S'travel'
+S'steps'
+S' 3'
+tp675
+aa(lp676
+(S'verify'
+S'front'
+S' sofa'
+tp677
+aa(lp678
+(S'verify'
+S'front'
+S' butterfly wall'
+tp679
+aa(lp680
+(S'travel'
+S'steps'
+S' 1'
+tp681
+aa(lp682
+(S'travel'
+S'steps'
+S' 1'
+tp683
+aa(lp684
+(S'turn'
+S''
+S''
+tp685
+a(S'verify'
+p686
+S'back'
+S' easel'
+tp687
+a(g686
+S'right'
+S' sofa'
+tp688
+aa(lp689
+(S'travel'
+S'steps'
+S' 1'
+tp690
+aa(lp691
+(S'travel'
+S''
+S''
+tp692
+a(S'verify'
+S'at'
+S' barstool'
+tp693
+a(S'turn'
+S'right'
+S''
+tp694
+aa(lp695
+(S'turn'
+S'left'
+S''
+tp696
+aa(lp697
+(S'turn'
+S'left'
+S''
+tp698
+aa(lp699
+(S'turn'
+S'right'
 S''
 tp700
 a(S'verify'
-S'at'
-S' sofa'
+S'front'
+S' yellow hallway'
 tp701
-a(S'turn'
-S'left'
-S''
-tp702
 a(S'travel'
 S''
 S''
-tp703
+tp702
 a(S'verify'
-S'at'
-S' sofa'
-tp704
-aa(lp705
-(S'verify'
-S'back'
-S' tower wall'
+S'side'
+S' gravel hallway'
+tp703
+aa(lp704
+(S'travel'
+S'steps'
+S' 2'
+tp705
+a(S'verify'
+S'side'
+S' blue hallway'
 tp706
 aa(lp707
-(S'turn'
-S'right'
-S''
-tp708
-aa(lp709
 (S'travel'
-S''
-S''
-tp710
+S'steps'
+S' 1'
+tp708
 a(S'turn'
 S'left'
+S''
+tp709
+aa(lp710
+(S'travel'
+S''
 S''
 tp711
 a(S'verify'
 S'front'
-S' flower hallway'
+S' butterfly wall'
 tp712
 aa(lp713
-(S'turn'
-S'right'
-S''
+(S'travel'
+S'steps'
+S' 2'
 tp714
 aa(lp715
 (S'travel'
-S'steps'
-S' 1'
+S''
+S''
 tp716
-aa(lp717
-(S'travel'
-S'steps'
-S' 1'
-tp718
-aa(lp719
-(S'travel'
-S''
-S''
-tp720
 a(S'verify'
-S'front'
-S' wall'
-tp721
-a(S'turn'
-S'right'
-S''
-tp722
-a(S'verify'
-S'front'
-S' blue hallway'
-tp723
-aa(lp724
-(S'travel'
-S'steps'
-S' 1'
-tp725
-aa(lp726
-(S'travel'
-S'steps'
-S' 1'
-tp727
-a(S'verify'
-S'front'
-S' wall'
-tp728
-aa(lp729
+S'at'
+S' sofa'
+tp717
+aa(lp718
 (S'turn'
 S'left'
 S''
-tp730
-aa(lp731
+tp719
+aa(lp720
+(S'verify'
+S'front'
+S' blue hallway'
+tp721
+a(S'travel'
+S''
+S''
+tp722
+a(S'verify'
+S'at'
+S' hatrack'
+tp723
+aa(lp724
+(S'turn'
+S''
+S''
+tp725
+a(S'verify'
+S'front'
+S' flower hallway'
+tp726
+aa(lp727
+(S'verify'
+S'at'
+S' hatrack'
+tp728
+aa(lp729
 (S'turn'
 S'right'
 S''
+tp730
+aa(lp731
+(S'verify'
+S'right'
+S' concrete hallway'
 tp732
 aa(lp733
 (S'travel'
 S'steps'
-S' 7'
-p734
-tp735
-a(S'verify'
-S'front'
-S' wall'
-tp736
-aa(lp737
-(S'turn'
-S'left'
-S''
-tp738
-aa(lp739
-(S'verify'
-S'front'
-S' gravel hallway'
-tp740
-aa(lp741
-(S'travel'
-S'steps'
-S' 2'
-tp742
-a(S'verify'
-S'side'
-S' yellow hallway'
-tp743
-aa(lp744
+S' 1'
+tp734
+aa(lp735
 (S'travel'
 S'steps'
 S' 1'
-tp745
-aa(lp746
-(S'turn'
-S'left'
-S''
-tp747
-a(S'verify'
-S'front'
-S' blue hallway'
-tp748
-aa(lp749
-(S'travel'
-S'steps'
-S' 2'
-tp750
-a(S'verify'
-S'side'
-S' gravel hallway'
-tp751
-aa(lp752
-(g209
-S''
-S''
-tp753
-aa(lp754
-(S'verify'
-S'front'
-S' gravel hallway'
-tp755
-a(S'travel'
-S''
-S''
-tp756
-a(S'verify'
-S'front'
-S' wall'
-tp757
-aa(lp758
-(g209
-S''
-S''
-tp759
-aa(lp760
-(S'verify'
-p761
-S'left'
-S' wall'
-tp762
-a(g761
-S'front'
-S' wall'
-tp763
+tp736
 a(S'turn'
 S'right'
 S''
-tp764
-a(S'verify'
+tp737
+aa(lp738
+(S'verify'
 S'front'
 S' blue hallway'
-tp765
+tp739
 a(S'travel'
 S''
 S''
-tp766
+tp740
 a(S'verify'
-S'at'
+S'front'
+S' wall'
+tp741
+a(S'turn'
+S'left'
+S''
+tp742
+aa(lp743
+(S'verify'
+p744
+S'front'
+S' sofa'
+tp745
+a(g744
+S'front'
 S' hatrack'
-tp767
-aa(lp768
+tp746
+aa(lp747
+(S'travel'
+S'steps'
+S' 5'
+tp748
+a(S'verify'
+S'front'
+S' wall'
+tp749
+aa(lp750
+(S'verify'
+S'left'
+S' sofa'
+tp751
+aa(lp752
 (S'turn'
+S''
+S''
+tp753
+a(S'verify'
+p754
+S'front'
+S' lamp'
+tp755
+a(g754
+S'front'
+S' brick hallway'
+tp756
+a(S'travel'
+S''
+S''
+tp757
+a(S'turn'
+S'right'
+S''
+tp758
+a(S'verify'
+S'front'
+S' wood hallway'
+tp759
+aa(lp760
+(S'travel'
+S''
+S''
+tp761
+a(S'turn'
+S''
+S''
+tp762
+a(S'travel'
+S''
+S''
+tp763
+a(S'turn'
+S''
+S''
+tp764
+a(S'travel'
+S''
+S''
+tp765
+a(S'turn'
+S''
+S''
+tp766
+aa(lp767
+(S'turn'
+S'right'
+S''
+tp768
+a(S'travel'
 S''
 S''
 tp769
 a(S'verify'
 S'front'
-S' wood hallway'
+S' wall'
 tp770
 aa(lp771
 (S'turn'
-S''
+S'right'
 S''
 tp772
-a(S'verify'
-S'front'
-S' grass hallway'
-tp773
-a(S'travel'
-S''
-S''
+aa(lp773
+(S'travel'
+S'steps'
+S' 1'
 tp774
 a(S'verify'
 S'side'
-S' yellow hallway'
+S' blue hallway'
 tp775
 aa(lp776
-(S'turn'
-S'left'
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp777
-aa(lp778
-(S'turn'
-S''
-S''
-tp779
-a(S'verify'
-S'front'
-S' hatrack'
-tp780
-aa(lp781
-(S'verify'
-S'at'
-S' hatrack'
-tp782
 a(S'turn'
 S'right'
 S''
+tp778
+a(S'verify'
+S'front'
+S' blue hallway'
+tp779
+aa(lp780
+(S'travel'
+S'steps'
+S' 1'
+tp781
+aa(lp782
+(S'travel'
+S'steps'
+S' 1'
 tp783
 aa(lp784
-(S'turn'
+(S'travel'
 S''
 S''
 tp785
 a(S'verify'
 S'front'
-S' lamp'
-tp786
-aa(lp787
-(S'turn'
-S''
-S''
-tp788
-a(S'verify'
-p789
-S'back'
 S' wall'
-tp790
-a(g789
-S'at'
-S' 3-intersection'
-tp791
-aa(lp792
+tp786
+a(S'turn'
+S'left'
+S''
+tp787
+a(S'verify'
+S'front'
+S' easel'
+tp788
+aa(lp789
 (S'travel'
 S'steps'
 S' 1'
+tp790
+a(S'verify'
+S'at'
+S' lamp'
+tp791
+aa(lp792
+(S'turn'
+S'left'
+S''
 tp793
 aa(lp794
 (S'verify'
 S'front'
-S' easel'
+S' yellow hallway'
 tp795
 a(S'travel'
-S''
-S''
+S'steps'
+S' 3'
 tp796
 a(S'verify'
-S'back'
-S' easel'
+S'front'
+S' wall'
 tp797
 aa(lp798
-(S'travel'
-S'steps'
-S' 1'
-tp799
-aa(lp800
-(S'turn'
-S''
-S''
-tp801
-a(S'verify'
+(S'verify'
+p799
 S'front'
-S' flower hallway'
-tp802
-aa(lp803
-(S'turn'
-S'left'
+S' barstool'
+tp800
+a(g799
+S'front'
+S' chair'
+tp801
+a(S'travel'
 S''
+S''
+tp802
+a(S'verify'
+p803
+S'side'
+S' flower hallway'
 tp804
-aa(lp805
-(S'travel'
-S'steps'
-S' 1'
+a(g803
+S'back'
+S' chair'
+tp805
+a(g803
+S'back'
+S' barstool'
 tp806
 aa(lp807
-(S'verify'
-S'front'
-S' concrete hallway'
+(S'travel'
+S''
+S''
 tp808
-a(S'travel'
-S'steps'
-S' 1'
+a(S'verify'
+S'front'
+S' wall'
 tp809
-a(S'verify'
-S'side'
-S' flower hallway'
-tp810
-aa(lp811
+aa(lp810
 (S'verify'
-S'front'
-S' chair'
+S'at'
+S' hatrack'
+tp811
+a(S'turn'
+S'left'
+S''
 tp812
-a(S'travel'
-S''
-S''
-tp813
 a(S'verify'
-p814
-S'back'
-S' chair'
-tp815
-a(g814
-S'side'
-S' flower hallway'
-tp816
-aa(lp817
-(S'travel'
-S''
-S''
-tp818
-a(S'verify'
-p819
-S'front'
-S' wood hallway'
-tp820
-a(g819
-S'back'
-S' wood hallway'
-p821
-tp822
-aa(lp823
-(S'travel'
-S''
-S''
-tp824
-a(S'verify'
-p825
 S'front'
 S' yellow hallway'
-tp826
-a(g825
-S'side'
-S' grass hallway'
-tp827
-aa(lp828
+tp813
+a(S'travel'
+S''
+S''
+tp814
+a(S'verify'
+S'front'
+S' wall'
+tp815
+aa(lp816
 (S'travel'
 S'steps'
-S' 1'
+S' 2'
+tp817
+aa(lp818
+(S'travel'
+S''
+S''
+tp819
+a(S'verify'
+p820
+S'front'
+S' wall'
+tp821
+a(g820
+S'right'
+S' wall'
+tp822
+a(g820
+S'back'
+S' concrete hallway'
+tp823
+a(g820
+S'left'
+S' concrete hallway'
+tp824
+a(g820
+S'back'
+S' butterfly wall'
+tp825
+a(g820
+S'left'
+S' butterfly wall'
+tp826
+aa(lp827
+(S'verify'
+S'front'
+S' blue hallway'
+tp828
+a(S'travel'
+S'steps'
+S' 5'
 tp829
 a(S'verify'
-S'at'
-S' chair'
+S'side'
+S' yellow hallway'
 tp830
 aa(lp831
 (S'turn'
-S'left'
+S''
 S''
 tp832
 a(S'verify'
 S'front'
-S' grass hallway'
+S' blue hallway'
 tp833
 a(S'travel'
 S''
 S''
 tp834
 a(S'verify'
-S'at'
-S' chair'
+S'side'
+S' wood hallway'
 tp835
 aa(lp836
 (S'travel'
-S''
-S''
+S'steps'
+S' 1'
 tp837
-a(S'verify'
-p838
-S'side'
-S' concrete hallway'
+aa(lp838
+(S'verify'
+S'left'
+S' sofa'
 tp839
-a(g838
-S'front'
-S' tower wall'
-tp840
-a(g838
-S'side'
-S' fish wall'
-p841
-tp842
-aa(lp843
-(S'travel'
-S''
-S''
-tp844
-a(S'verify'
-S'at'
-S' barstool'
-tp845
-aa(lp846
-(S'travel'
-S''
-S''
-tp847
-a(S'verify'
-S'side'
-S' blue hallway'
-tp848
-aa(lp849
+aa(lp840
+(S'verify'
+S'back'
+S' chair'
+tp841
+aa(lp842
 (S'turn'
 S'left'
 S''
+tp843
+aa(lp844
+(S'verify'
+S'front'
+S' yellow hallway'
+tp845
+aa(lp846
+(S'turn'
+S'right'
+S''
+tp847
+aa(lp848
+(S'travel'
+S'steps'
+S' 2'
+tp849
+a(S'verify'
+S'side'
+S' brick hallway'
 tp850
 aa(lp851
 (S'turn'
@@ -2514,327 +2505,312 @@ aa(lp853
 S'right'
 S''
 tp854
-aa(lp855
-(S'turn'
+a(S'verify'
+S'front'
+S' flower hallway'
+tp855
+a(S'travel'
 S''
 S''
 tp856
 a(S'verify'
-S'front'
-S' hatrack'
-tp857
-a(S'travel'
-S''
-S''
-tp858
-a(S'verify'
-S'at'
-S' hatrack'
-tp859
-a(S'turn'
 S'left'
-S''
+S' yellow hallway'
+p857
+tp858
+aa(lp859
+(S'travel'
+S'steps'
+S' 1'
 tp860
 aa(lp861
-(S'turn'
-S'right'
+(S'travel'
+S''
 S''
 tp862
 a(S'verify'
 S'front'
-S' brick hallway'
+S' wall'
 tp863
 aa(lp864
-(S'turn'
-S'left'
+(S'travel'
+S''
 S''
 tp865
 aa(lp866
-(S'travel'
-S'steps'
-S' 1'
-tp867
-a(S'verify'
+(S'verify'
 S'side'
 S' concrete hallway'
-tp868
-aa(lp869
-(S'turn'
-S'right'
+tp867
+aa(lp868
+(S'travel'
 S''
+S''
+tp869
+a(S'verify'
+S'side'
+S' blue hallway'
 tp870
 aa(lp871
-(S'turn'
+(S'verify'
 S'right'
-S''
+S' sofa'
 tp872
-a(S'verify'
-S'front'
-S' flower hallway'
-tp873
-a(S'travel'
-S''
-S''
+aa(lp873
+(S'travel'
+S'steps'
+S' 2'
 tp874
 a(S'verify'
-S'left'
-S' yellow hallway'
-p875
-tp876
-aa(lp877
-(S'turn'
+S'front'
+S' wall'
+tp875
+aa(lp876
+(S'travel'
 S''
 S''
+tp877
+a(S'verify'
+S'side'
+S' blue hallway'
 tp878
-a(S'verify'
-S'front'
-S' butterfly wall'
-tp879
-aa(lp880
+aa(lp879
 (S'turn'
 S''
 S''
-tp881
+tp880
 a(S'verify'
 S'front'
-S' lamp'
+S' yellow hallway'
+p881
 tp882
 a(S'travel'
 S''
 S''
 tp883
 a(S'verify'
-p884
 S'front'
 S' wall'
-tp885
-a(g884
-S'right'
-S' wall'
-tp886
-a(S'turn'
-S'left'
+tp884
+aa(lp885
+(S'turn'
 S''
+S''
+tp886
+a(S'verify'
+S'front'
+S' flower hallway'
 tp887
 aa(lp888
 (S'turn'
-S''
+S'left'
 S''
 tp889
-a(S'verify'
-S'left'
-S' wall'
-tp890
-aa(lp891
+aa(lp890
 (S'turn'
 S'left'
 S''
-tp892
+tp891
+aa(lp892
+(S'turn'
+S''
+S''
+tp893
+a(S'verify'
+S'front'
+S' easel'
+tp894
+aa(lp895
+(S'turn'
+S'left'
+S''
+tp896
+aa(lp897
+(S'turn'
+S'left'
+S''
+tp898
+a(S'verify'
+p899
+S'front'
+S' brick hallway'
+tp900
+a(g899
+S'front'
+S' hatrack'
+tp901
+a(S'travel'
+S''
+S''
+tp902
+a(S'verify'
+S'at'
+S' lamp'
+tp903
 a(S'travel'
 S'steps'
-S' 2'
-tp893
-aa(lp894
-(S'turn'
-S'left'
-S''
-tp895
-aa(lp896
-(S'turn'
-S''
-S''
-tp897
-a(S'verify'
-p898
-S'back'
-S' wall'
-tp899
-a(g898
-S'right'
-S' wall'
-tp900
-a(g898
-S'left'
-S' wall'
-tp901
-aa(lp902
-(S'travel'
-S''
-S''
-tp903
-a(S'verify'
-S'side'
-S' concrete hallway'
+S' 1'
 tp904
-a(S'turn'
-S'left'
-S''
+a(S'verify'
+S'back'
+S' hatrack'
 tp905
 aa(lp906
 (S'turn'
-S'right'
+S''
 S''
 tp907
 a(S'verify'
 S'front'
-S' wood hallway'
+S' easel'
 tp908
 aa(lp909
-(S'travel'
+(S'turn'
 S''
 S''
 tp910
 a(S'verify'
-S'at'
-S' hatrack'
+S'front'
+S' yellow hallway'
 tp911
-a(S'turn'
-S'left'
-S''
+a(S'travel'
+S'steps'
+S' 1'
 tp912
 aa(lp913
-(S'travel'
-S''
-S''
+(S'verify'
+S'at'
+S' easel'
 tp914
+aa(lp915
+(S'turn'
+S''
+S''
+tp916
 a(S'verify'
 S'front'
-S' blue hallway'
-tp915
-aa(lp916
-(S'travel'
-S''
-S''
+S' flower hallway'
 tp917
-a(S'verify'
-S'at'
-S' chair'
-tp918
-a(S'turn'
-S'right'
+a(S'travel'
 S''
+S''
+tp918
+a(S'verify'
+S'side'
+S' brick hallway'
 tp919
 aa(lp920
 (S'turn'
-S'right'
+S''
 S''
 tp921
-aa(lp922
+a(S'verify'
+S'front'
+S' flower hallway'
+tp922
+a(S'travel'
+S''
+S''
+tp923
+a(S'verify'
+S'side'
+S' brick hallway'
+tp924
+aa(lp925
 (S'turn'
 S'left'
 S''
-tp923
-aa(lp924
+tp926
+aa(lp927
 (S'turn'
-S'right'
+S'left'
 S''
-tp925
-aa(lp926
-(S'verify'
-S'at'
-S' sofa'
-tp927
-aa(lp928
-(S'travel'
-S'steps'
-S' 1'
-tp929
-aa(lp930
-(g209
-S''
-S''
-tp931
-aa(lp932
-(S'travel'
-S'steps'
-S' 1'
-tp933
-aa(lp934
+tp928
+aa(lp929
 (S'turn'
+p930
+S'left'
+p931
 S''
-S''
-tp935
+tp932
 a(S'verify'
+p933
 S'front'
-S' gravel hallway'
+p934
+S' brick hallway'
+p935
 tp936
 a(S'travel'
-S''
-S''
-tp937
-a(S'verify'
-S'side'
-S' flower hallway'
-tp938
-aa(lp939
-(S'turn'
-S'right'
-S''
+p937
+S'steps'
+p938
+S' 1'
+p939
 tp940
-a(S'verify'
-S'front'
-S' brick hallway'
-tp941
-a(S'travel'
+aa(lp941
+(S'turn'
 S''
 S''
 tp942
 a(S'verify'
-S'side'
-S' flower hallway'
+S'left'
+S' wall'
 tp943
 aa(lp944
-(S'travel'
-S'steps'
-S' 2'
+(S'turn'
+S'right'
+S''
 tp945
-aa(lp946
-(S'turn'
-S'right'
-S''
-tp947
-aa(lp948
-(S'turn'
-S'right'
-S''
-tp949
-aa(lp950
-(S'travel'
-S''
-S''
-tp951
 a(S'verify'
-S'at'
-S' lamp'
-tp952
-a(S'travel'
-S'steps'
-S' 1'
-tp953
-aa(lp954
+p946
+S'front'
+S' blue hallway'
+tp947
+a(g946
+S'front'
+S' chair'
+tp948
+aa(lp949
 (S'travel'
 S''
 S''
-tp955
+tp950
+a(S'verify'
+S'front'
+S' flower hallway'
+tp951
+a(S'travel'
+S''
+S''
+tp952
 a(S'turn'
-S'left'
+S''
+S''
+tp953
+a(S'verify'
+S'front'
+S' tower wall'
+p954
+tp955
+a(S'travel'
+S''
 S''
 tp956
 a(S'verify'
+p957
 S'front'
-S' wood hallway'
-tp957
-aa(lp958
-(S'turn'
-S'right'
-S''
+S' wall'
+tp958
+a(g957
+S'left'
+S' wall'
 tp959
-aa(lp960
-(S'turn'
+a(g957
 S'right'
-S''
-tp961
-a(S'travel'
+S' wall'
+tp960
+aa(lp961
+(S'travel'
 S'steps'
 S' 1'
 tp962
@@ -2848,127 +2824,118 @@ S'at'
 S' sofa'
 tp965
 aa(lp966
-(S'verify'
-S'at'
-S' easel'
-tp967
-aa(lp968
 (S'travel'
 S''
 S''
-tp969
+tp967
 a(S'verify'
-S'front'
-S' wall'
+S'side'
+S' blue hallway'
+tp968
+aa(lp969
+(g55
+S''
+S''
 tp970
 aa(lp971
-(S'travel'
-S''
-S''
-tp972
-a(S'verify'
-p973
-S'front'
-S' wall'
-tp974
-a(g973
-S'side'
-S' blue hallway'
-tp975
-aa(lp976
-(S'travel'
-S''
-S''
-tp977
-a(S'verify'
-S'side'
-S' blue hallway'
-tp978
-aa(lp979
-(S'turn'
-S'left'
-S''
-tp980
-a(S'verify'
+(S'verify'
+p972
 S'front'
 S' hatrack'
-tp981
+p973
+tp974
+a(g972
+S'front'
+S' flower hallway'
+tp975
 a(S'travel'
 S''
 S''
-tp982
+tp976
 a(S'verify'
-p983
+p977
 S'back'
+p978
 S' hatrack'
-tp984
-a(g983
+p979
+tp980
+a(g977
 S'front'
 S' wall'
-tp985
-a(g983
-S'back'
-S' yellow hallway'
-p986
+p981
+tp982
+aa(lp983
+(S'travel'
+S''
+S''
+tp984
+aa(lp985
+(S'travel'
+S''
+S''
+tp986
+a(S'verify'
+S'at'
+S' barstool'
 tp987
 aa(lp988
-(S'travel'
-S'steps'
-S' 2'
-tp989
-a(S'verify'
-p990
-S'front'
-S' yellow hallway'
-tp991
-a(g990
-S'side'
-S' flower hallway'
-tp992
-aa(lp993
-(S'turn'
-S''
-S''
-tp994
-a(S'verify'
-S'front'
-S' yellow hallway'
-tp995
-a(S'travel'
-S''
-S''
-tp996
-a(S'verify'
-S'front'
-S' wall'
-tp997
-aa(lp998
 (S'turn'
 S'right'
 S''
-tp999
+tp989
+aa(lp990
+(g55
+S''
+S''
+tp991
+aa(lp992
+(S'turn'
+S''
+S''
+tp993
 a(S'verify'
-S'back'
-S' easel'
-tp1000
-aa(lp1001
+S'front'
+S' brick hallway'
+tp994
+aa(lp995
 (S'travel'
 S'steps'
-S' 1'
-tp1002
-aa(lp1003
-(S'verify'
+S' 2'
+tp996
+aa(lp997
+(S'travel'
+S'steps'
+S' 4'
+tp998
+a(S'verify'
+S'front'
+S' wall'
+tp999
+aa(lp1000
+(S'travel'
+S''
+S''
+tp1001
+a(S'verify'
 S'at'
-S' lamp'
+S' easel'
+tp1002
+a(S'turn'
+S'right'
+S''
+tp1003
+a(S'verify'
+S'front'
+S' wood hallway'
 tp1004
 a(S'travel'
 S'steps'
 S' 1'
 tp1005
 aa(lp1006
-(S'turn'
-S'right'
-S''
+(S'travel'
+S'steps'
+S' 1'
 tp1007
 aa(lp1008
 (S'travel'
@@ -2976,97 +2943,91 @@ S'steps'
 S' 1'
 tp1009
 a(S'verify'
-p1010
-S'at'
-S' 3-intersection'
-tp1011
-a(g1010
 S'side'
-S' concrete hallway'
-tp1012
-aa(lp1013
+S' yellow hallway'
+tp1010
+aa(lp1011
 (S'turn'
 S''
 S''
-tp1014
+tp1012
 a(S'verify'
-p1015
-S'back'
-S' wall'
-tp1016
-a(g1015
-S'at'
-S' 3-intersection'
-tp1017
-aa(lp1018
-(S'travel'
-S''
-S''
-tp1019
-a(S'verify'
+p1013
 S'front'
-S' wall'
-tp1020
-a(S'turn'
-S'right'
-S''
-tp1021
-aa(lp1022
+S' blue hallway'
+tp1014
+a(g1013
+S'front'
+S' chair'
+tp1015
+aa(lp1016
 (S'travel'
 S'steps'
 S' 1'
-tp1023
-aa(lp1024
+tp1017
+aa(lp1018
 (S'turn'
 S'left'
 S''
-tp1025
-a(S'verify'
-S'front'
-S' yellow hallway'
-tp1026
-a(S'travel'
+tp1019
+aa(lp1020
+(S'travel'
 S''
 S''
-tp1027
-a(S'verify'
-S'front'
-S' wall'
-tp1028
-aa(lp1029
-(S'verify'
-S'front'
-S' blue hallway'
-tp1030
-a(S'travel'
-S'steps'
-S' 5'
-tp1031
+tp1021
 a(S'verify'
 S'side'
-S' yellow hallway'
-tp1032
-aa(lp1033
+S' gravel hallway'
+tp1022
+aa(lp1023
 (S'turn'
-S'left'
+S'right'
 S''
-tp1034
-aa(lp1035
+tp1024
+a(S'verify'
+S'front'
+S' blue hallway'
+tp1025
+aa(lp1026
 (S'verify'
 S'front'
 S' blue hallway'
-tp1036
-a(S'travel'
+tp1027
+aa(lp1028
+(S'turn'
 S''
 S''
-tp1037
+tp1029
 a(S'verify'
+p1030
 S'front'
-S' wall'
-tp1038
+S' gravel hallway'
+tp1031
+a(g1030
+S'back'
+S' easel'
+tp1032
+aa(lp1033
+(S'travel'
+S'steps'
+S' 1'
+tp1034
 a(S'turn'
 S'left'
 S''
+tp1035
+aa(lp1036
+(S'verify'
+S'front'
+S' grass hallway'
+tp1037
+a(S'travel'
+S''
+S''
+tp1038
+a(S'verify'
+S'front'
+S' wall'
 tp1039
 aa(lp1040
 (S'turn'
@@ -3074,58 +3035,55 @@ S''
 S''
 tp1041
 a(S'verify'
-S'front'
-S' lamp'
-tp1042
-aa(lp1043
-(S'turn'
-S'left'
-S''
+p1042
+S'back'
+S' wall'
+tp1043
+a(g1042
+S'at'
+S' 3-intersection'
 tp1044
-a(S'verify'
-S'front'
-S' brick hallway'
-tp1045
-a(S'travel'
+aa(lp1045
+(S'travel'
 S'steps'
 S' 1'
 tp1046
-aa(lp1047
+a(S'verify'
+p1047
+S'front'
+S' flower hallway'
+tp1048
+a(g1047
+S'side'
+S' brick hallway'
+tp1049
+aa(lp1050
+(S'travel'
+S''
+S''
+tp1051
+a(S'verify'
+S'side'
+S' flower hallway'
+tp1052
+aa(lp1053
 (S'travel'
 S'steps'
 S' 1'
-tp1048
-aa(lp1049
-(S'travel'
-S'steps'
-S' 2'
-tp1050
-aa(lp1051
-(S'verify'
-S'front'
-S' blue hallway'
-tp1052
-a(S'travel'
-S''
-S''
-tp1053
-a(S'verify'
-S'at'
-S' chair'
 tp1054
 aa(lp1055
-(S'verify'
-S'front'
-S' easel'
+(S'turn'
+S'left'
+S''
 tp1056
 aa(lp1057
-(S'travel'
-S''
+(S'turn'
+S'left'
 S''
 tp1058
 a(S'verify'
-S'at'
-S' easel'
+S'front'
+S' yellow hallway'
 tp1059
 aa(lp1060
 (S'travel'
@@ -3134,25 +3092,25 @@ S''
 tp1061
 a(S'verify'
 S'at'
-S' barstool'
+S' hatrack'
 tp1062
 a(S'turn'
-S'left'
-S''
-tp1063
-aa(lp1064
-(S'turn'
 S'right'
 S''
-tp1065
-aa(lp1066
-(S'turn'
-S'left'
-S''
-tp1067
+tp1063
 a(S'verify'
 S'front'
-S' fish wall'
+S' blue hallway'
+tp1064
+aa(lp1065
+(S'verify'
+p1066
+S'front'
+S' easel'
+tp1067
+a(g1066
+S'left'
+S' chair'
 tp1068
 aa(lp1069
 (S'travel'
@@ -3160,168 +3118,116 @@ S''
 S''
 tp1070
 a(S'verify'
-S'left'
-S' easel'
-tp1071
-aa(lp1072
-(S'turn'
-S''
-S''
+p1071
+S'front'
+S' concrete hallway'
+tp1072
+a(g1071
+S'side'
+S' gravel hallway'
 tp1073
-a(S'verify'
-p1074
-S'back'
-S' wall'
+aa(lp1074
+(S'travel'
+S''
+S''
 tp1075
-a(g1074
-S'at'
-S' 3-intersection'
+a(S'verify'
+S'side'
+S' wood hallway'
 tp1076
 aa(lp1077
 (S'turn'
 S'right'
 S''
 tp1078
+aa(lp1079
+(S'turn'
+S''
+S''
+tp1080
 a(S'verify'
-S'front'
-S' blue hallway'
-tp1079
-aa(lp1080
-(S'verify'
-S'front'
-S' yellow hallway'
-tp1081
-a(S'travel'
-S'steps'
-S' 2'
-tp1082
-aa(lp1083
-(S'turn'
-S'right'
-S''
-tp1084
-aa(lp1085
-(S'turn'
-S''
-S''
-tp1086
-a(S'verify'
-S'front'
-S' flower hallway'
-tp1087
-aa(lp1088
-(S'turn'
-S'left'
-S''
-tp1089
-aa(lp1090
-(S'travel'
-S'steps'
-S' 2'
-tp1091
-aa(lp1092
-(S'turn'
-S'right'
-S''
-tp1093
-a(S'verify'
-S'front'
-S' concrete hallway'
-tp1094
-aa(lp1095
-(S'turn'
-S''
-S''
-tp1096
-a(S'verify'
-S'back'
-S' wall'
-tp1097
-a(S'turn'
-S'right'
-S''
-tp1098
-aa(lp1099
-(S'turn'
-S'left'
-S''
-tp1100
-a(S'travel'
-S'steps'
-S' 1'
-tp1101
-aa(lp1102
-(S'verify'
-p1103
+p1081
 S'front'
 S' gravel hallway'
-tp1104
-a(g1103
-S'side'
-S' yellow hallway'
-tp1105
-aa(lp1106
-(S'travel'
-S'steps'
-S' 2'
-tp1107
-aa(lp1108
-(S'turn'
-S''
-S''
-tp1109
-a(S'verify'
-p1110
+tp1082
+a(g1081
 S'left'
-S' wall'
-tp1111
-a(g1110
-S'back'
-S' wall'
-tp1112
-aa(lp1113
-(S'turn'
-S''
-S''
-tp1114
-a(S'verify'
-S'front'
-S' yellow hallway'
-tp1115
-aa(lp1116
-(S'turn'
-S''
-S''
-tp1117
-a(S'verify'
-p1118
-S'front'
-S' wood hallway'
-tp1119
-a(g1118
+S' tower wall'
+p1083
+tp1084
+a(g1081
 S'right'
-S' chair'
-tp1120
-aa(lp1121
-(S'verify'
+S' tower wall'
+p1085
+tp1086
+a(g1081
 S'front'
-S' easel'
-tp1122
-a(S'travel'
-S'steps'
-S' 2'
-tp1123
-a(S'verify'
-S'back'
-S' easel'
-tp1124
-aa(lp1125
-(S'turn'
-S'left'
+S' lamp'
+tp1087
+aa(lp1088
+(S'travel'
 S''
-tp1126
+S''
+tp1089
 a(S'verify'
+S'side'
+S' brick hallway'
+tp1090
+aa(lp1091
+(S'travel'
+S''
+S''
+tp1092
+a(S'verify'
+p1093
+S'side'
+S' concrete hallway'
+tp1094
+a(g1093
 S'front'
 S' brick hallway'
-tp1127
+tp1095
+aa(lp1096
+(S'travel'
+S'steps'
+S' 1'
+tp1097
+aa(lp1098
+(S'turn'
+S'left'
+S''
+tp1099
+aa(lp1100
+(S'turn'
+S'left'
+S''
+tp1101
+aa(lp1102
+(g55
+S''
+S''
+tp1103
+aa(lp1104
+(S'travel'
+S''
+S''
+tp1105
+a(S'verify'
+S'side'
+S' concrete hallway'
+tp1106
+aa(lp1107
+(S'travel'
+S''
+S''
+tp1108
+a(S'verify'
+p1109
+S'side'
+S' yellow hallway'
+tp1110
+a(g1109
+S'at'
+S' 3-intersection'
+tp1111
 aa.
