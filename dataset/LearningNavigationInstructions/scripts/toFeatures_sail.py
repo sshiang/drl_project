@@ -106,17 +106,9 @@ def getAttributes(s, brackets, brackets_rev):
 	return attrs
 	
 def getCASFeatures(cas):
-	#number of key information to remember 
-	#low-level command groundtruth
-	#CAS command maximum depth
-	#number of defined attributes
-	#number of floor colors mentioned
-	#number of wall colors mentioned
-	#whether or not to head towards an object
-	#number of landmarks mentioned
-	#turn reference frame
 
 	fea = []
+
 	#number of key information to remember  ???
 	fea += [cas.count('=')]
 
@@ -376,18 +368,6 @@ def getPaperFeatures(paths, env):
 	global floorMap 
 	global itemMap
 
-	#change orientation
-	#change position
-	#change orientation and then position change position and then orientation
-	#the final place contains an object 
-	#pass an object while walking
-	#the final place is a dead-end
-	#the final pose is the goal pose
-	#it is the first action to take
-	#final pose faces a new floor color
-	#an object is visible from the final pose there is an object at the turn location final pose faces a new wall color
-	#the place where to turn at is a dead-end
-
 	fea = []
 
 	#change orientation
@@ -620,17 +600,6 @@ def getFeatures(paths, i, env):
 	global floorMap 
 	global itemMap
 
-	# is_start
-	# angle
-	# difference in angle
-	# abs(diff(angle))
-	# difference in x
-	# difference in y
-	# abs(diff(x))
-	# abs(diff(y))
-	# wall (t-1)
-	# floor (t-1)
-	# item (t-1)
 	node, fea = paths[i], []
 	# is start
 	fea+= [int(node[-1]==-1)]
@@ -714,9 +683,9 @@ for examples in root:
 	mapid = getMapID(examples.attrib["file"].lower())
 	for example in examples:
 		if example.tag == "nl":
-			commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ")
+			commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ").strip()
 		elif example.tag == "mrl":
-			sail_commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ")
+			sail_commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ").strip()
 
 tree = ET.parse(opts.input+"/SingleSentences-marco.xml")
 root = tree.getroot()
@@ -728,7 +697,7 @@ for examples in root:
 	mapid = getMapID(examples.attrib["file"].lower())
 	for example in examples:
 		if example.tag == "mrl":
-			marco_commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ")
+			marco_commands_map[filename+ID] = example.text.strip().lower().replace("\n"," ").strip()
 
 # read demonstrations and commands
 tree = ET.parse(opts.demo_input)
@@ -739,8 +708,9 @@ features_map = {}
 cas_features_map = {}
 cas_subfeatures_map = {}
 
+offset_map = {"l": 0, "jelly":100, "grid": 200}
+
 filename = ""
-#f_tgt = open(opts.target,"w")
 for examples in root:
 	mapid = examples.attrib["map"].lower()
 	ID = examples.attrib["id"].lower()
@@ -767,8 +737,10 @@ for examples in root:
 				prev_x, prev_y, prev_a = x, y, a				
 			if len(subpath)!=0:
 				subpaths.append(subpath)				
+
 			for i in range(len(subpaths)):
-				cas_subfeatures_map[filename+ID].append(getStateFeatures(subpaths, i, envs[mapid]))
+				[x,y,a] = subpaths[i][0]
+				cas_subfeatures_map[filename+ID].append( [(x+offset_map[mapid],y+offset_map[mapid]), getStateFeatures(subpaths, i, envs[mapid])] )
 				
 		elif example.tag == "instruction":
 			filename = example.attrib['filename'].lower()
@@ -823,7 +795,6 @@ for i in range(len(sail_commands)):
 			action = (r1.match(line)).group(1)
 			contexts = (r2.match(line)).group(1)	
 
-		#print len(contexts.split(","))
 		for context in contexts.split(","):
 			context = context.strip()
 			pair = context.split(":")
@@ -885,7 +856,7 @@ def dumpPickle(path, data):
 	cPickle.dump(data, output)
 	output.close()
 
-#f_tgt.close()
+
 for i in range(len(ratios)):
 	start = int(len(features)*sum(ratios[:i]))
 	end = int(len(features)*sum(ratios[:i+1]))
