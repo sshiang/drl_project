@@ -288,7 +288,18 @@ for i in range(len(ratios)):
 	f2.close()
 
 
+
+
+# read mapping
+objects = {}
+objects_count = {}
+for line in open("mapping.txt"):
+	objects[line.strip()] = True
+	objects_count[line.strip()] = 0
+
+# print result
 count = 0
+count_all = 0
 for i in range(len(ratios)):
 	start = int(len(indexes_id)*sum(ratios[:i]))
 	end = int(len(indexes_id)*sum(ratios[:i+1]))
@@ -297,14 +308,24 @@ for i in range(len(ratios)):
 	f2 = open("sail_commands_id.set."+sets[i]+".txt","w")
 	f3 = open("cluster_mapping.set."+sets[i]+".txt","w")
 	for j in range(start,end):
-		count += 1
+		#count += 1
 		for k in range(len(commands_id[indexes_id[j]])):
 			f.write(commands_id[indexes_id[j]][k]+"\n")
 			f3.write(indexes_id[j]+"\n")
 			for l in range(len(sail_commands_id[indexes_id[j]][k])):
-				f2.write(sail_commands_id[indexes_id[j]][k][l].strip().replace("  "," ")+" ")
+				sail_c = sail_commands_id[indexes_id[j]][k][l].strip().replace("  "," ")
+				f2.write(sail_c+" ")
+				count_all += 1
+				if "turn ( left )" in sail_c:
+					count += 1
+				if  "turn ( right )" in sail_c:
+					count += 1
+				for obj in objects:
+					if obj in sail_c:
+						objects_count[obj] += 1		
 			f2.write("\n")
 	f.close()
 	f2.close()
 	f3.close()
-
+print count , count_all
+print objects_count
