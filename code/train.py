@@ -1,6 +1,6 @@
 import numpy as np
 import cPickle
-from maxent import maxent
+import irl.maxent as maxent
 
 def map_states_actions(datapath):
     states = dict()
@@ -19,7 +19,7 @@ def map_states_actions(datapath):
         for action in data[state]:
             action = action.strip()
             if actions.has_key(action) is False:
-                actions[action] = action
+                actions[action] = action_cnt
                 action_cnt += 1
     
     pkl_file.close()
@@ -85,8 +85,8 @@ if __name__ == "__main__":
     states, actions = map_states_actions(SApairs_path)
     MDP_states, MDP_feature, MDP_trans = load_feature(SApairs_path, states, actions)
     MDP_feature = np.array(MDP_feature)
-    weights = maxent(MDP_feature, len(actions), 0.9, MDP_states, MDP_trans,
-                    trajectories, epochs=100, learning_rate = 0.1)
+    weights = maxent.irl(MDP_feature, len(actions), 0.9, states, actions, MDP_states, MDP_trans,
+                        trajectories, epochs=100, learning_rate = 0.1)
 
     weights_file = open(weights_path, 'wb')
     cPickle.dump(weights, weights_file)
