@@ -1,9 +1,6 @@
 import numpy as np
 import cPickle
-
-#load SA pairs, obtain all S first.
-pkl_file = open('data_mdp/SA_pairs.pkl', 'rb')
-data = cPickle.load(pkl_file)
+from maxent import maxent
 
 def map_states_actions(datapath):
     states = dict()
@@ -34,7 +31,7 @@ def load_feature(datapath, states, actions):
 
     MDP_states = dict()
     MDP_feature = list()
-#    transition_matrix = np.zeros(state_size, action_size, state_size)
+    MDP_trans = dict()
 
     pkl_file = open(datapath, 'rb')
     SAS = cPickle.load(pkl_file)
@@ -45,15 +42,22 @@ def load_feature(datapath, states, actions):
         for action in SAS[state]:
 #            print(action)
 #            print(SAS[state][action])
+            trans_state = (states[state], actions[action])
+            MDP_trans[trans_state] = list()
+            prob = 1.0/float(len(SAS[state][action]))
             for i, new_state in enumerate(SAS[state][action]):
-                new_state1 = new_state
+#                new_state1 = new_state
                 new_state = new_state[-1]
                 assert states.has_key(new_state) is True
                 MDP_state = (states[state], actions[action], states[new_state])
 #                assert MDP_states.has_key(MDP_state) is False
+                MDP_trans[trans_state].append((states[new_state], prob))
+                """
                 if MDP_states.has_key(MDP_state) is True:
                     print ("====start")
+                    print state
                     print new_state1
+                    print SAS[state][action]
                     print state, action, new_state
                     print ("====old")
                     print MDP_feature[MDP_states[MDP_state]]
@@ -61,15 +65,29 @@ def load_feature(datapath, states, actions):
                     print feature[state][action][i]
                     print ("====end")
                     assert False
-                MDP_states[MDP_state] = MDP_state_cnt
-                MDP_feature.append(feature[state][action][i])
-                MDP_state_cnt += 1
-#               feature_matrix.append(MDP_feature)
-    print MDP_state_cnt
+                """
+                if MDP_states.has_key(MDP_state) is False:
+                    MDP_states[MDP_state] = MDP_state_cnt
+                    MDP_feature.append(np.array(feature[state][action][i]))
+                    MDP_state_cnt += 1
     pkl_file.close()
-    return MDP_states, feature_matrix
+    return MDP_states, MDP_feature, MDP_trans
 
 if __name__ == "__main__":
     SApairs_path = 'data_mdp/SA_pairs.pkl'
+    traj_path = 'data_mdp/cas.mdps.train.pkl'
+    weights_path = 'weights.pkl'
+
+    traj_file = open(traj_path, 'rb')
+    trajectories = cPickle.load(traj_file)
+    traj_file.close()
+
     states, actions = map_states_actions(SApairs_path)
-    MDP_states, feature_matrix, transition_matrix = load_feature(SApairs_path, states, actions)
+    MDP_states, MDP_feature, MDP_trans = load_feature(SApairs_path, states, actions)
+    MDP_feature = np.array(MDP_feature)
+    weights = maxent(MDP_feature, len(actions), 0.9, MDP_states, MDP_trans,
+                    trajectories, epochs=100, learning_rate = 0.1)
+
+    weights_file = open(weights_path, 'wb')
+    cPickle.dump(weights, weights_file)
+    weights_file.close()
