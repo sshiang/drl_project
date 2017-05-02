@@ -103,6 +103,7 @@ if __name__ == "__main__":
         output = list()
         idx = 0
         now_grid = None
+        verified = False
         while idx < len(trajectory):
             start_state = states[trajectory[idx][0]]
             score = list()
@@ -113,16 +114,23 @@ if __name__ == "__main__":
                     MDP_state = MDP_states[(start_state, action, new_state)]
                     score.append((-np.dot(weights, MDP_feature[MDP_state]), MDP_state))
             score = sorted(score)
+            if now_grid != start_state:
+                verified = False
             for ans in score:
                 MDP_state = inv_MDP_states[ans[1]]
+                if "verify" in inv_actions[MDP_state[1]]:
+                    if verified is True:
+                        continue
                 nxt_state = MDP_state[2]
                 check = False 
                 for nxt in range(idx, len(trajectory)):
-                    if nxt_state == states[trajectory[nxt][0]]:
+                    if nxt_state==states[trajectory[nxt][0]] or nxt_state==states[trajectory[-1][2][-1]]:
                         check = True
                         idx = nxt
                         output.append((inv_states[MDP_state[0]], inv_actions[MDP_state[1]], 
                                     inv_states[MDP_state[2]]))
+                        if "verify" in inv_actions[MDP_state[1]]:
+                            verified = True
                         now_grid = MDP_state[2]
                         break
                 if check is True:
@@ -130,5 +138,7 @@ if __name__ == "__main__":
             if now_grid == states[trajectory[-1][2][-1]]:
                 break
         outputs.append(output)        
-        break
-    print outputs
+        if len(outputs)>10:
+            break
+    for line in outputs:
+        print line
