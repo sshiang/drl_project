@@ -82,7 +82,7 @@ def load_feature(datapath, states, actions):
 if __name__ == "__main__":
     SApairs_path = 'data_mdp/SA_pairs.pkl'
     traj_path = 'data_mdp/cas.mdps.test.pkl'
-    weights_path = 'weights.pkl'
+    weights_path = 'weights_1.pkl'
 
     traj_file = open(traj_path, 'rb')
     trajectories = cPickle.load(traj_file)
@@ -100,9 +100,11 @@ if __name__ == "__main__":
     n_actions = len(actions)
 
     for trajectory in trajectories:
+        visit = np.zeros((len(states), len(actions)))
         output = list()
         idx = 0
         now_grid = None
+        last_state, last_action = None, None
         verified = False
         while idx < len(trajectory):
             start_state = states[trajectory[idx][0]]
@@ -114,6 +116,7 @@ if __name__ == "__main__":
                     MDP_state = MDP_states[(start_state, action, new_state)]
                     score.append((-np.dot(weights, MDP_feature[MDP_state]), MDP_state))
             score = sorted(score)
+
             if now_grid != start_state:
                 verified = False
             for ans in score:
@@ -121,6 +124,8 @@ if __name__ == "__main__":
                 if "verify" in inv_actions[MDP_state[1]]:
                     if verified is True:
                         continue
+                if visit[MDP_state[0], MDP_state[1]] == 1:
+                    continue
                 nxt_state = MDP_state[2]
                 check = False 
                 for nxt in range(idx, len(trajectory)):
@@ -129,6 +134,7 @@ if __name__ == "__main__":
                         idx = nxt
                         output.append((inv_states[MDP_state[0]], inv_actions[MDP_state[1]], 
                                     inv_states[MDP_state[2]]))
+                        visit[MDP_state[0], MDP_state[1]] = 1
                         if "verify" in inv_actions[MDP_state[1]]:
                             verified = True
                         now_grid = MDP_state[2]
@@ -138,7 +144,14 @@ if __name__ == "__main__":
             if now_grid == states[trajectory[-1][2][-1]]:
                 break
         outputs.append(output)        
-        if len(outputs)>10:
+        print len(outputs)
+        if len(outputs)>5000:
             break
-    for line in outputs:
-        print line
+#    for line in outputs:
+#        print line
+    for i in range(len(outputs)):
+        print "===============output"
+        print outputs[i]
+        print "===============original"
+        print trajectories[i]
+        print ""
